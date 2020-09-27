@@ -40,61 +40,17 @@ class FeatureDetector:
         self.shi_params = dict(maxCorners=1000, qualityLevel=0.075, minDistance=3, blockSize=7)
         self.lucas_params = dict(winSize=(15, 15), maxLevel=3,
                                  criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
-        self.quality_decrease = {'manual': 2, 'cv2': 10}
+        self.update_period = 5
+        self.IQR_const = 1.5
 
     @staticmethod
     def get_level_feature_size(level):
+        """
+        returns radius for feature at the pyramid's level
+        level=0: original image -> smallest features
+        level=depth: smallest image -> biggest features
+        """
         return 5 * (level + 2)
-
-    def calculate_eigens(self, image, is_cv2=True):
-        """
-        calculate min eigenvalues for image, cv2 and manual variants
-        cv2 variant is much faster, but values are differ from manual way (don't know why)
-        manual way get higher
-        """
-        # If you use manual way, recommended to change constant in get_point_score method
-        if is_cv2:
-            return cv2.cornerMinEigenVal(image, self.shi_params['blockSize'])
-        else:
-            dx = cv2.Sobel(image, cv2.CV_32F, 1, 0, 3)
-            dy = cv2.Sobel(image, cv2.CV_32F, 0, 1, 3)
-            dx2 = dx ** 2
-            dy2 = dy ** 2
-            dxy = dx * dy
-            CORNER_SIZE = tuple([self.shi_params['blockSize']] * 2)
-            dx2_sum = cv2.GaussianBlur(dx2, CORNER_SIZE, 0)
-            dy2_sum = cv2.GaussianBlur(dy2, CORNER_SIZE, 0)
-            dxy_sum = cv2.GaussianBlur(dxy, CORNER_SIZE, 0)
-            mats = np.dstack((dx2_sum, dxy_sum, dxy_sum, dy2_sum))
-            h, w = image.shape
-            mats = mats.reshape((h, w, 2, 2))
-            return np.linalg.eigvals(mats).min(axis=2)
-
-    @staticmethod
-    def find_quality(eigvals_interpt2d, corner):
-        return eigvals_interpt2d(corner[0], corner[1])
-
-    @staticmethod
-    def get_point_score(point, image_eigens):
-        # TODO: should I replace local maximum with interpolation?
-        x, y = int(point[0]), int(point[1])
-        h, w = image_eigens.shape
-        vx = [-3, -2, -1, 0, 1, 2, 3]
-        vy = [-3, -2, -1, 0, 1, 2, 3]
-        local_maxima = -1
-        for dx in vx:
-            for dy in vy:
-                first = max(0, min(h, y + dy))
-                second = max(0, min(w, x + dx))
-                local_maxima = max(local_maxima, image_eigens[first][second])
-        return local_maxima
-
-    def get_features_quality_mask(self, image, features, eigens, quality_decrease, quality_level=None):
-        # Without quality_decrease constant, you almost always have zero features with enough quality
-        if quality_level is None:
-            quality_level = self.shi_params['qualityLevel'] / quality_decrease
-        mask = np.array([self.get_point_score(point, eigens) >= quality_level for point in features], dtype=bool)
-        return mask
 
     def pyramidal_detection(self, img, mask=None, depth=3):
         """
@@ -135,11 +91,12 @@ class FeatureDetector:
         # Checkout https://github.com/opencv/opencv/issues/18120
         mask = np.array(mask)
 
-        for point, size in zip(features, feature_sizes):
+        for point, size in zip(features.reshape(-1, 2), feature_sizes):
             mask = cv2.circle(mask,
                               tuple(np.array(point).astype(int)),
                               int(size),
-                              0)
+                              thickness=-1,
+                              color=0)
         return mask
 
     def detect_features(self, image, mask):
@@ -151,55 +108,87 @@ class FeatureDetector:
         features = cv2.goodFeaturesToTrack((image * 255).astype(np.uint8), mask=mask, **self.shi_params)
         return features.reshape(-1, 2) if features is not None else np.array([]).reshape(-1, 2)
 
+    # TODO: fix this or remove
+    """
+    @staticmethod
+    def remove_intersections(features, sizes, img_shape):
+        mask = np.full(img_shape, 255)
+        new_mask = [True] * len(features)
+        for index, (point, radius) in enumerate(zip(features.reshape(-1, 2), sizes)):
+            first, second = int(point[1]), int(point[0])
+            # TODO: How point is bigger than image shape??
+            if first * second < 0 or first >= img_shape[0] or second >= img_shape[1] or mask[first][second] != 0:
+                new_mask[index] = False
+            mask = cv2.circle(mask, tuple(np.round(point).astype(int)), int(radius), thickness=-1, color=0)
+        return new_mask
+    """
+
     def get_sparse_optical_flow(self, prev_image, cur_image, features):
         """
-        :param prev_image, cur_image: grayscale images
+        Calculate optical flow for features & filter features with large error
         """
         new_features, status, error = cv2.calcOpticalFlowPyrLK(
             (prev_image * 255).astype(np.uint8),
             (cur_image * 255).astype(np.uint8),
             features.astype('float32').reshape((-1, 1, 2)),
             None,
+            flags=cv2.OPTFLOW_LK_GET_MIN_EIGENVALS,
             **self.lucas_params
         )
-        # TODO: Use error value
-        return new_features[status == 1].reshape(-1, 2) if new_features is not None \
-            else np.array([]).reshape(-1, 2)
+        filter_status = status == 1
+        q3 = np.quantile(error, 0.75)
+        q1 = np.quantile(error, 0.25)
+
+        # Tukey's fences
+        filter_error = error < q3 + self.IQR_const * (q3 - q1)
+        filter_mask = (filter_error & filter_status).reshape(-1)
+
+        new_features = new_features if new_features is not None else np.array([]).reshape(-1, 2)
+        return new_features, filter_mask
+
+    def track_features(self, frame_sequence: pims.FramesSequence,
+                       builder: _CornerStorageBuilder):
+        image_0 = frame_sequence[0]
+
+        features, sizes = self.pyramidal_detection(image_0)
+        ids = np.array(list(range(0, len(features))))
+        corners = FrameCorners(
+            ids,
+            features,
+            sizes
+        )
+        builder.set_corners_at_frame(0, corners)
+
+        for frame, image_1 in enumerate(frame_sequence[1:], 1):
+            mask = self.get_feature_mask(features, sizes, image_1.shape)
+
+            tracked_features, error_mask = self.get_sparse_optical_flow(image_0, image_1, features)
+            ids = ids[error_mask]
+            tracked_features = tracked_features[error_mask]
+            sizes = sizes[error_mask]
+
+            if frame % self.update_period == 0:
+                new_features, new_sizes = self.pyramidal_detection(image_1, mask)
+                max_id = ids.max()
+                new_ids = np.arange(max_id + 1, max_id + 1 + len(new_features))
+                ids = np.concatenate((ids, new_ids))
+                tracked_features = np.concatenate((tracked_features, new_features.reshape(-1, 1, 2)))
+                sizes = np.concatenate((sizes, new_sizes))
+
+            corners = FrameCorners(
+                ids,
+                tracked_features,
+                sizes
+            )
+            builder.set_corners_at_frame(frame, corners)
+            image_0 = image_1
+            features = tracked_features
 
 
 def _build_impl(frame_sequence: pims.FramesSequence,
                 builder: _CornerStorageBuilder) -> None:
-    image_0 = frame_sequence[0]
     detector = FeatureDetector()
-    features, sizes = detector.pyramidal_detection(image_0)
-    corners = FrameCorners(
-        np.array(list(range(0, len(features)))),
-        features,
-        sizes
-    )
-    builder.set_corners_at_frame(0, corners)
-
-    for frame, image_1 in enumerate(frame_sequence[1:], 1):
-        mask = detector.get_feature_mask(features, sizes, image_1.shape)
-
-        next_features = detector.get_sparse_optical_flow(image_0, image_1, features)
-
-        eigenvalues = detector.calculate_eigens(image_1, is_cv2=False)
-        quality_mask = detector.get_features_quality_mask(image_1, next_features, eigenvalues,
-                                                          quality_decrease=detector.quality_decrease['cv2'])
-        next_features = next_features[quality_mask.reshape(-1)]
-
-        if len(next_features) == 0:
-            next_features = features
-
-        corners = FrameCorners(
-            np.array(list(range(0, len(next_features)))),
-            next_features,
-            np.array([10] * len(next_features))
-        )
-        builder.set_corners_at_frame(frame, corners)
-        image_0 = image_1
-        features = next_features
+    detector.track_features(frame_sequence, builder)
 
 
 def build(frame_sequence: pims.FramesSequence,
