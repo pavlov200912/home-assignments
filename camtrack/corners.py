@@ -50,7 +50,9 @@ class FeatureDetector:
         level=0: original image -> smallest features
         level=depth: smallest image -> biggest features
         """
-        return 5 * (level + 2)
+        # I recommend to use linear dependence: 5 * (level + 2)
+        # But in task, it's specified to use "proportional" to the image size dependency
+        return 6 * (1 << level)
 
     def pyramidal_detection(self, img, mask=None, depth=3):
         """
