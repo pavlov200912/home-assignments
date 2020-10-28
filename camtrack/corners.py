@@ -37,7 +37,7 @@ class _CornerStorageBuilder:
 
 class FeatureDetector:
     def __init__(self):
-        self.shi_params = dict(maxCorners=1500, qualityLevel=0.02, minDistance=3, blockSize=7)
+        self.shi_params = dict(maxCorners=1000, qualityLevel=0.04, minDistance=5, blockSize=7)
         self.lucas_params = dict(winSize=(15, 15), maxLevel=2,
                                  criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
         self.IQR_const = 3
@@ -96,7 +96,7 @@ class FeatureDetector:
         for point, size in zip(features.reshape(-1, 2), feature_sizes):
             mask = cv2.circle(mask,
                               tuple(np.array(point).astype(int)),
-                              int(size),
+                              2 * int(size),
                               thickness=-1,
                               color=0)
         return mask
@@ -164,7 +164,6 @@ class FeatureDetector:
         )
         max_corner_id = len(features)
         builder.set_corners_at_frame(0, corners)
-
         for frame, image_1 in enumerate(frame_sequence[1:], 1):
             mask = self.get_feature_mask(features, sizes, image_1.shape)
 
@@ -189,7 +188,6 @@ class FeatureDetector:
             builder.set_corners_at_frame(frame, corners)
             image_0 = image_1
             features = tracked_features
-
 
 def _build_impl(frame_sequence: pims.FramesSequence,
                 builder: _CornerStorageBuilder) -> None:

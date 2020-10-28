@@ -334,8 +334,8 @@ def draw_residuals(grayscale_image: np.ndarray, corners: FrameCorners,
                                             grayscale_image.shape[0])
     proj_mat = intrinsic_mat @ pose_to_view_mat3x4(pose)
     _, (point_cloud_idx, corners_idx) = snp.intersect(
-        point_cloud.ids.flatten(),
-        corners.ids.flatten(),
+        point_cloud.ids.flatten().astype(np.int32),
+        corners.ids.flatten().astype(np.int32),
         indices=True
     )
     corner_points = corners.points[corners_idx]
