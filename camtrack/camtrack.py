@@ -129,15 +129,15 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
     corrs = build_correspondences(corner_storage[frame1],
                                   corner_storage[frame2])
     points = []
-    while len(points) < 100:
+    while len(points) < 30:
         points, ids, median_cos = triangulate_correspondences(corrs,
                                                               pose_to_view_mat3x4(pose1),
                                                               pose_to_view_mat3x4(pose2),
                                                               intrinsic_mat,
                                                               triangulation_params)
         triangulation_params = TriangulationParameters(
-            triangulation_params.max_reprojection_error * 1.5,
-            triangulation_params.min_triangulation_angle_deg,
+            triangulation_params.max_reprojection_error * 2,
+            triangulation_params.min_triangulation_angle_deg * 0.5,
             triangulation_params.min_depth
         )
 
