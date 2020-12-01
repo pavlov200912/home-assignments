@@ -28,7 +28,8 @@ from _camtrack import (
     triangulate_correspondences,
     rodrigues_and_translation_to_view_mat3x4,
     compute_reprojection_errors,
-    Correspondences
+    Correspondences,
+    eye3x4
 )
 
 from _corners import without_short_tracks
@@ -89,15 +90,81 @@ RETRIANGULATION_RANSAC_REPROJECTION_ERROR = 1.5
 SHORT_THRESHOLD = 1
 
 
+def calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params):
+    # Sort (filter) pairs of frames by
+    # - features intersection
+    # - frame distance
+    min_intersection = 10
+    top_pairs = []
+    for frame1 in range(len(corner_storage)):
+        for frame2 in range(frame1 + 1, len(corner_storage)):
+            corrs = build_correspondences(corner_storage[frame1],
+                                  corner_storage[frame2])
+            intersect_len = len(corrs.ids)
+            if intersect_len > min_intersection:
+                top_pairs.append((frame1, frame2, intersect_len, frame2 - frame1))
+    top_pairs = sorted(top_pairs, key=lambda x: (x[2], x[3]), reverse=True)
+
+    pairs_to_check = 125
+    min_essential_inliers = 10
+    min_triangulated_inliers = 10
+    essential_homography_ratio_threshold = 1.25
+    best_pair_triangulated_len = -1
+    result_frame_1, result_frame_2 = -1, -1
+    result_camera_pos = None
+    for frame1, frame2, _, _ in top_pairs[:pairs_to_check]:
+        corrs = build_correspondences(corner_storage[frame1], corner_storage[frame2])
+        assert len(corrs.ids) >= 5  # Otherwise, can't solve with cv2
+
+        essential_mat, essential_inliers = cv2.findEssentialMat(corrs.points_1, corrs.points_2, intrinsic_mat,
+                                                           method=cv2.RANSAC,
+                                                           prob=0.995,
+                                                           threshold=1.0)
+
+        if essential_inliers < min_essential_inliers:
+            continue
+
+        _, homography_inliers = cv2.findHomography(corrs.points_1, corrs.points_2,
+                                                   method=cv2.RANSAC,
+                                                   confidence=0.995 ,
+                                                   ransacReprojThreshold=RANSAC_REPROJECTION_ERROR)
+
+        if np.sum(essential_inliers) < essential_homography_ratio_threshold * np.sum(homography_inliers):
+            continue
+
+        ids_to_remove = np.where(essential_inliers == 0)[0]
+        corrs = build_correspondences(corner_storage[frame1], corner_storage[frame2], ids_to_remove=ids_to_remove)
+
+        _, R, t, triangulated_inliers = cv2.recoverPose(essential_mat, corrs.points_1, corrs.points_2, intrinsic_mat)
+
+        if triangulated_inliers < min_triangulated_inliers:
+            continue
+        points, ids, _ = triangulate_correspondences(corrs,
+                                                     eye3x4(),
+                                                     np.hstack((R, t)),
+                                                     intrinsic_mat,
+                                                     triangulation_params)
+
+        triangulated_len = len(ids)
+        if triangulated_len > best_pair_triangulated_len:
+            result_frame_1, result_frame_2 = frame1, frame2
+            best_pair_triangulated_len = triangulated_len
+            result_camera_pos = np.hstack((R, t))
+
+    return (result_frame_1, view_mat3x4_to_pose(eye3x4())), (result_frame_2, view_mat3x4_to_pose(result_camera_pos))
+
+
+
+
+
+
+
 def track_and_calc_colors(camera_parameters: CameraParameters,
                           corner_storage: CornerStorage,
                           frame_sequence_path: str,
                           known_view_1: Optional[Tuple[int, Pose]] = None,
                           known_view_2: Optional[Tuple[int, Pose]] = None) \
         -> Tuple[List[Pose], PointCloud]:
-    if known_view_1 is None or known_view_2 is None:
-        raise NotImplementedError()
-
     corner_storage = without_short_tracks(corner_storage, SHORT_THRESHOLD)
 
     rgb_sequence = frameseq.read_rgb_f32(frame_sequence_path)
@@ -111,6 +178,12 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
         min_triangulation_angle_deg=1,
         min_depth=0.1
     )
+
+    if known_view_1 is None or known_view_2 is None:
+        # TODO: Add views init
+        print("Finding best frames")
+        known_view_1, known_view_2 = calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params)
+        print(f"Best frames found: {known_view_1[0]} and {known_view_2[0]}")
 
     # TODO: implement
     frame_count = len(corner_storage)
