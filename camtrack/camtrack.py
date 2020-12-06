@@ -125,14 +125,8 @@ def calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params)
     top_pairs = sorted(top_pairs, key=lambda x: (scaler(x[2]), x[3]), reverse=True)
 
 
-    print(*list(top_pairs)[:500], sep='\n')
+    #print(*list(top_pairs)[:500], sep='\n')
     pairs_to_check = 500
-    min_essential_inliers = 10
-    min_triangulated_inliers = 10
-    essential_homography_ratio_threshold = 1.25
-    best_pair_triangulated_len = -1
-    result_frame_1, result_frame_2 = -1, -1
-    result_camera_pos = None
 
     top_pairs_stats = []
     for frame1, frame2, _, _ in top_pairs[:pairs_to_check]:
@@ -159,18 +153,9 @@ def calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params)
         _, R, t, triangulated_inliers = cv2.recoverPose(essential_mat, corrs.points_1, corrs.points_2, intrinsic_mat)
 
 
-        print(f"DEBUG: {frame1}:{frame2} corrs: {len(corrs.ids)} E_I:{np.count_nonzero(essential_inliers)} H_I: {np.count_nonzero(homography_inliers)} "
-               f"R: {np.count_nonzero(essential_inliers) / np.count_nonzero(homography_inliers)} T_I:{np.count_nonzero(triangulated_inliers)}")
+        #print(f"DEBUG: {frame1}:{frame2} corrs: {len(corrs.ids)} E_I:{np.count_nonzero(essential_inliers)} H_I: {np.count_nonzero(homography_inliers)} "
+        #       f"R: {np.count_nonzero(essential_inliers) / np.count_nonzero(homography_inliers)} T_I:{np.count_nonzero(triangulated_inliers)}")
 
-        #if np.count_nonzero(essential_inliers) < essential_homography_ratio_threshold * np.count_nonzero(homography_inliers):
-        #    continue
-
-
-        #if np.count_nonzero(triangulated_inliers) < min_triangulated_inliers:
-        #    continue
-
-        #if np.count_nonzero(essential_inliers) < min_essential_inliers:
-        #    continue
 
         points, ids, _ = triangulate_correspondences(corrs,
                                                      eye3x4(),
@@ -204,7 +189,6 @@ def calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params)
 
 
 
-
 def track_and_calc_colors(camera_parameters: CameraParameters,
                           corner_storage: CornerStorage,
                           frame_sequence_path: str,
@@ -226,7 +210,6 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
     )
 
     if known_view_1 is None or known_view_2 is None:
-        # TODO: Add views init
         print("Finding best frames")
         known_view_1, known_view_2 = calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params)
         print(f"Best frames found: {known_view_1[0]} and {known_view_2[0]}")
@@ -250,7 +233,7 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
     points = []
     while len(points) < 10:
         print("Can't perform initial retriangulation. Updating params.")
-        print(len(points), triangulation_params)
+        #print(len(points), triangulation_params)
         points, ids, median_cos = triangulate_correspondences(corrs,
                                                               pose_to_view_mat3x4(pose1),
                                                               pose_to_view_mat3x4(pose2),
