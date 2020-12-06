@@ -125,8 +125,8 @@ def calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params)
     top_pairs = sorted(top_pairs, key=lambda x: (scaler(x[2]), x[3]), reverse=True)
 
 
-    print(*list(top_pairs)[:100], sep='\n')
-    pairs_to_check = 100
+    print(*list(top_pairs)[:500], sep='\n')
+    pairs_to_check = 500
     min_essential_inliers = 10
     min_triangulated_inliers = 10
     essential_homography_ratio_threshold = 1.25
@@ -248,7 +248,9 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
     corrs = build_correspondences(corner_storage[frame1],
                                   corner_storage[frame2])
     points = []
-    while len(points) < 30:
+    while len(points) < 10:
+        print("Can't perform initial retriangulation. Updating params.")
+        print(len(points), triangulation_params)
         points, ids, median_cos = triangulate_correspondences(corrs,
                                                               pose_to_view_mat3x4(pose1),
                                                               pose_to_view_mat3x4(pose2),

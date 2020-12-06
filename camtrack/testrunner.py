@@ -14,7 +14,7 @@ import camtrack
 import cmptrack
 import corners
 import data3d
-import frameseq
+from frameseq import read_grayscale_f32
 
 
 FramePair = namedtuple('FramePair', ('frame_1', 'frame_2'))
@@ -33,8 +33,8 @@ DATASET_CONFIG_SCHEMA = Schema({
         Any(str): {
             'camera': str,
             'ground_truth': str,
-            'rgb': str,
-            Optional('initial_frames'): Any(_check_frame_pair, Default(None))
+            'rgb': str#,
+            #Optional('initial_frames'): Any(_check_frame_pair, Default(None))
         }
     }
 })
@@ -43,9 +43,9 @@ DATASET_CONFIG_SCHEMA = Schema({
 TestInfo = namedtuple('TestInfo', (
     'camera',
     'ground_truth',
-    'rgb',
-    'initial_frames'
-))
+    'rgb'))#,
+    #'initial_frames'
+#))
 
 
 def read_config(config_path):
@@ -155,13 +155,13 @@ def _load_or_calculate_corners(grayscale_seq, test_name,
 
 def _do_tracking(test_info, ground_truth, corner_storage, test_dir):
     camera_parameters = _read_camera_parameters(test_info.camera)
-    if test_info.initial_frames is not None:
-        frame_1, frame_2 = test_info.initial_frames
-        known_view_1 = (frame_1, ground_truth[frame_1])
-        known_view_2 = (frame_2, ground_truth[frame_2])
-    else:
-        known_view_1 = None
-        known_view_2 = None
+    #if test_info.initial_frames is not None:
+    #    frame_1, frame_2 = test_info.initial_frames
+    #    known_view_1 = (frame_1, ground_truth[frame_1])
+    #    known_view_2 = (frame_2, ground_truth[frame_2])
+    #else:
+    known_view_1 = None
+    known_view_2 = None
     try:
         click.echo('  start scene solving')
         track, point_cloud = _run_and_save_logs(
@@ -196,7 +196,8 @@ def run_tests(config, output_dir, corners_dir):
         test_dir = path.join(output_dir, test_name)
         _make_dir_if_needed(test_dir, 1)
 
-        grayscale_seq = frameseq.read_grayscale_f32(test_info.rgb)
+        #print(test_info.rgb)
+        grayscale_seq = read_grayscale_f32(test_info.rgb)
 
         inf_errors = np.full((len(grayscale_seq),), np.inf)
         all_r_errors.append(inf_errors)
