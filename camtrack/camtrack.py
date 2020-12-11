@@ -31,7 +31,8 @@ from _camtrack import (
     rodrigues_and_translation_to_view_mat3x4,
     compute_reprojection_errors,
     Correspondences,
-    eye3x4
+    eye3x4,
+    find_nearest
 )
 
 from _corners import without_short_tracks
@@ -91,6 +92,18 @@ class HyperParams:
     RETRIANGULATION_RANSAC_ITERATIONS = 3
     RETRIANGULATION_RANSAC_REPROJECTION_ERROR = 1.5
     SHORT_THRESHOLD = 1  # Nice for usage when > 1, but ironman test bans this feature =((((
+
+    @staticmethod
+    def rebuild():
+        HyperParams.RANSAC_POINTS_THRESHOLD = 5
+        HyperParams.RANSAC_REPROJECTION_ERROR = 3
+        HyperParams.RANSAC_ITERATIONS = 100
+        HyperParams.RETRIANGULATION_ITER_LIMIT = 50
+        HyperParams.RETRIANGULATION_SIZE_LIMIT = 300
+        HyperParams.RETRIANGULATION_FRAME_COUNT_LIMIT = 25
+        HyperParams.RETRIANGULATION_RANSAC_ITERATIONS = 3
+        HyperParams.RETRIANGULATION_RANSAC_REPROJECTION_ERROR = 1.5
+        HyperParams.SHORT_THRESHOLD = 1
 
     @staticmethod
     def lower_thresholds():
@@ -176,7 +189,7 @@ def calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params)
     result_frame_1, result_frame_2 = top_pairs_stats[0][0]
     result_camera_pos = top_pairs_stats[0][-1]
 
-    print(f"Best triangulated result: {best_pair_triangulated_len * 100}")
+    print(f"Best triangulated result: {best_pair_triangulated_len}")
     return (result_frame_1, view_mat3x4_to_pose(eye3x4())), (result_frame_2, view_mat3x4_to_pose(result_camera_pos))
 
 
@@ -346,6 +359,8 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
         -> Tuple[List[Pose], PointCloud]:
     corner_storage = without_short_tracks(corner_storage, HyperParams.SHORT_THRESHOLD)
 
+    HyperParams.rebuild()
+
     rgb_sequence = frameseq.read_rgb_f32(frame_sequence_path)
     intrinsic_mat = to_opencv_camera_mat3x3(
         camera_parameters,
@@ -378,7 +393,7 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
     corrs = build_correspondences(corner_storage[frame1],
                                   corner_storage[frame2])
     points = []
-    while len(points) < 10:
+    while True:
         print("Can't perform initial retriangulation. Updating params.")
         # print(len(points), triangulation_params)
         points, ids, median_cos = triangulate_correspondences(corrs,
@@ -386,6 +401,9 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
                                                               pose_to_view_mat3x4(pose2),
                                                               intrinsic_mat,
                                                               triangulation_params)
+
+        if len(points) > 10:
+            break
         triangulation_params = TriangulationParameters(
             triangulation_params.max_reprojection_error * 2,
             triangulation_params.min_triangulation_angle_deg * 0.5,
@@ -533,9 +551,10 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
             triangulation_params = HyperParams.lower_triangulation_params(triangulation_params)
 
 
-            if dooms_day_counter >= 4:
-                bundle_adjustment(processed_frames, points3d, np.array(np.nonzero(cloud_ids)[0], dtype=np.int32),
-                                  view_mats, frames_for_corner, corner_storage, intrinsic_mat, bundle_adjustment_freq)
+            #print(triangulation_params)
+            # if dooms_day_counter >= 4:
+            #     bundle_adjustment(processed_frames, points3d, np.array(np.nonzero(cloud_ids)[0], dtype=np.int32),
+            #                       view_mats, frames_for_corner, corner_storage, intrinsic_mat, bundle_adjustment_freq)
 
             if dooms_day_counter == 25:
                 print(f"Failed to process all frames: {(1 - len(unprocessed_frames) / frame_count) * 100}% done")
@@ -543,15 +562,35 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
         else:
             dooms_day_counter = 0
 
+
+    unprocessed_frames = np.arange(len(corner_storage), dtype=np.int32)[~processed_frames]
+
+    print(f"Processed: {(1 - len(unprocessed_frames) / frame_count) * 100}")
+
+    processed_frames_ids = np.nonzero(processed_frames)[0]
+
+
+    if len(unprocessed_frames) > 0:
+        # Fill unprocessed frames with views from closest processed
+        for frame in unprocessed_frames:
+            if len(processed_frames_ids) > 0:
+                calc_id = find_nearest(processed_frames_ids, frame)
+                view_mats[frame] = view_mats[calc_id]
+                print(f"Can't process frame: {frame}, take closest view from frame: {calc_id}")
+            else:
+                view_mats[frame] = view_mat3x4_to_pose(eye3x4())
+                print(f"Can't process any frame =( ! Return eye3x4 for frame {frame}")
+
+    view_mats = [view_mats[key] for key in sorted(view_mats.keys())]
+
     point_cloud_builder = PointCloudBuilder(np.array(np.nonzero(cloud_ids)[0], dtype=np.int32),
                                             points3d[np.array(cloud_ids).astype(bool)])
 
-    view_mats = [view_mats[key] for key in sorted(view_mats.keys())]
 
     calc_point_cloud_colors(
         point_cloud_builder,
         rgb_sequence,
-        view_mats,
+        list(view_mats),
         intrinsic_mat,
         corner_storage,
         5.0

@@ -128,6 +128,10 @@ TriangulationParameters = namedtuple(
     ('max_reprojection_error', 'min_triangulation_angle_deg', 'min_depth')
 )
 
+def find_nearest(a, a0):
+    "Element in nd array `a` closest to the scalar value `a0`"
+    idx = np.abs(a - a0).argmin()
+    return a.flat[idx]
 
 def _remove_correspondences_with_ids(correspondences: Correspondences,
                                      ids_to_remove: np.ndarray) \

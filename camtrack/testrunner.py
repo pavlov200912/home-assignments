@@ -14,7 +14,7 @@ import camtrack
 import cmptrack
 import corners
 import data3d
-from frameseq import read_grayscale_f32
+import frameseq
 
 
 FramePair = namedtuple('FramePair', ('frame_1', 'frame_2'))
@@ -33,8 +33,8 @@ DATASET_CONFIG_SCHEMA = Schema({
         Any(str): {
             'camera': str,
             'ground_truth': str,
-            'rgb': str#,
-            #Optional('initial_frames'): Any(_check_frame_pair, Default(None))
+            'rgb': str,
+            Optional('initial_frames'): Any(_check_frame_pair, Default(None))
         }
     }
 })
@@ -63,11 +63,11 @@ def read_config(config_path):
 
 
 def _run_and_save_logs(stdout_path, stderr_path, func, *args, **kwargs):
-    with open(stdout_path, 'w') as stdout_file:
-        with open(stderr_path, 'w') as stderr_file:
-            with contextlib.redirect_stdout(stdout_file):
-                with contextlib.redirect_stderr(stderr_file):
-                    result = func(*args, **kwargs)
+    #with open(stdout_path, 'w') as stdout_file:
+    #    with open(stderr_path, 'w') as stderr_file:
+    #        with contextlib.redirect_stdout(stdout_file):
+    #            with contextlib.redirect_stderr(stderr_file):
+    result = func(*args, **kwargs)
     return result
 
 
@@ -196,8 +196,7 @@ def run_tests(config, output_dir, corners_dir):
         test_dir = path.join(output_dir, test_name)
         _make_dir_if_needed(test_dir, 1)
 
-        #print(test_info.rgb)
-        grayscale_seq = read_grayscale_f32(test_info.rgb)
+        grayscale_seq = frameseq.read_grayscale_f32(test_info.rgb)
 
         inf_errors = np.full((len(grayscale_seq),), np.inf)
         all_r_errors.append(inf_errors)
