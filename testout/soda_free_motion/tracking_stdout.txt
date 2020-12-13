@@ -1,0 +1,355 @@
+Finding best frames
+Best triangulated result: 963
+Best frames found: 118 and 141
+Can't perform initial retriangulation. Updating params.
+Triangulation between initial frames done! Founded 963 points with med_cos=3.8707629856232044
+0% ## Iteration: 1 ## Frame: 115## Cloud: 963.0 ## Retriangulated: 300 ## Updated: 45 ## PnpTime: 0.4250006675720215 ## TriangTime: 0.5879991054534912
+0% ## Iteration: 2 ## Frame: 117## Cloud: 963.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 0.3489999771118164 ## TriangTime: 0.6150021553039551
+0% ## Iteration: 3 ## Frame: 118## Cloud: 963.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 0.3470585346221924 ## TriangTime: 0.5490133762359619
+1% ## Iteration: 4 ## Frame: 119## Cloud: 963.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 0.35900092124938965 ## TriangTime: 0.5995137691497803
+1% ## Iteration: 5 ## Frame: 120## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 0.33513832092285156 ## TriangTime: 0.6910006999969482
+1% ## Iteration: 6 ## Frame: 141## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 0.35799622535705566 ## TriangTime: 0.1960010528564453
+2% ## Iteration: 7 ## Frame: 116## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.35100436210632324 ## TriangTime: 0.7180933952331543
+2% ## Iteration: 8 ## Frame: 114## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.34451842308044434 ## TriangTime: 0.7600662708282471
+2% ## Iteration: 9 ## Frame: 147## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.3530287742614746 ## TriangTime: 0.20900177955627441
+3% ## Iteration: 10 ## Frame: 140## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.34500622749328613 ## TriangTime: 0.43499040603637695
+3% ## Iteration: 11 ## Frame: 149## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.34705686569213867 ## TriangTime: 0.3190019130706787
+3% ## Iteration: 12 ## Frame: 193## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.3530004024505615 ## TriangTime: 0.1289994716644287
+4% ## Iteration: 13 ## Frame: 159## Cloud: 1021.0 ## Retriangulated: 300 ## Updated: 58 ## PnpTime: 0.35022544860839844 ## TriangTime: 0.34003710746765137
+4% ## Iteration: 14 ## Frame: 153## Cloud: 1082.0 ## Retriangulated: 300 ## Updated: 61 ## PnpTime: 0.3659992218017578 ## TriangTime: 0.5520012378692627
+4% ## Iteration: 15 ## Frame: 152## Cloud: 1127.0 ## Retriangulated: 300 ## Updated: 47 ## PnpTime: 0.3470041751861572 ## TriangTime: 0.6990082263946533
+4% ## Iteration: 16 ## Frame: 151## Cloud: 1146.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 0.35398411750793457 ## TriangTime: 0.745999813079834
+5% ## Iteration: 17 ## Frame: 191## Cloud: 1154.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 0.44702744483947754 ## TriangTime: 0.5019981861114502
+5% ## Iteration: 18 ## Frame: 158## Cloud: 1240.0 ## Retriangulated: 300 ## Updated: 86 ## PnpTime: 0.35199570655822754 ## TriangTime: 0.6240024566650391
+5% ## Iteration: 19 ## Frame: 194## Cloud: 1322.0 ## Retriangulated: 300 ## Updated: 82 ## PnpTime: 0.3710012435913086 ## TriangTime: 0.8470001220703125
+6% ## Iteration: 20 ## Frame: 173## Cloud: 1473.0 ## Retriangulated: 300 ## Updated: 151 ## PnpTime: 0.3619985580444336 ## TriangTime: 1.1840226650238037
+6% ## Iteration: 21 ## Frame: 183## Cloud: 1560.0 ## Retriangulated: 300 ## Updated: 87 ## PnpTime: 0.3859989643096924 ## TriangTime: 1.1231577396392822
+6% ## Iteration: 22 ## Frame: 185## Cloud: 1622.0 ## Retriangulated: 300 ## Updated: 62 ## PnpTime: 0.4009978771209717 ## TriangTime: 1.2990143299102783
+7% ## Iteration: 23 ## Frame: 186## Cloud: 1655.0 ## Retriangulated: 300 ## Updated: 33 ## PnpTime: 0.4700016975402832 ## TriangTime: 1.139050006866455
+7% ## Iteration: 24 ## Frame: 187## Cloud: 1663.0 ## Retriangulated: 101 ## Updated: 8 ## PnpTime: 0.38700389862060547 ## TriangTime: 0.4020988941192627
+7% ## Iteration: 25 ## Frame: 192## Cloud: 1664.0 ## Retriangulated: 4 ## Updated: 1 ## PnpTime: 0.3809690475463867 ## TriangTime: 0.010035276412963867
+8% ## Iteration: 26 ## Frame: 184## Cloud: 1664.0 ## Retriangulated: 2 ## Updated: 0 ## PnpTime: 0.37800168991088867 ## TriangTime: 0.0020308494567871094
+8% ## Iteration: 27 ## Frame: 180## Cloud: 1664.0 ## Retriangulated: 5 ## Updated: 0 ## PnpTime: 0.3760368824005127 ## TriangTime: 0.004001617431640625
+8% ## Iteration: 28 ## Frame: 182## Cloud: 1664.0 ## Retriangulated: 2 ## Updated: 0 ## PnpTime: 0.3829917907714844 ## TriangTime: 0.003002166748046875
+8% ## Iteration: 29 ## Frame: 181## Cloud: 1664.0 ## Retriangulated: 0 ## Updated: 0 ## PnpTime: 0.38300061225891113 ## TriangTime: 0.0010378360748291016
+9% ## Iteration: 30 ## Frame: 188## Cloud: 1664.0 ## Retriangulated: 3 ## Updated: 0 ## PnpTime: 0.3669736385345459 ## TriangTime: 0.002998828887939453
+9% ## Iteration: 31 ## Frame: 190## Cloud: 1664.0 ## Retriangulated: 3 ## Updated: 0 ## PnpTime: 0.38100171089172363 ## TriangTime: 0.0019989013671875
+9% ## Iteration: 32 ## Frame: 189## Cloud: 1664.0 ## Retriangulated: 0 ## Updated: 0 ## PnpTime: 0.3790276050567627 ## TriangTime: 0.0020046234130859375
+10% ## Iteration: 33 ## Frame: 179## Cloud: 1664.0 ## Retriangulated: 0 ## Updated: 0 ## PnpTime: 0.35996484756469727 ## TriangTime: 0.0020003318786621094
+10% ## Iteration: 34 ## Frame: 178## Cloud: 1664.0 ## Retriangulated: 6 ## Updated: 0 ## PnpTime: 0.3605325222015381 ## TriangTime: 0.0050029754638671875
+10% ## Iteration: 35 ## Frame: 177## Cloud: 1664.0 ## Retriangulated: 4 ## Updated: 0 ## PnpTime: 0.3570547103881836 ## TriangTime: 0.0029752254486083984
+11% ## Iteration: 36 ## Frame: 174## Cloud: 1664.0 ## Retriangulated: 20 ## Updated: 0 ## PnpTime: 0.34299802780151367 ## TriangTime: 0.010000228881835938
+11% ## Iteration: 37 ## Frame: 175## Cloud: 1664.0 ## Retriangulated: 2 ## Updated: 0 ## PnpTime: 0.3500182628631592 ## TriangTime: 0.0030012130737304688
+11% ## Iteration: 38 ## Frame: 176## Cloud: 1664.0 ## Retriangulated: 2 ## Updated: 0 ## PnpTime: 0.34751462936401367 ## TriangTime: 0.0019998550415039062
+12% ## Iteration: 39 ## Frame: 171## Cloud: 1664.0 ## Retriangulated: 76 ## Updated: 0 ## PnpTime: 0.33499979972839355 ## TriangTime: 0.021001338958740234
+12% ## Iteration: 40 ## Frame: 169## Cloud: 1664.0 ## Retriangulated: 48 ## Updated: 0 ## PnpTime: 0.33299851417541504 ## TriangTime: 0.01000213623046875
+12% ## Iteration: 41 ## Frame: 170## Cloud: 1664.0 ## Retriangulated: 35 ## Updated: 0 ## PnpTime: 0.3260009288787842 ## TriangTime: 0.009996891021728516
+13% ## Iteration: 42 ## Frame: 172## Cloud: 1664.0 ## Retriangulated: 23 ## Updated: 0 ## PnpTime: 0.3290286064147949 ## TriangTime: 0.010958194732666016
+13% ## Iteration: 43 ## Frame: 160## Cloud: 1786.0 ## Retriangulated: 300 ## Updated: 122 ## PnpTime: 0.3249788284301758 ## TriangTime: 0.4909994602203369
+13% ## Iteration: 44 ## Frame: 148## Cloud: 1789.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.3120276927947998 ## TriangTime: 0.42797183990478516
+13% ## Iteration: 45 ## Frame: 157## Cloud: 1798.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 0.4165065288543701 ## TriangTime: 0.2100064754486084
+14% ## Iteration: 46 ## Frame: 156## Cloud: 1799.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.315032958984375 ## TriangTime: 0.10599327087402344
+14% ## Iteration: 47 ## Frame: 165## Cloud: 1799.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.31797289848327637 ## TriangTime: 0.05999445915222168
+14% ## Iteration: 48 ## Frame: 150## Cloud: 1799.0 ## Retriangulated: 279 ## Updated: 0 ## PnpTime: 0.31603455543518066 ## TriangTime: 0.19399809837341309
+15% ## Iteration: 49 ## Frame: 168## Cloud: 1799.0 ## Retriangulated: 56 ## Updated: 0 ## PnpTime: 0.30298566818237305 ## TriangTime: 0.01300048828125
+15% ## Iteration: 50 ## Frame: 137## Cloud: 1809.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 0.30152153968811035 ## TriangTime: 0.5470263957977295
+15% ## Iteration: 51 ## Frame: 138## Cloud: 1810.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.30051159858703613 ## TriangTime: 0.5610032081604004
+16% ## Iteration: 52 ## Frame: 142## Cloud: 1819.0 ## Retriangulated: 300 ## Updated: 26 ## PnpTime: 0.29500579833984375 ## TriangTime: 1.8876450061798096
+16% ## Iteration: 53 ## Frame: 135## Cloud: 1822.0 ## Retriangulated: 300 ## Updated: 38 ## PnpTime: 0.29502296447753906 ## TriangTime: 3.2032272815704346
+16% ## Iteration: 54 ## Frame: 139## Cloud: 1822.0 ## Retriangulated: 162 ## Updated: 30 ## PnpTime: 0.2779998779296875 ## TriangTime: 2.3131704330444336
+17% ## Iteration: 55 ## Frame: 145## Cloud: 1822.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 0.28499937057495117 ## TriangTime: 1.691439151763916
+17% ## Iteration: 56 ## Frame: 164## Cloud: 1822.0 ## Retriangulated: 300 ## Updated: 24 ## PnpTime: 0.2879602909088135 ## TriangTime: 2.572270631790161
+17% ## Iteration: 57 ## Frame: 154## Cloud: 1829.0 ## Retriangulated: 300 ## Updated: 23 ## PnpTime: 0.2779960632324219 ## TriangTime: 1.6184399127960205
+17% ## Iteration: 58 ## Frame: 146## Cloud: 1831.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 0.2850010395050049 ## TriangTime: 1.9060008525848389
+18% ## Iteration: 59 ## Frame: 166## Cloud: 1832.0 ## Retriangulated: 300 ## Updated: 32 ## PnpTime: 0.38655614852905273 ## TriangTime: 2.5029962062835693
+18% ## Iteration: 60 ## Frame: 136## Cloud: 1848.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 0.2730093002319336 ## TriangTime: 1.9220759868621826
+18% ## Iteration: 61 ## Frame: 126## Cloud: 1851.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.2650258541107178 ## TriangTime: 0.4365377426147461
+19% ## Iteration: 62 ## Frame: 134## Cloud: 1882.0 ## Retriangulated: 300 ## Updated: 35 ## PnpTime: 0.2700011730194092 ## TriangTime: 1.8815619945526123
+19% ## Iteration: 63 ## Frame: 155## Cloud: 1910.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 0.2729973793029785 ## TriangTime: 1.795001745223999
+19% ## Iteration: 64 ## Frame: 163## Cloud: 1932.0 ## Retriangulated: 300 ## Updated: 31 ## PnpTime: 0.27657246589660645 ## TriangTime: 2.3124547004699707
+20% ## Iteration: 65 ## Frame: 113## Cloud: 1934.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.25600194931030273 ## TriangTime: 0.8039982318878174
+20% ## Iteration: 66 ## Frame: 167## Cloud: 1958.0 ## Retriangulated: 300 ## Updated: 42 ## PnpTime: 0.26103782653808594 ## TriangTime: 2.7760627269744873
+20% ## Iteration: 67 ## Frame: 127## Cloud: 1967.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 0.2519996166229248 ## TriangTime: 0.7580010890960693
+21% ## Iteration: 68 ## Frame: 143## Cloud: 1982.0 ## Retriangulated: 300 ## Updated: 22 ## PnpTime: 0.2525625228881836 ## TriangTime: 1.4050865173339844
+21% ## Iteration: 69 ## Frame: 133## Cloud: 1992.0 ## Retriangulated: 203 ## Updated: 12 ## PnpTime: 0.24802851676940918 ## TriangTime: 0.9344990253448486
+21% ## Iteration: 70 ## Frame: 125## Cloud: 1992.0 ## Retriangulated: 186 ## Updated: 0 ## PnpTime: 0.2500011920928955 ## TriangTime: 0.14699959754943848
+21% ## Iteration: 71 ## Frame: 144## Cloud: 1996.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 0.2370011806488037 ## TriangTime: 0.43000245094299316
+22% ## Iteration: 72 ## Frame: 112## Cloud: 2003.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 0.24099969863891602 ## TriangTime: 0.664074182510376
+22% ## Iteration: 73 ## Frame: 132## Cloud: 2003.0 ## Retriangulated: 150 ## Updated: 0 ## PnpTime: 0.24699831008911133 ## TriangTime: 0.09600257873535156
+22% ## Iteration: 74 ## Frame: 162## Cloud: 2031.0 ## Retriangulated: 300 ## Updated: 40 ## PnpTime: 0.23297929763793945 ## TriangTime: 2.205930233001709
+23% ## Iteration: 75 ## Frame: 195## Cloud: 2046.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 0.23000240325927734 ## TriangTime: 2.630998373031616
+23% ## Iteration: 76 ## Frame: 161## Cloud: 2070.0 ## Retriangulated: 300 ## Updated: 36 ## PnpTime: 0.22500133514404297 ## TriangTime: 1.5678741931915283
+23% ## Iteration: 77 ## Frame: 128## Cloud: 2095.0 ## Retriangulated: 232 ## Updated: 25 ## PnpTime: 0.2139890193939209 ## TriangTime: 0.16851568222045898
+24% ## Iteration: 78 ## Frame: 129## Cloud: 2095.0 ## Retriangulated: 161 ## Updated: 0 ## PnpTime: 0.20651459693908691 ## TriangTime: 0.029016733169555664
+24% ## Iteration: 79 ## Frame: 111## Cloud: 2097.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.20000100135803223 ## TriangTime: 0.4290003776550293
+24% ## Iteration: 80 ## Frame: 131## Cloud: 2097.0 ## Retriangulated: 193 ## Updated: 0 ## PnpTime: 0.20402741432189941 ## TriangTime: 0.061000823974609375
+25% ## Iteration: 81 ## Frame: 110## Cloud: 2097.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.20003199577331543 ## TriangTime: 0.11298537254333496
+25% ## Iteration: 82 ## Frame: 121## Cloud: 2099.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.19700336456298828 ## TriangTime: 0.592670202255249
+25% ## Iteration: 83 ## Frame: 124## Cloud: 2099.0 ## Retriangulated: 166 ## Updated: 0 ## PnpTime: 0.1960005760192871 ## TriangTime: 0.027002334594726562
+26% ## Iteration: 84 ## Frame: 109## Cloud: 2099.0 ## Retriangulated: 289 ## Updated: 0 ## PnpTime: 0.18700075149536133 ## TriangTime: 0.05700278282165527
+26% ## Iteration: 85 ## Frame: 130## Cloud: 2099.0 ## Retriangulated: 147 ## Updated: 0 ## PnpTime: 0.1980280876159668 ## TriangTime: 0.023976802825927734
+26% ## Iteration: 86 ## Frame: 123## Cloud: 2099.0 ## Retriangulated: 249 ## Updated: 0 ## PnpTime: 0.18502378463745117 ## TriangTime: 0.03502917289733887
+26% ## Iteration: 87 ## Frame: 108## Cloud: 2099.0 ## Retriangulated: 266 ## Updated: 0 ## PnpTime: 0.17502260208129883 ## TriangTime: 0.030973434448242188
+27% ## Iteration: 88 ## Frame: 102## Cloud: 2099.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.1750023365020752 ## TriangTime: 0.06599879264831543
+27% ## Iteration: 89 ## Frame: 122## Cloud: 2099.0 ## Retriangulated: 236 ## Updated: 0 ## PnpTime: 0.1810014247894287 ## TriangTime: 0.041008949279785156
+27% ## Iteration: 90 ## Frame: 103## Cloud: 2352.0 ## Retriangulated: 300 ## Updated: 253 ## PnpTime: 0.16699981689453125 ## TriangTime: 0.44300198554992676
+28% ## Iteration: 91 ## Frame: 101## Cloud: 2426.0 ## Retriangulated: 300 ## Updated: 74 ## PnpTime: 0.17000174522399902 ## TriangTime: 0.7410900592803955
+28% ## Iteration: 92 ## Frame: 100## Cloud: 2478.0 ## Retriangulated: 300 ## Updated: 52 ## PnpTime: 0.16796398162841797 ## TriangTime: 1.0270071029663086
+28% ## Iteration: 93 ## Frame: 98## Cloud: 2511.0 ## Retriangulated: 300 ## Updated: 33 ## PnpTime: 0.1660010814666748 ## TriangTime: 0.7700002193450928
+29% ## Iteration: 94 ## Frame: 99## Cloud: 2548.0 ## Retriangulated: 300 ## Updated: 37 ## PnpTime: 0.15700149536132812 ## TriangTime: 0.87203049659729
+29% ## Iteration: 95 ## Frame: 97## Cloud: 2571.0 ## Retriangulated: 300 ## Updated: 23 ## PnpTime: 0.1630246639251709 ## TriangTime: 0.8429486751556396
+29% ## Iteration: 96 ## Frame: 96## Cloud: 2577.0 ## Retriangulated: 200 ## Updated: 6 ## PnpTime: 0.15895891189575195 ## TriangTime: 0.5356132984161377
+30% ## Iteration: 97 ## Frame: 95## Cloud: 2577.0 ## Retriangulated: 34 ## Updated: 0 ## PnpTime: 0.15000414848327637 ## TriangTime: 0.0059833526611328125
+30% ## Iteration: 98 ## Frame: 94## Cloud: 2577.0 ## Retriangulated: 79 ## Updated: 0 ## PnpTime: 0.14199328422546387 ## TriangTime: 0.012018442153930664
+30% ## Iteration: 99 ## Frame: 104## Cloud: 2588.0 ## Retriangulated: 293 ## Updated: 11 ## PnpTime: 0.14499950408935547 ## TriangTime: 0.14753198623657227
+30% ## Iteration: 100 ## Frame: 107## Cloud: 2588.0 ## Retriangulated: 295 ## Updated: 0 ## PnpTime: 0.14100074768066406 ## TriangTime: 0.03699684143066406
+31% ## Iteration: 101 ## Frame: 92## Cloud: 2588.0 ## Retriangulated: 287 ## Updated: 0 ## PnpTime: 0.13699841499328613 ## TriangTime: 0.05200457572937012
+31% ## Iteration: 102 ## Frame: 106## Cloud: 2588.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.1340188980102539 ## TriangTime: 0.04498147964477539
+31% ## Iteration: 103 ## Frame: 93## Cloud: 2588.0 ## Retriangulated: 158 ## Updated: 6 ## PnpTime: 0.12998533248901367 ## TriangTime: 1.3955788612365723
+32% ## Iteration: 104 ## Frame: 105## Cloud: 2590.0 ## Retriangulated: 300 ## Updated: 22 ## PnpTime: 0.13299918174743652 ## TriangTime: 2.5250844955444336
+32% ## Iteration: 105 ## Frame: 91## Cloud: 2592.0 ## Retriangulated: 299 ## Updated: 19 ## PnpTime: 0.12200164794921875 ## TriangTime: 2.003634452819824
+32% ## Iteration: 106 ## Frame: 90## Cloud: 2592.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.12200093269348145 ## TriangTime: 0.822512149810791
+33% ## Iteration: 107 ## Frame: 89## Cloud: 2592.0 ## Retriangulated: 208 ## Updated: 10 ## PnpTime: 0.1080012321472168 ## TriangTime: 1.2060227394104004
+33% ## Iteration: 108 ## Frame: 88## Cloud: 2592.0 ## Retriangulated: 46 ## Updated: 3 ## PnpTime: 0.11097145080566406 ## TriangTime: 0.6469993591308594
+33% ## Iteration: 109 ## Frame: 87## Cloud: 2592.0 ## Retriangulated: 138 ## Updated: 5 ## PnpTime: 0.11400604248046875 ## TriangTime: 0.7309966087341309
+34% ## Iteration: 110 ## Frame: 86## Cloud: 2592.0 ## Retriangulated: 252 ## Updated: 5 ## PnpTime: 0.10101699829101562 ## TriangTime: 0.8709819316864014
+34% ## Iteration: 111 ## Frame: 196## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 0.10699892044067383 ## TriangTime: 1.7975184917449951
+34% ## Iteration: 112 ## Frame: 85## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.09400033950805664 ## TriangTime: 0.11099863052368164
+34% ## Iteration: 113 ## Frame: 78## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.09500312805175781 ## TriangTime: 0.036002159118652344
+35% ## Iteration: 114 ## Frame: 79## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.08704972267150879 ## TriangTime: 0.26997947692871094
+35% ## Iteration: 115 ## Frame: 80## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.08700013160705566 ## TriangTime: 0.3510308265686035
+35% ## Iteration: 116 ## Frame: 81## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.09000086784362793 ## TriangTime: 0.451000452041626
+36% ## Iteration: 117 ## Frame: 82## Cloud: 2595.0 ## Retriangulated: 290 ## Updated: 0 ## PnpTime: 0.08799886703491211 ## TriangTime: 0.3480031490325928
+36% ## Iteration: 118 ## Frame: 84## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.08800411224365234 ## TriangTime: 0.07399249076843262
+36% ## Iteration: 119 ## Frame: 77## Cloud: 2595.0 ## Retriangulated: 246 ## Updated: 0 ## PnpTime: 0.08099794387817383 ## TriangTime: 0.055999755859375
+37% ## Iteration: 120 ## Frame: 83## Cloud: 2595.0 ## Retriangulated: 142 ## Updated: 1 ## PnpTime: 0.08500933647155762 ## TriangTime: 0.0829918384552002
+37% ## Iteration: 121 ## Frame: 76## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.08700942993164062 ## TriangTime: 0.03098917007446289
+37% ## Iteration: 122 ## Frame: 75## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.08000469207763672 ## TriangTime: 0.03800630569458008
+38% ## Iteration: 123 ## Frame: 74## Cloud: 2595.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.07996702194213867 ## TriangTime: 0.060045719146728516
+38% ## Iteration: 124 ## Frame: 73## Cloud: 2609.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 0.08102989196777344 ## TriangTime: 0.07998180389404297
+38% ## Iteration: 125 ## Frame: 70## Cloud: 2643.0 ## Retriangulated: 300 ## Updated: 34 ## PnpTime: 0.08000063896179199 ## TriangTime: 0.14899992942810059
+39% ## Iteration: 126 ## Frame: 69## Cloud: 2665.0 ## Retriangulated: 142 ## Updated: 22 ## PnpTime: 0.07699942588806152 ## TriangTime: 0.18801498413085938
+39% ## Iteration: 127 ## Frame: 71## Cloud: 2665.0 ## Retriangulated: 10 ## Updated: 0 ## PnpTime: 0.07300138473510742 ## TriangTime: 0.0050013065338134766
+39% ## Iteration: 128 ## Frame: 72## Cloud: 2666.0 ## Retriangulated: 53 ## Updated: 1 ## PnpTime: 0.07501101493835449 ## TriangTime: 0.019994258880615234
+39% ## Iteration: 129 ## Frame: 68## Cloud: 2666.0 ## Retriangulated: 0 ## Updated: 0 ## PnpTime: 0.07700109481811523 ## TriangTime: 0.0
+40% ## Iteration: 130 ## Frame: 67## Cloud: 2666.0 ## Retriangulated: 12 ## Updated: 0 ## PnpTime: 0.07000088691711426 ## TriangTime: 0.0030007362365722656
+40% ## Iteration: 131 ## Frame: 66## Cloud: 2666.0 ## Retriangulated: 206 ## Updated: 0 ## PnpTime: 0.07300138473510742 ## TriangTime: 0.019998788833618164
+40% ## Iteration: 132 ## Frame: 65## Cloud: 2666.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.0749959945678711 ## TriangTime: 0.02599954605102539
+41% ## Iteration: 133 ## Frame: 64## Cloud: 2667.0 ## Retriangulated: 284 ## Updated: 1 ## PnpTime: 0.07199954986572266 ## TriangTime: 0.03000020980834961
+41% ## Iteration: 134 ## Frame: 62## Cloud: 2667.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.06500077247619629 ## TriangTime: 0.03499889373779297
+41% ## Iteration: 135 ## Frame: 197## Cloud: 2668.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 0.06703305244445801 ## TriangTime: 0.7239670753479004
+42% ## Iteration: 136 ## Frame: 63## Cloud: 2668.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.06400370597839355 ## TriangTime: 0.06103038787841797
+42% ## Iteration: 137 ## Frame: 46## Cloud: 2697.0 ## Retriangulated: 300 ## Updated: 29 ## PnpTime: 0.06100296974182129 ## TriangTime: 0.11599564552307129
+42% ## Iteration: 138 ## Frame: 45## Cloud: 2710.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 0.060019493103027344 ## TriangTime: 0.3399825096130371
+43% ## Iteration: 139 ## Frame: 47## Cloud: 2714.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 0.06099748611450195 ## TriangTime: 0.31400203704833984
+43% ## Iteration: 140 ## Frame: 49## Cloud: 2719.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 0.05800175666809082 ## TriangTime: 0.2259998321533203
+43% ## Iteration: 141 ## Frame: 50## Cloud: 2720.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.05898904800415039 ## TriangTime: 0.459991455078125
+43% ## Iteration: 142 ## Frame: 51## Cloud: 2722.0 ## Retriangulated: 236 ## Updated: 2 ## PnpTime: 0.06000065803527832 ## TriangTime: 0.28400611877441406
+44% ## Iteration: 143 ## Frame: 61## Cloud: 2736.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 0.1390092372894287 ## TriangTime: 0.12349987030029297
+44% ## Iteration: 144 ## Frame: 60## Cloud: 2740.0 ## Retriangulated: 281 ## Updated: 4 ## PnpTime: 0.06398606300354004 ## TriangTime: 0.3900010585784912
+44% ## Iteration: 145 ## Frame: 58## Cloud: 2740.0 ## Retriangulated: 11 ## Updated: 0 ## PnpTime: 0.057999372482299805 ## TriangTime: 0.0030031204223632812
+45% ## Iteration: 146 ## Frame: 59## Cloud: 2740.0 ## Retriangulated: 1 ## Updated: 0 ## PnpTime: 0.059999704360961914 ## TriangTime: 0.0010328292846679688
+45% ## Iteration: 147 ## Frame: 57## Cloud: 2740.0 ## Retriangulated: 28 ## Updated: 0 ## PnpTime: 0.0599665641784668 ## TriangTime: 0.014000654220581055
+45% ## Iteration: 148 ## Frame: 54## Cloud: 2740.0 ## Retriangulated: 190 ## Updated: 0 ## PnpTime: 0.05600285530090332 ## TriangTime: 0.029038190841674805
+46% ## Iteration: 149 ## Frame: 55## Cloud: 2740.0 ## Retriangulated: 103 ## Updated: 0 ## PnpTime: 0.05703115463256836 ## TriangTime: 0.014966249465942383
+46% ## Iteration: 150 ## Frame: 56## Cloud: 2740.0 ## Retriangulated: 62 ## Updated: 0 ## PnpTime: 0.05500149726867676 ## TriangTime: 0.010997772216796875
+46% ## Iteration: 151 ## Frame: 53## Cloud: 2740.0 ## Retriangulated: 59 ## Updated: 0 ## PnpTime: 0.055001258850097656 ## TriangTime: 0.008999109268188477
+47% ## Iteration: 152 ## Frame: 52## Cloud: 2740.0 ## Retriangulated: 32 ## Updated: 0 ## PnpTime: 0.0540006160736084 ## TriangTime: 0.00500035285949707
+47% ## Iteration: 153 ## Frame: 48## Cloud: 2740.0 ## Retriangulated: 48 ## Updated: 0 ## PnpTime: 0.049001455307006836 ## TriangTime: 0.01600050926208496
+47% ## Iteration: 154 ## Frame: 44## Cloud: 2740.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.047000885009765625 ## TriangTime: 0.31600165367126465
+47% ## Iteration: 155 ## Frame: 43## Cloud: 2740.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.04803633689880371 ## TriangTime: 0.21596741676330566
+48% ## Iteration: 156 ## Frame: 42## Cloud: 2740.0 ## Retriangulated: 162 ## Updated: 1 ## PnpTime: 0.04599952697753906 ## TriangTime: 0.6690030097961426
+48% ## Iteration: 157 ## Frame: 40## Cloud: 2740.0 ## Retriangulated: 160 ## Updated: 0 ## PnpTime: 0.045998334884643555 ## TriangTime: 0.14601874351501465
+48% ## Iteration: 158 ## Frame: 41## Cloud: 2740.0 ## Retriangulated: 35 ## Updated: 0 ## PnpTime: 0.0469975471496582 ## TriangTime: 0.17400002479553223
+49% ## Iteration: 159 ## Frame: 39## Cloud: 2740.0 ## Retriangulated: 220 ## Updated: 0 ## PnpTime: 0.04200124740600586 ## TriangTime: 0.16400456428527832
+49% ## Iteration: 160 ## Frame: 38## Cloud: 2740.0 ## Retriangulated: 84 ## Updated: 1 ## PnpTime: 0.04300117492675781 ## TriangTime: 0.29900217056274414
+49% ## Iteration: 161 ## Frame: 37## Cloud: 2740.0 ## Retriangulated: 129 ## Updated: 1 ## PnpTime: 0.04801821708679199 ## TriangTime: 0.41099119186401367
+50% ## Iteration: 162 ## Frame: 33## Cloud: 2740.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.040984153747558594 ## TriangTime: 0.03599977493286133
+50% ## Iteration: 163 ## Frame: 34## Cloud: 2740.0 ## Retriangulated: 207 ## Updated: 0 ## PnpTime: 0.04203510284423828 ## TriangTime: 0.23996973037719727
+50% ## Iteration: 164 ## Frame: 35## Cloud: 2742.0 ## Retriangulated: 40 ## Updated: 2 ## PnpTime: 0.040001630783081055 ## TriangTime: 0.29599618911743164
+51% ## Iteration: 165 ## Frame: 36## Cloud: 2744.0 ## Retriangulated: 31 ## Updated: 2 ## PnpTime: 0.038040876388549805 ## TriangTime: 0.15395832061767578
+51% ## Iteration: 166 ## Frame: 32## Cloud: 2744.0 ## Retriangulated: 43 ## Updated: 0 ## PnpTime: 0.03799939155578613 ## TriangTime: 0.11400151252746582
+51% ## Iteration: 167 ## Frame: 29## Cloud: 2746.0 ## Retriangulated: 32 ## Updated: 2 ## PnpTime: 0.03699827194213867 ## TriangTime: 0.1740281581878662
+52% ## Iteration: 168 ## Frame: 30## Cloud: 2747.0 ## Retriangulated: 29 ## Updated: 1 ## PnpTime: 0.03797101974487305 ## TriangTime: 0.13699650764465332
+52% ## Iteration: 169 ## Frame: 31## Cloud: 2747.0 ## Retriangulated: 2 ## Updated: 0 ## PnpTime: 0.04200243949890137 ## TriangTime: 0.0009992122650146484
+52% ## Iteration: 170 ## Frame: 28## Cloud: 2747.0 ## Retriangulated: 30 ## Updated: 0 ## PnpTime: 0.033002376556396484 ## TriangTime: 0.004029512405395508
+52% ## Iteration: 171 ## Frame: 26## Cloud: 2747.0 ## Retriangulated: 49 ## Updated: 0 ## PnpTime: 0.03299999237060547 ## TriangTime: 0.043001651763916016
+53% ## Iteration: 172 ## Frame: 27## Cloud: 2747.0 ## Retriangulated: 3 ## Updated: 0 ## PnpTime: 0.031002521514892578 ## TriangTime: 0.0010025501251220703
+53% ## Iteration: 173 ## Frame: 25## Cloud: 2747.0 ## Retriangulated: 4 ## Updated: 0 ## PnpTime: 0.03099989891052246 ## TriangTime: 0.0009996891021728516
+53% ## Iteration: 174 ## Frame: 23## Cloud: 2747.0 ## Retriangulated: 69 ## Updated: 0 ## PnpTime: 0.03101348876953125 ## TriangTime: 0.006985902786254883
+54% ## Iteration: 175 ## Frame: 24## Cloud: 2747.0 ## Retriangulated: 7 ## Updated: 0 ## PnpTime: 0.031001567840576172 ## TriangTime: 0.0009999275207519531
+54% ## Iteration: 176 ## Frame: 22## Cloud: 2747.0 ## Retriangulated: 5 ## Updated: 0 ## PnpTime: 0.028995752334594727 ## TriangTime: 0.015004873275756836
+54% ## Iteration: 177 ## Frame: 21## Cloud: 2747.0 ## Retriangulated: 285 ## Updated: 0 ## PnpTime: 0.029008150100708008 ## TriangTime: 0.018993139266967773
+55% ## Iteration: 178 ## Frame: 20## Cloud: 2747.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.02499842643737793 ## TriangTime: 0.023001670837402344
+55% ## Iteration: 179 ## Frame: 19## Cloud: 2747.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.02600264549255371 ## TriangTime: 0.032999515533447266
+55% ## Iteration: 180 ## Frame: 18## Cloud: 2747.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.023999452590942383 ## TriangTime: 0.03600025177001953
+56% ## Iteration: 181 ## Frame: 198## Cloud: 2747.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.02400040626525879 ## TriangTime: 0.26300692558288574
+56% ## Iteration: 182 ## Frame: 17## Cloud: 2747.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.020999670028686523 ## TriangTime: 0.031000375747680664
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+CANT UPDATE ANYTHING, LOWING THRESHOLDS!
+Failed to process all frames: 56.346749226006196% done
+Processed: 56.346749226006196
+Can't process frame: 0, take closest view from frame: 17
+Can't process frame: 1, take closest view from frame: 17
+Can't process frame: 2, take closest view from frame: 17
+Can't process frame: 3, take closest view from frame: 17
+Can't process frame: 4, take closest view from frame: 17
+Can't process frame: 5, take closest view from frame: 17
+Can't process frame: 6, take closest view from frame: 17
+Can't process frame: 7, take closest view from frame: 17
+Can't process frame: 8, take closest view from frame: 17
+Can't process frame: 9, take closest view from frame: 17
+Can't process frame: 10, take closest view from frame: 17
+Can't process frame: 11, take closest view from frame: 17
+Can't process frame: 12, take closest view from frame: 17
+Can't process frame: 13, take closest view from frame: 17
+Can't process frame: 14, take closest view from frame: 17
+Can't process frame: 15, take closest view from frame: 17
+Can't process frame: 16, take closest view from frame: 17
+Can't process frame: 199, take closest view from frame: 198
+Can't process frame: 200, take closest view from frame: 198
+Can't process frame: 201, take closest view from frame: 198
+Can't process frame: 202, take closest view from frame: 198
+Can't process frame: 203, take closest view from frame: 198
+Can't process frame: 204, take closest view from frame: 198
+Can't process frame: 205, take closest view from frame: 198
+Can't process frame: 206, take closest view from frame: 198
+Can't process frame: 207, take closest view from frame: 198
+Can't process frame: 208, take closest view from frame: 198
+Can't process frame: 209, take closest view from frame: 198
+Can't process frame: 210, take closest view from frame: 198
+Can't process frame: 211, take closest view from frame: 198
+Can't process frame: 212, take closest view from frame: 198
+Can't process frame: 213, take closest view from frame: 198
+Can't process frame: 214, take closest view from frame: 198
+Can't process frame: 215, take closest view from frame: 198
+Can't process frame: 216, take closest view from frame: 198
+Can't process frame: 217, take closest view from frame: 198
+Can't process frame: 218, take closest view from frame: 198
+Can't process frame: 219, take closest view from frame: 198
+Can't process frame: 220, take closest view from frame: 198
+Can't process frame: 221, take closest view from frame: 198
+Can't process frame: 222, take closest view from frame: 198
+Can't process frame: 223, take closest view from frame: 198
+Can't process frame: 224, take closest view from frame: 198
+Can't process frame: 225, take closest view from frame: 198
+Can't process frame: 226, take closest view from frame: 198
+Can't process frame: 227, take closest view from frame: 198
+Can't process frame: 228, take closest view from frame: 198
+Can't process frame: 229, take closest view from frame: 198
+Can't process frame: 230, take closest view from frame: 198
+Can't process frame: 231, take closest view from frame: 198
+Can't process frame: 232, take closest view from frame: 198
+Can't process frame: 233, take closest view from frame: 198
+Can't process frame: 234, take closest view from frame: 198
+Can't process frame: 235, take closest view from frame: 198
+Can't process frame: 236, take closest view from frame: 198
+Can't process frame: 237, take closest view from frame: 198
+Can't process frame: 238, take closest view from frame: 198
+Can't process frame: 239, take closest view from frame: 198
+Can't process frame: 240, take closest view from frame: 198
+Can't process frame: 241, take closest view from frame: 198
+Can't process frame: 242, take closest view from frame: 198
+Can't process frame: 243, take closest view from frame: 198
+Can't process frame: 244, take closest view from frame: 198
+Can't process frame: 245, take closest view from frame: 198
+Can't process frame: 246, take closest view from frame: 198
+Can't process frame: 247, take closest view from frame: 198
+Can't process frame: 248, take closest view from frame: 198
+Can't process frame: 249, take closest view from frame: 198
+Can't process frame: 250, take closest view from frame: 198
+Can't process frame: 251, take closest view from frame: 198
+Can't process frame: 252, take closest view from frame: 198
+Can't process frame: 253, take closest view from frame: 198
+Can't process frame: 254, take closest view from frame: 198
+Can't process frame: 255, take closest view from frame: 198
+Can't process frame: 256, take closest view from frame: 198
+Can't process frame: 257, take closest view from frame: 198
+Can't process frame: 258, take closest view from frame: 198
+Can't process frame: 259, take closest view from frame: 198
+Can't process frame: 260, take closest view from frame: 198
+Can't process frame: 261, take closest view from frame: 198
+Can't process frame: 262, take closest view from frame: 198
+Can't process frame: 263, take closest view from frame: 198
+Can't process frame: 264, take closest view from frame: 198
+Can't process frame: 265, take closest view from frame: 198
+Can't process frame: 266, take closest view from frame: 198
+Can't process frame: 267, take closest view from frame: 198
+Can't process frame: 268, take closest view from frame: 198
+Can't process frame: 269, take closest view from frame: 198
+Can't process frame: 270, take closest view from frame: 198
+Can't process frame: 271, take closest view from frame: 198
+Can't process frame: 272, take closest view from frame: 198
+Can't process frame: 273, take closest view from frame: 198
+Can't process frame: 274, take closest view from frame: 198
+Can't process frame: 275, take closest view from frame: 198
+Can't process frame: 276, take closest view from frame: 198
+Can't process frame: 277, take closest view from frame: 198
+Can't process frame: 278, take closest view from frame: 198
+Can't process frame: 279, take closest view from frame: 198
+Can't process frame: 280, take closest view from frame: 198
+Can't process frame: 281, take closest view from frame: 198
+Can't process frame: 282, take closest view from frame: 198
+Can't process frame: 283, take closest view from frame: 198
+Can't process frame: 284, take closest view from frame: 198
+Can't process frame: 285, take closest view from frame: 198
+Can't process frame: 286, take closest view from frame: 198
+Can't process frame: 287, take closest view from frame: 198
+Can't process frame: 288, take closest view from frame: 198
+Can't process frame: 289, take closest view from frame: 198
+Can't process frame: 290, take closest view from frame: 198
+Can't process frame: 291, take closest view from frame: 198
+Can't process frame: 292, take closest view from frame: 198
+Can't process frame: 293, take closest view from frame: 198
+Can't process frame: 294, take closest view from frame: 198
+Can't process frame: 295, take closest view from frame: 198
+Can't process frame: 296, take closest view from frame: 198
+Can't process frame: 297, take closest view from frame: 198
+Can't process frame: 298, take closest view from frame: 198
+Can't process frame: 299, take closest view from frame: 198
+Can't process frame: 300, take closest view from frame: 198
+Can't process frame: 301, take closest view from frame: 198
+Can't process frame: 302, take closest view from frame: 198
+Can't process frame: 303, take closest view from frame: 198
+Can't process frame: 304, take closest view from frame: 198
+Can't process frame: 305, take closest view from frame: 198
+Can't process frame: 306, take closest view from frame: 198
+Can't process frame: 307, take closest view from frame: 198
+Can't process frame: 308, take closest view from frame: 198
+Can't process frame: 309, take closest view from frame: 198
+Can't process frame: 310, take closest view from frame: 198
+Can't process frame: 311, take closest view from frame: 198
+Can't process frame: 312, take closest view from frame: 198
+Can't process frame: 313, take closest view from frame: 198
+Can't process frame: 314, take closest view from frame: 198
+Can't process frame: 315, take closest view from frame: 198
+Can't process frame: 316, take closest view from frame: 198
+Can't process frame: 317, take closest view from frame: 198
+Can't process frame: 318, take closest view from frame: 198
+Can't process frame: 319, take closest view from frame: 198
+Can't process frame: 320, take closest view from frame: 198
+Can't process frame: 321, take closest view from frame: 198
+Can't process frame: 322, take closest view from frame: 198
