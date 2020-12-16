@@ -63,11 +63,11 @@ def read_config(config_path):
 
 
 def _run_and_save_logs(stdout_path, stderr_path, func, *args, **kwargs):
-    #with open(stdout_path, 'w') as stdout_file:
-    #    with open(stderr_path, 'w') as stderr_file:
-    #        with contextlib.redirect_stdout(stdout_file):
-    #            with contextlib.redirect_stderr(stderr_file):
-    result = func(*args, **kwargs)
+    with open(stdout_path, 'w') as stdout_file:
+        with open(stderr_path, 'w') as stderr_file:
+            with contextlib.redirect_stdout(stdout_file):
+                with contextlib.redirect_stderr(stderr_file):
+                    result = func(*args, **kwargs)
     return result
 
 

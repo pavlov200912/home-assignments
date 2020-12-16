@@ -91,7 +91,7 @@ class HyperParams:
     RETRIANGULATION_FRAME_COUNT_LIMIT = 25
     RETRIANGULATION_RANSAC_ITERATIONS = 3
     RETRIANGULATION_RANSAC_REPROJECTION_ERROR = 1.5
-    SHORT_THRESHOLD = 1  # Nice for usage when > 1, but ironman test bans this feature =((((
+    SHORT_THRESHOLD = 5  # Nice for usage when > 1, but ironman test bans this feature =((((
 
     @staticmethod
     def rebuild():
@@ -141,29 +141,35 @@ def calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params)
     pairs_to_check = 500
 
     top_pairs_stats = []
+    EH_threshold = 2.0
+    best_t_frame1, best_t_frame2 = -1, -1
+    best_t_len = -1
+    best_t_cam = None
     for frame1, frame2, _, _ in top_pairs[:pairs_to_check]:
         corrs = build_correspondences(corner_storage[frame1], corner_storage[frame2])
         assert len(corrs.ids) >= 5  # Otherwise, can't solve with cv2
 
         essential_mat, essential_inliers = cv2.findEssentialMat(corrs.points_1, corrs.points_2, intrinsic_mat,
                                                                 method=cv2.RANSAC,
-                                                                prob=0.995,
+                                                                prob=0.999,
                                                                 threshold=1.0)
 
-        _, homography_inliers = cv2.findHomography(corrs.points_1, corrs.points_2,
-                                                   method=cv2.RANSAC,
-                                                   confidence=0.995,
-                                                   ransacReprojThreshold=HyperParams.RANSAC_REPROJECTION_ERROR)
+        if essential_mat is None or essential_inliers is None:
+            continue
 
         ids_to_remove = np.where(essential_inliers == 0)[0]
 
         corrs = build_correspondences(corner_storage[frame1], corner_storage[frame2],
                                       ids_to_remove=ids_to_remove.astype(np.int32))
 
+        _, homography_inliers = cv2.findHomography(corrs.points_1, corrs.points_2,
+                                                   method=cv2.RANSAC,
+                                                   confidence=0.999,
+                                                   ransacReprojThreshold=HyperParams.RANSAC_REPROJECTION_ERROR)
+
         _, R, t, triangulated_inliers = cv2.recoverPose(essential_mat, corrs.points_1, corrs.points_2, intrinsic_mat)
 
-        # print(f"DEBUG: {frame1}:{frame2} corrs: {len(corrs.ids)} E_I:{np.count_nonzero(essential_inliers)} H_I: {np.count_nonzero(homography_inliers)} "
-        #       f"R: {np.count_nonzero(essential_inliers) / np.count_nonzero(homography_inliers)} T_I:{np.count_nonzero(triangulated_inliers)}")
+
 
         points, ids, _ = triangulate_correspondences(corrs,
                                                      eye3x4(),
@@ -172,22 +178,43 @@ def calculate_initial_views(corner_storage, intrinsic_mat, triangulation_params)
                                                      triangulation_params)
 
         triangulated_len = len(ids)
-        # if scaler(triangulated_len) > best_pair_triangulated_len:
-        #    result_frame_1, result_frame_2 = frame1, frame2
-        #    best_pair_triangulated_len = scaler(triangulated_len)
-        #    result_camera_pos = np.hstack((R, t))
-        top_pairs_stats.append(((frame1, frame2),
-                                triangulated_len,
-                                np.count_nonzero(essential_inliers) / (np.count_nonzero(homography_inliers) + 1),
-                                np.count_nonzero(triangulated_inliers),
-                                np.count_nonzero(essential_inliers),
-                                np.hstack((R, t))
-                                ))
 
-    top_pairs_stats = list(sorted(top_pairs_stats, key=lambda x: (x[1], x[2], x[3], x[4]), reverse=True))
-    best_pair_triangulated_len = top_pairs_stats[0][1]
-    result_frame_1, result_frame_2 = top_pairs_stats[0][0]
-    result_camera_pos = top_pairs_stats[0][-1]
+        print(
+            f"DEBUG: {frame1}:{frame2} corrs: {len(corrs.ids)} E_I:{np.count_nonzero(essential_inliers)} H_I: {np.count_nonzero(homography_inliers)} "
+            f"R: {int(np.count_nonzero(essential_inliers) / (np.count_nonzero(homography_inliers) + 1))} T:{triangulated_len//20}")
+
+        if np.count_nonzero(essential_inliers) / (np.count_nonzero(homography_inliers) + 1) > EH_threshold:
+            top_pairs_stats.append(((frame1, frame2),
+                                    scaler(triangulated_len),
+                                    np.count_nonzero(triangulated_inliers),
+                                    np.count_nonzero(essential_inliers),
+                                    np.hstack((R, t))
+                                    ))
+
+
+
+        # Best frame by triangulation len used, if there is no good E/H frames
+        if scaler(triangulated_len) > best_t_len:
+           best_t_frame1, best_t_frame2 = frame1, frame2
+           best_t_len = scaler(triangulated_len)
+           best_t_cam = np.hstack((R, t))
+
+
+    if len(top_pairs_stats) > 0:
+        top_pairs_stats = list(sorted(top_pairs_stats, key=lambda x: (x[1], x[2], x[3]), reverse=True))
+        best_pair_triangulated_len = top_pairs_stats[0][1]
+        result_frame_1, result_frame_2 = top_pairs_stats[0][0]
+        result_camera_pos = top_pairs_stats[0][-1]
+    elif best_t_cam is not None:
+        print("Zero frames with EH value > threshold found, using best triangulation len")
+        best_pair_triangulated_len = best_t_len
+        result_frame_1, result_frame_2 = best_t_frame1, best_t_frame2
+        result_camera_pos = best_t_cam
+    else:
+        print("Can't find any essential matrix at all! Using eye3x4")
+        best_pair_triangulated_len = 0
+        result_frame_1, result_frame_2 = 0, 10
+        result_camera_pos = view_mat3x4_to_pose(eye3x4())
 
     print(f"Best triangulated result: {best_pair_triangulated_len}")
     return (result_frame_1, view_mat3x4_to_pose(eye3x4())), (result_frame_2, view_mat3x4_to_pose(result_camera_pos))
@@ -367,8 +394,8 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
         rgb_sequence[0].shape[0]
     )
     triangulation_params = TriangulationParameters(
-        max_reprojection_error=2,
-        min_triangulation_angle_deg=1,
+        max_reprojection_error=2.0,
+        min_triangulation_angle_deg=1.0,
         min_depth=0.1
     )
 
@@ -394,7 +421,6 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
                                   corner_storage[frame2])
     points = []
     while True:
-        print("Can't perform initial retriangulation. Updating params.")
         # print(len(points), triangulation_params)
         points, ids, median_cos = triangulate_correspondences(corrs,
                                                               pose_to_view_mat3x4(pose1),
@@ -404,6 +430,7 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
 
         if len(points) > 10:
             break
+        print("Can't perform initial retriangulation. Updating params.")
         triangulation_params = TriangulationParameters(
             triangulation_params.max_reprojection_error * 2,
             triangulation_params.min_triangulation_angle_deg * 0.5,

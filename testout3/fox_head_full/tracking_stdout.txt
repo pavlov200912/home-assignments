@@ -1,0 +1,1847 @@
+Finding best frames
+DEBUG: 463:474 corrs: 8003 E_I:7886 H_I: 7905 R: 0 T:0
+DEBUG: 458:468 corrs: 8032 E_I:7874 H_I: 7770 R: 1 T:0
+DEBUG: 459:469 corrs: 8000 E_I:7914 H_I: 7241 R: 1 T:0
+DEBUG: 462:472 corrs: 8002 E_I:7930 H_I: 7957 R: 0 T:0
+DEBUG: 463:473 corrs: 8015 E_I:7941 H_I: 7994 R: 0 T:0
+DEBUG: 464:474 corrs: 8021 E_I:7924 H_I: 7977 R: 0 T:0
+DEBUG: 465:475 corrs: 8004 E_I:7930 H_I: 7963 R: 0 T:0
+DEBUG: 466:476 corrs: 8005 E_I:7926 H_I: 7974 R: 0 T:0
+DEBUG: 459:476 corrs: 7894 E_I:7772 H_I: 7307 R: 1 T:0
+DEBUG: 460:477 corrs: 7898 E_I:7784 H_I: 7844 R: 0 T:0
+DEBUG: 458:474 corrs: 7903 E_I:7765 H_I: 7777 R: 0 T:0
+DEBUG: 459:475 corrs: 7907 E_I:7797 H_I: 7463 R: 1 T:0
+DEBUG: 460:476 corrs: 7907 E_I:7795 H_I: 7863 R: 0 T:0
+DEBUG: 461:477 corrs: 7915 E_I:7754 H_I: 7871 R: 0 T:0
+DEBUG: 453:468 corrs: 7903 E_I:7702 H_I: 7781 R: 0 T:0
+DEBUG: 458:473 corrs: 7910 E_I:7783 H_I: 7787 R: 0 T:0
+DEBUG: 459:474 corrs: 7924 E_I:7813 H_I: 7521 R: 1 T:0
+DEBUG: 460:475 corrs: 7920 E_I:7818 H_I: 7789 R: 1 T:0
+DEBUG: 461:476 corrs: 7928 E_I:7816 H_I: 7891 R: 0 T:0
+DEBUG: 462:477 corrs: 7921 E_I:7777 H_I: 7010 R: 1 T:0
+DEBUG: 449:463 corrs: 7907 E_I:7764 H_I: 7852 R: 0 T:0
+DEBUG: 450:464 corrs: 7892 E_I:7577 H_I: 7514 R: 1 T:0
+DEBUG: 452:466 corrs: 7904 E_I:7749 H_I: 7334 R: 1 T:0
+DEBUG: 453:467 corrs: 7915 E_I:7765 H_I: 7762 R: 1 T:0
+DEBUG: 454:468 corrs: 7919 E_I:7754 H_I: 7845 R: 0 T:0
+DEBUG: 458:472 corrs: 7919 E_I:7801 H_I: 7894 R: 0 T:0
+DEBUG: 459:473 corrs: 7935 E_I:7824 H_I: 7903 R: 0 T:0
+DEBUG: 460:474 corrs: 7931 E_I:7807 H_I: 7893 R: 0 T:0
+DEBUG: 461:475 corrs: 7935 E_I:7841 H_I: 7905 R: 0 T:0
+DEBUG: 462:476 corrs: 7939 E_I:7825 H_I: 7848 R: 0 T:0
+DEBUG: 463:477 corrs: 7948 E_I:7851 H_I: 7909 R: 0 T:0
+DEBUG: 448:461 corrs: 7898 E_I:7706 H_I: 7812 R: 0 T:0
+DEBUG: 449:462 corrs: 7914 E_I:7736 H_I: 7821 R: 0 T:0
+DEBUG: 450:463 corrs: 7916 E_I:7756 H_I: 7786 R: 0 T:0
+DEBUG: 451:464 corrs: 7900 E_I:7614 H_I: 7729 R: 0 T:0
+DEBUG: 452:465 corrs: 7895 E_I:7646 H_I: 7818 R: 0 T:0
+DEBUG: 453:466 corrs: 7928 E_I:7818 H_I: 7826 R: 0 T:0
+DEBUG: 454:467 corrs: 7929 E_I:7759 H_I: 7837 R: 0 T:0
+DEBUG: 455:468 corrs: 7929 E_I:7772 H_I: 7803 R: 0 T:0
+DEBUG: 456:469 corrs: 7898 E_I:7773 H_I: 7850 R: 0 T:0
+DEBUG: 457:470 corrs: 7897 E_I:7783 H_I: 7871 R: 0 T:0
+DEBUG: 458:471 corrs: 7922 E_I:7807 H_I: 7682 R: 1 T:0
+DEBUG: 459:472 corrs: 7941 E_I:7830 H_I: 7735 R: 1 T:0
+DEBUG: 460:473 corrs: 7946 E_I:7844 H_I: 7912 R: 0 T:0
+DEBUG: 461:474 corrs: 7957 E_I:7858 H_I: 7906 R: 0 T:0
+DEBUG: 462:475 corrs: 7951 E_I:7868 H_I: 7930 R: 0 T:0
+DEBUG: 463:476 corrs: 7960 E_I:7853 H_I: 7917 R: 0 T:0
+DEBUG: 464:477 corrs: 7961 E_I:7830 H_I: 7926 R: 0 T:0
+DEBUG: 447:459 corrs: 7904 E_I:7786 H_I: 7874 R: 0 T:0
+DEBUG: 448:460 corrs: 7914 E_I:7728 H_I: 7825 R: 0 T:0
+DEBUG: 449:461 corrs: 7920 E_I:7743 H_I: 7878 R: 0 T:0
+DEBUG: 450:462 corrs: 7925 E_I:7768 H_I: 7732 R: 1 T:0
+DEBUG: 451:463 corrs: 7927 E_I:7819 H_I: 7849 R: 0 T:0
+DEBUG: 452:464 corrs: 7923 E_I:7778 H_I: 7860 R: 0 T:0
+DEBUG: 453:465 corrs: 7932 E_I:7797 H_I: 7819 R: 0 T:0
+DEBUG: 454:466 corrs: 7942 E_I:7816 H_I: 7907 R: 0 T:0
+DEBUG: 455:467 corrs: 7945 E_I:7804 H_I: 7882 R: 0 T:0
+DEBUG: 456:468 corrs: 7943 E_I:7816 H_I: 7916 R: 0 T:0
+DEBUG: 457:469 corrs: 7919 E_I:7832 H_I: 7811 R: 1 T:0
+DEBUG: 458:470 corrs: 7942 E_I:7842 H_I: 7905 R: 0 T:0
+DEBUG: 459:471 corrs: 7944 E_I:7739 H_I: 7890 R: 0 T:0
+DEBUG: 460:472 corrs: 7957 E_I:7865 H_I: 7929 R: 0 T:0
+DEBUG: 461:473 corrs: 7968 E_I:7823 H_I: 7941 R: 0 T:0
+DEBUG: 462:474 corrs: 7977 E_I:7886 H_I: 7940 R: 0 T:0
+DEBUG: 463:475 corrs: 7977 E_I:7891 H_I: 7953 R: 0 T:0
+DEBUG: 464:476 corrs: 7978 E_I:7884 H_I: 6684 R: 1 T:0
+DEBUG: 465:477 corrs: 7973 E_I:7858 H_I: 7754 R: 1 T:0
+DEBUG: 445:456 corrs: 7919 E_I:7833 H_I: 7869 R: 0 T:0
+DEBUG: 446:457 corrs: 7898 E_I:7802 H_I: 7832 R: 0 T:0
+DEBUG: 447:458 corrs: 7926 E_I:7801 H_I: 7885 R: 0 T:0
+DEBUG: 448:459 corrs: 7933 E_I:7789 H_I: 7767 R: 1 T:0
+DEBUG: 449:460 corrs: 7938 E_I:7809 H_I: 7899 R: 0 T:0
+DEBUG: 450:461 corrs: 7934 E_I:7776 H_I: 7879 R: 0 T:0
+DEBUG: 451:462 corrs: 7936 E_I:7804 H_I: 7008 R: 1 T:0
+DEBUG: 452:463 corrs: 7941 E_I:7831 H_I: 7828 R: 1 T:0
+DEBUG: 453:464 corrs: 7945 E_I:7802 H_I: 7900 R: 0 T:0
+DEBUG: 454:465 corrs: 7950 E_I:7825 H_I: 7912 R: 0 T:0
+DEBUG: 455:466 corrs: 7958 E_I:7841 H_I: 7574 R: 1 T:0
+DEBUG: 456:467 corrs: 7958 E_I:7867 H_I: 7914 R: 0 T:0
+DEBUG: 457:468 corrs: 7966 E_I:7878 H_I: 7941 R: 0 T:0
+DEBUG: 458:469 corrs: 7967 E_I:7870 H_I: 7921 R: 0 T:0
+DEBUG: 459:470 corrs: 7975 E_I:7883 H_I: 7824 R: 1 T:0
+DEBUG: 460:471 corrs: 7966 E_I:7869 H_I: 7846 R: 1 T:0
+DEBUG: 461:472 corrs: 7986 E_I:7890 H_I: 7955 R: 0 T:0
+DEBUG: 462:473 corrs: 7988 E_I:7889 H_I: 7965 R: 0 T:0
+DEBUG: 464:475 corrs: 7996 E_I:7899 H_I: 7963 R: 0 T:0
+DEBUG: 465:476 corrs: 7988 E_I:7893 H_I: 7951 R: 0 T:0
+DEBUG: 466:477 corrs: 7991 E_I:7909 H_I: 7933 R: 0 T:0
+DEBUG: 445:455 corrs: 7941 E_I:7857 H_I: 7910 R: 0 T:0
+DEBUG: 446:456 corrs: 7967 E_I:7886 H_I: 7933 R: 0 T:0
+DEBUG: 447:457 corrs: 7964 E_I:7872 H_I: 7938 R: 0 T:0
+DEBUG: 448:458 corrs: 7963 E_I:7874 H_I: 7928 R: 0 T:0
+DEBUG: 449:459 corrs: 7956 E_I:7868 H_I: 7920 R: 0 T:0
+DEBUG: 450:460 corrs: 7952 E_I:7833 H_I: 7874 R: 0 T:0
+DEBUG: 451:461 corrs: 7940 E_I:7812 H_I: 6937 R: 1 T:0
+DEBUG: 452:462 corrs: 7952 E_I:7793 H_I: 7755 R: 1 T:0
+DEBUG: 453:463 corrs: 7968 E_I:7862 H_I: 7913 R: 0 T:0
+DEBUG: 454:464 corrs: 7964 E_I:7815 H_I: 6624 R: 1 T:0
+DEBUG: 455:465 corrs: 7961 E_I:7865 H_I: 7908 R: 0 T:0
+DEBUG: 456:466 corrs: 7970 E_I:7897 H_I: 7900 R: 0 T:0
+DEBUG: 457:467 corrs: 7982 E_I:7887 H_I: 7902 R: 0 T:0
+DEBUG: 460:470 corrs: 7990 E_I:7900 H_I: 7823 R: 1 T:0
+DEBUG: 461:471 corrs: 7994 E_I:7915 H_I: 7967 R: 0 T:0
+DEBUG: 467:477 corrs: 7996 E_I:7902 H_I: 7974 R: 0 T:0
+DEBUG: 454:477 corrs: 7796 E_I:7579 H_I: 6810 R: 1 T:0
+DEBUG: 450:472 corrs: 7792 E_I:7583 H_I: 7086 R: 1 T:0
+DEBUG: 451:473 corrs: 7792 E_I:7565 H_I: 7444 R: 1 T:0
+DEBUG: 452:474 corrs: 7804 E_I:7600 H_I: 7700 R: 0 T:0
+DEBUG: 453:475 corrs: 7800 E_I:7563 H_I: 7714 R: 0 T:0
+DEBUG: 454:476 corrs: 7803 E_I:7594 H_I: 7611 R: 0 T:0
+DEBUG: 455:477 corrs: 7804 E_I:7573 H_I: 6875 R: 1 T:0
+DEBUG: 447:468 corrs: 7811 E_I:7638 H_I: 7528 R: 1 T:0
+DEBUG: 448:469 corrs: 7798 E_I:7596 H_I: 7227 R: 1 T:0
+DEBUG: 449:470 corrs: 7795 E_I:7584 H_I: 7672 R: 0 T:0
+DEBUG: 450:471 corrs: 7792 E_I:7581 H_I: 7680 R: 0 T:0
+DEBUG: 451:472 corrs: 7799 E_I:7577 H_I: 7692 R: 0 T:0
+DEBUG: 452:473 corrs: 7810 E_I:7610 H_I: 7716 R: 0 T:0
+DEBUG: 453:474 corrs: 7821 E_I:7600 H_I: 7601 R: 0 T:0
+DEBUG: 454:475 corrs: 7810 E_I:7643 H_I: 7118 R: 1 T:0
+DEBUG: 455:476 corrs: 7814 E_I:7601 H_I: 7747 R: 0 T:0
+DEBUG: 456:477 corrs: 7813 E_I:7647 H_I: 7530 R: 1 T:0
+DEBUG: 447:467 corrs: 7821 E_I:7589 H_I: 7633 R: 0 T:0
+DEBUG: 448:468 corrs: 7833 E_I:7674 H_I: 7382 R: 1 T:0
+DEBUG: 449:469 corrs: 7815 E_I:7624 H_I: 7716 R: 0 T:0
+DEBUG: 450:470 corrs: 7806 E_I:7620 H_I: 7001 R: 1 T:0
+DEBUG: 451:471 corrs: 7801 E_I:7601 H_I: 7700 R: 0 T:0
+DEBUG: 452:472 corrs: 7815 E_I:7621 H_I: 7646 R: 0 T:0
+DEBUG: 453:473 corrs: 7825 E_I:7663 H_I: 7018 R: 1 T:0
+DEBUG: 454:474 corrs: 7833 E_I:7645 H_I: 7754 R: 0 T:0
+DEBUG: 455:475 corrs: 7824 E_I:7631 H_I: 6495 R: 1 T:0
+DEBUG: 456:476 corrs: 7820 E_I:7638 H_I: 7759 R: 0 T:0
+DEBUG: 457:477 corrs: 7826 E_I:7663 H_I: 7378 R: 1 T:0
+DEBUG: 447:466 corrs: 7828 E_I:7659 H_I: 7041 R: 1 T:0
+DEBUG: 448:467 corrs: 7839 E_I:7608 H_I: 7677 R: 0 T:0
+DEBUG: 449:468 corrs: 7853 E_I:7674 H_I: 7340 R: 1 T:0
+DEBUG: 450:469 corrs: 7826 E_I:7668 H_I: 7282 R: 1 T:0
+DEBUG: 451:470 corrs: 7813 E_I:7620 H_I: 7576 R: 1 T:0
+DEBUG: 452:471 corrs: 7815 E_I:7615 H_I: 7735 R: 0 T:0
+DEBUG: 453:472 corrs: 7827 E_I:7627 H_I: 7339 R: 1 T:0
+DEBUG: 454:473 corrs: 7834 E_I:7603 H_I: 7761 R: 0 T:0
+DEBUG: 455:474 corrs: 7842 E_I:7671 H_I: 7788 R: 0 T:0
+DEBUG: 456:475 corrs: 7831 E_I:7630 H_I: 7778 R: 0 T:0
+DEBUG: 457:476 corrs: 7838 E_I:7681 H_I: 7789 R: 0 T:0
+DEBUG: 458:477 corrs: 7860 E_I:7705 H_I: 7614 R: 1 T:0
+DEBUG: 446:464 corrs: 7800 E_I:7578 H_I: 7199 R: 1 T:0
+DEBUG: 447:465 corrs: 7828 E_I:7638 H_I: 7618 R: 1 T:0
+DEBUG: 448:466 corrs: 7850 E_I:7688 H_I: 7750 R: 0 T:0
+DEBUG: 449:467 corrs: 7863 E_I:7694 H_I: 7486 R: 1 T:0
+DEBUG: 450:468 corrs: 7861 E_I:7673 H_I: 7094 R: 1 T:0
+DEBUG: 451:469 corrs: 7834 E_I:7666 H_I: 7507 R: 1 T:0
+DEBUG: 452:470 corrs: 7831 E_I:7668 H_I: 7643 R: 1 T:0
+DEBUG: 453:471 corrs: 7833 E_I:7652 H_I: 7411 R: 1 T:0
+DEBUG: 454:472 corrs: 7840 E_I:7639 H_I: 7350 R: 1 T:0
+DEBUG: 455:473 corrs: 7843 E_I:7647 H_I: 7782 R: 0 T:0
+DEBUG: 456:474 corrs: 7847 E_I:7689 H_I: 7308 R: 1 T:0
+DEBUG: 457:475 corrs: 7850 E_I:7712 H_I: 6618 R: 1 T:0
+DEBUG: 458:476 corrs: 7871 E_I:7633 H_I: 7732 R: 0 T:0
+DEBUG: 459:477 corrs: 7883 E_I:7702 H_I: 7506 R: 1 T:0
+DEBUG: 446:463 corrs: 7807 E_I:7599 H_I: 7630 R: 0 T:0
+DEBUG: 447:464 corrs: 7836 E_I:7600 H_I: 7749 R: 0 T:0
+DEBUG: 448:465 corrs: 7854 E_I:7704 H_I: 7483 R: 1 T:0
+DEBUG: 449:466 corrs: 7869 E_I:7647 H_I: 7801 R: 0 T:0
+DEBUG: 450:467 corrs: 7874 E_I:7690 H_I: 7783 R: 0 T:0
+DEBUG: 451:468 corrs: 7870 E_I:7713 H_I: 7608 R: 1 T:0
+DEBUG: 452:469 corrs: 7845 E_I:7647 H_I: 6915 R: 1 T:0
+DEBUG: 453:470 corrs: 7842 E_I:7649 H_I: 7501 R: 1 T:0
+DEBUG: 454:471 corrs: 7847 E_I:7693 H_I: 7785 R: 0 T:0
+DEBUG: 455:472 corrs: 7853 E_I:7672 H_I: 7785 R: 0 T:0
+DEBUG: 456:473 corrs: 7855 E_I:7698 H_I: 7724 R: 0 T:0
+DEBUG: 457:474 corrs: 7866 E_I:7703 H_I: 7818 R: 0 T:0
+DEBUG: 458:475 corrs: 7881 E_I:7720 H_I: 7833 R: 0 T:0
+DEBUG: 446:462 corrs: 7823 E_I:7674 H_I: 7476 R: 1 T:0
+DEBUG: 447:463 corrs: 7857 E_I:7646 H_I: 7795 R: 0 T:0
+DEBUG: 448:464 corrs: 7866 E_I:7661 H_I: 7394 R: 1 T:0
+DEBUG: 449:465 corrs: 7870 E_I:7683 H_I: 7754 R: 0 T:0
+DEBUG: 450:466 corrs: 7880 E_I:7696 H_I: 7805 R: 0 T:0
+DEBUG: 451:467 corrs: 7879 E_I:7729 H_I: 7791 R: 0 T:0
+DEBUG: 452:468 corrs: 7884 E_I:7724 H_I: 7815 R: 0 T:0
+DEBUG: 453:469 corrs: 7865 E_I:7727 H_I: 7283 R: 1 T:0
+DEBUG: 454:470 corrs: 7848 E_I:7635 H_I: 7414 R: 1 T:0
+DEBUG: 455:471 corrs: 7857 E_I:7685 H_I: 7753 R: 0 T:0
+DEBUG: 456:472 corrs: 7864 E_I:7713 H_I: 7585 R: 1 T:0
+DEBUG: 457:473 corrs: 7871 E_I:7749 H_I: 7704 R: 1 T:0
+DEBUG: 445:460 corrs: 7801 E_I:7638 H_I: 7578 R: 1 T:0
+DEBUG: 446:461 corrs: 7827 E_I:7669 H_I: 7195 R: 1 T:0
+DEBUG: 447:462 corrs: 7858 E_I:7649 H_I: 7789 R: 0 T:0
+DEBUG: 448:463 corrs: 7876 E_I:7705 H_I: 7771 R: 0 T:0
+DEBUG: 449:464 corrs: 7884 E_I:7671 H_I: 7818 R: 0 T:0
+DEBUG: 450:465 corrs: 7883 E_I:7725 H_I: 7710 R: 1 T:0
+DEBUG: 451:466 corrs: 7884 E_I:7695 H_I: 7750 R: 0 T:0
+DEBUG: 452:467 corrs: 7890 E_I:7550 H_I: 7068 R: 1 T:0
+DEBUG: 454:469 corrs: 7876 E_I:7708 H_I: 7722 R: 0 T:0
+DEBUG: 455:470 corrs: 7868 E_I:7724 H_I: 7191 R: 1 T:0
+DEBUG: 456:471 corrs: 7867 E_I:7705 H_I: 6644 R: 1 T:0
+DEBUG: 457:472 corrs: 7880 E_I:7750 H_I: 7857 R: 0 T:0
+DEBUG: 445:459 corrs: 7816 E_I:7696 H_I: 7752 R: 0 T:0
+DEBUG: 446:460 corrs: 7842 E_I:7701 H_I: 7799 R: 0 T:0
+DEBUG: 447:461 corrs: 7871 E_I:7708 H_I: 7655 R: 1 T:0
+DEBUG: 448:462 corrs: 7895 E_I:7729 H_I: 7740 R: 0 T:0
+DEBUG: 451:465 corrs: 7889 E_I:7709 H_I: 7824 R: 0 T:0
+DEBUG: 455:469 corrs: 7889 E_I:7762 H_I: 7480 R: 1 T:0
+DEBUG: 456:470 corrs: 7873 E_I:7685 H_I: 7385 R: 1 T:0
+DEBUG: 457:471 corrs: 7881 E_I:7733 H_I: 7819 R: 0 T:0
+DEBUG: 444:457 corrs: 7803 E_I:7700 H_I: 7760 R: 0 T:0
+DEBUG: 445:458 corrs: 7833 E_I:7695 H_I: 7777 R: 0 T:0
+DEBUG: 446:459 corrs: 7851 E_I:7727 H_I: 7128 R: 1 T:0
+DEBUG: 447:460 corrs: 7889 E_I:7778 H_I: 7294 R: 1 T:0
+DEBUG: 444:456 corrs: 7853 E_I:7764 H_I: 7832 R: 0 T:0
+DEBUG: 445:457 corrs: 7860 E_I:7713 H_I: 7661 R: 1 T:0
+DEBUG: 446:458 corrs: 7868 E_I:7761 H_I: 7829 R: 0 T:0
+DEBUG: 444:455 corrs: 7871 E_I:7783 H_I: 7818 R: 0 T:0
+DEBUG: 444:454 corrs: 7887 E_I:7779 H_I: 7816 R: 0 T:0
+DEBUG: 445:470 corrs: 7696 E_I:7464 H_I: 7565 R: 0 T:0
+DEBUG: 446:471 corrs: 7716 E_I:7498 H_I: 7599 R: 0 T:0
+DEBUG: 447:472 corrs: 7744 E_I:7513 H_I: 7542 R: 0 T:0
+DEBUG: 448:473 corrs: 7761 E_I:7544 H_I: 7377 R: 1 T:0
+DEBUG: 449:474 corrs: 7777 E_I:7524 H_I: 7563 R: 0 T:0
+DEBUG: 450:475 corrs: 7760 E_I:7488 H_I: 7073 R: 1 T:0
+DEBUG: 451:476 corrs: 7764 E_I:7509 H_I: 7558 R: 0 T:0
+DEBUG: 452:477 corrs: 7766 E_I:7419 H_I: 7593 R: 0 T:0
+DEBUG: 444:468 corrs: 7696 E_I:7481 H_I: 7457 R: 1 T:0
+DEBUG: 445:469 corrs: 7714 E_I:7472 H_I: 7554 R: 0 T:0
+DEBUG: 446:470 corrs: 7723 E_I:7457 H_I: 7570 R: 0 T:0
+DEBUG: 447:471 corrs: 7746 E_I:7519 H_I: 7455 R: 1 T:0
+DEBUG: 448:472 corrs: 7766 E_I:7532 H_I: 7665 R: 0 T:0
+DEBUG: 449:473 corrs: 7772 E_I:7536 H_I: 7583 R: 0 T:0
+DEBUG: 450:474 corrs: 7778 E_I:7513 H_I: 7564 R: 0 T:0
+DEBUG: 451:475 corrs: 7768 E_I:7519 H_I: 7561 R: 0 T:0
+DEBUG: 452:476 corrs: 7780 E_I:7550 H_I: 7362 R: 1 T:0
+DEBUG: 453:477 corrs: 7773 E_I:7499 H_I: 7664 R: 0 T:0
+DEBUG: 444:467 corrs: 7708 E_I:7510 H_I: 7373 R: 1 T:0
+DEBUG: 445:468 corrs: 7742 E_I:7497 H_I: 7468 R: 1 T:0
+DEBUG: 446:469 corrs: 7737 E_I:7527 H_I: 7392 R: 1 T:0
+DEBUG: 447:470 corrs: 7763 E_I:7589 H_I: 7668 R: 0 T:0
+DEBUG: 448:471 corrs: 7760 E_I:7491 H_I: 6531 R: 1 T:0
+DEBUG: 449:472 corrs: 7773 E_I:7437 H_I: 7674 R: 0 T:0
+DEBUG: 450:473 corrs: 7781 E_I:7528 H_I: 7661 R: 0 T:0
+DEBUG: 451:474 corrs: 7789 E_I:7549 H_I: 7147 R: 1 T:0
+DEBUG: 452:475 corrs: 7785 E_I:7584 H_I: 7639 R: 0 T:0
+DEBUG: 453:476 corrs: 7792 E_I:7592 H_I: 7471 R: 1 T:0
+DEBUG: 444:466 corrs: 7715 E_I:7515 H_I: 7623 R: 0 T:0
+DEBUG: 445:467 corrs: 7749 E_I:7396 H_I: 7644 R: 0 T:0
+DEBUG: 446:468 corrs: 7777 E_I:7603 H_I: 7680 R: 0 T:0
+DEBUG: 447:469 corrs: 7777 E_I:7571 H_I: 7691 R: 0 T:0
+DEBUG: 448:470 corrs: 7781 E_I:7564 H_I: 7173 R: 1 T:0
+DEBUG: 449:471 corrs: 7784 E_I:7532 H_I: 7295 R: 1 T:0
+DEBUG: 444:465 corrs: 7713 E_I:7445 H_I: 7197 R: 1 T:0
+DEBUG: 445:466 corrs: 7747 E_I:7273 H_I: 7424 R: 0 T:0
+DEBUG: 446:467 corrs: 7784 E_I:7602 H_I: 7336 R: 1 T:0
+DEBUG: 444:464 corrs: 7723 E_I:7542 H_I: 7133 R: 1 T:0
+DEBUG: 445:465 corrs: 7757 E_I:7508 H_I: 7656 R: 0 T:0
+DEBUG: 446:466 corrs: 7789 E_I:7601 H_I: 7708 R: 0 T:0
+DEBUG: 444:463 corrs: 7737 E_I:7507 H_I: 7648 R: 0 T:0
+DEBUG: 445:464 corrs: 7763 E_I:7499 H_I: 7651 R: 0 T:0
+DEBUG: 446:465 corrs: 7787 E_I:7581 H_I: 7659 R: 0 T:0
+DEBUG: 444:462 corrs: 7745 E_I:7573 H_I: 7660 R: 0 T:0
+DEBUG: 445:463 corrs: 7783 E_I:7607 H_I: 7683 R: 0 T:0
+DEBUG: 444:461 corrs: 7749 E_I:7586 H_I: 7663 R: 0 T:0
+DEBUG: 445:462 corrs: 7787 E_I:7607 H_I: 7287 R: 1 T:0
+DEBUG: 444:460 corrs: 7756 E_I:7622 H_I: 7001 R: 1 T:0
+DEBUG: 445:461 corrs: 7784 E_I:7555 H_I: 7111 R: 1 T:0
+DEBUG: 444:459 corrs: 7766 E_I:7620 H_I: 7722 R: 0 T:0
+DEBUG: 443:457 corrs: 7707 E_I:7608 H_I: 7589 R: 1 T:0
+DEBUG: 444:458 corrs: 7783 E_I:7663 H_I: 7587 R: 1 T:0
+DEBUG: 443:456 corrs: 7744 E_I:7656 H_I: 7651 R: 1 T:0
+DEBUG: 443:455 corrs: 7756 E_I:7574 H_I: 7731 R: 0 T:0
+DEBUG: 349:360 corrs: 7407 E_I:6879 H_I: 2914 R: 2 T:0
+DEBUG: 443:454 corrs: 7775 E_I:7700 H_I: 7686 R: 1 T:0
+DEBUG: 346:356 corrs: 7436 E_I:7051 H_I: 3076 R: 2 T:364
+DEBUG: 348:358 corrs: 7325 E_I:6774 H_I: 3330 R: 2 T:0
+DEBUG: 349:359 corrs: 7492 E_I:7089 H_I: 3303 R: 2 T:37
+DEBUG: 350:360 corrs: 7334 E_I:6727 H_I: 3357 R: 2 T:359
+DEBUG: 354:364 corrs: 7389 E_I:6929 H_I: 3219 R: 2 T:1
+DEBUG: 355:365 corrs: 7419 E_I:6973 H_I: 3238 R: 2 T:0
+DEBUG: 361:371 corrs: 7359 E_I:6325 H_I: 3580 R: 1 T:361
+DEBUG: 362:372 corrs: 7378 E_I:6769 H_I: 3345 R: 2 T:0
+DEBUG: 443:453 corrs: 7781 E_I:7712 H_I: 7670 R: 1 T:0
+DEBUG: 443:468 corrs: 7624 E_I:7448 H_I: 7421 R: 1 T:0
+DEBUG: 444:469 corrs: 7672 E_I:7455 H_I: 7553 R: 0 T:0
+DEBUG: 443:467 corrs: 7627 E_I:7401 H_I: 6179 R: 1 T:0
+DEBUG: 443:466 corrs: 7634 E_I:7346 H_I: 7163 R: 1 T:0
+DEBUG: 443:465 corrs: 7638 E_I:7478 H_I: 7155 R: 1 T:0
+DEBUG: 443:464 corrs: 7637 E_I:7443 H_I: 7548 R: 0 T:0
+DEBUG: 443:463 corrs: 7658 E_I:7471 H_I: 7569 R: 0 T:0
+DEBUG: 443:462 corrs: 7661 E_I:7507 H_I: 7583 R: 0 T:0
+DEBUG: 443:461 corrs: 7665 E_I:7487 H_I: 7526 R: 0 T:0
+DEBUG: 443:460 corrs: 7668 E_I:7530 H_I: 7605 R: 0 T:0
+DEBUG: 443:459 corrs: 7681 E_I:7550 H_I: 7379 R: 1 T:0
+DEBUG: 443:458 corrs: 7694 E_I:7539 H_I: 7394 R: 1 T:0
+DEBUG: 345:358 corrs: 7173 E_I:6372 H_I: 2419 R: 2 T:0
+DEBUG: 346:359 corrs: 7210 E_I:6525 H_I: 2474 R: 2 T:70
+DEBUG: 354:367 corrs: 7262 E_I:6745 H_I: 2554 R: 2 T:68
+DEBUG: 355:368 corrs: 7274 E_I:6724 H_I: 2696 R: 2 T:0
+DEBUG: 356:369 corrs: 7253 E_I:6736 H_I: 2665 R: 2 T:0
+DEBUG: 357:370 corrs: 7281 E_I:6753 H_I: 2804 R: 2 T:120
+DEBUG: 358:371 corrs: 7265 E_I:6560 H_I: 2694 R: 2 T:215
+DEBUG: 359:372 corrs: 7226 E_I:6648 H_I: 2594 R: 2 T:349
+DEBUG: 343:355 corrs: 7282 E_I:6841 H_I: 2537 R: 2 T:307
+DEBUG: 344:356 corrs: 7284 E_I:6806 H_I: 2557 R: 2 T:355
+DEBUG: 345:357 corrs: 7257 E_I:6786 H_I: 2665 R: 2 T:351
+DEBUG: 346:358 corrs: 7290 E_I:6828 H_I: 2664 R: 2 T:0
+DEBUG: 347:359 corrs: 7323 E_I:6858 H_I: 2734 R: 2 T:0
+DEBUG: 348:360 corrs: 7279 E_I:6601 H_I: 2776 R: 2 T:354
+DEBUG: 349:361 corrs: 7313 E_I:6770 H_I: 2702 R: 2 T:298
+DEBUG: 353:365 corrs: 7301 E_I:6671 H_I: 3054 R: 2 T:1
+DEBUG: 354:366 corrs: 7246 E_I:6566 H_I: 2779 R: 2 T:0
+DEBUG: 355:367 corrs: 7216 E_I:6481 H_I: 2955 R: 2 T:0
+DEBUG: 356:368 corrs: 7229 E_I:6384 H_I: 2736 R: 2 T:350
+DEBUG: 357:369 corrs: 7260 E_I:6691 H_I: 2813 R: 2 T:0
+DEBUG: 358:370 corrs: 7031 E_I:5792 H_I: 2834 R: 2 T:0
+DEBUG: 359:371 corrs: 7316 E_I:6842 H_I: 3042 R: 2 T:0
+DEBUG: 360:372 corrs: 7326 E_I:6861 H_I: 2823 R: 2 T:1
+DEBUG: 361:373 corrs: 7180 E_I:6259 H_I: 2727 R: 2 T:349
+DEBUG: 362:374 corrs: 7260 E_I:6698 H_I: 2789 R: 2 T:291
+DEBUG: 368:380 corrs: 7335 E_I:6862 H_I: 2816 R: 2 T:0
+DEBUG: 369:381 corrs: 7329 E_I:6819 H_I: 3004 R: 2 T:0
+DEBUG: 370:382 corrs: 7316 E_I:6763 H_I: 2670 R: 2 T:19
+DEBUG: 342:353 corrs: 7295 E_I:6839 H_I: 2493 R: 2 T:1
+DEBUG: 343:354 corrs: 7261 E_I:6788 H_I: 2562 R: 2 T:11
+DEBUG: 344:355 corrs: 7287 E_I:6728 H_I: 2588 R: 2 T:0
+DEBUG: 345:356 corrs: 7344 E_I:6895 H_I: 2826 R: 2 T:0
+DEBUG: 346:357 corrs: 7359 E_I:6946 H_I: 2881 R: 2 T:245
+DEBUG: 347:358 corrs: 7340 E_I:6888 H_I: 2818 R: 2 T:110
+DEBUG: 348:359 corrs: 7396 E_I:6880 H_I: 2698 R: 2 T:10
+DEBUG: 350:361 corrs: 7279 E_I:6755 H_I: 2757 R: 2 T:355
+DEBUG: 351:362 corrs: 7267 E_I:6780 H_I: 2963 R: 2 T:0
+DEBUG: 353:364 corrs: 7301 E_I:6765 H_I: 2922 R: 2 T:0
+DEBUG: 354:365 corrs: 7375 E_I:6828 H_I: 3148 R: 2 T:0
+DEBUG: 355:366 corrs: 7388 E_I:6816 H_I: 3100 R: 2 T:212
+DEBUG: 356:367 corrs: 7346 E_I:6953 H_I: 3035 R: 2 T:0
+DEBUG: 357:368 corrs: 7349 E_I:6903 H_I: 3207 R: 2 T:0
+DEBUG: 358:369 corrs: 7360 E_I:6927 H_I: 3006 R: 2 T:165
+DEBUG: 359:370 corrs: 7288 E_I:6735 H_I: 3210 R: 2 T:55
+DEBUG: 360:371 corrs: 7360 E_I:6985 H_I: 2948 R: 2 T:0
+DEBUG: 361:372 corrs: 7305 E_I:6593 H_I: 3300 R: 1 T:357
+DEBUG: 362:373 corrs: 7379 E_I:6941 H_I: 3163 R: 2 T:0
+DEBUG: 363:374 corrs: 7155 E_I:6302 H_I: 3166 R: 1 T:350
+DEBUG: 364:375 corrs: 7353 E_I:6876 H_I: 2964 R: 2 T:0
+DEBUG: 365:376 corrs: 7341 E_I:6888 H_I: 2981 R: 2 T:360
+DEBUG: 368:379 corrs: 7292 E_I:6740 H_I: 3239 R: 2 T:0
+DEBUG: 369:380 corrs: 7165 E_I:6335 H_I: 3063 R: 2 T:0
+DEBUG: 370:381 corrs: 7359 E_I:6881 H_I: 3187 R: 2 T:0
+DEBUG: 371:382 corrs: 7342 E_I:6809 H_I: 3014 R: 2 T:0
+DEBUG: 372:383 corrs: 7300 E_I:6718 H_I: 3024 R: 2 T:0
+DEBUG: 373:384 corrs: 6950 E_I:5971 H_I: 2708 R: 2 T:0
+DEBUG: 342:352 corrs: 7135 E_I:6564 H_I: 2605 R: 2 T:268
+DEBUG: 343:353 corrs: 7236 E_I:6618 H_I: 2850 R: 2 T:0
+DEBUG: 344:354 corrs: 7318 E_I:6707 H_I: 2948 R: 2 T:357
+DEBUG: 345:355 corrs: 7414 E_I:7002 H_I: 3075 R: 2 T:74
+DEBUG: 347:357 corrs: 7320 E_I:6782 H_I: 3206 R: 2 T:358
+DEBUG: 351:361 corrs: 7207 E_I:6413 H_I: 3277 R: 1 T:352
+DEBUG: 352:362 corrs: 7340 E_I:6926 H_I: 3316 R: 2 T:0
+DEBUG: 353:363 corrs: 7396 E_I:6970 H_I: 3057 R: 2 T:98
+DEBUG: 356:366 corrs: 7406 E_I:7009 H_I: 3316 R: 2 T:76
+DEBUG: 357:367 corrs: 7296 E_I:6607 H_I: 3602 R: 1 T:0
+DEBUG: 358:368 corrs: 7403 E_I:6955 H_I: 3046 R: 2 T:0
+DEBUG: 359:369 corrs: 7420 E_I:6998 H_I: 3480 R: 2 T:71
+DEBUG: 360:370 corrs: 7426 E_I:6869 H_I: 3500 R: 1 T:0
+DEBUG: 363:373 corrs: 7395 E_I:6965 H_I: 3102 R: 2 T:229
+DEBUG: 364:374 corrs: 7330 E_I:6784 H_I: 3471 R: 1 T:0
+DEBUG: 365:375 corrs: 7385 E_I:6888 H_I: 3457 R: 1 T:50
+DEBUG: 366:376 corrs: 7355 E_I:6923 H_I: 3686 R: 1 T:0
+DEBUG: 367:377 corrs: 7364 E_I:6922 H_I: 3387 R: 2 T:363
+DEBUG: 368:378 corrs: 7409 E_I:6980 H_I: 3460 R: 2 T:120
+DEBUG: 369:379 corrs: 7404 E_I:6914 H_I: 3496 R: 1 T:0
+DEBUG: 370:380 corrs: 7354 E_I:6614 H_I: 3116 R: 2 T:0
+DEBUG: 371:381 corrs: 7338 E_I:6730 H_I: 3176 R: 2 T:0
+DEBUG: 372:382 corrs: 7141 E_I:6085 H_I: 3010 R: 2 T:0
+DEBUG: 373:383 corrs: 7358 E_I:6756 H_I: 3272 R: 2 T:0
+DEBUG: 374:384 corrs: 7297 E_I:6317 H_I: 3104 R: 2 T:0
+DEBUG: 375:385 corrs: 7168 E_I:6068 H_I: 3193 R: 1 T:351
+DEBUG: 442:462 corrs: 7490 E_I:7311 H_I: 7260 R: 1 T:0
+DEBUG: 442:461 corrs: 7493 E_I:7237 H_I: 6996 R: 1 T:0
+DEBUG: 354:372 corrs: 6889 E_I:6026 H_I: 1941 R: 3 T:225
+DEBUG: 442:460 corrs: 7501 E_I:7398 H_I: 7443 R: 0 T:0
+DEBUG: 353:370 corrs: 6958 E_I:6049 H_I: 2089 R: 2 T:55
+DEBUG: 354:371 corrs: 7052 E_I:6246 H_I: 2130 R: 2 T:0
+DEBUG: 355:372 corrs: 7139 E_I:6405 H_I: 1972 R: 3 T:236
+DEBUG: 356:373 corrs: 6763 E_I:5187 H_I: 2064 R: 2 T:324
+DEBUG: 442:459 corrs: 7506 E_I:7321 H_I: 6783 R: 1 T:0
+DEBUG: 343:359 corrs: 7072 E_I:6360 H_I: 1910 R: 3 T:339
+DEBUG: 344:360 corrs: 7093 E_I:6454 H_I: 2008 R: 3 T:342
+DEBUG: 353:369 corrs: 7124 E_I:6521 H_I: 2280 R: 2 T:343
+DEBUG: 354:370 corrs: 7172 E_I:6480 H_I: 2185 R: 2 T:345
+DEBUG: 355:371 corrs: 7104 E_I:6391 H_I: 2201 R: 2 T:268
+DEBUG: 356:372 corrs: 7116 E_I:6456 H_I: 2219 R: 2 T:121
+DEBUG: 357:373 corrs: 7144 E_I:6399 H_I: 2335 R: 2 T:55
+DEBUG: 358:374 corrs: 7045 E_I:6190 H_I: 2187 R: 2 T:339
+DEBUG: 442:458 corrs: 7518 E_I:7312 H_I: 7184 R: 1 T:0
+DEBUG: 342:357 corrs: 7128 E_I:6565 H_I: 1976 R: 3 T:343
+DEBUG: 343:358 corrs: 7129 E_I:6624 H_I: 2168 R: 3 T:118
+DEBUG: 344:359 corrs: 7091 E_I:6268 H_I: 2139 R: 2 T:341
+DEBUG: 345:360 corrs: 7128 E_I:6463 H_I: 2102 R: 3 T:162
+DEBUG: 346:361 corrs: 7149 E_I:6628 H_I: 2271 R: 2 T:300
+DEBUG: 349:364 corrs: 7120 E_I:6441 H_I: 2250 R: 2 T:344
+DEBUG: 350:365 corrs: 7091 E_I:6483 H_I: 2227 R: 2 T:207
+DEBUG: 353:368 corrs: 7071 E_I:6363 H_I: 2259 R: 2 T:5
+DEBUG: 354:369 corrs: 7129 E_I:6497 H_I: 2271 R: 2 T:258
+DEBUG: 355:370 corrs: 7089 E_I:5822 H_I: 2331 R: 2 T:342
+DEBUG: 356:371 corrs: 7129 E_I:6447 H_I: 2303 R: 2 T:26
+DEBUG: 357:372 corrs: 7201 E_I:6598 H_I: 2317 R: 2 T:137
+DEBUG: 358:373 corrs: 7006 E_I:6190 H_I: 2284 R: 2 T:2
+DEBUG: 359:374 corrs: 7102 E_I:6425 H_I: 2221 R: 2 T:325
+DEBUG: 360:375 corrs: 6985 E_I:6014 H_I: 2386 R: 2 T:0
+DEBUG: 361:376 corrs: 7137 E_I:6551 H_I: 2282 R: 2 T:245
+DEBUG: 368:383 corrs: 6891 E_I:5638 H_I: 2065 R: 2 T:332
+DEBUG: 369:384 corrs: 7117 E_I:6312 H_I: 2208 R: 2 T:343
+DEBUG: 441:456 corrs: 7511 E_I:7296 H_I: 7067 R: 1 T:0
+DEBUG: 442:457 corrs: 7530 E_I:7353 H_I: 7498 R: 0 T:0
+DEBUG: 342:356 corrs: 7183 E_I:6671 H_I: 2117 R: 3 T:201
+DEBUG: 343:357 corrs: 7168 E_I:6588 H_I: 2147 R: 3 T:346
+DEBUG: 344:358 corrs: 7098 E_I:6434 H_I: 2159 R: 2 T:37
+DEBUG: 345:359 corrs: 7230 E_I:6641 H_I: 2284 R: 2 T:15
+DEBUG: 346:360 corrs: 7217 E_I:6610 H_I: 2261 R: 2 T:291
+DEBUG: 347:361 corrs: 7113 E_I:6518 H_I: 2339 R: 2 T:345
+DEBUG: 348:362 corrs: 7180 E_I:6661 H_I: 2309 R: 2 T:211
+DEBUG: 349:363 corrs: 7160 E_I:6587 H_I: 2356 R: 2 T:295
+DEBUG: 350:364 corrs: 7158 E_I:6692 H_I: 2356 R: 2 T:144
+DEBUG: 351:365 corrs: 6973 E_I:6097 H_I: 2315 R: 2 T:338
+DEBUG: 352:366 corrs: 7140 E_I:6560 H_I: 2515 R: 2 T:346
+DEBUG: 353:367 corrs: 7180 E_I:6722 H_I: 2545 R: 2 T:57
+DEBUG: 354:368 corrs: 7154 E_I:6180 H_I: 2527 R: 2 T:0
+DEBUG: 355:369 corrs: 7040 E_I:6001 H_I: 2341 R: 2 T:0
+DEBUG: 356:370 corrs: 7241 E_I:6458 H_I: 2519 R: 2 T:1
+DEBUG: 357:371 corrs: 7021 E_I:6372 H_I: 2382 R: 2 T:124
+DEBUG: 358:372 corrs: 6977 E_I:5581 H_I: 2374 R: 2 T:0
+DEBUG: 359:373 corrs: 7088 E_I:6354 H_I: 2466 R: 2 T:343
+DEBUG: 360:374 corrs: 7189 E_I:6586 H_I: 2638 R: 2 T:350
+DEBUG: 361:375 corrs: 7181 E_I:6613 H_I: 2509 R: 2 T:64
+DEBUG: 362:376 corrs: 6915 E_I:5724 H_I: 2507 R: 2 T:49
+DEBUG: 367:381 corrs: 7142 E_I:6528 H_I: 2401 R: 2 T:0
+DEBUG: 368:382 corrs: 7240 E_I:6590 H_I: 2558 R: 2 T:137
+DEBUG: 369:383 corrs: 7239 E_I:6627 H_I: 2386 R: 2 T:167
+DEBUG: 370:384 corrs: 7175 E_I:6524 H_I: 2396 R: 2 T:4
+DEBUG: 441:455 corrs: 7519 E_I:7125 H_I: 6274 R: 1 T:0
+DEBUG: 442:456 corrs: 7555 E_I:7357 H_I: 7484 R: 0 T:0
+DEBUG: 342:355 corrs: 7111 E_I:6461 H_I: 2313 R: 2 T:344
+DEBUG: 343:356 corrs: 7137 E_I:6537 H_I: 2333 R: 2 T:0
+DEBUG: 344:357 corrs: 7153 E_I:6563 H_I: 2326 R: 2 T:347
+DEBUG: 347:360 corrs: 7199 E_I:6469 H_I: 2558 R: 2 T:350
+DEBUG: 348:361 corrs: 7246 E_I:6684 H_I: 2558 R: 2 T:11
+DEBUG: 349:362 corrs: 7170 E_I:6561 H_I: 2509 R: 2 T:211
+DEBUG: 350:363 corrs: 7219 E_I:6731 H_I: 2674 R: 2 T:310
+DEBUG: 351:364 corrs: 7033 E_I:6250 H_I: 2503 R: 2 T:108
+DEBUG: 352:365 corrs: 7152 E_I:6265 H_I: 2602 R: 2 T:0
+DEBUG: 353:366 corrs: 7140 E_I:6557 H_I: 2645 R: 2 T:111
+DEBUG: 360:373 corrs: 7258 E_I:6819 H_I: 2740 R: 2 T:0
+DEBUG: 361:374 corrs: 7009 E_I:6067 H_I: 2548 R: 2 T:0
+DEBUG: 362:375 corrs: 7271 E_I:6752 H_I: 2786 R: 2 T:85
+DEBUG: 363:376 corrs: 7233 E_I:6745 H_I: 2728 R: 2 T:0
+DEBUG: 364:377 corrs: 7222 E_I:6744 H_I: 2700 R: 2 T:0
+DEBUG: 365:378 corrs: 7125 E_I:6395 H_I: 2515 R: 2 T:0
+DEBUG: 366:379 corrs: 7100 E_I:6310 H_I: 2600 R: 2 T:347
+DEBUG: 367:380 corrs: 7167 E_I:6540 H_I: 2673 R: 2 T:12
+DEBUG: 368:381 corrs: 7247 E_I:6545 H_I: 2654 R: 2 T:313
+DEBUG: 369:382 corrs: 7293 E_I:6709 H_I: 2480 R: 2 T:127
+DEBUG: 370:383 corrs: 7241 E_I:6598 H_I: 2615 R: 2 T:0
+DEBUG: 371:384 corrs: 7190 E_I:6352 H_I: 2560 R: 2 T:314
+DEBUG: 372:385 corrs: 7044 E_I:6178 H_I: 2477 R: 2 T:311
+DEBUG: 441:454 corrs: 7530 E_I:7348 H_I: 7087 R: 1 T:0
+DEBUG: 442:455 corrs: 7573 E_I:7412 H_I: 7538 R: 0 T:0
+DEBUG: 342:354 corrs: 7248 E_I:6725 H_I: 2473 R: 2 T:6
+DEBUG: 350:362 corrs: 7180 E_I:6479 H_I: 2692 R: 2 T:0
+DEBUG: 351:363 corrs: 7262 E_I:6832 H_I: 2729 R: 2 T:22
+DEBUG: 352:364 corrs: 7245 E_I:6805 H_I: 2757 R: 2 T:59
+DEBUG: 363:375 corrs: 7238 E_I:6628 H_I: 2982 R: 2 T:263
+DEBUG: 364:376 corrs: 7257 E_I:6613 H_I: 2974 R: 2 T:49
+DEBUG: 365:377 corrs: 7264 E_I:6793 H_I: 2762 R: 2 T:127
+DEBUG: 366:378 corrs: 7225 E_I:6741 H_I: 2711 R: 2 T:0
+DEBUG: 367:379 corrs: 7218 E_I:6736 H_I: 3064 R: 2 T:63
+DEBUG: 371:383 corrs: 7181 E_I:6432 H_I: 2805 R: 2 T:0
+DEBUG: 372:384 corrs: 7211 E_I:6320 H_I: 2748 R: 2 T:0
+DEBUG: 373:385 corrs: 7114 E_I:5992 H_I: 2587 R: 2 T:346
+DEBUG: 374:386 corrs: 7188 E_I:6424 H_I: 2617 R: 2 T:0
+DEBUG: 375:387 corrs: 7180 E_I:6544 H_I: 2611 R: 2 T:0
+DEBUG: 441:453 corrs: 7535 E_I:7343 H_I: 7293 R: 1 T:0
+DEBUG: 442:454 corrs: 7578 E_I:7450 H_I: 7550 R: 0 T:0
+DEBUG: 341:352 corrs: 7143 E_I:6638 H_I: 2619 R: 2 T:0
+DEBUG: 352:363 corrs: 7266 E_I:6805 H_I: 2975 R: 2 T:0
+DEBUG: 366:377 corrs: 7302 E_I:6865 H_I: 3079 R: 2 T:126
+DEBUG: 367:378 corrs: 7161 E_I:6232 H_I: 2906 R: 2 T:0
+DEBUG: 374:385 corrs: 7150 E_I:6416 H_I: 2783 R: 2 T:0
+DEBUG: 375:386 corrs: 7228 E_I:6656 H_I: 2818 R: 2 T:0
+DEBUG: 376:387 corrs: 7224 E_I:6493 H_I: 2628 R: 2 T:0
+DEBUG: 378:389 corrs: 7192 E_I:6636 H_I: 2632 R: 2 T:27
+DEBUG: 379:390 corrs: 7129 E_I:6439 H_I: 2598 R: 2 T:310
+DEBUG: 380:391 corrs: 6968 E_I:6193 H_I: 2586 R: 2 T:0
+DEBUG: 441:452 corrs: 7533 E_I:7279 H_I: 7253 R: 1 T:0
+DEBUG: 442:453 corrs: 7580 E_I:7388 H_I: 7015 R: 1 T:0
+DEBUG: 338:348 corrs: 7193 E_I:6657 H_I: 2520 R: 2 T:349
+DEBUG: 339:349 corrs: 6888 E_I:6070 H_I: 2427 R: 2 T:335
+DEBUG: 340:350 corrs: 6876 E_I:6133 H_I: 2530 R: 2 T:0
+DEBUG: 341:351 corrs: 7231 E_I:6863 H_I: 2864 R: 2 T:3
+DEBUG: 376:386 corrs: 7153 E_I:5973 H_I: 3009 R: 1 T:0
+DEBUG: 377:387 corrs: 7220 E_I:6606 H_I: 2912 R: 2 T:0
+DEBUG: 378:388 corrs: 7161 E_I:6517 H_I: 2845 R: 2 T:351
+DEBUG: 379:389 corrs: 6980 E_I:5597 H_I: 2690 R: 2 T:342
+DEBUG: 380:390 corrs: 7062 E_I:6320 H_I: 2664 R: 2 T:333
+DEBUG: 381:391 corrs: 7154 E_I:6509 H_I: 2995 R: 2 T:254
+DEBUG: 382:392 corrs: 7234 E_I:6698 H_I: 2787 R: 2 T:311
+Best triangulated result: 984
+Best frames found: 364 and 376
+Triangulation between initial frames done! Founded 1021 points with med_cos=0.8864038325179702
+Ransac failed =( for frame 1
+Ransac failed =( for frame 5
+Ransac failed =( for frame 31
+Ransac failed =( for frame 32
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+Ransac failed =( for frame 78
+Ransac failed =( for frame 79
+Ransac failed =( for frame 80
+Ransac failed =( for frame 81
+Ransac failed =( for frame 82
+Ransac failed =( for frame 83
+Ransac failed =( for frame 84
+Ransac failed =( for frame 88
+Ransac failed =( for frame 110
+0% ## Iteration: 1 ## Frame: 364## Cloud: 1022.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 4.368866205215454 ## TriangTime: 0.5485599040985107
+Ransac failed =( for frame 1
+Ransac failed =( for frame 5
+Ransac failed =( for frame 31
+Ransac failed =( for frame 32
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+Ransac failed =( for frame 78
+Ransac failed =( for frame 79
+Ransac failed =( for frame 80
+Ransac failed =( for frame 81
+Ransac failed =( for frame 82
+Ransac failed =( for frame 83
+Ransac failed =( for frame 84
+Ransac failed =( for frame 88
+Ransac failed =( for frame 110
+0% ## Iteration: 2 ## Frame: 376## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 16 ## PnpTime: 5.046076774597168 ## TriangTime: 0.6072402000427246
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 15
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+0% ## Iteration: 3 ## Frame: 374## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 5.5243425369262695 ## TriangTime: 1.3669979572296143
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+0% ## Iteration: 4 ## Frame: 365## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.10551118850708 ## TriangTime: 1.038041353225708
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+1% ## Iteration: 5 ## Frame: 370## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.525512933731079 ## TriangTime: 0.9710021018981934
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+1% ## Iteration: 6 ## Frame: 369## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.2952353954315186 ## TriangTime: 1.223057508468628
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+1% ## Iteration: 7 ## Frame: 373## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.379991054534912 ## TriangTime: 1.405000925064087
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+1% ## Iteration: 8 ## Frame: 366## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.684571027755737 ## TriangTime: 2.29960036277771
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+1% ## Iteration: 9 ## Frame: 372## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.025879621505737 ## TriangTime: 2.0577070713043213
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+2% ## Iteration: 10 ## Frame: 367## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.743169784545898 ## TriangTime: 2.4123623371124268
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+2% ## Iteration: 11 ## Frame: 368## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.589839220046997 ## TriangTime: 2.032271385192871
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+2% ## Iteration: 12 ## Frame: 375## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.604830741882324 ## TriangTime: 2.276883125305176
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+2% ## Iteration: 13 ## Frame: 377## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.866030693054199 ## TriangTime: 4.053102970123291
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+2% ## Iteration: 14 ## Frame: 362## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.83938455581665 ## TriangTime: 2.7205629348754883
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+3% ## Iteration: 15 ## Frame: 371## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.837880373001099 ## TriangTime: 2.765418767929077
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+3% ## Iteration: 16 ## Frame: 378## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.543984413146973 ## TriangTime: 3.2349655628204346
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+3% ## Iteration: 17 ## Frame: 361## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.670752048492432 ## TriangTime: 2.6598875522613525
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+3% ## Iteration: 18 ## Frame: 379## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.45611572265625 ## TriangTime: 2.9953134059906006
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+3% ## Iteration: 19 ## Frame: 360## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.041705369949341 ## TriangTime: 3.6019062995910645
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+4% ## Iteration: 20 ## Frame: 363## Cloud: 1038.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.703564643859863 ## TriangTime: 3.8158626556396484
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+4% ## Iteration: 21 ## Frame: 359## Cloud: 1039.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 4.414023160934448 ## TriangTime: 3.4650771617889404
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+4% ## Iteration: 22 ## Frame: 381## Cloud: 1039.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.412253379821777 ## TriangTime: 3.481518030166626
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+4% ## Iteration: 23 ## Frame: 383## Cloud: 1039.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 4.37978196144104 ## TriangTime: 4.058752059936523
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+5% ## Iteration: 24 ## Frame: 380## Cloud: 1039.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 6.235224008560181 ## TriangTime: 4.798105478286743
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+5% ## Iteration: 25 ## Frame: 356## Cloud: 1039.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 4.825368165969849 ## TriangTime: 3.3413639068603516
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+5% ## Iteration: 26 ## Frame: 354## Cloud: 1041.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 4.744318723678589 ## TriangTime: 2.972320079803467
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+5% ## Iteration: 27 ## Frame: 358## Cloud: 1045.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 5.216774940490723 ## TriangTime: 3.9007787704467773
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+5% ## Iteration: 28 ## Frame: 357## Cloud: 1047.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 4.808910369873047 ## TriangTime: 6.243871450424194
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 7
+Ransac failed =( for frame 11
+Ransac failed =( for frame 16
+Ransac failed =( for frame 17
+Ransac failed =( for frame 19
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+6% ## Iteration: 29 ## Frame: 382## Cloud: 1049.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 6.132513523101807 ## TriangTime: 4.784569501876831
+Ransac failed =( for frame 0
+Ransac failed =( for frame 6
+Ransac failed =( for frame 12
+Ransac failed =( for frame 13
+Ransac failed =( for frame 22
+Ransac failed =( for frame 23
+Ransac failed =( for frame 24
+Ransac failed =( for frame 25
+Ransac failed =( for frame 26
+Ransac failed =( for frame 58
+Ransac failed =( for frame 76
+Ransac failed =( for frame 105
+6% ## Iteration: 30 ## Frame: 355## Cloud: 1052.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 4.944269418716431 ## TriangTime: 3.4930458068847656
+Ransac failed =( for frame 0
+Ransac failed =( for frame 1
+Ransac failed =( for frame 28
+Ransac failed =( for frame 31
+Ransac failed =( for frame 41
+Ransac failed =( for frame 43
+Ransac failed =( for frame 72
+6% ## Iteration: 31 ## Frame: 384## Cloud: 1056.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 5.899796485900879 ## TriangTime: 4.719508409500122
+Ransac failed =( for frame 0
+Ransac failed =( for frame 9
+Ransac failed =( for frame 14
+Ransac failed =( for frame 22
+Ransac failed =( for frame 23
+Ransac failed =( for frame 25
+Ransac failed =( for frame 65
+Ransac failed =( for frame 78
+Ransac failed =( for frame 79
+Ransac failed =( for frame 80
+6% ## Iteration: 32 ## Frame: 387## Cloud: 1057.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 4.918985366821289 ## TriangTime: 4.366544723510742
+Ransac failed =( for frame 4
+Ransac failed =( for frame 8
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 31
+Ransac failed =( for frame 32
+Ransac failed =( for frame 33
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 57
+Ransac failed =( for frame 62
+Ransac failed =( for frame 63
+6% ## Iteration: 33 ## Frame: 385## Cloud: 1060.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 4.857815265655518 ## TriangTime: 3.4689505100250244
+Ransac failed =( for frame 4
+Ransac failed =( for frame 8
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 31
+Ransac failed =( for frame 32
+Ransac failed =( for frame 33
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 57
+Ransac failed =( for frame 62
+Ransac failed =( for frame 63
+7% ## Iteration: 34 ## Frame: 353## Cloud: 1060.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 4.983018398284912 ## TriangTime: 2.2436535358428955
+Ransac failed =( for frame 4
+Ransac failed =( for frame 8
+Ransac failed =( for frame 29
+Ransac failed =( for frame 30
+Ransac failed =( for frame 31
+Ransac failed =( for frame 32
+Ransac failed =( for frame 33
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 57
+Ransac failed =( for frame 62
+Ransac failed =( for frame 63
+7% ## Iteration: 35 ## Frame: 351## Cloud: 1068.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 4.867867469787598 ## TriangTime: 3.0929341316223145
+Ransac failed =( for frame 3
+Ransac failed =( for frame 4
+Ransac failed =( for frame 6
+Ransac failed =( for frame 7
+Ransac failed =( for frame 42
+Ransac failed =( for frame 47
+Ransac failed =( for frame 61
+Ransac failed =( for frame 80
+Ransac failed =( for frame 81
+7% ## Iteration: 36 ## Frame: 388## Cloud: 1069.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 4.954681158065796 ## TriangTime: 2.664682149887085
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+7% ## Iteration: 37 ## Frame: 386## Cloud: 1069.0 ## Retriangulated: 157 ## Updated: 1 ## PnpTime: 4.907107353210449 ## TriangTime: 0.8388309478759766
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+7% ## Iteration: 38 ## Frame: 352## Cloud: 1070.0 ## Retriangulated: 292 ## Updated: 1 ## PnpTime: 5.263664960861206 ## TriangTime: 2.0016260147094727
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+8% ## Iteration: 39 ## Frame: 350## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.446049451828003 ## TriangTime: 0.285264253616333
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+8% ## Iteration: 40 ## Frame: 390## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 7.181483745574951 ## TriangTime: 0.3430016040802002
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+8% ## Iteration: 41 ## Frame: 349## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.880901575088501 ## TriangTime: 0.25803613662719727
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+8% ## Iteration: 42 ## Frame: 347## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.9957594871521 ## TriangTime: 0.3490438461303711
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+8% ## Iteration: 43 ## Frame: 389## Cloud: 1070.0 ## Retriangulated: 135 ## Updated: 0 ## PnpTime: 6.2017295360565186 ## TriangTime: 0.20403718948364258
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+9% ## Iteration: 44 ## Frame: 345## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.323624610900879 ## TriangTime: 0.30099987983703613
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+9% ## Iteration: 45 ## Frame: 392## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.222988843917847 ## TriangTime: 0.21403074264526367
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+9% ## Iteration: 46 ## Frame: 346## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 6.04552698135376 ## TriangTime: 1.0538623332977295
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+9% ## Iteration: 47 ## Frame: 391## Cloud: 1070.0 ## Retriangulated: 258 ## Updated: 0 ## PnpTime: 5.647018194198608 ## TriangTime: 0.6076200008392334
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+10% ## Iteration: 48 ## Frame: 344## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.664596796035767 ## TriangTime: 0.4890003204345703
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+10% ## Iteration: 49 ## Frame: 348## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 6.251834392547607 ## TriangTime: 0.4409942626953125
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+10% ## Iteration: 50 ## Frame: 343## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 6.464978933334351 ## TriangTime: 0.5009472370147705
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+10% ## Iteration: 51 ## Frame: 393## Cloud: 1070.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.880961179733276 ## TriangTime: 0.5835235118865967
+Ransac failed =( for frame 30
+Ransac failed =( for frame 71
+Ransac failed =( for frame 96
+10% ## Iteration: 52 ## Frame: 394## Cloud: 1075.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 6.20664381980896 ## TriangTime: 3.2556190490722656
+Ransac failed =( for frame 2
+Ransac failed =( for frame 7
+Ransac failed =( for frame 22
+Ransac failed =( for frame 25
+Ransac failed =( for frame 26
+Ransac failed =( for frame 63
+Ransac failed =( for frame 73
+Ransac failed =( for frame 77
+11% ## Iteration: 53 ## Frame: 395## Cloud: 1084.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 5.008451223373413 ## TriangTime: 3.2755467891693115
+Ransac failed =( for frame 4
+Ransac failed =( for frame 65
+Ransac failed =( for frame 101
+11% ## Iteration: 54 ## Frame: 341## Cloud: 1103.0 ## Retriangulated: 300 ## Updated: 27 ## PnpTime: 4.8987672328948975 ## TriangTime: 9.822006940841675
+Ransac failed =( for frame 25
+Ransac failed =( for frame 31
+Ransac failed =( for frame 32
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 43
+Ransac failed =( for frame 66
+11% ## Iteration: 55 ## Frame: 342## Cloud: 1129.0 ## Retriangulated: 300 ## Updated: 35 ## PnpTime: 6.362749099731445 ## TriangTime: 10.026628971099854
+Ransac failed =( for frame 4
+Ransac failed =( for frame 17
+Ransac failed =( for frame 61
+11% ## Iteration: 56 ## Frame: 396## Cloud: 1135.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 4.995183706283569 ## TriangTime: 3.7165651321411133
+Ransac failed =( for frame 14
+11% ## Iteration: 57 ## Frame: 340## Cloud: 1160.0 ## Retriangulated: 300 ## Updated: 37 ## PnpTime: 4.8024513721466064 ## TriangTime: 10.260178327560425
+Ransac failed =( for frame 0
+Ransac failed =( for frame 3
+Ransac failed =( for frame 10
+Ransac failed =( for frame 15
+Ransac failed =( for frame 16
+Ransac failed =( for frame 20
+Ransac failed =( for frame 29
+Ransac failed =( for frame 65
+12% ## Iteration: 58 ## Frame: 397## Cloud: 1174.0 ## Retriangulated: 300 ## Updated: 16 ## PnpTime: 4.517908096313477 ## TriangTime: 4.280980587005615
+Ransac failed =( for frame 5
+Ransac failed =( for frame 6
+Ransac failed =( for frame 28
+Ransac failed =( for frame 30
+Ransac failed =( for frame 32
+Ransac failed =( for frame 33
+Ransac failed =( for frame 34
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 40
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+Ransac failed =( for frame 56
+12% ## Iteration: 59 ## Frame: 398## Cloud: 1185.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 4.695376396179199 ## TriangTime: 5.108975410461426
+Ransac failed =( for frame 30
+Ransac failed =( for frame 31
+Ransac failed =( for frame 33
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 36
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 57
+Ransac failed =( for frame 58
+12% ## Iteration: 60 ## Frame: 399## Cloud: 1194.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 4.4503333568573 ## TriangTime: 4.619147062301636
+Ransac failed =( for frame 3
+Ransac failed =( for frame 9
+Ransac failed =( for frame 30
+Ransac failed =( for frame 31
+Ransac failed =( for frame 42
+Ransac failed =( for frame 84
+12% ## Iteration: 61 ## Frame: 339## Cloud: 1222.0 ## Retriangulated: 300 ## Updated: 40 ## PnpTime: 4.48405909538269 ## TriangTime: 9.704812288284302
+Ransac failed =( for frame 69
+Ransac failed =( for frame 76
+Ransac failed =( for frame 91
+Ransac failed =( for frame 93
+Ransac failed =( for frame 95
+12% ## Iteration: 62 ## Frame: 338## Cloud: 1245.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 4.328100919723511 ## TriangTime: 8.2957444190979
+Ransac failed =( for frame 17
+Ransac failed =( for frame 20
+Ransac failed =( for frame 27
+Ransac failed =( for frame 31
+Ransac failed =( for frame 33
+Ransac failed =( for frame 34
+Ransac failed =( for frame 35
+Ransac failed =( for frame 37
+Ransac failed =( for frame 38
+Ransac failed =( for frame 39
+Ransac failed =( for frame 41
+Ransac failed =( for frame 42
+Ransac failed =( for frame 43
+13% ## Iteration: 63 ## Frame: 401## Cloud: 1268.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 4.743144273757935 ## TriangTime: 5.922852039337158
+Ransac failed =( for frame 9
+Ransac failed =( for frame 44
+Ransac failed =( for frame 49
+Ransac failed =( for frame 51
+Ransac failed =( for frame 54
+Ransac failed =( for frame 68
+13% ## Iteration: 64 ## Frame: 400## Cloud: 1279.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 4.407114744186401 ## TriangTime: 5.631160259246826
+Ransac failed =( for frame 1
+Ransac failed =( for frame 11
+13% ## Iteration: 65 ## Frame: 337## Cloud: 1313.0 ## Retriangulated: 300 ## Updated: 39 ## PnpTime: 4.221892356872559 ## TriangTime: 10.990674495697021
+Ransac failed =( for frame 7
+Ransac failed =( for frame 65
+13% ## Iteration: 66 ## Frame: 402## Cloud: 1334.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 4.9674293994903564 ## TriangTime: 7.036367893218994
+Ransac failed =( for frame 0
+Ransac failed =( for frame 21
+14% ## Iteration: 67 ## Frame: 336## Cloud: 1369.0 ## Retriangulated: 300 ## Updated: 50 ## PnpTime: 4.2821125984191895 ## TriangTime: 11.444877624511719
+Ransac failed =( for frame 0
+Ransac failed =( for frame 10
+Ransac failed =( for frame 11
+Ransac failed =( for frame 61
+Ransac failed =( for frame 62
+Ransac failed =( for frame 63
+14% ## Iteration: 68 ## Frame: 335## Cloud: 1409.0 ## Retriangulated: 300 ## Updated: 57 ## PnpTime: 5.2661027908325195 ## TriangTime: 12.79744577407837
+Ransac failed =( for frame 5
+14% ## Iteration: 69 ## Frame: 334## Cloud: 1451.0 ## Retriangulated: 300 ## Updated: 50 ## PnpTime: 4.598001956939697 ## TriangTime: 11.90237832069397
+Ransac failed =( for frame 14
+Ransac failed =( for frame 46
+Ransac failed =( for frame 47
+Ransac failed =( for frame 48
+Ransac failed =( for frame 49
+Ransac failed =( for frame 50
+Ransac failed =( for frame 51
+Ransac failed =( for frame 52
+14% ## Iteration: 70 ## Frame: 403## Cloud: 1466.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 4.454332590103149 ## TriangTime: 5.457237482070923
+Ransac failed =( for frame 0
+14% ## Iteration: 71 ## Frame: 333## Cloud: 1517.0 ## Retriangulated: 300 ## Updated: 64 ## PnpTime: 4.81713604927063 ## TriangTime: 13.328588247299194
+15% ## Iteration: 72 ## Frame: 331## Cloud: 1564.0 ## Retriangulated: 300 ## Updated: 56 ## PnpTime: 4.411071538925171 ## TriangTime: 11.168405294418335
+15% ## Iteration: 73 ## Frame: 332## Cloud: 1613.0 ## Retriangulated: 300 ## Updated: 65 ## PnpTime: 4.925159692764282 ## TriangTime: 14.529945135116577
+15% ## Iteration: 74 ## Frame: 404## Cloud: 1638.0 ## Retriangulated: 300 ## Updated: 31 ## PnpTime: 5.868894100189209 ## TriangTime: 5.708021879196167
+15% ## Iteration: 75 ## Frame: 405## Cloud: 1657.0 ## Retriangulated: 300 ## Updated: 26 ## PnpTime: 4.593857049942017 ## TriangTime: 5.445681810379028
+15% ## Iteration: 76 ## Frame: 329## Cloud: 1706.0 ## Retriangulated: 300 ## Updated: 58 ## PnpTime: 4.836015224456787 ## TriangTime: 13.244176149368286
+16% ## Iteration: 77 ## Frame: 330## Cloud: 1744.0 ## Retriangulated: 300 ## Updated: 49 ## PnpTime: 5.277324676513672 ## TriangTime: 11.953680753707886
+Ransac failed =( for frame 60
+16% ## Iteration: 78 ## Frame: 328## Cloud: 1784.0 ## Retriangulated: 300 ## Updated: 53 ## PnpTime: 5.033619165420532 ## TriangTime: 11.9047110080719
+16% ## Iteration: 79 ## Frame: 406## Cloud: 1802.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 4.557920217514038 ## TriangTime: 5.305508375167847
+16% ## Iteration: 80 ## Frame: 407## Cloud: 1816.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 4.667549133300781 ## TriangTime: 5.070774078369141
+16% ## Iteration: 81 ## Frame: 327## Cloud: 1865.0 ## Retriangulated: 300 ## Updated: 67 ## PnpTime: 4.6256608963012695 ## TriangTime: 12.609492063522339
+17% ## Iteration: 82 ## Frame: 325## Cloud: 1913.0 ## Retriangulated: 300 ## Updated: 56 ## PnpTime: 5.171827793121338 ## TriangTime: 11.813534021377563
+17% ## Iteration: 83 ## Frame: 326## Cloud: 1966.0 ## Retriangulated: 300 ## Updated: 60 ## PnpTime: 4.718102693557739 ## TriangTime: 12.361653566360474
+17% ## Iteration: 84 ## Frame: 408## Cloud: 1981.0 ## Retriangulated: 300 ## Updated: 23 ## PnpTime: 5.25609278678894 ## TriangTime: 5.301062107086182
+17% ## Iteration: 85 ## Frame: 323## Cloud: 2035.0 ## Retriangulated: 300 ## Updated: 66 ## PnpTime: 4.710077524185181 ## TriangTime: 10.19700813293457
+17% ## Iteration: 86 ## Frame: 324## Cloud: 2079.0 ## Retriangulated: 300 ## Updated: 54 ## PnpTime: 4.756983280181885 ## TriangTime: 11.967600345611572
+18% ## Iteration: 87 ## Frame: 409## Cloud: 2093.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 4.731508731842041 ## TriangTime: 4.676455974578857
+18% ## Iteration: 88 ## Frame: 410## Cloud: 2109.0 ## Retriangulated: 300 ## Updated: 22 ## PnpTime: 4.7348151206970215 ## TriangTime: 4.931730508804321
+18% ## Iteration: 89 ## Frame: 321## Cloud: 2142.0 ## Retriangulated: 300 ## Updated: 44 ## PnpTime: 4.740621328353882 ## TriangTime: 8.842355489730835
+18% ## Iteration: 90 ## Frame: 322## Cloud: 2185.0 ## Retriangulated: 300 ## Updated: 50 ## PnpTime: 4.808796167373657 ## TriangTime: 9.310961961746216
+19% ## Iteration: 91 ## Frame: 319## Cloud: 2217.0 ## Retriangulated: 300 ## Updated: 38 ## PnpTime: 4.894490003585815 ## TriangTime: 8.358309745788574
+19% ## Iteration: 92 ## Frame: 320## Cloud: 2246.0 ## Retriangulated: 300 ## Updated: 34 ## PnpTime: 4.981199741363525 ## TriangTime: 8.149017333984375
+19% ## Iteration: 93 ## Frame: 318## Cloud: 2270.0 ## Retriangulated: 300 ## Updated: 26 ## PnpTime: 4.720989227294922 ## TriangTime: 4.886462211608887
+19% ## Iteration: 94 ## Frame: 317## Cloud: 2282.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 4.7174530029296875 ## TriangTime: 2.4380576610565186
+19% ## Iteration: 95 ## Frame: 412## Cloud: 2288.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 4.760960578918457 ## TriangTime: 3.267592191696167
+20% ## Iteration: 96 ## Frame: 316## Cloud: 2295.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 4.717983961105347 ## TriangTime: 0.9771082401275635
+20% ## Iteration: 97 ## Frame: 411## Cloud: 2300.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 4.709240436553955 ## TriangTime: 3.9867897033691406
+20% ## Iteration: 98 ## Frame: 414## Cloud: 2304.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 4.676829099655151 ## TriangTime: 2.6317527294158936
+20% ## Iteration: 99 ## Frame: 413## Cloud: 2306.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 4.694124221801758 ## TriangTime: 2.084005832672119
+20% ## Iteration: 100 ## Frame: 315## Cloud: 2310.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 4.701027870178223 ## TriangTime: 0.7649989128112793
+21% ## Iteration: 101 ## Frame: 415## Cloud: 2318.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 4.673271417617798 ## TriangTime: 2.585338830947876
+21% ## Iteration: 102 ## Frame: 312## Cloud: 2318.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 4.892208814620972 ## TriangTime: 0.2595047950744629
+21% ## Iteration: 103 ## Frame: 313## Cloud: 2327.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 4.707340717315674 ## TriangTime: 1.9463181495666504
+21% ## Iteration: 104 ## Frame: 314## Cloud: 2336.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 4.650352954864502 ## TriangTime: 5.184059143066406
+Ransac failed =( for frame 16
+21% ## Iteration: 105 ## Frame: 416## Cloud: 2345.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 4.71157431602478 ## TriangTime: 4.277083396911621
+22% ## Iteration: 106 ## Frame: 311## Cloud: 2370.0 ## Retriangulated: 300 ## Updated: 29 ## PnpTime: 5.301659345626831 ## TriangTime: 8.13721752166748
+22% ## Iteration: 107 ## Frame: 418## Cloud: 2380.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 4.841787815093994 ## TriangTime: 3.302402973175049
+22% ## Iteration: 108 ## Frame: 417## Cloud: 2396.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 5.0014870166778564 ## TriangTime: 6.217283010482788
+22% ## Iteration: 109 ## Frame: 309## Cloud: 2413.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 5.37327241897583 ## TriangTime: 6.1165852546691895
+23% ## Iteration: 110 ## Frame: 310## Cloud: 2441.0 ## Retriangulated: 300 ## Updated: 42 ## PnpTime: 4.732142210006714 ## TriangTime: 10.371326923370361
+23% ## Iteration: 111 ## Frame: 308## Cloud: 2464.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 5.05195951461792 ## TriangTime: 6.5037665367126465
+23% ## Iteration: 112 ## Frame: 307## Cloud: 2494.0 ## Retriangulated: 300 ## Updated: 42 ## PnpTime: 4.70528769493103 ## TriangTime: 11.480757713317871
+23% ## Iteration: 113 ## Frame: 419## Cloud: 2505.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 4.842639207839966 ## TriangTime: 4.471947908401489
+23% ## Iteration: 114 ## Frame: 306## Cloud: 2545.0 ## Retriangulated: 300 ## Updated: 52 ## PnpTime: 4.6454596519470215 ## TriangTime: 12.757416486740112
+24% ## Iteration: 115 ## Frame: 420## Cloud: 2552.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 4.7278172969818115 ## TriangTime: 4.839017152786255
+24% ## Iteration: 116 ## Frame: 305## Cloud: 2589.0 ## Retriangulated: 300 ## Updated: 44 ## PnpTime: 5.172353744506836 ## TriangTime: 12.591636896133423
+24% ## Iteration: 117 ## Frame: 421## Cloud: 2605.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 4.680438995361328 ## TriangTime: 5.227489709854126
+24% ## Iteration: 118 ## Frame: 304## Cloud: 2658.0 ## Retriangulated: 300 ## Updated: 64 ## PnpTime: 4.667365789413452 ## TriangTime: 17.89863133430481
+24% ## Iteration: 119 ## Frame: 302## Cloud: 2692.0 ## Retriangulated: 300 ## Updated: 46 ## PnpTime: 5.124884128570557 ## TriangTime: 14.21360468864441
+25% ## Iteration: 120 ## Frame: 303## Cloud: 2737.0 ## Retriangulated: 300 ## Updated: 62 ## PnpTime: 4.93509840965271 ## TriangTime: 20.652355194091797
+25% ## Iteration: 121 ## Frame: 422## Cloud: 2753.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 4.879722356796265 ## TriangTime: 6.161374807357788
+25% ## Iteration: 122 ## Frame: 301## Cloud: 2795.0 ## Retriangulated: 300 ## Updated: 58 ## PnpTime: 4.9954118728637695 ## TriangTime: 14.799530267715454
+25% ## Iteration: 123 ## Frame: 300## Cloud: 2829.0 ## Retriangulated: 300 ## Updated: 48 ## PnpTime: 4.895141124725342 ## TriangTime: 13.627729177474976
+25% ## Iteration: 124 ## Frame: 299## Cloud: 2865.0 ## Retriangulated: 300 ## Updated: 49 ## PnpTime: 4.9200074672698975 ## TriangTime: 13.421632528305054
+26% ## Iteration: 125 ## Frame: 423## Cloud: 2884.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 5.602498531341553 ## TriangTime: 6.977929592132568
+26% ## Iteration: 126 ## Frame: 298## Cloud: 2924.0 ## Retriangulated: 300 ## Updated: 54 ## PnpTime: 4.9937214851379395 ## TriangTime: 15.198356866836548
+26% ## Iteration: 127 ## Frame: 424## Cloud: 2933.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 5.303117036819458 ## TriangTime: 6.622816324234009
+26% ## Iteration: 128 ## Frame: 297## Cloud: 2960.0 ## Retriangulated: 300 ## Updated: 39 ## PnpTime: 4.87568998336792 ## TriangTime: 16.38203239440918
+26% ## Iteration: 129 ## Frame: 296## Cloud: 2987.0 ## Retriangulated: 300 ## Updated: 38 ## PnpTime: 6.251534461975098 ## TriangTime: 13.31215786933899
+27% ## Iteration: 130 ## Frame: 294## Cloud: 3022.0 ## Retriangulated: 300 ## Updated: 41 ## PnpTime: 5.064184665679932 ## TriangTime: 10.767192840576172
+27% ## Iteration: 131 ## Frame: 295## Cloud: 3058.0 ## Retriangulated: 300 ## Updated: 46 ## PnpTime: 4.968488693237305 ## TriangTime: 13.794559001922607
+27% ## Iteration: 132 ## Frame: 292## Cloud: 3090.0 ## Retriangulated: 300 ## Updated: 40 ## PnpTime: 6.430577516555786 ## TriangTime: 15.161898136138916
+27% ## Iteration: 133 ## Frame: 293## Cloud: 3121.0 ## Retriangulated: 300 ## Updated: 40 ## PnpTime: 5.313159465789795 ## TriangTime: 14.293920040130615
+28% ## Iteration: 134 ## Frame: 291## Cloud: 3152.0 ## Retriangulated: 300 ## Updated: 41 ## PnpTime: 5.663973093032837 ## TriangTime: 12.063063859939575
+28% ## Iteration: 135 ## Frame: 425## Cloud: 3170.0 ## Retriangulated: 300 ## Updated: 23 ## PnpTime: 5.149827241897583 ## TriangTime: 8.706333875656128
+28% ## Iteration: 136 ## Frame: 426## Cloud: 3187.0 ## Retriangulated: 300 ## Updated: 25 ## PnpTime: 5.30046272277832 ## TriangTime: 10.359501361846924
+28% ## Iteration: 137 ## Frame: 290## Cloud: 3215.0 ## Retriangulated: 300 ## Updated: 37 ## PnpTime: 5.1136839389801025 ## TriangTime: 14.53407883644104
+28% ## Iteration: 138 ## Frame: 288## Cloud: 3231.0 ## Retriangulated: 300 ## Updated: 24 ## PnpTime: 6.787734746932983 ## TriangTime: 10.528290033340454
+29% ## Iteration: 139 ## Frame: 289## Cloud: 3271.0 ## Retriangulated: 300 ## Updated: 56 ## PnpTime: 6.197091579437256 ## TriangTime: 18.930599212646484
+29% ## Iteration: 140 ## Frame: 287## Cloud: 3302.0 ## Retriangulated: 300 ## Updated: 40 ## PnpTime: 5.235387325286865 ## TriangTime: 14.478192567825317
+29% ## Iteration: 141 ## Frame: 427## Cloud: 3320.0 ## Retriangulated: 300 ## Updated: 22 ## PnpTime: 5.169778823852539 ## TriangTime: 7.26885461807251
+29% ## Iteration: 142 ## Frame: 428## Cloud: 3330.0 ## Retriangulated: 300 ## Updated: 16 ## PnpTime: 4.968608856201172 ## TriangTime: 5.733097791671753
+29% ## Iteration: 143 ## Frame: 429## Cloud: 3337.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 5.446192264556885 ## TriangTime: 7.187726020812988
+30% ## Iteration: 144 ## Frame: 284## Cloud: 3362.0 ## Retriangulated: 300 ## Updated: 33 ## PnpTime: 5.376389026641846 ## TriangTime: 16.998191118240356
+30% ## Iteration: 145 ## Frame: 286## Cloud: 3396.0 ## Retriangulated: 300 ## Updated: 42 ## PnpTime: 5.891482353210449 ## TriangTime: 13.583126783370972
+30% ## Iteration: 146 ## Frame: 283## Cloud: 3429.0 ## Retriangulated: 300 ## Updated: 43 ## PnpTime: 5.336146116256714 ## TriangTime: 13.133789300918579
+30% ## Iteration: 147 ## Frame: 285## Cloud: 3463.0 ## Retriangulated: 300 ## Updated: 43 ## PnpTime: 5.234256982803345 ## TriangTime: 17.421664714813232
+30% ## Iteration: 148 ## Frame: 430## Cloud: 3472.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 4.904295444488525 ## TriangTime: 5.91107177734375
+31% ## Iteration: 149 ## Frame: 431## Cloud: 3483.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 4.898636102676392 ## TriangTime: 5.419207572937012
+31% ## Iteration: 150 ## Frame: 282## Cloud: 3508.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 4.886726140975952 ## TriangTime: 9.226971864700317
+31% ## Iteration: 151 ## Frame: 432## Cloud: 3515.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 4.9285643100738525 ## TriangTime: 5.551045656204224
+31% ## Iteration: 152 ## Frame: 281## Cloud: 3530.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 4.730284929275513 ## TriangTime: 7.202868700027466
+32% ## Iteration: 153 ## Frame: 279## Cloud: 3566.0 ## Retriangulated: 300 ## Updated: 44 ## PnpTime: 4.719762802124023 ## TriangTime: 11.1639883518219
+32% ## Iteration: 154 ## Frame: 280## Cloud: 3583.0 ## Retriangulated: 300 ## Updated: 23 ## PnpTime: 5.006847381591797 ## TriangTime: 5.970372915267944
+32% ## Iteration: 155 ## Frame: 433## Cloud: 3600.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 4.808400630950928 ## TriangTime: 6.729576349258423
+32% ## Iteration: 156 ## Frame: 278## Cloud: 3633.0 ## Retriangulated: 300 ## Updated: 43 ## PnpTime: 5.02453088760376 ## TriangTime: 16.353920698165894
+32% ## Iteration: 157 ## Frame: 275## Cloud: 3646.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 4.870966911315918 ## TriangTime: 7.367471933364868
+33% ## Iteration: 158 ## Frame: 276## Cloud: 3668.0 ## Retriangulated: 300 ## Updated: 31 ## PnpTime: 4.9097511768341064 ## TriangTime: 13.707148551940918
+33% ## Iteration: 159 ## Frame: 277## Cloud: 3672.0 ## Retriangulated: 82 ## Updated: 8 ## PnpTime: 5.285214185714722 ## TriangTime: 6.034308433532715
+33% ## Iteration: 160 ## Frame: 434## Cloud: 3684.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 4.754378795623779 ## TriangTime: 5.115562200546265
+33% ## Iteration: 161 ## Frame: 435## Cloud: 3694.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 5.276311874389648 ## TriangTime: 5.459219217300415
+33% ## Iteration: 162 ## Frame: 437## Cloud: 3706.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 5.2742884159088135 ## TriangTime: 5.3400938510894775
+34% ## Iteration: 163 ## Frame: 436## Cloud: 3712.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 4.836565017700195 ## TriangTime: 5.368215322494507
+34% ## Iteration: 164 ## Frame: 440## Cloud: 3723.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 4.744892597198486 ## TriangTime: 5.85266900062561
+34% ## Iteration: 165 ## Frame: 438## Cloud: 3736.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 4.755815267562866 ## TriangTime: 5.871004343032837
+34% ## Iteration: 166 ## Frame: 439## Cloud: 3746.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 5.2401652336120605 ## TriangTime: 5.668156623840332
+34% ## Iteration: 167 ## Frame: 273## Cloud: 3762.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 4.708729982376099 ## TriangTime: 17.099697828292847
+35% ## Iteration: 168 ## Frame: 441## Cloud: 3776.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 5.352368116378784 ## TriangTime: 9.290210247039795
+35% ## Iteration: 169 ## Frame: 274## Cloud: 3793.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 5.02254581451416 ## TriangTime: 20.412191152572632
+35% ## Iteration: 170 ## Frame: 442## Cloud: 3807.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 4.905847549438477 ## TriangTime: 8.52378535270691
+35% ## Iteration: 171 ## Frame: 445## Cloud: 3813.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 4.843860626220703 ## TriangTime: 5.2374842166900635
+35% ## Iteration: 172 ## Frame: 449## Cloud: 3824.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 4.978143215179443 ## TriangTime: 6.045426845550537
+36% ## Iteration: 173 ## Frame: 444## Cloud: 3832.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 5.12109899520874 ## TriangTime: 7.206139087677002
+36% ## Iteration: 174 ## Frame: 454## Cloud: 3837.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 4.9594926834106445 ## TriangTime: 4.647156000137329
+36% ## Iteration: 175 ## Frame: 443## Cloud: 3849.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 4.984809398651123 ## TriangTime: 9.92684531211853
+36% ## Iteration: 176 ## Frame: 450## Cloud: 3859.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 5.234054803848267 ## TriangTime: 6.6831886768341064
+37% ## Iteration: 177 ## Frame: 456## Cloud: 3865.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 5.190669536590576 ## TriangTime: 5.721726179122925
+37% ## Iteration: 178 ## Frame: 461## Cloud: 3871.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 4.771335124969482 ## TriangTime: 7.581401586532593
+37% ## Iteration: 179 ## Frame: 475## Cloud: 3876.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 6.454999685287476 ## TriangTime: 4.735771417617798
+37% ## Iteration: 180 ## Frame: 468## Cloud: 3881.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 4.87305212020874 ## TriangTime: 7.291795015335083
+37% ## Iteration: 181 ## Frame: 455## Cloud: 3886.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 4.909926176071167 ## TriangTime: 6.6064934730529785
+38% ## Iteration: 182 ## Frame: 472## Cloud: 3895.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 5.025601148605347 ## TriangTime: 7.071560382843018
+38% ## Iteration: 183 ## Frame: 448## Cloud: 3904.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 4.772849798202515 ## TriangTime: 6.565674543380737
+38% ## Iteration: 184 ## Frame: 476## Cloud: 3910.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 4.820743083953857 ## TriangTime: 6.864103078842163
+38% ## Iteration: 185 ## Frame: 464## Cloud: 3913.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 4.924638271331787 ## TriangTime: 6.212620973587036
+38% ## Iteration: 186 ## Frame: 462## Cloud: 3925.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 4.744073867797852 ## TriangTime: 9.043248653411865
+39% ## Iteration: 187 ## Frame: 473## Cloud: 3930.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 5.1351706981658936 ## TriangTime: 11.801673173904419
+39% ## Iteration: 188 ## Frame: 446## Cloud: 3940.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 5.521146297454834 ## TriangTime: 10.265154123306274
+39% ## Iteration: 189 ## Frame: 465## Cloud: 3945.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 5.067150831222534 ## TriangTime: 8.37554931640625
+39% ## Iteration: 190 ## Frame: 460## Cloud: 3954.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 4.681659698486328 ## TriangTime: 7.998615980148315
+39% ## Iteration: 191 ## Frame: 469## Cloud: 3963.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 4.906593322753906 ## TriangTime: 10.503362655639648
+40% ## Iteration: 192 ## Frame: 447## Cloud: 3969.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 4.686164617538452 ## TriangTime: 9.07532787322998
+40% ## Iteration: 193 ## Frame: 470## Cloud: 3981.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 5.007355213165283 ## TriangTime: 7.072119951248169
+40% ## Iteration: 194 ## Frame: 459## Cloud: 3984.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 5.156839370727539 ## TriangTime: 6.687757253646851
+40% ## Iteration: 195 ## Frame: 458## Cloud: 3989.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 4.559508562088013 ## TriangTime: 7.674349546432495
+41% ## Iteration: 196 ## Frame: 471## Cloud: 3997.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 4.509083986282349 ## TriangTime: 11.29284930229187
+41% ## Iteration: 197 ## Frame: 467## Cloud: 4006.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 7.002154588699341 ## TriangTime: 10.939800262451172
+41% ## Iteration: 198 ## Frame: 457## Cloud: 4011.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 6.060676097869873 ## TriangTime: 8.188456296920776
+41% ## Iteration: 199 ## Frame: 463## Cloud: 4017.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 5.533557891845703 ## TriangTime: 12.746582984924316
+41% ## Iteration: 200 ## Frame: 451## Cloud: 4023.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 5.863654613494873 ## TriangTime: 11.654808521270752
+42% ## Iteration: 201 ## Frame: 452## Cloud: 4030.0 ## Retriangulated: 300 ## Updated: 16 ## PnpTime: 6.40198016166687 ## TriangTime: 13.061757564544678
+42% ## Iteration: 202 ## Frame: 453## Cloud: 4036.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 7.4597344398498535 ## TriangTime: 12.256023168563843
+42% ## Iteration: 203 ## Frame: 466## Cloud: 4038.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 5.450345039367676 ## TriangTime: 8.94103455543518
+42% ## Iteration: 204 ## Frame: 477## Cloud: 4043.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 4.855003833770752 ## TriangTime: 6.217178821563721
+42% ## Iteration: 205 ## Frame: 474## Cloud: 4047.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 4.737513780593872 ## TriangTime: 5.621029615402222
+43% ## Iteration: 206 ## Frame: 271## Cloud: 4068.0 ## Retriangulated: 300 ## Updated: 34 ## PnpTime: 4.322999715805054 ## TriangTime: 22.387359142303467
+43% ## Iteration: 207 ## Frame: 272## Cloud: 4091.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 6.120024681091309 ## TriangTime: 23.081101894378662
+43% ## Iteration: 208 ## Frame: 269## Cloud: 4105.0 ## Retriangulated: 300 ## Updated: 23 ## PnpTime: 6.362584829330444 ## TriangTime: 25.024776220321655
+43% ## Iteration: 209 ## Frame: 268## Cloud: 4126.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 4.42800235748291 ## TriangTime: 23.34117317199707
+43% ## Iteration: 210 ## Frame: 267## Cloud: 4136.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 5.3229944705963135 ## TriangTime: 23.140185594558716
+44% ## Iteration: 211 ## Frame: 263## Cloud: 4158.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 6.430713891983032 ## TriangTime: 24.387049198150635
+44% ## Iteration: 212 ## Frame: 270## Cloud: 4174.0 ## Retriangulated: 300 ## Updated: 26 ## PnpTime: 7.418037414550781 ## TriangTime: 26.278571128845215
+44% ## Iteration: 213 ## Frame: 265## Cloud: 4208.0 ## Retriangulated: 300 ## Updated: 46 ## PnpTime: 6.243536949157715 ## TriangTime: 22.137917041778564
+44% ## Iteration: 214 ## Frame: 264## Cloud: 4234.0 ## Retriangulated: 300 ## Updated: 33 ## PnpTime: 5.35808253288269 ## TriangTime: 20.845645904541016
+44% ## Iteration: 215 ## Frame: 266## Cloud: 4253.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 4.917964220046997 ## TriangTime: 22.30430316925049
+45% ## Iteration: 216 ## Frame: 260## Cloud: 4270.0 ## Retriangulated: 300 ## Updated: 23 ## PnpTime: 5.0103631019592285 ## TriangTime: 16.957547187805176
+45% ## Iteration: 217 ## Frame: 262## Cloud: 4293.0 ## Retriangulated: 300 ## Updated: 29 ## PnpTime: 4.958773851394653 ## TriangTime: 20.71175765991211
+45% ## Iteration: 218 ## Frame: 261## Cloud: 4320.0 ## Retriangulated: 300 ## Updated: 33 ## PnpTime: 4.827574014663696 ## TriangTime: 29.137903213500977
+45% ## Iteration: 219 ## Frame: 255## Cloud: 4338.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 5.938415050506592 ## TriangTime: 29.468581199645996
+46% ## Iteration: 220 ## Frame: 259## Cloud: 4350.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 6.7960591316223145 ## TriangTime: 25.72632360458374
+46% ## Iteration: 221 ## Frame: 258## Cloud: 4370.0 ## Retriangulated: 300 ## Updated: 27 ## PnpTime: 7.385324954986572 ## TriangTime: 22.40325665473938
+46% ## Iteration: 222 ## Frame: 257## Cloud: 4382.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 6.692627668380737 ## TriangTime: 21.674994945526123
+46% ## Iteration: 223 ## Frame: 256## Cloud: 4400.0 ## Retriangulated: 300 ## Updated: 27 ## PnpTime: 6.482210159301758 ## TriangTime: 20.908173084259033
+46% ## Iteration: 224 ## Frame: 254## Cloud: 4410.0 ## Retriangulated: 300 ## Updated: 24 ## PnpTime: 6.911404132843018 ## TriangTime: 28.90666627883911
+47% ## Iteration: 225 ## Frame: 253## Cloud: 4431.0 ## Retriangulated: 300 ## Updated: 33 ## PnpTime: 6.12936544418335 ## TriangTime: 26.860599994659424
+47% ## Iteration: 226 ## Frame: 248## Cloud: 4449.0 ## Retriangulated: 300 ## Updated: 22 ## PnpTime: 6.4684436321258545 ## TriangTime: 22.23981499671936
+47% ## Iteration: 227 ## Frame: 251## Cloud: 4467.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 7.093020677566528 ## TriangTime: 20.467406272888184
+47% ## Iteration: 228 ## Frame: 250## Cloud: 4483.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 6.467716455459595 ## TriangTime: 17.084602117538452
+47% ## Iteration: 229 ## Frame: 252## Cloud: 4498.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 6.553664445877075 ## TriangTime: 20.292086124420166
+48% ## Iteration: 230 ## Frame: 247## Cloud: 4513.0 ## Retriangulated: 300 ## Updated: 25 ## PnpTime: 6.50284218788147 ## TriangTime: 33.04736089706421
+48% ## Iteration: 231 ## Frame: 246## Cloud: 4531.0 ## Retriangulated: 300 ## Updated: 25 ## PnpTime: 7.298641204833984 ## TriangTime: 29.310755252838135
+48% ## Iteration: 232 ## Frame: 249## Cloud: 4532.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 5.720624923706055 ## TriangTime: 4.163022518157959
+48% ## Iteration: 233 ## Frame: 243## Cloud: 4538.0 ## Retriangulated: 285 ## Updated: 8 ## PnpTime: 5.186112880706787 ## TriangTime: 12.586053133010864
+48% ## Iteration: 234 ## Frame: 245## Cloud: 4539.0 ## Retriangulated: 36 ## Updated: 2 ## PnpTime: 7.282834053039551 ## TriangTime: 5.767038345336914
+49% ## Iteration: 235 ## Frame: 244## Cloud: 4540.0 ## Retriangulated: 61 ## Updated: 3 ## PnpTime: 6.106964588165283 ## TriangTime: 7.190971612930298
+49% ## Iteration: 236 ## Frame: 241## Cloud: 4541.0 ## Retriangulated: 143 ## Updated: 3 ## PnpTime: 5.821530342102051 ## TriangTime: 5.87698221206665
+49% ## Iteration: 237 ## Frame: 242## Cloud: 4544.0 ## Retriangulated: 77 ## Updated: 7 ## PnpTime: 6.7134857177734375 ## TriangTime: 8.061278104782104
+49% ## Iteration: 238 ## Frame: 231## Cloud: 4544.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 6.558871507644653 ## TriangTime: 1.7305333614349365
+50% ## Iteration: 239 ## Frame: 238## Cloud: 4652.0 ## Retriangulated: 289 ## Updated: 114 ## PnpTime: 6.573247194290161 ## TriangTime: 12.270374536514282
+50% ## Iteration: 240 ## Frame: 239## Cloud: 4654.0 ## Retriangulated: 38 ## Updated: 4 ## PnpTime: 6.9656453132629395 ## TriangTime: 7.237865924835205
+50% ## Iteration: 241 ## Frame: 233## Cloud: 4656.0 ## Retriangulated: 286 ## Updated: 4 ## PnpTime: 6.330055236816406 ## TriangTime: 7.119250535964966
+50% ## Iteration: 242 ## Frame: 237## Cloud: 4660.0 ## Retriangulated: 116 ## Updated: 10 ## PnpTime: 6.385480165481567 ## TriangTime: 10.530442237854004
+50% ## Iteration: 243 ## Frame: 235## Cloud: 4663.0 ## Retriangulated: 39 ## Updated: 3 ## PnpTime: 6.430162191390991 ## TriangTime: 6.96624755859375
+51% ## Iteration: 244 ## Frame: 230## Cloud: 4664.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 6.451360464096069 ## TriangTime: 2.8196399211883545
+51% ## Iteration: 245 ## Frame: 232## Cloud: 4665.0 ## Retriangulated: 70 ## Updated: 1 ## PnpTime: 5.859154462814331 ## TriangTime: 5.241679430007935
+51% ## Iteration: 246 ## Frame: 234## Cloud: 4665.0 ## Retriangulated: 26 ## Updated: 0 ## PnpTime: 5.437548398971558 ## TriangTime: 4.564898490905762
+51% ## Iteration: 247 ## Frame: 236## Cloud: 4666.0 ## Retriangulated: 24 ## Updated: 1 ## PnpTime: 5.366192817687988 ## TriangTime: 4.094897270202637
+51% ## Iteration: 248 ## Frame: 240## Cloud: 4667.0 ## Retriangulated: 32 ## Updated: 1 ## PnpTime: 6.139723777770996 ## TriangTime: 7.715076446533203
+52% ## Iteration: 249 ## Frame: 224## Cloud: 4667.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 5.2890753746032715 ## TriangTime: 1.4879953861236572
+52% ## Iteration: 250 ## Frame: 228## Cloud: 4671.0 ## Retriangulated: 232 ## Updated: 4 ## PnpTime: 4.706510782241821 ## TriangTime: 8.87052869796753
+52% ## Iteration: 251 ## Frame: 229## Cloud: 4671.0 ## Retriangulated: 23 ## Updated: 0 ## PnpTime: 5.120878458023071 ## TriangTime: 4.760931491851807
+52% ## Iteration: 252 ## Frame: 227## Cloud: 4672.0 ## Retriangulated: 142 ## Updated: 4 ## PnpTime: 5.1992409229278564 ## TriangTime: 5.6073479652404785
+52% ## Iteration: 253 ## Frame: 216## Cloud: 4715.0 ## Retriangulated: 250 ## Updated: 44 ## PnpTime: 4.794064998626709 ## TriangTime: 3.0904057025909424
+53% ## Iteration: 254 ## Frame: 226## Cloud: 4717.0 ## Retriangulated: 175 ## Updated: 2 ## PnpTime: 5.4380409717559814 ## TriangTime: 4.04546332359314
+53% ## Iteration: 255 ## Frame: 219## Cloud: 4719.0 ## Retriangulated: 44 ## Updated: 2 ## PnpTime: 6.505324840545654 ## TriangTime: 3.652712106704712
+53% ## Iteration: 256 ## Frame: 220## Cloud: 4719.0 ## Retriangulated: 104 ## Updated: 0 ## PnpTime: 5.446863174438477 ## TriangTime: 3.0022475719451904
+53% ## Iteration: 257 ## Frame: 223## Cloud: 4732.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 6.003961563110352 ## TriangTime: 31.273190021514893
+53% ## Iteration: 258 ## Frame: 225## Cloud: 4746.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 5.46758246421814 ## TriangTime: 21.59394383430481
+54% ## Iteration: 259 ## Frame: 221## Cloud: 4763.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 4.464116334915161 ## TriangTime: 29.996732473373413
+54% ## Iteration: 260 ## Frame: 217## Cloud: 4777.0 ## Retriangulated: 262 ## Updated: 17 ## PnpTime: 4.671119689941406 ## TriangTime: 29.402079820632935
+54% ## Iteration: 261 ## Frame: 218## Cloud: 4793.0 ## Retriangulated: 211 ## Updated: 20 ## PnpTime: 4.379021883010864 ## TriangTime: 23.150051832199097
+54% ## Iteration: 262 ## Frame: 212## Cloud: 4800.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 4.225727081298828 ## TriangTime: 14.04226279258728
+55% ## Iteration: 263 ## Frame: 222## Cloud: 4820.0 ## Retriangulated: 300 ## Updated: 27 ## PnpTime: 4.31938910484314 ## TriangTime: 44.85638689994812
+55% ## Iteration: 264 ## Frame: 215## Cloud: 4829.0 ## Retriangulated: 294 ## Updated: 17 ## PnpTime: 6.67681360244751 ## TriangTime: 35.56200885772705
+55% ## Iteration: 265 ## Frame: 213## Cloud: 4838.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 4.24365234375 ## TriangTime: 22.083078145980835
+55% ## Iteration: 266 ## Frame: 208## Cloud: 4845.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 4.222108364105225 ## TriangTime: 15.891005277633667
+55% ## Iteration: 267 ## Frame: 207## Cloud: 4859.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 4.340249300003052 ## TriangTime: 24.77439260482788
+56% ## Iteration: 268 ## Frame: 209## Cloud: 4877.0 ## Retriangulated: 291 ## Updated: 20 ## PnpTime: 4.134503364562988 ## TriangTime: 30.942045211791992
+56% ## Iteration: 269 ## Frame: 214## Cloud: 4890.0 ## Retriangulated: 231 ## Updated: 15 ## PnpTime: 4.146408319473267 ## TriangTime: 26.342524528503418
+56% ## Iteration: 270 ## Frame: 210## Cloud: 4910.0 ## Retriangulated: 221 ## Updated: 21 ## PnpTime: 4.894254684448242 ## TriangTime: 22.974778652191162
+56% ## Iteration: 271 ## Frame: 211## Cloud: 4918.0 ## Retriangulated: 181 ## Updated: 10 ## PnpTime: 4.089295148849487 ## TriangTime: 20.566755294799805
+56% ## Iteration: 272 ## Frame: 206## Cloud: 4932.0 ## Retriangulated: 246 ## Updated: 16 ## PnpTime: 4.10808539390564 ## TriangTime: 18.919397354125977
+57% ## Iteration: 273 ## Frame: 205## Cloud: 4936.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 4.176804542541504 ## TriangTime: 10.746144771575928
+57% ## Iteration: 274 ## Frame: 201## Cloud: 4940.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 4.056378602981567 ## TriangTime: 7.858808994293213
+57% ## Iteration: 275 ## Frame: 199## Cloud: 4951.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 4.047122955322266 ## TriangTime: 17.75600552558899
+57% ## Iteration: 276 ## Frame: 203## Cloud: 4957.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 4.017061471939087 ## TriangTime: 18.563235759735107
+57% ## Iteration: 277 ## Frame: 202## Cloud: 4963.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 3.9782135486602783 ## TriangTime: 19.27562975883484
+58% ## Iteration: 278 ## Frame: 204## Cloud: 4979.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 4.203778505325317 ## TriangTime: 32.58631157875061
+58% ## Iteration: 279 ## Frame: 196## Cloud: 4992.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 4.729142665863037 ## TriangTime: 27.483110904693604
+58% ## Iteration: 280 ## Frame: 192## Cloud: 5005.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 4.047444581985474 ## TriangTime: 20.6607563495636
+58% ## Iteration: 281 ## Frame: 200## Cloud: 5021.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 4.103248357772827 ## TriangTime: 30.13867712020874
+58% ## Iteration: 282 ## Frame: 195## Cloud: 5037.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 3.9971213340759277 ## TriangTime: 33.389642000198364
+59% ## Iteration: 283 ## Frame: 197## Cloud: 5041.0 ## Retriangulated: 31 ## Updated: 4 ## PnpTime: 3.8945178985595703 ## TriangTime: 3.4843478202819824
+59% ## Iteration: 284 ## Frame: 190## Cloud: 5049.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 3.900373697280884 ## TriangTime: 10.602640628814697
+59% ## Iteration: 285 ## Frame: 193## Cloud: 5049.0 ## Retriangulated: 35 ## Updated: 2 ## PnpTime: 3.8231899738311768 ## TriangTime: 4.729084253311157
+59% ## Iteration: 286 ## Frame: 191## Cloud: 5049.0 ## Retriangulated: 44 ## Updated: 0 ## PnpTime: 3.9204018115997314 ## TriangTime: 4.980160713195801
+60% ## Iteration: 287 ## Frame: 186## Cloud: 5050.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 3.8176207542419434 ## TriangTime: 4.0902934074401855
+60% ## Iteration: 288 ## Frame: 184## Cloud: 5051.0 ## Retriangulated: 211 ## Updated: 2 ## PnpTime: 3.7655606269836426 ## TriangTime: 8.142967700958252
+60% ## Iteration: 289 ## Frame: 198## Cloud: 5062.0 ## Retriangulated: 49 ## Updated: 11 ## PnpTime: 3.7523744106292725 ## TriangTime: 3.1175642013549805
+60% ## Iteration: 290 ## Frame: 188## Cloud: 5064.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 3.722496271133423 ## TriangTime: 6.258159399032593
+60% ## Iteration: 291 ## Frame: 189## Cloud: 5066.0 ## Retriangulated: 137 ## Updated: 4 ## PnpTime: 5.463465929031372 ## TriangTime: 13.570972919464111
+61% ## Iteration: 292 ## Frame: 194## Cloud: 5077.0 ## Retriangulated: 80 ## Updated: 11 ## PnpTime: 5.636072874069214 ## TriangTime: 6.843171834945679
+61% ## Iteration: 293 ## Frame: 185## Cloud: 5077.0 ## Retriangulated: 51 ## Updated: 1 ## PnpTime: 3.6949002742767334 ## TriangTime: 8.618159055709839
+61% ## Iteration: 294 ## Frame: 179## Cloud: 5077.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 3.6849894523620605 ## TriangTime: 4.312932729721069
+61% ## Iteration: 295 ## Frame: 182## Cloud: 5080.0 ## Retriangulated: 63 ## Updated: 3 ## PnpTime: 3.6464285850524902 ## TriangTime: 3.3797969818115234
+61% ## Iteration: 296 ## Frame: 178## Cloud: 5080.0 ## Retriangulated: 184 ## Updated: 0 ## PnpTime: 3.6442811489105225 ## TriangTime: 4.321939945220947
+62% ## Iteration: 297 ## Frame: 187## Cloud: 5192.0 ## Retriangulated: 300 ## Updated: 112 ## PnpTime: 3.7918941974639893 ## TriangTime: 2.956793785095215
+62% ## Iteration: 298 ## Frame: 177## Cloud: 5192.0 ## Retriangulated: 111 ## Updated: 0 ## PnpTime: 3.523853302001953 ## TriangTime: 3.7793047428131104
+62% ## Iteration: 299 ## Frame: 181## Cloud: 5195.0 ## Retriangulated: 29 ## Updated: 3 ## PnpTime: 3.5685842037200928 ## TriangTime: 4.686013698577881
+62% ## Iteration: 300 ## Frame: 183## Cloud: 5197.0 ## Retriangulated: 28 ## Updated: 2 ## PnpTime: 3.539980888366699 ## TriangTime: 1.902876853942871
+62% ## Iteration: 301 ## Frame: 180## Cloud: 5202.0 ## Retriangulated: 73 ## Updated: 6 ## PnpTime: 3.583643674850464 ## TriangTime: 7.950408220291138
+63% ## Iteration: 302 ## Frame: 176## Cloud: 5202.0 ## Retriangulated: 86 ## Updated: 0 ## PnpTime: 3.4746460914611816 ## TriangTime: 4.006516456604004
+63% ## Iteration: 303 ## Frame: 169## Cloud: 5202.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 3.4985852241516113 ## TriangTime: 1.5508747100830078
+63% ## Iteration: 304 ## Frame: 173## Cloud: 5211.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 3.3907628059387207 ## TriangTime: 4.742000341415405
+63% ## Iteration: 305 ## Frame: 170## Cloud: 5217.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 3.4167490005493164 ## TriangTime: 2.901935577392578
+64% ## Iteration: 306 ## Frame: 162## Cloud: 5233.0 ## Retriangulated: 238 ## Updated: 16 ## PnpTime: 3.384932518005371 ## TriangTime: 4.239060640335083
+64% ## Iteration: 307 ## Frame: 172## Cloud: 5235.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 4.84684681892395 ## TriangTime: 1.8546020984649658
+64% ## Iteration: 308 ## Frame: 175## Cloud: 5236.0 ## Retriangulated: 215 ## Updated: 1 ## PnpTime: 5.331207036972046 ## TriangTime: 29.384881496429443
+64% ## Iteration: 309 ## Frame: 174## Cloud: 5239.0 ## Retriangulated: 186 ## Updated: 5 ## PnpTime: 3.3226675987243652 ## TriangTime: 19.237685441970825
+64% ## Iteration: 310 ## Frame: 165## Cloud: 5245.0 ## Retriangulated: 195 ## Updated: 10 ## PnpTime: 3.266206741333008 ## TriangTime: 26.86214852333069
+65% ## Iteration: 311 ## Frame: 157## Cloud: 5248.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 3.6241660118103027 ## TriangTime: 25.265127420425415
+65% ## Iteration: 312 ## Frame: 160## Cloud: 5252.0 ## Retriangulated: 218 ## Updated: 4 ## PnpTime: 3.23518443107605 ## TriangTime: 28.157301664352417
+65% ## Iteration: 313 ## Frame: 168## Cloud: 5265.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 3.265136241912842 ## TriangTime: 5.779160737991333
+65% ## Iteration: 314 ## Frame: 171## Cloud: 5269.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 3.26998233795166 ## TriangTime: 20.323417901992798
+65% ## Iteration: 315 ## Frame: 163## Cloud: 5280.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 3.304910182952881 ## TriangTime: 40.24121403694153
+66% ## Iteration: 316 ## Frame: 166## Cloud: 5288.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 3.2140166759490967 ## TriangTime: 15.924822568893433
+66% ## Iteration: 317 ## Frame: 153## Cloud: 5297.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 3.2033069133758545 ## TriangTime: 26.495851278305054
+66% ## Iteration: 318 ## Frame: 156## Cloud: 5310.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 3.25380539894104 ## TriangTime: 34.87301015853882
+66% ## Iteration: 319 ## Frame: 159## Cloud: 5316.0 ## Retriangulated: 279 ## Updated: 10 ## PnpTime: 3.0873851776123047 ## TriangTime: 39.03184986114502
+66% ## Iteration: 320 ## Frame: 167## Cloud: 5324.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 3.192586898803711 ## TriangTime: 21.34397578239441
+67% ## Iteration: 321 ## Frame: 155## Cloud: 5334.0 ## Retriangulated: 259 ## Updated: 12 ## PnpTime: 4.651471138000488 ## TriangTime: 40.195417642593384
+67% ## Iteration: 322 ## Frame: 150## Cloud: 5338.0 ## Retriangulated: 257 ## Updated: 5 ## PnpTime: 4.3634679317474365 ## TriangTime: 25.95570659637451
+67% ## Iteration: 323 ## Frame: 161## Cloud: 5346.0 ## Retriangulated: 157 ## Updated: 10 ## PnpTime: 3.394219398498535 ## TriangTime: 27.68279194831848
+67% ## Iteration: 324 ## Frame: 158## Cloud: 5352.0 ## Retriangulated: 113 ## Updated: 6 ## PnpTime: 3.1016199588775635 ## TriangTime: 12.604828357696533
+67% ## Iteration: 325 ## Frame: 152## Cloud: 5356.0 ## Retriangulated: 72 ## Updated: 5 ## PnpTime: 3.457228899002075 ## TriangTime: 9.996339082717896
+68% ## Iteration: 326 ## Frame: 154## Cloud: 5360.0 ## Retriangulated: 162 ## Updated: 4 ## PnpTime: 3.854128837585449 ## TriangTime: 21.74457550048828
+68% ## Iteration: 327 ## Frame: 164## Cloud: 5367.0 ## Retriangulated: 143 ## Updated: 7 ## PnpTime: 3.0197062492370605 ## TriangTime: 19.951518774032593
+68% ## Iteration: 328 ## Frame: 148## Cloud: 5369.0 ## Retriangulated: 152 ## Updated: 3 ## PnpTime: 2.997293710708618 ## TriangTime: 18.725937843322754
+68% ## Iteration: 329 ## Frame: 149## Cloud: 5371.0 ## Retriangulated: 162 ## Updated: 3 ## PnpTime: 3.0401129722595215 ## TriangTime: 25.29076051712036
+69% ## Iteration: 330 ## Frame: 142## Cloud: 5377.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 3.4593827724456787 ## TriangTime: 22.21838116645813
+69% ## Iteration: 331 ## Frame: 146## Cloud: 5386.0 ## Retriangulated: 201 ## Updated: 11 ## PnpTime: 2.9118897914886475 ## TriangTime: 24.71551251411438
+69% ## Iteration: 332 ## Frame: 138## Cloud: 5390.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 2.9096291065216064 ## TriangTime: 25.877023220062256
+69% ## Iteration: 333 ## Frame: 137## Cloud: 5403.0 ## Retriangulated: 255 ## Updated: 13 ## PnpTime: 3.009908676147461 ## TriangTime: 35.44904851913452
+69% ## Iteration: 334 ## Frame: 143## Cloud: 5404.0 ## Retriangulated: 50 ## Updated: 1 ## PnpTime: 2.9433157444000244 ## TriangTime: 4.360712766647339
+70% ## Iteration: 335 ## Frame: 151## Cloud: 5419.0 ## Retriangulated: 106 ## Updated: 15 ## PnpTime: 2.9049630165100098 ## TriangTime: 13.291341543197632
+70% ## Iteration: 336 ## Frame: 130## Cloud: 5420.0 ## Retriangulated: 281 ## Updated: 1 ## PnpTime: 3.0308899879455566 ## TriangTime: 5.139450788497925
+70% ## Iteration: 337 ## Frame: 141## Cloud: 5420.0 ## Retriangulated: 23 ## Updated: 0 ## PnpTime: 2.8967528343200684 ## TriangTime: 6.230544567108154
+70% ## Iteration: 338 ## Frame: 131## Cloud: 5428.0 ## Retriangulated: 85 ## Updated: 8 ## PnpTime: 3.1838607788085938 ## TriangTime: 5.366137981414795
+70% ## Iteration: 339 ## Frame: 145## Cloud: 5435.0 ## Retriangulated: 63 ## Updated: 7 ## PnpTime: 2.826443672180176 ## TriangTime: 9.018245458602905
+71% ## Iteration: 340 ## Frame: 136## Cloud: 5440.0 ## Retriangulated: 46 ## Updated: 5 ## PnpTime: 2.8567402362823486 ## TriangTime: 2.449475049972534
+71% ## Iteration: 341 ## Frame: 147## Cloud: 5440.0 ## Retriangulated: 35 ## Updated: 0 ## PnpTime: 2.7910964488983154 ## TriangTime: 6.340617656707764
+71% ## Iteration: 342 ## Frame: 134## Cloud: 5441.0 ## Retriangulated: 111 ## Updated: 2 ## PnpTime: 2.7503232955932617 ## TriangTime: 9.690656423568726
+71% ## Iteration: 343 ## Frame: 127## Cloud: 5445.0 ## Retriangulated: 244 ## Updated: 6 ## PnpTime: 2.711585283279419 ## TriangTime: 7.065931797027588
+71% ## Iteration: 344 ## Frame: 139## Cloud: 5447.0 ## Retriangulated: 46 ## Updated: 2 ## PnpTime: 2.6585960388183594 ## TriangTime: 9.231873273849487
+72% ## Iteration: 345 ## Frame: 135## Cloud: 5455.0 ## Retriangulated: 72 ## Updated: 9 ## PnpTime: 2.776923656463623 ## TriangTime: 4.524881362915039
+72% ## Iteration: 346 ## Frame: 133## Cloud: 5458.0 ## Retriangulated: 76 ## Updated: 3 ## PnpTime: 2.652524471282959 ## TriangTime: 3.7493371963500977
+72% ## Iteration: 347 ## Frame: 140## Cloud: 5462.0 ## Retriangulated: 52 ## Updated: 4 ## PnpTime: 2.688077926635742 ## TriangTime: 5.592720031738281
+72% ## Iteration: 348 ## Frame: 144## Cloud: 5463.0 ## Retriangulated: 15 ## Updated: 1 ## PnpTime: 2.6240577697753906 ## TriangTime: 2.6585659980773926
+73% ## Iteration: 349 ## Frame: 128## Cloud: 5464.0 ## Retriangulated: 37 ## Updated: 1 ## PnpTime: 2.53900146484375 ## TriangTime: 3.5708742141723633
+73% ## Iteration: 350 ## Frame: 132## Cloud: 5465.0 ## Retriangulated: 73 ## Updated: 1 ## PnpTime: 2.5451691150665283 ## TriangTime: 4.6125805377960205
+73% ## Iteration: 351 ## Frame: 112## Cloud: 5465.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 2.529588222503662 ## TriangTime: 1.4146103858947754
+73% ## Iteration: 352 ## Frame: 113## Cloud: 5469.0 ## Retriangulated: 72 ## Updated: 4 ## PnpTime: 2.541189193725586 ## TriangTime: 8.23031759262085
+73% ## Iteration: 353 ## Frame: 116## Cloud: 5469.0 ## Retriangulated: 28 ## Updated: 0 ## PnpTime: 2.518556833267212 ## TriangTime: 4.636108875274658
+74% ## Iteration: 354 ## Frame: 125## Cloud: 5473.0 ## Retriangulated: 264 ## Updated: 4 ## PnpTime: 2.4380342960357666 ## TriangTime: 2.614793539047241
+74% ## Iteration: 355 ## Frame: 126## Cloud: 5478.0 ## Retriangulated: 61 ## Updated: 6 ## PnpTime: 2.6271727085113525 ## TriangTime: 5.045992374420166
+74% ## Iteration: 356 ## Frame: 129## Cloud: 5480.0 ## Retriangulated: 40 ## Updated: 2 ## PnpTime: 2.427898406982422 ## TriangTime: 3.2551932334899902
+74% ## Iteration: 357 ## Frame: 124## Cloud: 5492.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 2.385124444961548 ## TriangTime: 6.075100898742676
+74% ## Iteration: 358 ## Frame: 122## Cloud: 5497.0 ## Retriangulated: 31 ## Updated: 5 ## PnpTime: 2.7941336631774902 ## TriangTime: 2.3738064765930176
+75% ## Iteration: 359 ## Frame: 119## Cloud: 5497.0 ## Retriangulated: 162 ## Updated: 0 ## PnpTime: 2.3688650131225586 ## TriangTime: 27.702616453170776
+75% ## Iteration: 360 ## Frame: 107## Cloud: 5497.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 2.430773973464966 ## TriangTime: 12.165878295898438
+75% ## Iteration: 361 ## Frame: 118## Cloud: 5497.0 ## Retriangulated: 212 ## Updated: 1 ## PnpTime: 2.3698995113372803 ## TriangTime: 36.37122368812561
+75% ## Iteration: 362 ## Frame: 117## Cloud: 5506.0 ## Retriangulated: 193 ## Updated: 10 ## PnpTime: 2.327819347381592 ## TriangTime: 25.654425382614136
+75% ## Iteration: 363 ## Frame: 123## Cloud: 5508.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 2.3891890048980713 ## TriangTime: 23.944372415542603
+76% ## Iteration: 364 ## Frame: 121## Cloud: 5509.0 ## Retriangulated: 74 ## Updated: 1 ## PnpTime: 2.3540847301483154 ## TriangTime: 13.040990114212036
+76% ## Iteration: 365 ## Frame: 111## Cloud: 5515.0 ## Retriangulated: 178 ## Updated: 6 ## PnpTime: 2.2815256118774414 ## TriangTime: 18.867487907409668
+76% ## Iteration: 366 ## Frame: 115## Cloud: 5517.0 ## Retriangulated: 239 ## Updated: 3 ## PnpTime: 2.3146462440490723 ## TriangTime: 40.409024477005005
+76% ## Iteration: 367 ## Frame: 114## Cloud: 5519.0 ## Retriangulated: 100 ## Updated: 4 ## PnpTime: 2.252389907836914 ## TriangTime: 15.640848875045776
+76% ## Iteration: 368 ## Frame: 120## Cloud: 5524.0 ## Retriangulated: 207 ## Updated: 5 ## PnpTime: 2.458893299102783 ## TriangTime: 29.48421573638916
+77% ## Iteration: 369 ## Frame: 89## Cloud: 5536.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 2.205937385559082 ## TriangTime: 16.182387590408325
+77% ## Iteration: 370 ## Frame: 104## Cloud: 5550.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 2.117361545562744 ## TriangTime: 29.79734444618225
+77% ## Iteration: 371 ## Frame: 109## Cloud: 5561.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 2.1319897174835205 ## TriangTime: 41.00827217102051
+77% ## Iteration: 372 ## Frame: 103## Cloud: 5565.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 2.1300864219665527 ## TriangTime: 23.765034675598145
+78% ## Iteration: 373 ## Frame: 102## Cloud: 5570.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 2.0912983417510986 ## TriangTime: 19.306492805480957
+78% ## Iteration: 374 ## Frame: 79## Cloud: 5602.0 ## Retriangulated: 300 ## Updated: 32 ## PnpTime: 2.1158056259155273 ## TriangTime: 12.358383893966675
+78% ## Iteration: 375 ## Frame: 110## Cloud: 5604.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 2.359856367111206 ## TriangTime: 42.5533881187439
+78% ## Iteration: 376 ## Frame: 106## Cloud: 5607.0 ## Retriangulated: 103 ## Updated: 4 ## PnpTime: 2.3768210411071777 ## TriangTime: 13.998164176940918
+78% ## Iteration: 377 ## Frame: 92## Cloud: 5627.0 ## Retriangulated: 220 ## Updated: 21 ## PnpTime: 2.2835638523101807 ## TriangTime: 21.465875387191772
+79% ## Iteration: 378 ## Frame: 100## Cloud: 5628.0 ## Retriangulated: 113 ## Updated: 1 ## PnpTime: 2.3617115020751953 ## TriangTime: 20.68253993988037
+79% ## Iteration: 379 ## Frame: 105## Cloud: 5629.0 ## Retriangulated: 134 ## Updated: 1 ## PnpTime: 2.314523220062256 ## TriangTime: 22.396744966506958
+79% ## Iteration: 380 ## Frame: 86## Cloud: 5642.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 2.3115737438201904 ## TriangTime: 23.455460786819458
+79% ## Iteration: 381 ## Frame: 83## Cloud: 5691.0 ## Retriangulated: 300 ## Updated: 50 ## PnpTime: 2.2782931327819824 ## TriangTime: 28.68576216697693
+79% ## Iteration: 382 ## Frame: 70## Cloud: 5691.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 2.204000949859619 ## TriangTime: 7.992535352706909
+80% ## Iteration: 383 ## Frame: 84## Cloud: 5700.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 2.210780143737793 ## TriangTime: 46.59069108963013
+80% ## Iteration: 384 ## Frame: 80## Cloud: 5704.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 2.1286823749542236 ## TriangTime: 32.49552536010742
+80% ## Iteration: 385 ## Frame: 95## Cloud: 5706.0 ## Retriangulated: 112 ## Updated: 2 ## PnpTime: 1.8153634071350098 ## TriangTime: 18.33501887321472
+80% ## Iteration: 386 ## Frame: 85## Cloud: 5710.0 ## Retriangulated: 68 ## Updated: 4 ## PnpTime: 1.848130226135254 ## TriangTime: 10.875413656234741
+80% ## Iteration: 387 ## Frame: 101## Cloud: 5722.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 1.9654405117034912 ## TriangTime: 7.286815404891968
+81% ## Iteration: 388 ## Frame: 77## Cloud: 5723.0 ## Retriangulated: 169 ## Updated: 1 ## PnpTime: 1.8370425701141357 ## TriangTime: 6.286606311798096
+81% ## Iteration: 389 ## Frame: 75## Cloud: 5727.0 ## Retriangulated: 275 ## Updated: 4 ## PnpTime: 1.8815951347351074 ## TriangTime: 5.747377872467041
+81% ## Iteration: 390 ## Frame: 99## Cloud: 5728.0 ## Retriangulated: 64 ## Updated: 1 ## PnpTime: 1.8448693752288818 ## TriangTime: 10.00237226486206
+81% ## Iteration: 391 ## Frame: 88## Cloud: 5730.0 ## Retriangulated: 24 ## Updated: 2 ## PnpTime: 1.9789376258850098 ## TriangTime: 2.6561765670776367
+82% ## Iteration: 392 ## Frame: 90## Cloud: 5730.0 ## Retriangulated: 41 ## Updated: 0 ## PnpTime: 2.572514057159424 ## TriangTime: 6.515218257904053
+82% ## Iteration: 393 ## Frame: 82## Cloud: 5735.0 ## Retriangulated: 85 ## Updated: 5 ## PnpTime: 1.8752763271331787 ## TriangTime: 9.844897031784058
+82% ## Iteration: 394 ## Frame: 81## Cloud: 5737.0 ## Retriangulated: 89 ## Updated: 2 ## PnpTime: 1.780320405960083 ## TriangTime: 6.366432428359985
+82% ## Iteration: 395 ## Frame: 94## Cloud: 5739.0 ## Retriangulated: 45 ## Updated: 2 ## PnpTime: 1.6962132453918457 ## TriangTime: 9.671433448791504
+82% ## Iteration: 396 ## Frame: 91## Cloud: 5745.0 ## Retriangulated: 52 ## Updated: 7 ## PnpTime: 1.9662251472473145 ## TriangTime: 5.926454305648804
+83% ## Iteration: 397 ## Frame: 108## Cloud: 5755.0 ## Retriangulated: 116 ## Updated: 11 ## PnpTime: 1.7285654544830322 ## TriangTime: 12.927042245864868
+83% ## Iteration: 398 ## Frame: 98## Cloud: 5756.0 ## Retriangulated: 39 ## Updated: 3 ## PnpTime: 1.7156319618225098 ## TriangTime: 6.056796312332153
+83% ## Iteration: 399 ## Frame: 76## Cloud: 5756.0 ## Retriangulated: 25 ## Updated: 0 ## PnpTime: 1.9609761238098145 ## TriangTime: 1.3055956363677979
+83% ## Iteration: 400 ## Frame: 78## Cloud: 5766.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 1.7112579345703125 ## TriangTime: 2.590939998626709
+83% ## Iteration: 401 ## Frame: 41## Cloud: 5786.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 1.5529594421386719 ## TriangTime: 0.20157909393310547
+84% ## Iteration: 402 ## Frame: 72## Cloud: 5796.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 1.5110113620758057 ## TriangTime: 3.614598035812378
+84% ## Iteration: 403 ## Frame: 62## Cloud: 5802.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 1.5053882598876953 ## TriangTime: 3.5926530361175537
+84% ## Iteration: 404 ## Frame: 97## Cloud: 5811.0 ## Retriangulated: 138 ## Updated: 9 ## PnpTime: 1.6200551986694336 ## TriangTime: 17.206615447998047
+84% ## Iteration: 405 ## Frame: 74## Cloud: 5813.0 ## Retriangulated: 175 ## Updated: 2 ## PnpTime: 1.5290119647979736 ## TriangTime: 2.5998806953430176
+84% ## Iteration: 406 ## Frame: 29## Cloud: 5815.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 1.4693944454193115 ## TriangTime: 0.9720215797424316
+85% ## Iteration: 407 ## Frame: 67## Cloud: 5815.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 1.4957447052001953 ## TriangTime: 3.1061015129089355
+85% ## Iteration: 408 ## Frame: 69## Cloud: 5815.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 1.4667272567749023 ## TriangTime: 2.9301042556762695
+85% ## Iteration: 409 ## Frame: 24## Cloud: 5816.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 1.4614243507385254 ## TriangTime: 2.066157341003418
+85% ## Iteration: 410 ## Frame: 93## Cloud: 5828.0 ## Retriangulated: 267 ## Updated: 16 ## PnpTime: 1.5076096057891846 ## TriangTime: 43.195590019226074
+85% ## Iteration: 411 ## Frame: 16## Cloud: 5830.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 1.4133853912353516 ## TriangTime: 3.061162233352661
+86% ## Iteration: 412 ## Frame: 73## Cloud: 5839.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 1.4361639022827148 ## TriangTime: 39.54475021362305
+86% ## Iteration: 413 ## Frame: 60## Cloud: 5840.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 1.362030029296875 ## TriangTime: 8.278550624847412
+86% ## Iteration: 414 ## Frame: 40## Cloud: 5840.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 1.3861262798309326 ## TriangTime: 10.579096794128418
+86% ## Iteration: 415 ## Frame: 96## Cloud: 5845.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 1.3246393203735352 ## TriangTime: 48.88381743431091
+87% ## Iteration: 416 ## Frame: 87## Cloud: 5846.0 ## Retriangulated: 152 ## Updated: 1 ## PnpTime: 1.2631170749664307 ## TriangTime: 25.937310218811035
+87% ## Iteration: 417 ## Frame: 8## Cloud: 5846.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 1.2220489978790283 ## TriangTime: 5.496835708618164
+87% ## Iteration: 418 ## Frame: 33## Cloud: 5846.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 1.2255284786224365 ## TriangTime: 9.433329820632935
+87% ## Iteration: 419 ## Frame: 32## Cloud: 5846.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 1.2059683799743652 ## TriangTime: 11.627342700958252
+87% ## Iteration: 420 ## Frame: 31## Cloud: 5848.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 1.1796596050262451 ## TriangTime: 10.595789432525635
+88% ## Iteration: 421 ## Frame: 9## Cloud: 5848.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 1.2248716354370117 ## TriangTime: 12.541240453720093
+88% ## Iteration: 422 ## Frame: 47## Cloud: 5849.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 1.1835041046142578 ## TriangTime: 19.09662389755249
+88% ## Iteration: 423 ## Frame: 66## Cloud: 5856.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 1.2403266429901123 ## TriangTime: 31.49402356147766
+88% ## Iteration: 424 ## Frame: 61## Cloud: 5858.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 1.113767385482788 ## TriangTime: 23.70660090446472
+88% ## Iteration: 425 ## Frame: 65## Cloud: 5864.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 1.0910000801086426 ## TriangTime: 20.984994888305664
+89% ## Iteration: 426 ## Frame: 45## Cloud: 5868.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 1.109121322631836 ## TriangTime: 23.933908462524414
+89% ## Iteration: 427 ## Frame: 71## Cloud: 5875.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 1.1889994144439697 ## TriangTime: 32.088119983673096
+89% ## Iteration: 428 ## Frame: 54## Cloud: 5880.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 0.9973115921020508 ## TriangTime: 20.310065269470215
+89% ## Iteration: 429 ## Frame: 68## Cloud: 5902.0 ## Retriangulated: 300 ## Updated: 25 ## PnpTime: 0.9777398109436035 ## TriangTime: 29.063773155212402
+89% ## Iteration: 430 ## Frame: 43## Cloud: 5905.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.9673855304718018 ## TriangTime: 15.703110456466675
+90% ## Iteration: 431 ## Frame: 55## Cloud: 5907.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.9443657398223877 ## TriangTime: 16.24519991874695
+90% ## Iteration: 432 ## Frame: 34## Cloud: 5911.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 1.0307884216308594 ## TriangTime: 31.04385018348694
+90% ## Iteration: 433 ## Frame: 28## Cloud: 5912.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.9911396503448486 ## TriangTime: 20.00691866874695
+90% ## Iteration: 434 ## Frame: 56## Cloud: 5916.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 1.0878684520721436 ## TriangTime: 15.232324123382568
+91% ## Iteration: 435 ## Frame: 48## Cloud: 5918.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.8119676113128662 ## TriangTime: 24.245681524276733
+91% ## Iteration: 436 ## Frame: 7## Cloud: 5919.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 1.025533676147461 ## TriangTime: 19.193102598190308
+91% ## Iteration: 437 ## Frame: 63## Cloud: 5925.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 0.7659883499145508 ## TriangTime: 21.227189540863037
+91% ## Iteration: 438 ## Frame: 50## Cloud: 5932.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 0.711031436920166 ## TriangTime: 23.163729906082153
+91% ## Iteration: 439 ## Frame: 30## Cloud: 5937.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 0.7710788249969482 ## TriangTime: 13.632766962051392
+92% ## Iteration: 440 ## Frame: 38## Cloud: 5944.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 0.7122724056243896 ## TriangTime: 11.277944803237915
+92% ## Iteration: 441 ## Frame: 44## Cloud: 5945.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.6729300022125244 ## TriangTime: 11.378626346588135
+92% ## Iteration: 442 ## Frame: 58## Cloud: 5948.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 0.6420319080352783 ## TriangTime: 12.433134317398071
+92% ## Iteration: 443 ## Frame: 37## Cloud: 5948.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.6459953784942627 ## TriangTime: 9.60160493850708
+92% ## Iteration: 444 ## Frame: 26## Cloud: 5951.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.6850147247314453 ## TriangTime: 14.26612401008606
+93% ## Iteration: 445 ## Frame: 15## Cloud: 5952.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.587968111038208 ## TriangTime: 8.036081314086914
+93% ## Iteration: 446 ## Frame: 35## Cloud: 5952.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.5639986991882324 ## TriangTime: 7.680508852005005
+93% ## Iteration: 447 ## Frame: 42## Cloud: 5953.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.5629675388336182 ## TriangTime: 13.149252653121948
+93% ## Iteration: 448 ## Frame: 12## Cloud: 5953.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.7269961833953857 ## TriangTime: 5.412063360214233
+93% ## Iteration: 449 ## Frame: 36## Cloud: 5955.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.5961074829101562 ## TriangTime: 9.003989458084106
+94% ## Iteration: 450 ## Frame: 51## Cloud: 6004.0 ## Retriangulated: 300 ## Updated: 49 ## PnpTime: 0.6576550006866455 ## TriangTime: 13.280186414718628
+94% ## Iteration: 451 ## Frame: 20## Cloud: 6004.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.5433981418609619 ## TriangTime: 6.323507308959961
+94% ## Iteration: 452 ## Frame: 52## Cloud: 6020.0 ## Retriangulated: 300 ## Updated: 17 ## PnpTime: 0.5627481937408447 ## TriangTime: 6.694479942321777
+94% ## Iteration: 453 ## Frame: 27## Cloud: 6021.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.5750856399536133 ## TriangTime: 4.845583915710449
+94% ## Iteration: 454 ## Frame: 57## Cloud: 6022.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.5023753643035889 ## TriangTime: 4.546925783157349
+95% ## Iteration: 455 ## Frame: 3## Cloud: 6029.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 0.489107608795166 ## TriangTime: 7.6802051067352295
+95% ## Iteration: 456 ## Frame: 11## Cloud: 6034.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 0.47147178649902344 ## TriangTime: 5.96454381942749
+95% ## Iteration: 457 ## Frame: 19## Cloud: 6036.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.4560272693634033 ## TriangTime: 4.298088788986206
+95% ## Iteration: 458 ## Frame: 53## Cloud: 6038.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.4510006904602051 ## TriangTime: 7.165859937667847
+96% ## Iteration: 459 ## Frame: 46## Cloud: 6039.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.4160268306732178 ## TriangTime: 7.1718127727508545
+96% ## Iteration: 460 ## Frame: 21## Cloud: 6064.0 ## Retriangulated: 300 ## Updated: 25 ## PnpTime: 0.3986978530883789 ## TriangTime: 5.556269884109497
+96% ## Iteration: 461 ## Frame: 2## Cloud: 6067.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.3624403476715088 ## TriangTime: 34.96686291694641
+96% ## Iteration: 462 ## Frame: 25## Cloud: 6067.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.3549377918243408 ## TriangTime: 6.6738669872283936
+96% ## Iteration: 463 ## Frame: 64## Cloud: 6099.0 ## Retriangulated: 300 ## Updated: 33 ## PnpTime: 0.3358137607574463 ## TriangTime: 16.725595474243164
+97% ## Iteration: 464 ## Frame: 18## Cloud: 6131.0 ## Retriangulated: 300 ## Updated: 32 ## PnpTime: 0.3167729377746582 ## TriangTime: 11.443293809890747
+97% ## Iteration: 465 ## Frame: 49## Cloud: 6132.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.28799986839294434 ## TriangTime: 24.532554388046265
+97% ## Iteration: 466 ## Frame: 14## Cloud: 6135.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.2700037956237793 ## TriangTime: 16.78834104537964
+97% ## Iteration: 467 ## Frame: 39## Cloud: 6135.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.23421669006347656 ## TriangTime: 25.600913047790527
+97% ## Iteration: 468 ## Frame: 17## Cloud: 6138.0 ## Retriangulated: 300 ## Updated: 3 ## PnpTime: 0.2629983425140381 ## TriangTime: 15.586545944213867
+98% ## Iteration: 469 ## Frame: 13## Cloud: 6139.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.382000207901001 ## TriangTime: 15.879104375839233
+98% ## Iteration: 470 ## Frame: 6## Cloud: 6182.0 ## Retriangulated: 300 ## Updated: 43 ## PnpTime: 0.1759934425354004 ## TriangTime: 11.790981769561768
+98% ## Iteration: 471 ## Frame: 23## Cloud: 6191.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 0.15599822998046875 ## TriangTime: 12.839003324508667
+98% ## Iteration: 472 ## Frame: 4## Cloud: 6228.0 ## Retriangulated: 300 ## Updated: 37 ## PnpTime: 0.13406920433044434 ## TriangTime: 18.692353010177612
+98% ## Iteration: 473 ## Frame: 5## Cloud: 6289.0 ## Retriangulated: 300 ## Updated: 61 ## PnpTime: 0.11400008201599121 ## TriangTime: 16.740307331085205
+99% ## Iteration: 474 ## Frame: 59## Cloud: 6291.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.09589672088623047 ## TriangTime: 14.176288366317749
+99% ## Iteration: 475 ## Frame: 10## Cloud: 6297.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 0.07398128509521484 ## TriangTime: 14.369426012039185
+99% ## Iteration: 476 ## Frame: 1## Cloud: 6298.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 0.05356645584106445 ## TriangTime: 68.09010815620422
+99% ## Iteration: 477 ## Frame: 22## Cloud: 6308.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 0.03400301933288574 ## TriangTime: 17.444008350372314
+100% ## Iteration: 478 ## Frame: 0## Cloud: 6311.0 ## Retriangulated: 182 ## Updated: 3 ## PnpTime: 0.014006376266479492 ## TriangTime: 39.107340574264526
+Done!
+Processed: 100.0

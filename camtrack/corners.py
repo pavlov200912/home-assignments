@@ -37,11 +37,11 @@ class _CornerStorageBuilder:
 
 class FeatureDetector:
     def __init__(self):
-        self.shi_params = dict(maxCorners=1000, qualityLevel=0.04, minDistance=5, blockSize=7)
+        self.shi_params = dict(maxCorners=1000, qualityLevel=0.01, minDistance=4, blockSize=7)
         self.lucas_params = dict(winSize=(15, 15), maxLevel=2,
                                  criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
         self.IQR_const = 3
-        self.backtrack_threshold = 0.3
+        self.backtrack_threshold = 1.5
 
     @staticmethod
     def get_level_feature_size(level):

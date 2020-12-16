@@ -1,0 +1,120 @@
+Finding best frames
+DEBUG: 12:22 corrs: 527 E_I:192 H_I: 74 R: 2 T:12
+DEBUG: 11:22 corrs: 342 E_I:121 H_I: 65 R: 1 T:8
+DEBUG: 11:21 corrs: 342 E_I:116 H_I: 65 R: 1 T:7
+DEBUG: 10:22 corrs: 242 E_I:117 H_I: 65 R: 1 T:4
+DEBUG: 10:21 corrs: 242 E_I:117 H_I: 65 R: 1 T:4
+DEBUG: 10:20 corrs: 242 E_I:117 H_I: 65 R: 1 T:4
+DEBUG: 9:22 corrs: 192 E_I:113 H_I: 63 R: 1 T:2
+DEBUG: 9:21 corrs: 192 E_I:112 H_I: 63 R: 1 T:2
+DEBUG: 9:20 corrs: 192 E_I:112 H_I: 63 R: 1 T:2
+DEBUG: 9:19 corrs: 193 E_I:111 H_I: 63 R: 1 T:2
+DEBUG: 8:22 corrs: 150 E_I:98 H_I: 63 R: 1 T:2
+DEBUG: 8:21 corrs: 150 E_I:98 H_I: 63 R: 1 T:2
+DEBUG: 8:20 corrs: 150 E_I:98 H_I: 63 R: 1 T:2
+DEBUG: 8:19 corrs: 150 E_I:96 H_I: 63 R: 1 T:2
+DEBUG: 0:10 corrs: 151 E_I:84 H_I: 64 R: 1 T:1
+DEBUG: 8:18 corrs: 150 E_I:92 H_I: 63 R: 1 T:2
+DEBUG: 7:17 corrs: 124 E_I:79 H_I: 63 R: 1 T:2
+DEBUG: 7:22 corrs: 123 E_I:83 H_I: 63 R: 1 T:1
+DEBUG: 7:21 corrs: 123 E_I:84 H_I: 63 R: 1 T:2
+DEBUG: 7:20 corrs: 123 E_I:83 H_I: 63 R: 1 T:2
+DEBUG: 7:19 corrs: 123 E_I:86 H_I: 63 R: 1 T:2
+DEBUG: 7:18 corrs: 123 E_I:84 H_I: 63 R: 1 T:1
+DEBUG: 6:16 corrs: 109 E_I:79 H_I: 63 R: 1 T:1
+DEBUG: 6:17 corrs: 105 E_I:79 H_I: 63 R: 1 T:1
+DEBUG: 6:22 corrs: 104 E_I:84 H_I: 63 R: 1 T:1
+DEBUG: 6:21 corrs: 104 E_I:85 H_I: 63 R: 1 T:1
+DEBUG: 6:20 corrs: 104 E_I:85 H_I: 63 R: 1 T:1
+DEBUG: 6:19 corrs: 104 E_I:85 H_I: 63 R: 1 T:1
+DEBUG: 6:18 corrs: 104 E_I:76 H_I: 63 R: 1 T:1
+DEBUG: 1:11 corrs: 100 E_I:71 H_I: 64 R: 1 T:0
+DEBUG: 0:11 corrs: 99 E_I:73 H_I: 64 R: 1 T:0
+DEBUG: 5:17 corrs: 96 E_I:78 H_I: 63 R: 1 T:1
+DEBUG: 5:16 corrs: 96 E_I:73 H_I: 63 R: 1 T:0
+DEBUG: 5:15 corrs: 96 E_I:77 H_I: 63 R: 1 T:1
+DEBUG: 5:22 corrs: 95 E_I:76 H_I: 63 R: 1 T:1
+DEBUG: 5:21 corrs: 95 E_I:77 H_I: 63 R: 1 T:1
+DEBUG: 5:20 corrs: 95 E_I:78 H_I: 63 R: 1 T:1
+DEBUG: 5:19 corrs: 95 E_I:78 H_I: 63 R: 1 T:1
+DEBUG: 5:18 corrs: 95 E_I:82 H_I: 63 R: 1 T:1
+DEBUG: 1:12 corrs: 91 E_I:71 H_I: 65 R: 1 T:0
+DEBUG: 2:12 corrs: 91 E_I:69 H_I: 64 R: 1 T:0
+DEBUG: 0:12 corrs: 90 E_I:70 H_I: 65 R: 1 T:0
+DEBUG: 4:17 corrs: 85 E_I:75 H_I: 63 R: 1 T:0
+DEBUG: 4:16 corrs: 85 E_I:75 H_I: 63 R: 1 T:0
+DEBUG: 4:15 corrs: 85 E_I:71 H_I: 63 R: 1 T:0
+DEBUG: 4:14 corrs: 85 E_I:68 H_I: 63 R: 1 T:0
+DEBUG: 4:22 corrs: 84 E_I:76 H_I: 63 R: 1 T:0
+DEBUG: 4:21 corrs: 84 E_I:72 H_I: 63 R: 1 T:0
+DEBUG: 4:20 corrs: 84 E_I:75 H_I: 63 R: 1 T:0
+DEBUG: 4:19 corrs: 84 E_I:76 H_I: 63 R: 1 T:0
+DEBUG: 4:18 corrs: 84 E_I:75 H_I: 63 R: 1 T:0
+DEBUG: 1:13 corrs: 83 E_I:69 H_I: 63 R: 1 T:0
+DEBUG: 2:13 corrs: 83 E_I:69 H_I: 63 R: 1 T:0
+DEBUG: 3:13 corrs: 83 E_I:68 H_I: 63 R: 1 T:0
+DEBUG: 0:13 corrs: 82 E_I:70 H_I: 63 R: 1 T:0
+DEBUG: 1:17 corrs: 79 E_I:72 H_I: 63 R: 1 T:0
+DEBUG: 1:16 corrs: 79 E_I:72 H_I: 63 R: 1 T:0
+DEBUG: 2:17 corrs: 79 E_I:73 H_I: 63 R: 1 T:0
+DEBUG: 1:15 corrs: 79 E_I:70 H_I: 63 R: 1 T:0
+DEBUG: 2:16 corrs: 79 E_I:73 H_I: 63 R: 1 T:0
+DEBUG: 3:17 corrs: 79 E_I:74 H_I: 63 R: 1 T:0
+DEBUG: 1:14 corrs: 79 E_I:68 H_I: 63 R: 1 T:0
+DEBUG: 2:15 corrs: 79 E_I:70 H_I: 63 R: 1 T:0
+DEBUG: 3:16 corrs: 79 E_I:74 H_I: 63 R: 1 T:0
+DEBUG: 2:14 corrs: 79 E_I:70 H_I: 63 R: 1 T:0
+DEBUG: 3:15 corrs: 79 E_I:69 H_I: 63 R: 1 T:0
+DEBUG: 3:14 corrs: 79 E_I:69 H_I: 63 R: 1 T:0
+DEBUG: 0:22 corrs: 78 E_I:73 H_I: 73 R: 0 T:0
+DEBUG: 0:21 corrs: 78 E_I:73 H_I: 69 R: 1 T:0
+DEBUG: 1:22 corrs: 78 E_I:72 H_I: 72 R: 0 T:0
+DEBUG: 0:20 corrs: 78 E_I:73 H_I: 71 R: 1 T:0
+DEBUG: 1:21 corrs: 78 E_I:73 H_I: 72 R: 1 T:0
+DEBUG: 2:22 corrs: 78 E_I:73 H_I: 68 R: 1 T:0
+DEBUG: 0:19 corrs: 78 E_I:73 H_I: 71 R: 1 T:0
+DEBUG: 1:20 corrs: 78 E_I:74 H_I: 71 R: 1 T:0
+DEBUG: 2:21 corrs: 78 E_I:73 H_I: 68 R: 1 T:0
+DEBUG: 3:22 corrs: 78 E_I:73 H_I: 63 R: 1 T:0
+DEBUG: 0:18 corrs: 78 E_I:72 H_I: 63 R: 1 T:0
+DEBUG: 1:19 corrs: 78 E_I:72 H_I: 69 R: 1 T:0
+DEBUG: 2:20 corrs: 78 E_I:74 H_I: 69 R: 1 T:0
+DEBUG: 3:21 corrs: 78 E_I:73 H_I: 63 R: 1 T:0
+DEBUG: 0:17 corrs: 78 E_I:71 H_I: 63 R: 1 T:0
+DEBUG: 1:18 corrs: 78 E_I:72 H_I: 63 R: 1 T:0
+DEBUG: 2:19 corrs: 78 E_I:73 H_I: 63 R: 1 T:0
+DEBUG: 3:20 corrs: 78 E_I:73 H_I: 63 R: 1 T:0
+DEBUG: 0:16 corrs: 78 E_I:72 H_I: 63 R: 1 T:0
+DEBUG: 2:18 corrs: 78 E_I:73 H_I: 63 R: 1 T:0
+DEBUG: 3:19 corrs: 78 E_I:72 H_I: 63 R: 1 T:0
+DEBUG: 0:15 corrs: 78 E_I:71 H_I: 63 R: 1 T:0
+DEBUG: 3:18 corrs: 78 E_I:72 H_I: 63 R: 1 T:0
+DEBUG: 0:14 corrs: 78 E_I:67 H_I: 63 R: 1 T:0
+Best triangulated result: 252
+Best frames found: 12 and 22
+Triangulation between initial frames done! Founded 254 points with med_cos=4.832545760348801
+4% ## Iteration: 1 ## Frame: 19## Cloud: 254.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 0.07799863815307617 ## TriangTime: 0.4352445602416992
+8% ## Iteration: 2 ## Frame: 12## Cloud: 254.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 0.07351422309875488 ## TriangTime: 0.2025139331817627
+13% ## Iteration: 3 ## Frame: 22## Cloud: 254.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 0.0739891529083252 ## TriangTime: 0.40637993812561035
+17% ## Iteration: 4 ## Frame: 20## Cloud: 254.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 0.0738983154296875 ## TriangTime: 0.5484611988067627
+21% ## Iteration: 5 ## Frame: 21## Cloud: 254.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.07213401794433594 ## TriangTime: 0.5221896171569824
+26% ## Iteration: 6 ## Frame: 18## Cloud: 254.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.06226778030395508 ## TriangTime: 0.6064822673797607
+30% ## Iteration: 7 ## Frame: 17## Cloud: 259.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 0.0660252571105957 ## TriangTime: 0.8318235874176025
+34% ## Iteration: 8 ## Frame: 13## Cloud: 301.0 ## Retriangulated: 300 ## Updated: 46 ## PnpTime: 0.06651115417480469 ## TriangTime: 0.3595294952392578
+39% ## Iteration: 9 ## Frame: 16## Cloud: 326.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 0.05485391616821289 ## TriangTime: 0.8701629638671875
+43% ## Iteration: 10 ## Frame: 14## Cloud: 379.0 ## Retriangulated: 300 ## Updated: 55 ## PnpTime: 0.0530850887298584 ## TriangTime: 0.5863583087921143
+47% ## Iteration: 11 ## Frame: 15## Cloud: 430.0 ## Retriangulated: 300 ## Updated: 61 ## PnpTime: 0.04900074005126953 ## TriangTime: 0.8522756099700928
+52% ## Iteration: 12 ## Frame: 11## Cloud: 500.0 ## Retriangulated: 300 ## Updated: 70 ## PnpTime: 0.053000688552856445 ## TriangTime: 0.19967079162597656
+56% ## Iteration: 13 ## Frame: 10## Cloud: 511.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 0.051195383071899414 ## TriangTime: 0.12120747566223145
+60% ## Iteration: 14 ## Frame: 9## Cloud: 554.0 ## Retriangulated: 300 ## Updated: 43 ## PnpTime: 0.043279170989990234 ## TriangTime: 0.215925931930542
+65% ## Iteration: 15 ## Frame: 8## Cloud: 592.0 ## Retriangulated: 300 ## Updated: 38 ## PnpTime: 0.04765582084655762 ## TriangTime: 0.23547744750976562
+69% ## Iteration: 16 ## Frame: 7## Cloud: 620.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 0.057283639907836914 ## TriangTime: 0.17657780647277832
+73% ## Iteration: 17 ## Frame: 6## Cloud: 729.0 ## Retriangulated: 300 ## Updated: 109 ## PnpTime: 0.05068492889404297 ## TriangTime: 0.30031514167785645
+78% ## Iteration: 18 ## Frame: 5## Cloud: 884.0 ## Retriangulated: 300 ## Updated: 155 ## PnpTime: 0.045029401779174805 ## TriangTime: 0.5395190715789795
+82% ## Iteration: 19 ## Frame: 4## Cloud: 928.0 ## Retriangulated: 300 ## Updated: 44 ## PnpTime: 0.02200150489807129 ## TriangTime: 0.4983510971069336
+86% ## Iteration: 20 ## Frame: 3## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 32 ## PnpTime: 0.016001224517822266 ## TriangTime: 0.477370023727417
+91% ## Iteration: 21 ## Frame: 2## Cloud: 973.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 0.013071775436401367 ## TriangTime: 0.4184305667877197
+95% ## Iteration: 22 ## Frame: 1## Cloud: 984.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 0.007999181747436523 ## TriangTime: 0.25899648666381836
+100% ## Iteration: 23 ## Frame: 0## Cloud: 987.0 ## Retriangulated: 41 ## Updated: 3 ## PnpTime: 0.0049593448638916016 ## TriangTime: 0.09420156478881836
+Done!
+Processed: 100.0

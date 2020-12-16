@@ -1,0 +1,604 @@
+Finding best frames
+DEBUG: 87:97 corrs: 5553 E_I:5049 H_I: 4533 R: 1 T:3
+DEBUG: 86:97 corrs: 5461 E_I:5060 H_I: 4364 R: 1 T:15
+DEBUG: 86:96 corrs: 5474 E_I:5184 H_I: 4606 R: 1 T:0
+DEBUG: 85:97 corrs: 5366 E_I:4816 H_I: 4189 R: 1 T:0
+DEBUG: 85:96 corrs: 5376 E_I:4922 H_I: 3827 R: 1 T:10
+DEBUG: 84:94 corrs: 5306 E_I:4807 H_I: 3205 R: 1 T:14
+DEBUG: 85:95 corrs: 5379 E_I:4671 H_I: 3852 R: 1 T:0
+DEBUG: 84:97 corrs: 5250 E_I:4682 H_I: 3734 R: 1 T:0
+DEBUG: 84:96 corrs: 5258 E_I:4684 H_I: 3487 R: 1 T:4
+DEBUG: 84:95 corrs: 5304 E_I:4748 H_I: 3208 R: 1 T:0
+DEBUG: 80:90 corrs: 5236 E_I:4733 H_I: 2747 R: 1 T:0
+DEBUG: 81:91 corrs: 5149 E_I:4383 H_I: 2843 R: 1 T:8
+DEBUG: 83:93 corrs: 5202 E_I:4614 H_I: 3280 R: 1 T:118
+DEBUG: 83:97 corrs: 5112 E_I:4520 H_I: 3132 R: 1 T:5
+DEBUG: 83:96 corrs: 5102 E_I:4454 H_I: 3435 R: 1 T:0
+DEBUG: 83:95 corrs: 5181 E_I:4639 H_I: 3302 R: 1 T:0
+DEBUG: 80:91 corrs: 5165 E_I:4562 H_I: 2785 R: 1 T:0
+DEBUG: 81:92 corrs: 5084 E_I:4255 H_I: 2688 R: 1 T:1
+DEBUG: 82:93 corrs: 5094 E_I:4492 H_I: 2756 R: 1 T:0
+DEBUG: 83:94 corrs: 5135 E_I:4469 H_I: 3225 R: 1 T:0
+DEBUG: 82:92 corrs: 5155 E_I:4578 H_I: 3173 R: 1 T:0
+DEBUG: 81:97 corrs: 4938 E_I:4008 H_I: 2668 R: 1 T:2
+DEBUG: 81:96 corrs: 4926 E_I:4138 H_I: 2625 R: 1 T:9
+DEBUG: 82:97 corrs: 5030 E_I:4496 H_I: 2988 R: 1 T:0
+DEBUG: 80:94 corrs: 4951 E_I:4282 H_I: 2389 R: 1 T:0
+DEBUG: 81:95 corrs: 4992 E_I:4330 H_I: 2517 R: 1 T:26
+DEBUG: 82:96 corrs: 4916 E_I:4028 H_I: 2698 R: 1 T:9
+DEBUG: 80:93 corrs: 5017 E_I:4444 H_I: 2696 R: 1 T:0
+DEBUG: 81:94 corrs: 5031 E_I:4456 H_I: 2642 R: 1 T:0
+DEBUG: 82:95 corrs: 5020 E_I:4292 H_I: 2838 R: 1 T:0
+DEBUG: 80:92 corrs: 5046 E_I:4269 H_I: 2584 R: 1 T:54
+DEBUG: 81:93 corrs: 5071 E_I:4490 H_I: 2610 R: 1 T:0
+DEBUG: 82:94 corrs: 5058 E_I:4468 H_I: 3004 R: 1 T:247
+DEBUG: 79:90 corrs: 4992 E_I:4456 H_I: 2663 R: 1 T:234
+DEBUG: 78:88 corrs: 4977 E_I:4291 H_I: 2590 R: 1 T:237
+DEBUG: 79:89 corrs: 5071 E_I:4548 H_I: 2611 R: 1 T:0
+DEBUG: 80:97 corrs: 4904 E_I:4146 H_I: 2364 R: 1 T:0
+DEBUG: 80:96 corrs: 4924 E_I:4275 H_I: 2379 R: 1 T:0
+DEBUG: 80:95 corrs: 4970 E_I:4357 H_I: 2217 R: 1 T:0
+DEBUG: 78:90 corrs: 4871 E_I:4346 H_I: 2413 R: 1 T:0
+DEBUG: 79:91 corrs: 4916 E_I:4343 H_I: 2339 R: 1 T:0
+DEBUG: 76:87 corrs: 4892 E_I:4413 H_I: 2407 R: 1 T:0
+DEBUG: 77:88 corrs: 4914 E_I:4384 H_I: 2407 R: 1 T:230
+DEBUG: 78:89 corrs: 4949 E_I:4435 H_I: 2375 R: 1 T:9
+DEBUG: 76:86 corrs: 4928 E_I:4430 H_I: 2393 R: 1 T:0
+DEBUG: 77:87 corrs: 4850 E_I:4209 H_I: 2384 R: 1 T:227
+DEBUG: 79:93 corrs: 4791 E_I:4240 H_I: 2206 R: 1 T:0
+DEBUG: 76:89 corrs: 4791 E_I:4270 H_I: 2062 R: 2 T:224
+DEBUG: 77:90 corrs: 4789 E_I:4299 H_I: 2380 R: 1 T:157
+DEBUG: 78:91 corrs: 4804 E_I:4247 H_I: 2244 R: 1 T:0
+DEBUG: 79:92 corrs: 4855 E_I:4302 H_I: 2295 R: 1 T:0
+DEBUG: 76:88 corrs: 4877 E_I:4357 H_I: 2121 R: 2 T:0
+DEBUG: 77:89 corrs: 4849 E_I:4351 H_I: 2342 R: 1 T:0
+DEBUG: 73:83 corrs: 4754 E_I:4237 H_I: 2207 R: 1 T:0
+DEBUG: 74:84 corrs: 4813 E_I:4332 H_I: 2239 R: 1 T:0
+DEBUG: 75:85 corrs: 4763 E_I:4131 H_I: 2349 R: 1 T:6
+DEBUG: 79:97 corrs: 4724 E_I:4173 H_I: 2153 R: 1 T:0
+DEBUG: 79:96 corrs: 4673 E_I:3858 H_I: 2114 R: 1 T:0
+DEBUG: 79:95 corrs: 4732 E_I:4121 H_I: 2242 R: 1 T:220
+DEBUG: 76:91 corrs: 4658 E_I:4086 H_I: 2020 R: 2 T:0
+DEBUG: 78:93 corrs: 4674 E_I:4111 H_I: 2064 R: 1 T:0
+DEBUG: 79:94 corrs: 4698 E_I:4072 H_I: 2136 R: 1 T:125
+DEBUG: 76:90 corrs: 4730 E_I:4129 H_I: 2157 R: 1 T:228
+DEBUG: 77:91 corrs: 4713 E_I:4150 H_I: 2122 R: 1 T:0
+DEBUG: 78:92 corrs: 4727 E_I:4189 H_I: 2196 R: 1 T:0
+DEBUG: 75:87 corrs: 4688 E_I:4206 H_I: 2020 R: 2 T:0
+DEBUG: 73:84 corrs: 4685 E_I:4171 H_I: 2346 R: 1 T:0
+DEBUG: 74:85 corrs: 4708 E_I:4229 H_I: 2262 R: 1 T:0
+DEBUG: 75:86 corrs: 4720 E_I:4264 H_I: 2410 R: 1 T:222
+DEBUG: 72:82 corrs: 4660 E_I:4118 H_I: 2391 R: 1 T:219
+DEBUG: 78:97 corrs: 4601 E_I:4059 H_I: 2075 R: 1 T:33
+DEBUG: 78:96 corrs: 4603 E_I:4017 H_I: 2057 R: 1 T:0
+DEBUG: 78:95 corrs: 4607 E_I:3981 H_I: 1958 R: 2 T:214
+DEBUG: 76:92 corrs: 4588 E_I:4055 H_I: 1847 R: 2 T:57
+DEBUG: 77:93 corrs: 4560 E_I:3939 H_I: 1996 R: 1 T:0
+DEBUG: 78:94 corrs: 4530 E_I:3745 H_I: 2008 R: 1 T:0
+DEBUG: 77:92 corrs: 4621 E_I:4084 H_I: 1949 R: 2 T:2
+DEBUG: 74:88 corrs: 4580 E_I:4018 H_I: 1890 R: 2 T:66
+DEBUG: 75:89 corrs: 4615 E_I:4131 H_I: 1947 R: 2 T:68
+DEBUG: 74:87 corrs: 4602 E_I:4123 H_I: 2021 R: 2 T:0
+DEBUG: 75:88 corrs: 4673 E_I:4182 H_I: 2079 R: 2 T:219
+DEBUG: 73:85 corrs: 4593 E_I:4125 H_I: 2189 R: 1 T:0
+DEBUG: 74:86 corrs: 4637 E_I:4184 H_I: 2156 R: 1 T:0
+DEBUG: 72:83 corrs: 4615 E_I:4172 H_I: 2158 R: 1 T:0
+DEBUG: 71:81 corrs: 4566 E_I:4115 H_I: 2437 R: 1 T:1
+DEBUG: 76:97 corrs: 4445 E_I:3849 H_I: 1878 R: 2 T:0
+DEBUG: 76:96 corrs: 4462 E_I:3876 H_I: 1743 R: 2 T:145
+DEBUG: 77:97 corrs: 4488 E_I:3890 H_I: 1933 R: 2 T:0
+DEBUG: 76:95 corrs: 4454 E_I:3707 H_I: 1956 R: 1 T:0
+DEBUG: 77:96 corrs: 4508 E_I:3956 H_I: 1874 R: 2 T:0
+DEBUG: 76:94 corrs: 4485 E_I:3916 H_I: 1807 R: 2 T:208
+DEBUG: 77:95 corrs: 4527 E_I:3933 H_I: 1834 R: 2 T:0
+DEBUG: 76:93 corrs: 4531 E_I:3892 H_I: 1759 R: 2 T:121
+DEBUG: 77:94 corrs: 4522 E_I:3957 H_I: 1850 R: 2 T:0
+DEBUG: 74:90 corrs: 4456 E_I:3954 H_I: 1791 R: 2 T:39
+DEBUG: 75:91 corrs: 4496 E_I:4008 H_I: 1807 R: 2 T:0
+DEBUG: 74:89 corrs: 4514 E_I:3979 H_I: 1940 R: 2 T:211
+DEBUG: 75:90 corrs: 4542 E_I:3935 H_I: 2072 R: 1 T:36
+DEBUG: 73:87 corrs: 4477 E_I:3977 H_I: 1856 R: 2 T:26
+DEBUG: 31:44 corrs: 4273 E_I:4122 H_I: 1409 R: 2 T:133
+DEBUG: 73:86 corrs: 4517 E_I:4040 H_I: 1940 R: 2 T:43
+DEBUG: 28:40 corrs: 4335 E_I:4170 H_I: 1625 R: 2 T:213
+DEBUG: 31:43 corrs: 4402 E_I:4272 H_I: 1581 R: 2 T:0
+DEBUG: 32:44 corrs: 4412 E_I:4300 H_I: 1667 R: 2 T:158
+DEBUG: 33:45 corrs: 4128 E_I:3968 H_I: 1459 R: 2 T:202
+DEBUG: 72:84 corrs: 4509 E_I:4046 H_I: 2092 R: 1 T:191
+DEBUG: 21:32 corrs: 4293 E_I:4188 H_I: 1849 R: 2 T:0
+DEBUG: 22:33 corrs: 4396 E_I:4321 H_I: 1969 R: 2 T:107
+DEBUG: 23:34 corrs: 4320 E_I:4179 H_I: 1794 R: 2 T:0
+DEBUG: 24:35 corrs: 4339 E_I:4218 H_I: 1843 R: 2 T:0
+DEBUG: 25:36 corrs: 4357 E_I:4263 H_I: 1826 R: 2 T:26
+DEBUG: 26:37 corrs: 4429 E_I:4338 H_I: 1868 R: 2 T:0
+DEBUG: 27:38 corrs: 4086 E_I:3842 H_I: 1671 R: 2 T:201
+DEBUG: 28:39 corrs: 4201 E_I:4024 H_I: 1649 R: 2 T:0
+DEBUG: 29:40 corrs: 4391 E_I:4284 H_I: 1722 R: 2 T:216
+DEBUG: 30:41 corrs: 4273 E_I:4086 H_I: 1774 R: 2 T:210
+DEBUG: 31:42 corrs: 4372 E_I:4228 H_I: 1683 R: 2 T:3
+DEBUG: 32:43 corrs: 4445 E_I:4336 H_I: 1771 R: 2 T:160
+DEBUG: 33:44 corrs: 4366 E_I:4249 H_I: 1693 R: 2 T:0
+DEBUG: 34:45 corrs: 4434 E_I:4322 H_I: 1717 R: 2 T:79
+DEBUG: 71:82 corrs: 4477 E_I:3963 H_I: 1901 R: 2 T:211
+DEBUG: 16:26 corrs: 4202 E_I:4096 H_I: 2178 R: 1 T:0
+DEBUG: 19:29 corrs: 4091 E_I:3953 H_I: 1961 R: 2 T:0
+DEBUG: 20:30 corrs: 4451 E_I:4379 H_I: 2121 R: 2 T:0
+DEBUG: 21:31 corrs: 4463 E_I:4394 H_I: 2173 R: 2 T:0
+DEBUG: 22:32 corrs: 4447 E_I:4363 H_I: 2064 R: 2 T:0
+DEBUG: 23:33 corrs: 4458 E_I:4382 H_I: 2063 R: 2 T:0
+DEBUG: 24:34 corrs: 4439 E_I:4339 H_I: 2015 R: 2 T:0
+DEBUG: 25:35 corrs: 4255 E_I:4096 H_I: 1947 R: 2 T:0
+DEBUG: 26:36 corrs: 4458 E_I:4357 H_I: 1995 R: 2 T:220
+DEBUG: 27:37 corrs: 4270 E_I:4154 H_I: 1879 R: 2 T:211
+DEBUG: 28:38 corrs: 4326 E_I:4116 H_I: 1887 R: 2 T:213
+DEBUG: 29:39 corrs: 4440 E_I:4346 H_I: 1924 R: 2 T:0
+DEBUG: 30:40 corrs: 4451 E_I:4343 H_I: 1955 R: 2 T:0
+DEBUG: 31:41 corrs: 4434 E_I:4313 H_I: 1877 R: 2 T:0
+DEBUG: 32:42 corrs: 4261 E_I:4083 H_I: 1743 R: 2 T:0
+DEBUG: 33:43 corrs: 4455 E_I:4312 H_I: 1835 R: 2 T:108
+DEBUG: 34:44 corrs: 4469 E_I:4363 H_I: 1896 R: 2 T:0
+DEBUG: 35:45 corrs: 4474 E_I:4371 H_I: 1851 R: 2 T:155
+DEBUG: 36:46 corrs: 4194 E_I:4049 H_I: 1873 R: 2 T:206
+DEBUG: 70:80 corrs: 4487 E_I:4004 H_I: 2054 R: 1 T:0
+DEBUG: 74:91 corrs: 4403 E_I:3903 H_I: 1768 R: 2 T:206
+DEBUG: 75:92 corrs: 4405 E_I:3916 H_I: 1745 R: 2 T:0
+DEBUG: 28:44 corrs: 3952 E_I:3800 H_I: 1228 R: 3 T:192
+DEBUG: 29:45 corrs: 4198 E_I:4063 H_I: 1232 R: 3 T:204
+DEBUG: 73:89 corrs: 4360 E_I:3748 H_I: 1696 R: 2 T:0
+DEBUG: 20:35 corrs: 4245 E_I:4148 H_I: 1380 R: 3 T:87
+DEBUG: 26:41 corrs: 4055 E_I:3923 H_I: 1413 R: 2 T:198
+DEBUG: 27:42 corrs: 3990 E_I:3842 H_I: 1239 R: 3 T:55
+DEBUG: 28:43 corrs: 4163 E_I:3958 H_I: 1358 R: 2 T:201
+DEBUG: 29:44 corrs: 4185 E_I:4045 H_I: 1300 R: 3 T:98
+DEBUG: 30:45 corrs: 4084 E_I:3923 H_I: 1212 R: 3 T:72
+DEBUG: 73:88 corrs: 4468 E_I:3964 H_I: 1826 R: 2 T:40
+DEBUG: 19:33 corrs: 4196 E_I:4078 H_I: 1449 R: 2 T:206
+DEBUG: 20:34 corrs: 4137 E_I:4006 H_I: 1540 R: 2 T:203
+DEBUG: 21:35 corrs: 4287 E_I:4192 H_I: 1538 R: 2 T:144
+DEBUG: 22:36 corrs: 4156 E_I:4032 H_I: 1545 R: 2 T:204
+DEBUG: 23:37 corrs: 4081 E_I:3948 H_I: 1446 R: 2 T:201
+DEBUG: 25:39 corrs: 4059 E_I:3923 H_I: 1452 R: 2 T:140
+DEBUG: 26:40 corrs: 4125 E_I:3941 H_I: 1445 R: 2 T:202
+DEBUG: 27:41 corrs: 4016 E_I:3829 H_I: 1374 R: 2 T:196
+DEBUG: 28:42 corrs: 4289 E_I:4150 H_I: 1418 R: 2 T:210
+DEBUG: 29:43 corrs: 3965 E_I:3763 H_I: 1332 R: 2 T:158
+DEBUG: 30:44 corrs: 4290 E_I:4167 H_I: 1471 R: 2 T:112
+DEBUG: 31:45 corrs: 4267 E_I:4120 H_I: 1337 R: 3 T:91
+DEBUG: 32:46 corrs: 4245 E_I:4133 H_I: 1437 R: 2 T:155
+DEBUG: 72:86 corrs: 4353 E_I:3854 H_I: 1901 R: 2 T:203
+DEBUG: 17:30 corrs: 4303 E_I:4236 H_I: 1694 R: 2 T:133
+DEBUG: 18:31 corrs: 4244 E_I:4158 H_I: 1641 R: 2 T:88
+DEBUG: 19:32 corrs: 4346 E_I:4266 H_I: 1712 R: 2 T:38
+DEBUG: 20:33 corrs: 4066 E_I:3945 H_I: 1634 R: 2 T:0
+DEBUG: 21:34 corrs: 4315 E_I:4227 H_I: 1648 R: 2 T:106
+DEBUG: 22:35 corrs: 3999 E_I:3828 H_I: 1535 R: 2 T:196
+DEBUG: 23:36 corrs: 4240 E_I:4142 H_I: 1598 R: 2 T:126
+DEBUG: 24:37 corrs: 4257 E_I:4179 H_I: 1535 R: 2 T:0
+DEBUG: 25:38 corrs: 4183 E_I:4057 H_I: 1425 R: 2 T:205
+DEBUG: 26:39 corrs: 4268 E_I:4145 H_I: 1529 R: 2 T:209
+DEBUG: 27:40 corrs: 3948 E_I:3743 H_I: 1460 R: 2 T:0
+DEBUG: 28:41 corrs: 4229 E_I:4063 H_I: 1537 R: 2 T:207
+DEBUG: 29:42 corrs: 4202 E_I:4052 H_I: 1496 R: 2 T:0
+DEBUG: 30:43 corrs: 4049 E_I:3841 H_I: 1455 R: 2 T:198
+DEBUG: 32:45 corrs: 4284 E_I:4117 H_I: 1492 R: 2 T:209
+DEBUG: 33:46 corrs: 4286 E_I:4181 H_I: 1479 R: 2 T:210
+DEBUG: 72:85 corrs: 4427 E_I:3963 H_I: 1898 R: 2 T:45
+DEBUG: 15:27 corrs: 4309 E_I:4233 H_I: 1851 R: 2 T:109
+DEBUG: 16:28 corrs: 4299 E_I:4238 H_I: 1835 R: 2 T:0
+DEBUG: 17:29 corrs: 4330 E_I:4263 H_I: 1843 R: 2 T:34
+DEBUG: 18:30 corrs: 4341 E_I:4273 H_I: 1819 R: 2 T:20
+DEBUG: 19:31 corrs: 4284 E_I:4195 H_I: 1689 R: 2 T:211
+DEBUG: 20:32 corrs: 4214 E_I:4095 H_I: 1785 R: 2 T:207
+DEBUG: 21:33 corrs: 4370 E_I:4299 H_I: 1711 R: 2 T:211
+DEBUG: 22:34 corrs: 4364 E_I:4272 H_I: 1764 R: 2 T:105
+DEBUG: 23:35 corrs: 4116 E_I:3934 H_I: 1605 R: 2 T:0
+DEBUG: 24:36 corrs: 3981 E_I:3846 H_I: 1537 R: 2 T:0
+DEBUG: 25:37 corrs: 4338 E_I:4257 H_I: 1657 R: 2 T:0
+DEBUG: 26:38 corrs: 4295 E_I:4140 H_I: 1609 R: 2 T:0
+DEBUG: 27:39 corrs: 4345 E_I:4241 H_I: 1644 R: 2 T:132
+DEBUG: 29:41 corrs: 4168 E_I:3987 H_I: 1529 R: 2 T:0
+DEBUG: 30:42 corrs: 4260 E_I:4096 H_I: 1586 R: 2 T:81
+DEBUG: 34:46 corrs: 4319 E_I:4214 H_I: 1429 R: 2 T:210
+DEBUG: 35:47 corrs: 4078 E_I:3834 H_I: 1436 R: 2 T:199
+DEBUG: 70:82 corrs: 4371 E_I:3933 H_I: 2056 R: 1 T:0
+DEBUG: 71:83 corrs: 4406 E_I:3986 H_I: 1950 R: 2 T:0
+DEBUG: 8:19 corrs: 4298 E_I:4240 H_I: 1989 R: 2 T:0
+DEBUG: 13:24 corrs: 4192 E_I:4117 H_I: 1864 R: 2 T:116
+DEBUG: 15:26 corrs: 4243 E_I:4162 H_I: 1821 R: 2 T:0
+DEBUG: 16:27 corrs: 4349 E_I:4285 H_I: 1764 R: 2 T:215
+DEBUG: 17:28 corrs: 4357 E_I:4307 H_I: 1967 R: 2 T:0
+DEBUG: 18:29 corrs: 4390 E_I:4324 H_I: 1995 R: 2 T:0
+DEBUG: 19:30 corrs: 4180 E_I:4076 H_I: 1794 R: 2 T:166
+DEBUG: 20:31 corrs: 4265 E_I:4161 H_I: 1819 R: 2 T:130
+DEBUG: 35:46 corrs: 4208 E_I:4068 H_I: 1601 R: 2 T:0
+DEBUG: 36:47 corrs: 4286 E_I:4178 H_I: 1693 R: 2 T:18
+DEBUG: 70:81 corrs: 4371 E_I:3887 H_I: 1988 R: 1 T:1
+DEBUG: 8:18 corrs: 4368 E_I:4319 H_I: 2066 R: 2 T:4
+DEBUG: 9:19 corrs: 4352 E_I:4304 H_I: 2052 R: 2 T:0
+DEBUG: 10:20 corrs: 4007 E_I:3891 H_I: 1990 R: 1 T:199
+DEBUG: 11:21 corrs: 4343 E_I:4301 H_I: 1977 R: 2 T:0
+DEBUG: 12:22 corrs: 4360 E_I:4308 H_I: 2136 R: 2 T:9
+DEBUG: 13:23 corrs: 4296 E_I:4196 H_I: 2097 R: 2 T:213
+DEBUG: 14:24 corrs: 4175 E_I:4093 H_I: 1958 R: 2 T:88
+DEBUG: 15:25 corrs: 4425 E_I:4365 H_I: 2122 R: 2 T:0
+DEBUG: 17:27 corrs: 4425 E_I:4365 H_I: 2032 R: 2 T:0
+DEBUG: 18:28 corrs: 4424 E_I:4364 H_I: 2175 R: 2 T:27
+DEBUG: 37:47 corrs: 4239 E_I:4120 H_I: 1709 R: 2 T:68
+DEBUG: 65:75 corrs: 4326 E_I:3969 H_I: 1932 R: 2 T:0
+DEBUG: 66:76 corrs: 4344 E_I:3951 H_I: 1934 R: 2 T:0
+DEBUG: 67:77 corrs: 4349 E_I:3943 H_I: 2041 R: 1 T:205
+DEBUG: 68:78 corrs: 4360 E_I:3927 H_I: 2031 R: 1 T:0
+DEBUG: 69:79 corrs: 4381 E_I:3992 H_I: 2080 R: 1 T:181
+DEBUG: 75:97 corrs: 4274 E_I:3701 H_I: 1737 R: 2 T:0
+DEBUG: 75:96 corrs: 4237 E_I:3500 H_I: 1581 R: 2 T:197
+DEBUG: 75:95 corrs: 4316 E_I:3800 H_I: 1694 R: 2 T:0
+DEBUG: 25:44 corrs: 3990 E_I:3854 H_I: 1184 R: 3 T:194
+DEBUG: 26:45 corrs: 3875 E_I:3709 H_I: 1090 R: 3 T:188
+DEBUG: 74:93 corrs: 4172 E_I:3514 H_I: 1486 R: 2 T:0
+DEBUG: 75:94 corrs: 4311 E_I:3798 H_I: 1797 R: 2 T:164
+DEBUG: 19:37 corrs: 4082 E_I:4003 H_I: 1203 R: 3 T:116
+DEBUG: 20:38 corrs: 4015 E_I:3888 H_I: 1323 R: 2 T:196
+DEBUG: 21:39 corrs: 4070 E_I:3951 H_I: 1215 R: 3 T:199
+DEBUG: 22:40 corrs: 4110 E_I:4001 H_I: 1254 R: 3 T:110
+DEBUG: 23:41 corrs: 3979 E_I:3861 H_I: 1201 R: 3 T:135
+DEBUG: 25:43 corrs: 3913 E_I:3766 H_I: 1162 R: 3 T:190
+DEBUG: 26:44 corrs: 3606 E_I:3418 H_I: 1026 R: 3 T:174
+DEBUG: 27:45 corrs: 4079 E_I:3930 H_I: 1204 R: 3 T:198
+DEBUG: 28:46 corrs: 3771 E_I:3613 H_I: 1089 R: 3 T:183
+DEBUG: 73:91 corrs: 4193 E_I:3436 H_I: 1665 R: 2 T:0
+DEBUG: 74:92 corrs: 4299 E_I:3678 H_I: 1720 R: 2 T:0
+DEBUG: 75:93 corrs: 4351 E_I:3831 H_I: 1817 R: 2 T:198
+DEBUG: 16:33 corrs: 4109 E_I:4038 H_I: 1330 R: 3 T:125
+DEBUG: 17:34 corrs: 4127 E_I:4049 H_I: 1351 R: 2 T:170
+DEBUG: 18:35 corrs: 4122 E_I:4014 H_I: 1343 R: 2 T:161
+DEBUG: 19:36 corrs: 4014 E_I:3901 H_I: 1258 R: 3 T:0
+DEBUG: 20:37 corrs: 4086 E_I:3975 H_I: 1317 R: 3 T:29
+DEBUG: 21:38 corrs: 4153 E_I:4048 H_I: 1236 R: 3 T:203
+DEBUG: 22:39 corrs: 3929 E_I:3806 H_I: 1246 R: 3 T:0
+DEBUG: 23:40 corrs: 4050 E_I:3898 H_I: 1243 R: 3 T:198
+DEBUG: 24:41 corrs: 3994 E_I:3832 H_I: 1259 R: 3 T:195
+DEBUG: 25:42 corrs: 4115 E_I:3984 H_I: 1285 R: 3 T:200
+DEBUG: 26:43 corrs: 4158 E_I:4044 H_I: 1232 R: 3 T:169
+DEBUG: 27:44 corrs: 4136 E_I:4006 H_I: 1258 R: 3 T:86
+DEBUG: 28:45 corrs: 4028 E_I:3810 H_I: 1223 R: 3 T:196
+DEBUG: 29:46 corrs: 4084 E_I:3939 H_I: 1167 R: 3 T:198
+DEBUG: 73:90 corrs: 4332 E_I:3765 H_I: 1963 R: 1 T:179
+DEBUG: 15:31 corrs: 4120 E_I:4039 H_I: 1364 R: 2 T:0
+DEBUG: 16:32 corrs: 4181 E_I:4097 H_I: 1347 R: 3 T:88
+DEBUG: 17:33 corrs: 4080 E_I:4012 H_I: 1327 R: 3 T:40
+DEBUG: 18:34 corrs: 4190 E_I:4105 H_I: 1436 R: 2 T:205
+DEBUG: 19:35 corrs: 4113 E_I:3995 H_I: 1375 R: 2 T:201
+DEBUG: 20:36 corrs: 4144 E_I:4041 H_I: 1418 R: 2 T:0
+DEBUG: 21:37 corrs: 4154 E_I:4074 H_I: 1433 R: 2 T:203
+DEBUG: 22:38 corrs: 4166 E_I:4040 H_I: 1306 R: 3 T:0
+DEBUG: 23:39 corrs: 4029 E_I:3886 H_I: 1304 R: 2 T:0
+DEBUG: 24:40 corrs: 4057 E_I:3934 H_I: 1349 R: 2 T:167
+DEBUG: 25:41 corrs: 4088 E_I:3969 H_I: 1382 R: 2 T:23
+DEBUG: 26:42 corrs: 4170 E_I:4036 H_I: 1332 R: 3 T:195
+DEBUG: 27:43 corrs: 3927 E_I:3702 H_I: 1220 R: 3 T:54
+DEBUG: 30:46 corrs: 3808 E_I:3576 H_I: 1152 R: 3 T:0
+DEBUG: 31:47 corrs: 3923 E_I:3781 H_I: 1201 R: 3 T:190
+DEBUG: 72:88 corrs: 4269 E_I:3697 H_I: 1812 R: 2 T:198
+DEBUG: 8:23 corrs: 4189 E_I:4135 H_I: 1573 R: 2 T:206
+DEBUG: 15:30 corrs: 4199 E_I:4125 H_I: 1498 R: 2 T:206
+DEBUG: 16:31 corrs: 3997 E_I:3894 H_I: 1352 R: 2 T:196
+DEBUG: 17:32 corrs: 4221 E_I:4147 H_I: 1479 R: 2 T:105
+DEBUG: 18:33 corrs: 4076 E_I:3982 H_I: 1412 R: 2 T:0
+DEBUG: 19:34 corrs: 4034 E_I:3902 H_I: 1377 R: 2 T:0
+DEBUG: 21:36 corrs: 4232 E_I:4145 H_I: 1459 R: 2 T:50
+DEBUG: 22:37 corrs: 4220 E_I:4145 H_I: 1464 R: 2 T:81
+DEBUG: 23:38 corrs: 4056 E_I:3933 H_I: 1374 R: 2 T:195
+DEBUG: 24:39 corrs: 4038 E_I:3869 H_I: 1305 R: 2 T:198
+DEBUG: 25:40 corrs: 4192 E_I:4075 H_I: 1423 R: 2 T:100
+DEBUG: 31:46 corrs: 4034 E_I:3871 H_I: 1272 R: 3 T:0
+DEBUG: 32:47 corrs: 4117 E_I:4007 H_I: 1430 R: 2 T:200
+DEBUG: 72:87 corrs: 4230 E_I:3407 H_I: 1710 R: 1 T:195
+DEBUG: 7:21 corrs: 4152 E_I:4100 H_I: 1617 R: 2 T:181
+DEBUG: 8:22 corrs: 4153 E_I:4067 H_I: 1580 R: 2 T:204
+DEBUG: 9:23 corrs: 4104 E_I:4047 H_I: 1572 R: 2 T:0
+DEBUG: 13:27 corrs: 4192 E_I:4129 H_I: 1591 R: 2 T:0
+DEBUG: 15:29 corrs: 4183 E_I:4092 H_I: 1556 R: 2 T:158
+DEBUG: 16:30 corrs: 4217 E_I:4110 H_I: 1562 R: 2 T:0
+DEBUG: 17:31 corrs: 4217 E_I:4132 H_I: 1585 R: 2 T:70
+DEBUG: 18:32 corrs: 4282 E_I:4214 H_I: 1642 R: 2 T:45
+DEBUG: 24:38 corrs: 4244 E_I:4140 H_I: 1436 R: 2 T:209
+DEBUG: 33:47 corrs: 4070 E_I:3908 H_I: 1396 R: 2 T:198
+DEBUG: 7:20 corrs: 4164 E_I:4101 H_I: 1624 R: 2 T:196
+DEBUG: 8:21 corrs: 4236 E_I:4179 H_I: 1602 R: 2 T:209
+DEBUG: 9:22 corrs: 4003 E_I:3911 H_I: 1531 R: 2 T:0
+DEBUG: 10:23 corrs: 4095 E_I:4034 H_I: 1618 R: 2 T:202
+DEBUG: 11:24 corrs: 4189 E_I:4126 H_I: 1636 R: 2 T:0
+DEBUG: 12:25 corrs: 4188 E_I:4136 H_I: 1699 R: 2 T:5
+DEBUG: 13:26 corrs: 4220 E_I:4148 H_I: 1772 R: 2 T:208
+DEBUG: 14:27 corrs: 4196 E_I:4140 H_I: 1656 R: 2 T:109
+DEBUG: 15:28 corrs: 4260 E_I:4200 H_I: 1601 R: 2 T:210
+DEBUG: 16:29 corrs: 4287 E_I:4218 H_I: 1605 R: 2 T:0
+DEBUG: 34:47 corrs: 4021 E_I:3867 H_I: 1354 R: 2 T:196
+DEBUG: 70:83 corrs: 4193 E_I:3605 H_I: 1884 R: 1 T:0
+DEBUG: 71:84 corrs: 4240 E_I:3683 H_I: 1752 R: 2 T:0
+DEBUG: 6:18 corrs: 4096 E_I:4041 H_I: 1752 R: 2 T:0
+DEBUG: 7:19 corrs: 4267 E_I:4212 H_I: 1768 R: 2 T:15
+DEBUG: 8:20 corrs: 4283 E_I:4222 H_I: 1818 R: 2 T:0
+DEBUG: 9:21 corrs: 4277 E_I:4225 H_I: 1823 R: 2 T:82
+DEBUG: 10:22 corrs: 4288 E_I:4227 H_I: 1749 R: 2 T:32
+DEBUG: 11:23 corrs: 4203 E_I:4139 H_I: 1745 R: 2 T:0
+DEBUG: 12:24 corrs: 4259 E_I:4201 H_I: 1770 R: 2 T:0
+DEBUG: 13:25 corrs: 4217 E_I:4164 H_I: 1732 R: 2 T:208
+DEBUG: 14:26 corrs: 4128 E_I:4048 H_I: 1756 R: 2 T:0
+DEBUG: 36:48 corrs: 4145 E_I:4035 H_I: 1594 R: 2 T:43
+DEBUG: 69:81 corrs: 4215 E_I:3775 H_I: 1885 R: 2 T:0
+DEBUG: 6:17 corrs: 3918 E_I:3841 H_I: 1700 R: 2 T:0
+DEBUG: 7:18 corrs: 4275 E_I:4224 H_I: 1857 R: 2 T:8
+DEBUG: 9:20 corrs: 4325 E_I:4272 H_I: 1865 R: 2 T:0
+DEBUG: 10:21 corrs: 4122 E_I:4067 H_I: 1908 R: 2 T:204
+DEBUG: 11:22 corrs: 4317 E_I:4266 H_I: 1938 R: 2 T:31
+DEBUG: 12:23 corrs: 4302 E_I:4256 H_I: 1887 R: 2 T:0
+DEBUG: 14:25 corrs: 4278 E_I:4220 H_I: 1975 R: 2 T:26
+DEBUG: 37:48 corrs: 4130 E_I:4033 H_I: 1540 R: 2 T:34
+DEBUG: 65:76 corrs: 4196 E_I:3813 H_I: 1849 R: 2 T:53
+DEBUG: 66:77 corrs: 4273 E_I:3892 H_I: 1851 R: 2 T:202
+DEBUG: 67:78 corrs: 4281 E_I:3860 H_I: 1997 R: 1 T:0
+DEBUG: 68:79 corrs: 4260 E_I:3858 H_I: 1897 R: 2 T:51
+DEBUG: 69:80 corrs: 4229 E_I:3672 H_I: 2059 R: 1 T:0
+DEBUG: 5:15 corrs: 4244 E_I:4216 H_I: 1982 R: 2 T:11
+DEBUG: 6:16 corrs: 4300 E_I:4266 H_I: 2142 R: 1 T:105
+DEBUG: 7:17 corrs: 4334 E_I:4295 H_I: 2079 R: 2 T:17
+DEBUG: 38:48 corrs: 4224 E_I:4126 H_I: 1850 R: 2 T:52
+DEBUG: 20:43 corrs: 3912 E_I:3791 H_I: 1033 R: 3 T:189
+DEBUG: 21:44 corrs: 3645 E_I:3474 H_I: 961 R: 3 T:176
+DEBUG: 22:45 corrs: 3928 E_I:3807 H_I: 1072 R: 3 T:164
+DEBUG: 74:97 corrs: 4187 E_I:3660 H_I: 1693 R: 2 T:0
+DEBUG: 18:40 corrs: 3961 E_I:3863 H_I: 1132 R: 3 T:192
+DEBUG: 19:41 corrs: 3870 E_I:3760 H_I: 1099 R: 3 T:188
+DEBUG: 20:42 corrs: 3962 E_I:3847 H_I: 1049 R: 3 T:192
+DEBUG: 21:43 corrs: 3842 E_I:3720 H_I: 1012 R: 3 T:184
+DEBUG: 22:44 corrs: 3943 E_I:3818 H_I: 1015 R: 3 T:191
+DEBUG: 23:45 corrs: 3953 E_I:3825 H_I: 1082 R: 3 T:191
+DEBUG: 74:96 corrs: 4178 E_I:3640 H_I: 1782 R: 2 T:70
+DEBUG: 15:36 corrs: 3903 E_I:3798 H_I: 1106 R: 3 T:82
+DEBUG: 16:37 corrs: 3843 E_I:3706 H_I: 1102 R: 3 T:187
+DEBUG: 17:38 corrs: 3889 E_I:3773 H_I: 1138 R: 3 T:36
+DEBUG: 18:39 corrs: 3746 E_I:3610 H_I: 1071 R: 3 T:23
+DEBUG: 19:40 corrs: 3767 E_I:3622 H_I: 1058 R: 3 T:122
+DEBUG: 20:41 corrs: 3859 E_I:3725 H_I: 1140 R: 3 T:34
+DEBUG: 21:42 corrs: 3926 E_I:3790 H_I: 1066 R: 3 T:190
+DEBUG: 22:43 corrs: 3987 E_I:3870 H_I: 1098 R: 3 T:194
+DEBUG: 23:44 corrs: 3813 E_I:3676 H_I: 1060 R: 3 T:185
+DEBUG: 24:45 corrs: 3631 E_I:3482 H_I: 995 R: 3 T:175
+DEBUG: 25:46 corrs: 3961 E_I:3853 H_I: 1088 R: 3 T:192
+DEBUG: 74:95 corrs: 4212 E_I:3654 H_I: 1584 R: 2 T:192
+DEBUG: 15:35 corrs: 3973 E_I:3881 H_I: 1171 R: 3 T:194
+DEBUG: 16:36 corrs: 3889 E_I:3779 H_I: 1163 R: 3 T:122
+DEBUG: 17:37 corrs: 3723 E_I:3597 H_I: 1105 R: 3 T:181
+DEBUG: 18:38 corrs: 3999 E_I:3884 H_I: 1182 R: 3 T:195
+DEBUG: 19:39 corrs: 4023 E_I:3920 H_I: 1179 R: 3 T:196
+DEBUG: 20:40 corrs: 4040 E_I:3932 H_I: 1137 R: 3 T:197
+DEBUG: 21:41 corrs: 4036 E_I:3930 H_I: 1198 R: 3 T:196
+DEBUG: 22:42 corrs: 4012 E_I:3892 H_I: 1184 R: 3 T:195
+DEBUG: 23:43 corrs: 4032 E_I:3914 H_I: 1150 R: 3 T:196
+DEBUG: 24:44 corrs: 3613 E_I:3425 H_I: 1046 R: 3 T:0
+DEBUG: 25:45 corrs: 3990 E_I:3851 H_I: 1086 R: 3 T:193
+DEBUG: 26:46 corrs: 3644 E_I:3482 H_I: 1046 R: 3 T:176
+DEBUG: 27:47 corrs: 3854 E_I:3725 H_I: 1124 R: 3 T:155
+DEBUG: 74:94 corrs: 4198 E_I:3671 H_I: 1552 R: 2 T:195
+DEBUG: 13:32 corrs: 4021 E_I:3952 H_I: 1288 R: 3 T:183
+DEBUG: 15:34 corrs: 4031 E_I:3957 H_I: 1217 R: 3 T:122
+DEBUG: 16:35 corrs: 4029 E_I:3936 H_I: 1192 R: 3 T:82
+DEBUG: 17:36 corrs: 3772 E_I:3616 H_I: 1111 R: 3 T:184
+DEBUG: 18:37 corrs: 4061 E_I:3985 H_I: 1248 R: 3 T:198
+DEBUG: 19:38 corrs: 3898 E_I:3754 H_I: 1202 R: 3 T:189
+DEBUG: 20:39 corrs: 3652 E_I:3437 H_I: 1081 R: 3 T:177
+DEBUG: 21:40 corrs: 3928 E_I:3775 H_I: 1160 R: 3 T:19
+DEBUG: 22:41 corrs: 4029 E_I:3910 H_I: 1198 R: 3 T:39
+DEBUG: 23:42 corrs: 3937 E_I:3783 H_I: 1148 R: 3 T:68
+DEBUG: 24:43 corrs: 3640 E_I:3470 H_I: 1072 R: 3 T:177
+DEBUG: 27:46 corrs: 4026 E_I:3911 H_I: 1065 R: 3 T:195
+DEBUG: 28:47 corrs: 3980 E_I:3857 H_I: 1100 R: 3 T:192
+DEBUG: 73:92 corrs: 4157 E_I:3538 H_I: 1713 R: 2 T:0
+DEBUG: 8:26 corrs: 4013 E_I:3960 H_I: 1265 R: 3 T:197
+DEBUG: 9:27 corrs: 4026 E_I:3983 H_I: 1353 R: 2 T:7
+DEBUG: 13:31 corrs: 4059 E_I:3979 H_I: 1302 R: 3 T:199
+DEBUG: 14:32 corrs: 3519 E_I:3403 H_I: 1109 R: 3 T:59
+DEBUG: 15:33 corrs: 4054 E_I:3981 H_I: 1243 R: 3 T:198
+DEBUG: 16:34 corrs: 4088 E_I:4011 H_I: 1220 R: 3 T:199
+DEBUG: 17:35 corrs: 4059 E_I:3971 H_I: 1283 R: 3 T:198
+DEBUG: 18:36 corrs: 3883 E_I:3764 H_I: 1235 R: 3 T:161
+DEBUG: 24:42 corrs: 3958 E_I:3819 H_I: 1184 R: 3 T:193
+DEBUG: 29:47 corrs: 3950 E_I:3777 H_I: 1121 R: 3 T:191
+DEBUG: 72:90 corrs: 4182 E_I:3661 H_I: 1659 R: 2 T:195
+DEBUG: 6:23 corrs: 4064 E_I:4009 H_I: 1356 R: 2 T:199
+DEBUG: 7:24 corrs: 4084 E_I:4035 H_I: 1331 R: 3 T:198
+DEBUG: 8:25 corrs: 3886 E_I:3811 H_I: 1247 R: 3 T:152
+DEBUG: 9:26 corrs: 4036 E_I:3979 H_I: 1387 R: 2 T:0
+DEBUG: 10:27 corrs: 4037 E_I:3976 H_I: 1342 R: 2 T:198
+DEBUG: 13:30 corrs: 4122 E_I:4053 H_I: 1294 R: 3 T:202
+DEBUG: 14:31 corrs: 4056 E_I:3981 H_I: 1366 R: 2 T:199
+DEBUG: 15:32 corrs: 4096 E_I:4013 H_I: 1396 R: 2 T:201
+DEBUG: 30:47 corrs: 4076 E_I:3961 H_I: 1239 R: 3 T:197
+DEBUG: 31:48 corrs: 3954 E_I:3831 H_I: 1213 R: 3 T:191
+DEBUG: 72:89 corrs: 4251 E_I:3779 H_I: 1713 R: 2 T:198
+DEBUG: 6:22 corrs: 4071 E_I:4011 H_I: 1351 R: 2 T:200
+DEBUG: 7:23 corrs: 3981 E_I:3921 H_I: 1340 R: 2 T:21
+DEBUG: 8:24 corrs: 4063 E_I:3997 H_I: 1348 R: 2 T:74
+DEBUG: 9:25 corrs: 4111 E_I:4060 H_I: 1453 R: 2 T:77
+DEBUG: 10:26 corrs: 4125 E_I:4076 H_I: 1454 R: 2 T:203
+DEBUG: 11:27 corrs: 3804 E_I:3736 H_I: 1355 R: 2 T:187
+DEBUG: 12:28 corrs: 4045 E_I:3988 H_I: 1417 R: 2 T:119
+DEBUG: 13:29 corrs: 4059 E_I:3979 H_I: 1437 R: 2 T:199
+DEBUG: 14:30 corrs: 3881 E_I:3787 H_I: 1397 R: 2 T:190
+DEBUG: 32:48 corrs: 3971 E_I:3856 H_I: 1214 R: 3 T:85
+DEBUG: 5:20 corrs: 4065 E_I:4014 H_I: 1471 R: 2 T:153
+DEBUG: 6:21 corrs: 4017 E_I:3965 H_I: 1433 R: 2 T:0
+DEBUG: 7:22 corrs: 4121 E_I:4059 H_I: 1468 R: 2 T:203
+DEBUG: 9:24 corrs: 4030 E_I:3960 H_I: 1498 R: 2 T:198
+DEBUG: 10:25 corrs: 3923 E_I:3856 H_I: 1343 R: 2 T:193
+DEBUG: 11:26 corrs: 3996 E_I:3910 H_I: 1496 R: 2 T:0
+DEBUG: 12:27 corrs: 4056 E_I:4000 H_I: 1523 R: 2 T:199
+DEBUG: 13:28 corrs: 4144 E_I:4078 H_I: 1585 R: 2 T:140
+DEBUG: 14:29 corrs: 3580 E_I:3408 H_I: 1296 R: 2 T:175
+DEBUG: 33:48 corrs: 4050 E_I:3952 H_I: 1272 R: 3 T:119
+DEBUG: 71:86 corrs: 4144 E_I:3646 H_I: 1855 R: 1 T:194
+DEBUG: 5:19 corrs: 4105 E_I:4059 H_I: 1570 R: 2 T:199
+DEBUG: 6:20 corrs: 3833 E_I:3742 H_I: 1453 R: 2 T:0
+DEBUG: 10:24 corrs: 3751 E_I:3649 H_I: 1420 R: 2 T:185
+DEBUG: 11:25 corrs: 3957 E_I:3881 H_I: 1490 R: 2 T:195
+DEBUG: 12:26 corrs: 4163 E_I:4115 H_I: 1645 R: 2 T:205
+DEBUG: 14:28 corrs: 4040 E_I:3968 H_I: 1523 R: 2 T:198
+DEBUG: 34:48 corrs: 4057 E_I:3941 H_I: 1433 R: 2 T:174
+DEBUG: 70:84 corrs: 4172 E_I:3718 H_I: 1812 R: 2 T:193
+DEBUG: 71:85 corrs: 4227 E_I:3790 H_I: 1802 R: 2 T:53
+DEBUG: 5:18 corrs: 4152 E_I:4106 H_I: 1711 R: 2 T:73
+DEBUG: 6:19 corrs: 4163 E_I:4105 H_I: 1599 R: 2 T:0
+DEBUG: 35:48 corrs: 4125 E_I:4037 H_I: 1411 R: 2 T:201
+DEBUG: 36:49 corrs: 3917 E_I:3761 H_I: 1375 R: 2 T:0
+DEBUG: 67:80 corrs: 4075 E_I:3537 H_I: 1877 R: 1 T:0
+DEBUG: 68:81 corrs: 4074 E_I:3621 H_I: 1656 R: 2 T:0
+DEBUG: 69:82 corrs: 4143 E_I:3607 H_I: 1773 R: 2 T:56
+DEBUG: 5:17 corrs: 3931 E_I:3869 H_I: 1589 R: 2 T:194
+DEBUG: 37:49 corrs: 4038 E_I:3912 H_I: 1503 R: 2 T:0
+DEBUG: 65:77 corrs: 4116 E_I:3716 H_I: 1747 R: 2 T:193
+DEBUG: 66:78 corrs: 4138 E_I:3681 H_I: 1713 R: 2 T:194
+DEBUG: 67:79 corrs: 4164 E_I:3708 H_I: 1640 R: 2 T:0
+DEBUG: 68:80 corrs: 4197 E_I:3767 H_I: 1822 R: 2 T:2
+DEBUG: 5:16 corrs: 4213 E_I:4173 H_I: 1791 R: 2 T:0
+DEBUG: 38:49 corrs: 4006 E_I:3855 H_I: 1703 R: 2 T:0
+DEBUG: 64:75 corrs: 4071 E_I:3704 H_I: 1829 R: 2 T:0
+DEBUG: 39:49 corrs: 4136 E_I:4015 H_I: 1821 R: 2 T:179
+DEBUG: 63:73 corrs: 4099 E_I:3784 H_I: 1849 R: 2 T:175
+DEBUG: 64:74 corrs: 4193 E_I:3916 H_I: 2006 R: 1 T:0
+DEBUG: 15:40 corrs: 3794 E_I:3694 H_I: 988 R: 3 T:184
+DEBUG: 16:41 corrs: 3773 E_I:3663 H_I: 968 R: 3 T:175
+DEBUG: 17:42 corrs: 3436 E_I:3281 H_I: 862 R: 3 T:166
+DEBUG: 18:43 corrs: 3647 E_I:3496 H_I: 944 R: 3 T:176
+DEBUG: 19:44 corrs: 3741 E_I:3606 H_I: 926 R: 3 T:181
+DEBUG: 20:45 corrs: 3619 E_I:3463 H_I: 844 R: 4 T:94
+DEBUG: 21:46 corrs: 3548 E_I:3393 H_I: 956 R: 3 T:105
+DEBUG: 13:37 corrs: 3850 E_I:3777 H_I: 954 R: 3 T:187
+DEBUG: 15:39 corrs: 3796 E_I:3690 H_I: 999 R: 3 T:184
+DEBUG: 16:40 corrs: 3827 E_I:3732 H_I: 997 R: 3 T:185
+DEBUG: 17:41 corrs: 3866 E_I:3767 H_I: 1020 R: 3 T:187
+DEBUG: 18:42 corrs: 3685 E_I:3565 H_I: 918 R: 3 T:144
+DEBUG: 19:43 corrs: 3679 E_I:3544 H_I: 966 R: 3 T:177
+DEBUG: 20:44 corrs: 3769 E_I:3614 H_I: 991 R: 3 T:182
+DEBUG: 21:45 corrs: 3622 E_I:3449 H_I: 910 R: 3 T:175
+DEBUG: 22:46 corrs: 3854 E_I:3749 H_I: 984 R: 3 T:186
+DEBUG: 23:47 corrs: 3556 E_I:3376 H_I: 904 R: 3 T:81
+DEBUG: 73:97 corrs: 4003 E_I:3270 H_I: 1575 R: 2 T:184
+DEBUG: 8:31 corrs: 3899 E_I:3829 H_I: 1141 R: 3 T:190
+DEBUG: 9:32 corrs: 3876 E_I:3811 H_I: 1133 R: 3 T:189
+DEBUG: 10:33 corrs: 3876 E_I:3825 H_I: 1113 R: 3 T:189
+DEBUG: 11:34 corrs: 3890 E_I:3827 H_I: 1117 R: 3 T:190
+DEBUG: 12:35 corrs: 3561 E_I:3434 H_I: 982 R: 3 T:173
+DEBUG: 13:36 corrs: 3658 E_I:3551 H_I: 1033 R: 3 T:120
+DEBUG: 14:37 corrs: 3815 E_I:3738 H_I: 1059 R: 3 T:186
+DEBUG: 15:38 corrs: 3606 E_I:3469 H_I: 979 R: 3 T:6
+DEBUG: 16:39 corrs: 3669 E_I:3534 H_I: 1012 R: 3 T:80
+DEBUG: 17:40 corrs: 3797 E_I:3652 H_I: 1034 R: 3 T:184
+DEBUG: 18:41 corrs: 3853 E_I:3752 H_I: 997 R: 3 T:186
+DEBUG: 19:42 corrs: 3928 E_I:3818 H_I: 1034 R: 3 T:190
+DEBUG: 23:46 corrs: 3833 E_I:3710 H_I: 951 R: 3 T:185
+DEBUG: 24:47 corrs: 3583 E_I:3445 H_I: 944 R: 3 T:173
+DEBUG: 73:96 corrs: 4063 E_I:3502 H_I: 1633 R: 2 T:108
+Best triangulated result: 909
+Best frames found: 72 and 85
+Triangulation between initial frames done! Founded 954 points with med_cos=0.8880843676448441
+1% ## Iteration: 1 ## Frame: 72## Cloud: 955.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.4712531566619873 ## TriangTime: 0.35500550270080566
+2% ## Iteration: 2 ## Frame: 85## Cloud: 957.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.4809575080871582 ## TriangTime: 0.3827221393585205
+3% ## Iteration: 3 ## Frame: 84## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 0.4966764450073242 ## TriangTime: 0.5612046718597412
+4% ## Iteration: 4 ## Frame: 74## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.48625969886779785 ## TriangTime: 0.6584866046905518
+5% ## Iteration: 5 ## Frame: 73## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.4953896999359131 ## TriangTime: 0.7599320411682129
+6% ## Iteration: 6 ## Frame: 83## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.4943428039550781 ## TriangTime: 0.8797972202301025
+7% ## Iteration: 7 ## Frame: 82## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.49521732330322266 ## TriangTime: 1.036336898803711
+8% ## Iteration: 8 ## Frame: 78## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.49819111824035645 ## TriangTime: 1.1093299388885498
+9% ## Iteration: 9 ## Frame: 76## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.47754359245300293 ## TriangTime: 1.0936481952667236
+10% ## Iteration: 10 ## Frame: 77## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.4629333019256592 ## TriangTime: 1.2724945545196533
+11% ## Iteration: 11 ## Frame: 75## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.4593994617462158 ## TriangTime: 1.357882022857666
+12% ## Iteration: 12 ## Frame: 81## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.48659491539001465 ## TriangTime: 1.37196683883667
+13% ## Iteration: 13 ## Frame: 79## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.4607224464416504 ## TriangTime: 1.586353063583374
+14% ## Iteration: 14 ## Frame: 80## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.45220518112182617 ## TriangTime: 1.4901947975158691
+15% ## Iteration: 15 ## Frame: 71## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.45593810081481934 ## TriangTime: 1.357896327972412
+16% ## Iteration: 16 ## Frame: 86## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.45438718795776367 ## TriangTime: 1.6467304229736328
+17% ## Iteration: 17 ## Frame: 87## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.45941591262817383 ## TriangTime: 1.7878620624542236
+18% ## Iteration: 18 ## Frame: 88## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.46961283683776855 ## TriangTime: 1.7044613361358643
+19% ## Iteration: 19 ## Frame: 70## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.46677613258361816 ## TriangTime: 1.4957184791564941
+20% ## Iteration: 20 ## Frame: 89## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.46298670768737793 ## TriangTime: 1.5734610557556152
+21% ## Iteration: 21 ## Frame: 90## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.43907642364501953 ## TriangTime: 1.3504724502563477
+22% ## Iteration: 22 ## Frame: 69## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.45207691192626953 ## TriangTime: 1.644489049911499
+23% ## Iteration: 23 ## Frame: 91## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.439117431640625 ## TriangTime: 1.3750770092010498
+24% ## Iteration: 24 ## Frame: 68## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.43166565895080566 ## TriangTime: 1.6113340854644775
+25% ## Iteration: 25 ## Frame: 93## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.44205617904663086 ## TriangTime: 1.166161060333252
+26% ## Iteration: 26 ## Frame: 94## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.4307548999786377 ## TriangTime: 1.1090419292449951
+27% ## Iteration: 27 ## Frame: 92## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.4245750904083252 ## TriangTime: 1.907475233078003
+28% ## Iteration: 28 ## Frame: 97## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.4256885051727295 ## TriangTime: 1.013575792312622
+29% ## Iteration: 29 ## Frame: 95## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.430584192276001 ## TriangTime: 1.0585196018218994
+30% ## Iteration: 30 ## Frame: 67## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.4401404857635498 ## TriangTime: 1.381793737411499
+31% ## Iteration: 31 ## Frame: 96## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.44235992431640625 ## TriangTime: 1.2396600246429443
+32% ## Iteration: 32 ## Frame: 66## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.45439624786376953 ## TriangTime: 1.0503768920898438
+33% ## Iteration: 33 ## Frame: 65## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.40662121772766113 ## TriangTime: 1.0256056785583496
+34% ## Iteration: 34 ## Frame: 64## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.43746209144592285 ## TriangTime: 1.330836296081543
+35% ## Iteration: 35 ## Frame: 63## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.406400203704834 ## TriangTime: 1.1808652877807617
+36% ## Iteration: 36 ## Frame: 62## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.4170222282409668 ## TriangTime: 0.8531532287597656
+37% ## Iteration: 37 ## Frame: 61## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.39548611640930176 ## TriangTime: 0.718705415725708
+38% ## Iteration: 38 ## Frame: 60## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.406116247177124 ## TriangTime: 0.6244428157806396
+39% ## Iteration: 39 ## Frame: 59## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.3897135257720947 ## TriangTime: 0.3459045886993408
+40% ## Iteration: 40 ## Frame: 58## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.38829779624938965 ## TriangTime: 0.35770249366760254
+41% ## Iteration: 41 ## Frame: 57## Cloud: 960.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.3867635726928711 ## TriangTime: 0.3752171993255615
+42% ## Iteration: 42 ## Frame: 56## Cloud: 961.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.37813758850097656 ## TriangTime: 0.3670320510864258
+43% ## Iteration: 43 ## Frame: 55## Cloud: 961.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.3831782341003418 ## TriangTime: 0.3652634620666504
+44% ## Iteration: 44 ## Frame: 54## Cloud: 961.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.3781406879425049 ## TriangTime: 0.4208033084869385
+45% ## Iteration: 45 ## Frame: 53## Cloud: 962.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.37531447410583496 ## TriangTime: 0.44405603408813477
+46% ## Iteration: 46 ## Frame: 52## Cloud: 962.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.36852025985717773 ## TriangTime: 0.4516639709472656
+47% ## Iteration: 47 ## Frame: 51## Cloud: 962.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.36571812629699707 ## TriangTime: 0.3482048511505127
+48% ## Iteration: 48 ## Frame: 49## Cloud: 962.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.3694114685058594 ## TriangTime: 0.3007690906524658
+50% ## Iteration: 49 ## Frame: 50## Cloud: 962.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.37106943130493164 ## TriangTime: 0.5585246086120605
+51% ## Iteration: 50 ## Frame: 48## Cloud: 962.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.38062024116516113 ## TriangTime: 0.43017125129699707
+52% ## Iteration: 51 ## Frame: 47## Cloud: 962.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.37761974334716797 ## TriangTime: 0.3773472309112549
+53% ## Iteration: 52 ## Frame: 46## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 0.3658757209777832 ## TriangTime: 0.9451043605804443
+54% ## Iteration: 53 ## Frame: 45## Cloud: 964.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 0.3607053756713867 ## TriangTime: 0.8998398780822754
+55% ## Iteration: 54 ## Frame: 44## Cloud: 969.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 0.35756444931030273 ## TriangTime: 1.3025329113006592
+56% ## Iteration: 55 ## Frame: 43## Cloud: 975.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 0.3540666103363037 ## TriangTime: 1.867579698562622
+57% ## Iteration: 56 ## Frame: 42## Cloud: 979.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 0.33330321311950684 ## TriangTime: 1.7331106662750244
+58% ## Iteration: 57 ## Frame: 41## Cloud: 988.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 0.3203408718109131 ## TriangTime: 2.8564159870147705
+59% ## Iteration: 58 ## Frame: 40## Cloud: 999.0 ## Retriangulated: 300 ## Updated: 16 ## PnpTime: 0.30936646461486816 ## TriangTime: 3.73254656791687
+60% ## Iteration: 59 ## Frame: 38## Cloud: 1004.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 0.29651570320129395 ## TriangTime: 2.4317495822906494
+61% ## Iteration: 60 ## Frame: 39## Cloud: 1027.0 ## Retriangulated: 300 ## Updated: 27 ## PnpTime: 0.2861595153808594 ## TriangTime: 4.4075024127960205
+62% ## Iteration: 61 ## Frame: 36## Cloud: 1037.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 0.27884984016418457 ## TriangTime: 2.935551404953003
+63% ## Iteration: 62 ## Frame: 35## Cloud: 1050.0 ## Retriangulated: 300 ## Updated: 16 ## PnpTime: 0.2842843532562256 ## TriangTime: 3.1376826763153076
+64% ## Iteration: 63 ## Frame: 37## Cloud: 1074.0 ## Retriangulated: 300 ## Updated: 31 ## PnpTime: 0.26325225830078125 ## TriangTime: 5.225724935531616
+65% ## Iteration: 64 ## Frame: 32## Cloud: 1087.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 0.24649858474731445 ## TriangTime: 1.8886306285858154
+66% ## Iteration: 65 ## Frame: 34## Cloud: 1097.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 0.22402071952819824 ## TriangTime: 2.667748212814331
+67% ## Iteration: 66 ## Frame: 33## Cloud: 1118.0 ## Retriangulated: 300 ## Updated: 27 ## PnpTime: 0.2123277187347412 ## TriangTime: 3.9322855472564697
+68% ## Iteration: 67 ## Frame: 29## Cloud: 1127.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 0.21011638641357422 ## TriangTime: 2.4083633422851562
+69% ## Iteration: 68 ## Frame: 31## Cloud: 1131.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 0.2026207447052002 ## TriangTime: 1.816971778869629
+70% ## Iteration: 69 ## Frame: 30## Cloud: 1143.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 0.1856999397277832 ## TriangTime: 2.549736738204956
+71% ## Iteration: 70 ## Frame: 28## Cloud: 1160.0 ## Retriangulated: 300 ## Updated: 22 ## PnpTime: 0.18077969551086426 ## TriangTime: 2.784666061401367
+72% ## Iteration: 71 ## Frame: 27## Cloud: 1172.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 0.16329693794250488 ## TriangTime: 2.4596035480499268
+73% ## Iteration: 72 ## Frame: 24## Cloud: 1183.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 0.15689516067504883 ## TriangTime: 1.6297152042388916
+74% ## Iteration: 73 ## Frame: 26## Cloud: 1189.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 0.1518714427947998 ## TriangTime: 1.6596102714538574
+75% ## Iteration: 74 ## Frame: 25## Cloud: 1205.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 0.14699172973632812 ## TriangTime: 2.2034223079681396
+76% ## Iteration: 75 ## Frame: 21## Cloud: 1216.0 ## Retriangulated: 300 ## Updated: 16 ## PnpTime: 0.12540841102600098 ## TriangTime: 2.3824849128723145
+77% ## Iteration: 76 ## Frame: 23## Cloud: 1227.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 0.1327979564666748 ## TriangTime: 1.8813319206237793
+78% ## Iteration: 77 ## Frame: 22## Cloud: 1235.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 0.12297224998474121 ## TriangTime: 1.698948621749878
+79% ## Iteration: 78 ## Frame: 20## Cloud: 1244.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 0.11225414276123047 ## TriangTime: 1.810107946395874
+80% ## Iteration: 79 ## Frame: 19## Cloud: 1250.0 ## Retriangulated: 300 ## Updated: 6 ## PnpTime: 0.09855055809020996 ## TriangTime: 1.2484867572784424
+81% ## Iteration: 80 ## Frame: 18## Cloud: 1256.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 0.09478306770324707 ## TriangTime: 1.0154750347137451
+82% ## Iteration: 81 ## Frame: 15## Cloud: 1267.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 0.09077119827270508 ## TriangTime: 1.6580939292907715
+83% ## Iteration: 82 ## Frame: 17## Cloud: 1274.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 0.08762502670288086 ## TriangTime: 1.3950443267822266
+84% ## Iteration: 83 ## Frame: 16## Cloud: 1285.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 0.08219790458679199 ## TriangTime: 1.6610972881317139
+85% ## Iteration: 84 ## Frame: 14## Cloud: 1304.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 0.07337069511413574 ## TriangTime: 3.1729085445404053
+86% ## Iteration: 85 ## Frame: 12## Cloud: 1335.0 ## Retriangulated: 300 ## Updated: 31 ## PnpTime: 0.07027864456176758 ## TriangTime: 3.6672463417053223
+87% ## Iteration: 86 ## Frame: 13## Cloud: 1354.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 0.05752420425415039 ## TriangTime: 2.84494948387146
+88% ## Iteration: 87 ## Frame: 11## Cloud: 1387.0 ## Retriangulated: 300 ## Updated: 37 ## PnpTime: 0.05522918701171875 ## TriangTime: 4.7320168018341064
+89% ## Iteration: 88 ## Frame: 9## Cloud: 1408.0 ## Retriangulated: 300 ## Updated: 22 ## PnpTime: 0.04845786094665527 ## TriangTime: 2.6142385005950928
+90% ## Iteration: 89 ## Frame: 10## Cloud: 1440.0 ## Retriangulated: 300 ## Updated: 32 ## PnpTime: 0.04800081253051758 ## TriangTime: 4.6003618240356445
+91% ## Iteration: 90 ## Frame: 8## Cloud: 1451.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 0.03812527656555176 ## TriangTime: 1.6702001094818115
+92% ## Iteration: 91 ## Frame: 6## Cloud: 1458.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 0.03003239631652832 ## TriangTime: 1.580026388168335
+93% ## Iteration: 92 ## Frame: 7## Cloud: 1465.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 0.028367996215820312 ## TriangTime: 1.4578039646148682
+94% ## Iteration: 93 ## Frame: 5## Cloud: 1474.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 0.022002220153808594 ## TriangTime: 1.7531611919403076
+95% ## Iteration: 94 ## Frame: 4## Cloud: 1494.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 0.01885366439819336 ## TriangTime: 3.7683815956115723
+96% ## Iteration: 95 ## Frame: 3## Cloud: 1536.0 ## Retriangulated: 294 ## Updated: 44 ## PnpTime: 0.015039443969726562 ## TriangTime: 5.515684127807617
+97% ## Iteration: 96 ## Frame: 2## Cloud: 1543.0 ## Retriangulated: 61 ## Updated: 7 ## PnpTime: 0.009036540985107422 ## TriangTime: 1.4603264331817627
+98% ## Iteration: 97 ## Frame: 1## Cloud: 1555.0 ## Retriangulated: 91 ## Updated: 13 ## PnpTime: 0.007001638412475586 ## TriangTime: 1.6880614757537842
+100% ## Iteration: 98 ## Frame: 0## Cloud: 1562.0 ## Retriangulated: 39 ## Updated: 7 ## PnpTime: 0.0019996166229248047 ## TriangTime: 0.8324058055877686
+Done!
+Processed: 100.0

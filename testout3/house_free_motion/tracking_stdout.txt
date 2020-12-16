@@ -1,0 +1,829 @@
+Finding best frames
+DEBUG: 9:19 corrs: 859 E_I:651 H_I: 224 R: 2 T:32
+DEBUG: 9:20 corrs: 841 E_I:655 H_I: 225 R: 2 T:34
+DEBUG: 9:21 corrs: 855 E_I:639 H_I: 220 R: 2 T:35
+DEBUG: 9:22 corrs: 840 E_I:636 H_I: 226 R: 2 T:34
+DEBUG: 9:23 corrs: 828 E_I:626 H_I: 232 R: 2 T:31
+DEBUG: 9:24 corrs: 832 E_I:643 H_I: 217 R: 2 T:34
+DEBUG: 9:25 corrs: 786 E_I:548 H_I: 211 R: 2 T:30
+DEBUG: 9:26 corrs: 801 E_I:554 H_I: 210 R: 2 T:30
+DEBUG: 9:27 corrs: 788 E_I:527 H_I: 217 R: 2 T:30
+DEBUG: 9:28 corrs: 792 E_I:525 H_I: 215 R: 2 T:28
+DEBUG: 9:29 corrs: 784 E_I:521 H_I: 208 R: 2 T:31
+DEBUG: 9:30 corrs: 773 E_I:472 H_I: 224 R: 2 T:27
+DEBUG: 9:31 corrs: 758 E_I:455 H_I: 220 R: 2 T:27
+DEBUG: 9:32 corrs: 755 E_I:453 H_I: 220 R: 2 T:26
+DEBUG: 9:33 corrs: 753 E_I:433 H_I: 215 R: 2 T:25
+DEBUG: 9:34 corrs: 739 E_I:417 H_I: 198 R: 2 T:26
+DEBUG: 8:18 corrs: 754 E_I:593 H_I: 183 R: 3 T:30
+DEBUG: 8:19 corrs: 728 E_I:544 H_I: 168 R: 3 T:28
+DEBUG: 8:20 corrs: 714 E_I:560 H_I: 177 R: 3 T:28
+DEBUG: 8:21 corrs: 708 E_I:509 H_I: 174 R: 2 T:28
+DEBUG: 8:22 corrs: 708 E_I:554 H_I: 157 R: 3 T:29
+DEBUG: 8:23 corrs: 695 E_I:522 H_I: 159 R: 3 T:28
+DEBUG: 8:24 corrs: 680 E_I:484 H_I: 158 R: 3 T:25
+DEBUG: 8:25 corrs: 667 E_I:479 H_I: 159 R: 2 T:27
+DEBUG: 8:26 corrs: 660 E_I:452 H_I: 170 R: 2 T:26
+DEBUG: 8:27 corrs: 675 E_I:484 H_I: 147 R: 3 T:27
+DEBUG: 8:28 corrs: 657 E_I:444 H_I: 173 R: 2 T:25
+DEBUG: 7:17 corrs: 667 E_I:539 H_I: 134 R: 3 T:26
+DEBUG: 8:29 corrs: 654 E_I:452 H_I: 157 R: 2 T:26
+DEBUG: 8:30 corrs: 635 E_I:404 H_I: 164 R: 2 T:25
+DEBUG: 8:31 corrs: 622 E_I:380 H_I: 157 R: 2 T:23
+DEBUG: 8:32 corrs: 621 E_I:364 H_I: 155 R: 2 T:21
+DEBUG: 8:33 corrs: 632 E_I:363 H_I: 158 R: 2 T:22
+DEBUG: 7:18 corrs: 667 E_I:528 H_I: 142 R: 3 T:26
+DEBUG: 7:19 corrs: 634 E_I:473 H_I: 158 R: 2 T:24
+DEBUG: 1:11 corrs: 618 E_I:491 H_I: 157 R: 3 T:23
+DEBUG: 7:20 corrs: 624 E_I:500 H_I: 133 R: 3 T:24
+DEBUG: 7:21 corrs: 622 E_I:475 H_I: 138 R: 3 T:25
+DEBUG: 2:12 corrs: 602 E_I:478 H_I: 140 R: 3 T:22
+DEBUG: 7:22 corrs: 614 E_I:473 H_I: 139 R: 3 T:24
+DEBUG: 7:23 corrs: 591 E_I:425 H_I: 133 R: 3 T:23
+DEBUG: 3:13 corrs: 596 E_I:470 H_I: 135 R: 3 T:22
+DEBUG: 7:24 corrs: 603 E_I:477 H_I: 138 R: 3 T:24
+DEBUG: 1:12 corrs: 584 E_I:442 H_I: 126 R: 3 T:21
+DEBUG: 6:16 corrs: 590 E_I:477 H_I: 125 R: 3 T:22
+DEBUG: 7:25 corrs: 576 E_I:420 H_I: 127 R: 3 T:22
+DEBUG: 7:26 corrs: 578 E_I:414 H_I: 133 R: 3 T:21
+DEBUG: 6:17 corrs: 580 E_I:457 H_I: 123 R: 3 T:22
+DEBUG: 4:14 corrs: 593 E_I:484 H_I: 125 R: 3 T:22
+DEBUG: 7:27 corrs: 575 E_I:384 H_I: 124 R: 3 T:21
+DEBUG: 7:28 corrs: 573 E_I:403 H_I: 130 R: 3 T:22
+DEBUG: 2:13 corrs: 581 E_I:465 H_I: 134 R: 3 T:21
+DEBUG: 3:14 corrs: 573 E_I:452 H_I: 113 R: 3 T:21
+DEBUG: 5:15 corrs: 575 E_I:451 H_I: 129 R: 3 T:21
+DEBUG: 7:29 corrs: 561 E_I:386 H_I: 123 R: 3 T:22
+DEBUG: 7:30 corrs: 552 E_I:354 H_I: 125 R: 2 T:21
+DEBUG: 1:13 corrs: 569 E_I:442 H_I: 128 R: 3 T:21
+DEBUG: 7:31 corrs: 547 E_I:348 H_I: 137 R: 2 T:18
+DEBUG: 4:15 corrs: 581 E_I:471 H_I: 126 R: 3 T:22
+DEBUG: 7:32 corrs: 555 E_I:348 H_I: 142 R: 2 T:20
+DEBUG: 6:18 corrs: 578 E_I:453 H_I: 120 R: 3 T:22
+DEBUG: 5:16 corrs: 560 E_I:456 H_I: 104 R: 4 T:21
+DEBUG: 3:15 corrs: 572 E_I:463 H_I: 120 R: 3 T:21
+DEBUG: 2:14 corrs: 560 E_I:446 H_I: 114 R: 3 T:21
+DEBUG: 4:16 corrs: 560 E_I:465 H_I: 94 R: 4 T:21
+DEBUG: 6:19 corrs: 560 E_I:449 H_I: 117 R: 3 T:21
+DEBUG: 5:17 corrs: 560 E_I:456 H_I: 112 R: 4 T:21
+DEBUG: 3:16 corrs: 543 E_I:415 H_I: 106 R: 3 T:20
+DEBUG: 1:14 corrs: 550 E_I:441 H_I: 101 R: 4 T:20
+DEBUG: 4:17 corrs: 553 E_I:437 H_I: 116 R: 3 T:20
+DEBUG: 2:15 corrs: 539 E_I:420 H_I: 113 R: 3 T:20
+DEBUG: 3:17 corrs: 546 E_I:419 H_I: 87 R: 4 T:20
+DEBUG: 6:20 corrs: 533 E_I:401 H_I: 112 R: 3 T:20
+DEBUG: 1:15 corrs: 546 E_I:445 H_I: 97 R: 4 T:20
+DEBUG: 2:16 corrs: 528 E_I:429 H_I: 104 R: 4 T:19
+DEBUG: 5:18 corrs: 550 E_I:432 H_I: 108 R: 3 T:20
+DEBUG: 4:18 corrs: 535 E_I:400 H_I: 105 R: 3 T:20
+DEBUG: 2:17 corrs: 539 E_I:432 H_I: 98 R: 4 T:20
+DEBUG: 6:21 corrs: 544 E_I:416 H_I: 105 R: 3 T:21
+DEBUG: 1:16 corrs: 528 E_I:434 H_I: 98 R: 4 T:19
+DEBUG: 5:19 corrs: 529 E_I:400 H_I: 94 R: 4 T:19
+DEBUG: 3:18 corrs: 530 E_I:408 H_I: 87 R: 4 T:19
+DEBUG: 1:17 corrs: 525 E_I:407 H_I: 103 R: 3 T:20
+DEBUG: 4:19 corrs: 518 E_I:386 H_I: 82 R: 4 T:18
+DEBUG: 6:22 corrs: 527 E_I:391 H_I: 94 R: 4 T:20
+DEBUG: 6:23 corrs: 522 E_I:379 H_I: 102 R: 3 T:20
+DEBUG: 3:19 corrs: 518 E_I:396 H_I: 105 R: 3 T:19
+DEBUG: 6:24 corrs: 508 E_I:359 H_I: 102 R: 3 T:19
+DEBUG: 5:20 corrs: 517 E_I:399 H_I: 108 R: 3 T:19
+DEBUG: 2:18 corrs: 530 E_I:419 H_I: 83 R: 4 T:19
+DEBUG: 4:20 corrs: 507 E_I:384 H_I: 107 R: 3 T:19
+DEBUG: 6:25 corrs: 507 E_I:379 H_I: 119 R: 3 T:19
+DEBUG: 2:19 corrs: 507 E_I:383 H_I: 77 R: 4 T:19
+DEBUG: 1:18 corrs: 514 E_I:402 H_I: 92 R: 4 T:19
+DEBUG: 6:26 corrs: 505 E_I:368 H_I: 104 R: 3 T:19
+DEBUG: 3:20 corrs: 498 E_I:378 H_I: 85 R: 4 T:18
+DEBUG: 6:27 corrs: 516 E_I:366 H_I: 103 R: 3 T:20
+DEBUG: 5:21 corrs: 520 E_I:406 H_I: 107 R: 3 T:20
+DEBUG: 6:28 corrs: 497 E_I:330 H_I: 106 R: 3 T:19
+DEBUG: 1:19 corrs: 506 E_I:384 H_I: 110 R: 3 T:18
+DEBUG: 0:10 corrs: 471 E_I:377 H_I: 151 R: 2 T:16
+DEBUG: 4:21 corrs: 506 E_I:391 H_I: 101 R: 3 T:19
+DEBUG: 6:29 corrs: 500 E_I:355 H_I: 110 R: 3 T:19
+DEBUG: 2:20 corrs: 497 E_I:390 H_I: 101 R: 3 T:18
+DEBUG: 6:30 corrs: 486 E_I:320 H_I: 111 R: 2 T:18
+DEBUG: 3:21 corrs: 500 E_I:374 H_I: 68 R: 5 T:19
+DEBUG: 5:22 corrs: 500 E_I:363 H_I: 114 R: 3 T:19
+DEBUG: 6:31 corrs: 475 E_I:295 H_I: 118 R: 2 T:18
+DEBUG: 5:23 corrs: 502 E_I:362 H_I: 112 R: 3 T:19
+DEBUG: 1:20 corrs: 491 E_I:381 H_I: 100 R: 3 T:18
+DEBUG: 5:24 corrs: 482 E_I:321 H_I: 101 R: 3 T:17
+DEBUG: 4:22 corrs: 493 E_I:367 H_I: 112 R: 3 T:19
+DEBUG: 4:23 corrs: 494 E_I:361 H_I: 100 R: 3 T:18
+DEBUG: 2:21 corrs: 495 E_I:371 H_I: 100 R: 3 T:19
+DEBUG: 4:24 corrs: 483 E_I:346 H_I: 105 R: 3 T:18
+DEBUG: 3:22 corrs: 494 E_I:382 H_I: 92 R: 4 T:19
+DEBUG: 3:23 corrs: 490 E_I:351 H_I: 102 R: 3 T:18
+DEBUG: 5:25 corrs: 480 E_I:343 H_I: 107 R: 3 T:18
+DEBUG: 3:24 corrs: 480 E_I:346 H_I: 106 R: 3 T:18
+DEBUG: 5:26 corrs: 471 E_I:323 H_I: 86 R: 3 T:18
+DEBUG: 1:21 corrs: 480 E_I:347 H_I: 102 R: 3 T:18
+DEBUG: 4:25 corrs: 475 E_I:353 H_I: 97 R: 3 T:18
+DEBUG: 5:27 corrs: 488 E_I:342 H_I: 107 R: 3 T:18
+DEBUG: 2:22 corrs: 486 E_I:351 H_I: 93 R: 3 T:18
+DEBUG: 2:23 corrs: 483 E_I:355 H_I: 106 R: 3 T:18
+DEBUG: 5:28 corrs: 478 E_I:334 H_I: 101 R: 3 T:18
+DEBUG: 4:26 corrs: 472 E_I:337 H_I: 106 R: 3 T:18
+DEBUG: 3:25 corrs: 465 E_I:324 H_I: 88 R: 3 T:17
+DEBUG: 4:27 corrs: 476 E_I:329 H_I: 95 R: 3 T:18
+DEBUG: 2:24 corrs: 477 E_I:355 H_I: 100 R: 3 T:18
+DEBUG: 1:22 corrs: 484 E_I:368 H_I: 78 R: 4 T:18
+DEBUG: 4:28 corrs: 465 E_I:299 H_I: 92 R: 3 T:17
+DEBUG: 5:29 corrs: 468 E_I:314 H_I: 103 R: 3 T:18
+DEBUG: 3:26 corrs: 468 E_I:336 H_I: 86 R: 3 T:18
+DEBUG: 1:23 corrs: 483 E_I:363 H_I: 107 R: 3 T:18
+DEBUG: 5:30 corrs: 460 E_I:291 H_I: 104 R: 2 T:17
+DEBUG: 3:27 corrs: 477 E_I:344 H_I: 107 R: 3 T:18
+DEBUG: 1:24 corrs: 474 E_I:356 H_I: 96 R: 3 T:18
+DEBUG: 3:28 corrs: 462 E_I:299 H_I: 97 R: 3 T:17
+DEBUG: 4:29 corrs: 456 E_I:298 H_I: 112 R: 2 T:17
+DEBUG: 2:25 corrs: 466 E_I:319 H_I: 101 R: 3 T:18
+DEBUG: 2:26 corrs: 463 E_I:329 H_I: 102 R: 3 T:17
+DEBUG: 2:27 corrs: 467 E_I:327 H_I: 102 R: 3 T:17
+DEBUG: 1:25 corrs: 465 E_I:332 H_I: 88 R: 3 T:17
+DEBUG: 1:26 corrs: 459 E_I:312 H_I: 98 R: 3 T:17
+DEBUG: 0:11 corrs: 447 E_I:372 H_I: 143 R: 2 T:16
+DEBUG: 0:12 corrs: 422 E_I:333 H_I: 132 R: 2 T:15
+DEBUG: 0:13 corrs: 419 E_I:342 H_I: 128 R: 2 T:15
+DEBUG: 0:14 corrs: 407 E_I:327 H_I: 106 R: 3 T:15
+DEBUG: 0:15 corrs: 411 E_I:345 H_I: 108 R: 3 T:15
+DEBUG: 0:16 corrs: 404 E_I:332 H_I: 104 R: 3 T:15
+DEBUG: 0:17 corrs: 400 E_I:326 H_I: 117 R: 2 T:15
+DEBUG: 0:18 corrs: 396 E_I:320 H_I: 106 R: 2 T:15
+DEBUG: 0:19 corrs: 392 E_I:321 H_I: 106 R: 3 T:15
+DEBUG: 0:20 corrs: 386 E_I:316 H_I: 107 R: 2 T:15
+DEBUG: 0:21 corrs: 383 E_I:303 H_I: 109 R: 2 T:15
+DEBUG: 0:22 corrs: 378 E_I:314 H_I: 96 R: 3 T:15
+DEBUG: 0:25 corrs: 361 E_I:281 H_I: 106 R: 2 T:13
+DEBUG: 0:24 corrs: 359 E_I:283 H_I: 98 R: 2 T:13
+DEBUG: 0:23 corrs: 369 E_I:297 H_I: 108 R: 2 T:14
+DEBUG: 208:222 corrs: 5080 E_I:4910 H_I: 2175 R: 2 T:250
+DEBUG: 208:221 corrs: 5108 E_I:5038 H_I: 2194 R: 2 T:251
+DEBUG: 209:222 corrs: 5115 E_I:5050 H_I: 2191 R: 2 T:252
+DEBUG: 211:224 corrs: 5092 E_I:5011 H_I: 2179 R: 2 T:250
+DEBUG: 212:225 corrs: 5089 E_I:4993 H_I: 2251 R: 2 T:250
+DEBUG: 208:220 corrs: 5107 E_I:5034 H_I: 2188 R: 2 T:251
+DEBUG: 209:221 corrs: 5124 E_I:5052 H_I: 2193 R: 2 T:252
+DEBUG: 210:222 corrs: 5127 E_I:5053 H_I: 2199 R: 2 T:253
+DEBUG: 211:223 corrs: 5092 E_I:4964 H_I: 2194 R: 2 T:250
+DEBUG: 212:224 corrs: 5079 E_I:4815 H_I: 2183 R: 2 T:249
+DEBUG: 213:225 corrs: 5084 E_I:4940 H_I: 2163 R: 2 T:250
+DEBUG: 208:219 corrs: 5106 E_I:4976 H_I: 2190 R: 2 T:251
+DEBUG: 209:220 corrs: 5124 E_I:5056 H_I: 2193 R: 2 T:252
+DEBUG: 210:221 corrs: 5138 E_I:5048 H_I: 2196 R: 2 T:253
+DEBUG: 211:222 corrs: 5145 E_I:5081 H_I: 2223 R: 2 T:254
+DEBUG: 212:223 corrs: 5104 E_I:4992 H_I: 2320 R: 2 T:251
+DEBUG: 213:224 corrs: 5106 E_I:5003 H_I: 2120 R: 2 T:250
+DEBUG: 214:225 corrs: 5105 E_I:5029 H_I: 2278 R: 2 T:251
+DEBUG: 208:218 corrs: 5112 E_I:5022 H_I: 2211 R: 2 T:251
+DEBUG: 209:219 corrs: 5126 E_I:5055 H_I: 2193 R: 2 T:252
+DEBUG: 210:220 corrs: 5138 E_I:5056 H_I: 2210 R: 2 T:253
+DEBUG: 211:221 corrs: 5155 E_I:5067 H_I: 2046 R: 2 T:254
+DEBUG: 212:222 corrs: 5149 E_I:5034 H_I: 2290 R: 2 T:254
+DEBUG: 213:223 corrs: 5115 E_I:5022 H_I: 2223 R: 2 T:252
+DEBUG: 214:224 corrs: 5117 E_I:5037 H_I: 2227 R: 2 T:251
+DEBUG: 215:225 corrs: 5106 E_I:5020 H_I: 2245 R: 2 T:251
+DEBUG: 206:225 corrs: 4987 E_I:4857 H_I: 2154 R: 2 T:245
+DEBUG: 204:222 corrs: 4957 E_I:4586 H_I: 2140 R: 2 T:244
+DEBUG: 206:224 corrs: 4964 E_I:4600 H_I: 2081 R: 2 T:244
+DEBUG: 207:225 corrs: 5016 E_I:4882 H_I: 2162 R: 2 T:246
+DEBUG: 204:221 corrs: 4984 E_I:4782 H_I: 2168 R: 2 T:245
+DEBUG: 205:222 corrs: 4992 E_I:4686 H_I: 2129 R: 2 T:246
+DEBUG: 206:223 corrs: 5004 E_I:4912 H_I: 2171 R: 2 T:246
+DEBUG: 207:224 corrs: 4993 E_I:4691 H_I: 2133 R: 2 T:245
+DEBUG: 208:225 corrs: 5046 E_I:4921 H_I: 2167 R: 2 T:248
+DEBUG: 209:226 corrs: 4969 E_I:4735 H_I: 2105 R: 2 T:244
+DEBUG: 204:220 corrs: 4983 E_I:4770 H_I: 2127 R: 2 T:245
+DEBUG: 205:221 corrs: 5008 E_I:4771 H_I: 2131 R: 2 T:247
+DEBUG: 206:222 corrs: 5017 E_I:4651 H_I: 2154 R: 2 T:247
+DEBUG: 207:223 corrs: 5027 E_I:4933 H_I: 2167 R: 2 T:247
+DEBUG: 208:224 corrs: 5049 E_I:4918 H_I: 2177 R: 2 T:248
+DEBUG: 209:225 corrs: 5057 E_I:4943 H_I: 2171 R: 2 T:249
+DEBUG: 210:226 corrs: 5005 E_I:4861 H_I: 2167 R: 2 T:245
+DEBUG: 204:219 corrs: 5000 E_I:4860 H_I: 2174 R: 2 T:246
+DEBUG: 205:220 corrs: 5010 E_I:4798 H_I: 2165 R: 2 T:247
+DEBUG: 206:221 corrs: 5055 E_I:4962 H_I: 2177 R: 2 T:249
+DEBUG: 207:222 corrs: 5074 E_I:4982 H_I: 2177 R: 2 T:250
+DEBUG: 208:223 corrs: 5054 E_I:4966 H_I: 2180 R: 2 T:248
+DEBUG: 209:224 corrs: 5066 E_I:4976 H_I: 2203 R: 2 T:249
+DEBUG: 210:225 corrs: 5060 E_I:4934 H_I: 2087 R: 2 T:249
+DEBUG: 211:226 corrs: 5017 E_I:4910 H_I: 2157 R: 2 T:246
+DEBUG: 204:218 corrs: 4986 E_I:4769 H_I: 2169 R: 2 T:245
+DEBUG: 205:219 corrs: 5016 E_I:4800 H_I: 2170 R: 2 T:247
+DEBUG: 206:220 corrs: 5047 E_I:4878 H_I: 2176 R: 2 T:249
+DEBUG: 207:221 corrs: 5069 E_I:4927 H_I: 2181 R: 2 T:249
+DEBUG: 209:223 corrs: 5066 E_I:4927 H_I: 2186 R: 2 T:249
+DEBUG: 210:224 corrs: 5073 E_I:4913 H_I: 2186 R: 2 T:249
+DEBUG: 211:225 corrs: 5070 E_I:4926 H_I: 2204 R: 2 T:250
+DEBUG: 212:226 corrs: 4985 E_I:4537 H_I: 2160 R: 2 T:244
+DEBUG: 204:217 corrs: 5002 E_I:4865 H_I: 2174 R: 2 T:246
+DEBUG: 205:218 corrs: 5009 E_I:4777 H_I: 2167 R: 2 T:246
+DEBUG: 206:219 corrs: 5055 E_I:4959 H_I: 2180 R: 2 T:249
+DEBUG: 207:220 corrs: 5065 E_I:4827 H_I: 2177 R: 2 T:249
+DEBUG: 210:223 corrs: 5079 E_I:4959 H_I: 2181 R: 2 T:250
+DEBUG: 213:226 corrs: 5016 E_I:4864 H_I: 2177 R: 2 T:246
+DEBUG: 204:216 corrs: 5003 E_I:4919 H_I: 2176 R: 2 T:246
+DEBUG: 205:217 corrs: 4999 E_I:4686 H_I: 2156 R: 2 T:246
+DEBUG: 206:218 corrs: 5053 E_I:4923 H_I: 2174 R: 2 T:249
+DEBUG: 207:219 corrs: 5083 E_I:5001 H_I: 2194 R: 2 T:250
+DEBUG: 214:226 corrs: 5031 E_I:4937 H_I: 2178 R: 2 T:246
+DEBUG: 204:215 corrs: 4984 E_I:4768 H_I: 2157 R: 2 T:245
+DEBUG: 205:216 corrs: 4984 E_I:4628 H_I: 2166 R: 2 T:245
+DEBUG: 206:217 corrs: 5053 E_I:4938 H_I: 2184 R: 2 T:249
+DEBUG: 207:218 corrs: 5056 E_I:4812 H_I: 2183 R: 2 T:249
+DEBUG: 215:226 corrs: 5034 E_I:4926 H_I: 2197 R: 2 T:246
+DEBUG: 221:232 corrs: 4999 E_I:4794 H_I: 2093 R: 2 T:244
+DEBUG: 204:214 corrs: 4976 E_I:4737 H_I: 2170 R: 2 T:245
+DEBUG: 205:215 corrs: 5025 E_I:4915 H_I: 2186 R: 2 T:247
+DEBUG: 206:216 corrs: 5059 E_I:4968 H_I: 2176 R: 2 T:249
+DEBUG: 207:217 corrs: 5085 E_I:5011 H_I: 2194 R: 2 T:250
+DEBUG: 216:226 corrs: 5034 E_I:4924 H_I: 2224 R: 2 T:246
+DEBUG: 221:231 corrs: 5004 E_I:4763 H_I: 2116 R: 2 T:243
+DEBUG: 222:232 corrs: 4988 E_I:4599 H_I: 2085 R: 2 T:242
+DEBUG: 208:232 corrs: 4861 E_I:4480 H_I: 2059 R: 2 T:238
+DEBUG: 202:225 corrs: 4925 E_I:4825 H_I: 2152 R: 2 T:242
+DEBUG: 208:231 corrs: 4869 E_I:4473 H_I: 2074 R: 2 T:238
+DEBUG: 209:232 corrs: 4869 E_I:4471 H_I: 2072 R: 2 T:239
+DEBUG: 202:224 corrs: 4924 E_I:4831 H_I: 2070 R: 2 T:242
+DEBUG: 203:225 corrs: 4929 E_I:4803 H_I: 2147 R: 2 T:242
+DEBUG: 204:226 corrs: 4809 E_I:4093 H_I: 2086 R: 1 T:235
+DEBUG: 208:230 corrs: 4876 E_I:4513 H_I: 2102 R: 2 T:239
+DEBUG: 209:231 corrs: 4905 E_I:4777 H_I: 2105 R: 2 T:241
+DEBUG: 210:232 corrs: 4876 E_I:4495 H_I: 2050 R: 2 T:239
+DEBUG: 201:222 corrs: 4870 E_I:4434 H_I: 2111 R: 2 T:240
+DEBUG: 202:223 corrs: 4905 E_I:4725 H_I: 2138 R: 2 T:241
+DEBUG: 203:224 corrs: 4916 E_I:4653 H_I: 2144 R: 2 T:241
+DEBUG: 204:225 corrs: 4902 E_I:4556 H_I: 2128 R: 2 T:241
+DEBUG: 205:226 corrs: 4910 E_I:4673 H_I: 2143 R: 2 T:240
+DEBUG: 208:229 corrs: 4881 E_I:4491 H_I: 2091 R: 2 T:238
+DEBUG: 209:230 corrs: 4841 E_I:4178 H_I: 1806 R: 2 T:238
+DEBUG: 210:231 corrs: 4868 E_I:4461 H_I: 2045 R: 2 T:239
+DEBUG: 211:232 corrs: 4892 E_I:4610 H_I: 1803 R: 2 T:239
+DEBUG: 201:221 corrs: 4900 E_I:4712 H_I: 2124 R: 2 T:241
+DEBUG: 202:222 corrs: 4961 E_I:4808 H_I: 2154 R: 2 T:244
+DEBUG: 203:223 corrs: 4924 E_I:4825 H_I: 2148 R: 2 T:242
+DEBUG: 204:224 corrs: 4895 E_I:4496 H_I: 2123 R: 2 T:240
+DEBUG: 205:225 corrs: 4964 E_I:4750 H_I: 2158 R: 2 T:244
+DEBUG: 206:226 corrs: 4944 E_I:4806 H_I: 2148 R: 2 T:242
+DEBUG: 208:228 corrs: 4890 E_I:4687 H_I: 2100 R: 2 T:239
+DEBUG: 209:229 corrs: 4818 E_I:4173 H_I: 2044 R: 2 T:236
+DEBUG: 210:230 corrs: 4906 E_I:4694 H_I: 2105 R: 2 T:240
+DEBUG: 211:231 corrs: 4900 E_I:4619 H_I: 2029 R: 2 T:240
+DEBUG: 212:232 corrs: 4908 E_I:4733 H_I: 2093 R: 2 T:241
+DEBUG: 201:220 corrs: 4898 E_I:4689 H_I: 2125 R: 2 T:241
+DEBUG: 202:221 corrs: 4972 E_I:4882 H_I: 2166 R: 2 T:245
+DEBUG: 203:222 corrs: 4954 E_I:4652 H_I: 2161 R: 2 T:244
+DEBUG: 204:223 corrs: 4916 E_I:4570 H_I: 2136 R: 2 T:242
+DEBUG: 205:224 corrs: 4972 E_I:4878 H_I: 2148 R: 2 T:244
+DEBUG: 207:226 corrs: 4965 E_I:4793 H_I: 2151 R: 2 T:243
+DEBUG: 208:227 corrs: 4883 E_I:4652 H_I: 2091 R: 2 T:239
+DEBUG: 209:228 corrs: 4910 E_I:4797 H_I: 2082 R: 2 T:240
+DEBUG: 210:229 corrs: 4898 E_I:4623 H_I: 2100 R: 2 T:240
+DEBUG: 211:230 corrs: 4908 E_I:4696 H_I: 2100 R: 2 T:240
+DEBUG: 212:231 corrs: 4916 E_I:4727 H_I: 1855 R: 2 T:241
+DEBUG: 213:232 corrs: 4898 E_I:4622 H_I: 2083 R: 2 T:240
+DEBUG: 201:219 corrs: 4892 E_I:4642 H_I: 2124 R: 2 T:241
+DEBUG: 202:220 corrs: 4963 E_I:4834 H_I: 2159 R: 2 T:245
+DEBUG: 203:221 corrs: 4964 E_I:4725 H_I: 2161 R: 2 T:245
+DEBUG: 205:223 corrs: 4957 E_I:4788 H_I: 2158 R: 2 T:243
+DEBUG: 208:226 corrs: 4981 E_I:4813 H_I: 2057 R: 2 T:244
+DEBUG: 209:227 corrs: 4901 E_I:4664 H_I: 2096 R: 2 T:240
+DEBUG: 210:228 corrs: 4916 E_I:4766 H_I: 2116 R: 2 T:241
+DEBUG: 211:229 corrs: 4914 E_I:4681 H_I: 2104 R: 2 T:241
+DEBUG: 212:230 corrs: 4918 E_I:4756 H_I: 1942 R: 2 T:241
+DEBUG: 213:231 corrs: 4925 E_I:4790 H_I: 1937 R: 2 T:241
+DEBUG: 214:232 corrs: 4900 E_I:4687 H_I: 2090 R: 2 T:240
+DEBUG: 201:218 corrs: 4865 E_I:4412 H_I: 2098 R: 2 T:239
+DEBUG: 202:219 corrs: 4965 E_I:4816 H_I: 2161 R: 2 T:245
+DEBUG: 203:220 corrs: 4970 E_I:4764 H_I: 2162 R: 2 T:245
+DEBUG: 210:227 corrs: 4916 E_I:4745 H_I: 2106 R: 2 T:241
+DEBUG: 211:228 corrs: 4925 E_I:4748 H_I: 2113 R: 2 T:241
+DEBUG: 212:229 corrs: 4902 E_I:4513 H_I: 2096 R: 2 T:240
+DEBUG: 213:230 corrs: 4851 E_I:4291 H_I: 1892 R: 2 T:238
+DEBUG: 214:231 corrs: 4915 E_I:4655 H_I: 2102 R: 2 T:240
+DEBUG: 215:232 corrs: 4925 E_I:4811 H_I: 2099 R: 2 T:241
+DEBUG: 125:141 corrs: 4747 E_I:4110 H_I: 1793 R: 2 T:230
+DEBUG: 201:217 corrs: 4871 E_I:4344 H_I: 2113 R: 2 T:240
+DEBUG: 202:218 corrs: 4967 E_I:4830 H_I: 2162 R: 2 T:245
+DEBUG: 203:219 corrs: 4948 E_I:4662 H_I: 2149 R: 2 T:244
+DEBUG: 211:227 corrs: 4926 E_I:4776 H_I: 2108 R: 2 T:242
+DEBUG: 212:228 corrs: 4903 E_I:4626 H_I: 2100 R: 2 T:240
+DEBUG: 213:229 corrs: 4918 E_I:4608 H_I: 2024 R: 2 T:240
+DEBUG: 214:230 corrs: 4889 E_I:4380 H_I: 2078 R: 2 T:239
+DEBUG: 215:231 corrs: 4900 E_I:4534 H_I: 2087 R: 2 T:240
+DEBUG: 216:232 corrs: 4929 E_I:4812 H_I: 2101 R: 2 T:241
+DEBUG: 125:140 corrs: 4740 E_I:4040 H_I: 1817 R: 2 T:230
+DEBUG: 126:141 corrs: 4725 E_I:3893 H_I: 1808 R: 2 T:226
+DEBUG: 127:142 corrs: 4835 E_I:4532 H_I: 1862 R: 2 T:236
+DEBUG: 201:216 corrs: 4885 E_I:4530 H_I: 2124 R: 2 T:241
+DEBUG: 202:217 corrs: 4966 E_I:4821 H_I: 2162 R: 2 T:245
+DEBUG: 203:218 corrs: 4958 E_I:4654 H_I: 2158 R: 2 T:244
+DEBUG: 212:227 corrs: 4930 E_I:4782 H_I: 2116 R: 2 T:242
+DEBUG: 213:228 corrs: 4930 E_I:4770 H_I: 2078 R: 2 T:242
+DEBUG: 214:229 corrs: 4896 E_I:4355 H_I: 2092 R: 2 T:239
+DEBUG: 215:230 corrs: 4927 E_I:4742 H_I: 2112 R: 2 T:242
+DEBUG: 216:231 corrs: 4927 E_I:4796 H_I: 1939 R: 2 T:241
+DEBUG: 217:232 corrs: 4926 E_I:4695 H_I: 2100 R: 2 T:241
+DEBUG: 125:139 corrs: 4835 E_I:4460 H_I: 1843 R: 2 T:234
+DEBUG: 126:140 corrs: 4812 E_I:4281 H_I: 1837 R: 2 T:234
+DEBUG: 127:141 corrs: 4883 E_I:4677 H_I: 1859 R: 2 T:238
+DEBUG: 128:142 corrs: 4836 E_I:4323 H_I: 1811 R: 2 T:235
+DEBUG: 201:215 corrs: 4902 E_I:4747 H_I: 2114 R: 2 T:242
+DEBUG: 202:216 corrs: 4968 E_I:4833 H_I: 2166 R: 2 T:245
+DEBUG: 203:217 corrs: 4940 E_I:4561 H_I: 2138 R: 2 T:243
+DEBUG: 213:227 corrs: 4921 E_I:4730 H_I: 2101 R: 2 T:241
+DEBUG: 214:228 corrs: 4934 E_I:4775 H_I: 2142 R: 2 T:242
+DEBUG: 215:229 corrs: 4937 E_I:4826 H_I: 2120 R: 2 T:242
+DEBUG: 216:230 corrs: 4892 E_I:4284 H_I: 2083 R: 2 T:239
+DEBUG: 217:231 corrs: 4939 E_I:4818 H_I: 2102 R: 2 T:242
+DEBUG: 218:232 corrs: 4898 E_I:4489 H_I: 2079 R: 2 T:240
+DEBUG: 98:111 corrs: 4830 E_I:4703 H_I: 1958 R: 2 T:234
+DEBUG: 125:138 corrs: 4847 E_I:4444 H_I: 1842 R: 2 T:234
+DEBUG: 126:139 corrs: 4759 E_I:3918 H_I: 1854 R: 2 T:232
+DEBUG: 127:140 corrs: 4817 E_I:4338 H_I: 1847 R: 2 T:235
+DEBUG: 128:141 corrs: 4899 E_I:4733 H_I: 1706 R: 2 T:238
+DEBUG: 129:142 corrs: 4878 E_I:4639 H_I: 1872 R: 2 T:237
+DEBUG: 201:214 corrs: 4894 E_I:4557 H_I: 2120 R: 2 T:241
+DEBUG: 202:215 corrs: 4967 E_I:4792 H_I: 2139 R: 2 T:245
+DEBUG: 203:216 corrs: 4969 E_I:4730 H_I: 2162 R: 2 T:244
+DEBUG: 214:227 corrs: 4940 E_I:4853 H_I: 2117 R: 2 T:242
+DEBUG: 215:228 corrs: 4936 E_I:4828 H_I: 2163 R: 2 T:242
+DEBUG: 216:229 corrs: 4926 E_I:4634 H_I: 2130 R: 2 T:241
+DEBUG: 217:230 corrs: 4897 E_I:4446 H_I: 2058 R: 2 T:240
+DEBUG: 218:231 corrs: 4937 E_I:4731 H_I: 2118 R: 2 T:242
+DEBUG: 219:232 corrs: 4961 E_I:4776 H_I: 2104 R: 2 T:242
+DEBUG: 97:109 corrs: 4813 E_I:4646 H_I: 1959 R: 2 T:234
+DEBUG: 98:110 corrs: 4790 E_I:4563 H_I: 1951 R: 2 T:232
+DEBUG: 99:111 corrs: 4756 E_I:4441 H_I: 1936 R: 2 T:231
+DEBUG: 100:112 corrs: 4782 E_I:4573 H_I: 1938 R: 2 T:232
+DEBUG: 125:137 corrs: 4827 E_I:4388 H_I: 1855 R: 2 T:233
+DEBUG: 126:138 corrs: 4857 E_I:4509 H_I: 1867 R: 2 T:235
+DEBUG: 127:139 corrs: 4866 E_I:4383 H_I: 1881 R: 2 T:236
+DEBUG: 128:140 corrs: 4916 E_I:4770 H_I: 1866 R: 2 T:239
+DEBUG: 129:141 corrs: 4874 E_I:4548 H_I: 1776 R: 2 T:237
+DEBUG: 130:142 corrs: 4890 E_I:4605 H_I: 1871 R: 2 T:238
+DEBUG: 201:213 corrs: 4908 E_I:4706 H_I: 2135 R: 2 T:242
+DEBUG: 202:214 corrs: 4961 E_I:4762 H_I: 2159 R: 2 T:245
+DEBUG: 203:215 corrs: 4972 E_I:4731 H_I: 2134 R: 2 T:245
+DEBUG: 215:227 corrs: 4915 E_I:4680 H_I: 2152 R: 2 T:241
+DEBUG: 216:228 corrs: 4910 E_I:4599 H_I: 2102 R: 2 T:240
+DEBUG: 217:229 corrs: 4936 E_I:4709 H_I: 2171 R: 2 T:242
+DEBUG: 218:230 corrs: 4914 E_I:4615 H_I: 2002 R: 2 T:241
+DEBUG: 219:231 corrs: 4960 E_I:4713 H_I: 2099 R: 2 T:242
+DEBUG: 220:232 corrs: 4963 E_I:4758 H_I: 1986 R: 2 T:242
+DEBUG: 97:108 corrs: 4845 E_I:4714 H_I: 1988 R: 2 T:236
+DEBUG: 98:109 corrs: 4814 E_I:4551 H_I: 1941 R: 2 T:234
+DEBUG: 99:110 corrs: 4839 E_I:4701 H_I: 1947 R: 2 T:236
+DEBUG: 100:111 corrs: 4806 E_I:4587 H_I: 1946 R: 2 T:234
+DEBUG: 101:112 corrs: 4725 E_I:4404 H_I: 1874 R: 2 T:229
+DEBUG: 124:135 corrs: 4728 E_I:3951 H_I: 1725 R: 2 T:230
+DEBUG: 125:136 corrs: 4903 E_I:4710 H_I: 1883 R: 2 T:238
+DEBUG: 126:137 corrs: 4880 E_I:4624 H_I: 1831 R: 2 T:236
+DEBUG: 127:138 corrs: 4883 E_I:4546 H_I: 1881 R: 2 T:237
+DEBUG: 128:139 corrs: 4895 E_I:4612 H_I: 1908 R: 2 T:238
+DEBUG: 129:140 corrs: 4806 E_I:4121 H_I: 1839 R: 2 T:235
+DEBUG: 130:141 corrs: 4921 E_I:4733 H_I: 1891 R: 2 T:240
+DEBUG: 131:142 corrs: 4881 E_I:4493 H_I: 1860 R: 2 T:238
+DEBUG: 201:212 corrs: 4906 E_I:4684 H_I: 2113 R: 2 T:242
+DEBUG: 202:213 corrs: 4972 E_I:4813 H_I: 2166 R: 2 T:245
+DEBUG: 203:214 corrs: 4958 E_I:4658 H_I: 2160 R: 2 T:244
+DEBUG: 216:227 corrs: 4944 E_I:4848 H_I: 2147 R: 2 T:242
+DEBUG: 217:228 corrs: 4933 E_I:4674 H_I: 2229 R: 2 T:242
+DEBUG: 218:229 corrs: 4941 E_I:4753 H_I: 2168 R: 2 T:242
+DEBUG: 219:230 corrs: 4961 E_I:4706 H_I: 2077 R: 2 T:242
+DEBUG: 220:231 corrs: 4976 E_I:4825 H_I: 2194 R: 2 T:243
+DEBUG: 97:107 corrs: 4825 E_I:4667 H_I: 1998 R: 2 T:235
+DEBUG: 98:108 corrs: 4844 E_I:4674 H_I: 1965 R: 2 T:236
+DEBUG: 99:109 corrs: 4742 E_I:4316 H_I: 1922 R: 2 T:231
+DEBUG: 100:110 corrs: 4831 E_I:4673 H_I: 1965 R: 2 T:235
+DEBUG: 101:111 corrs: 4833 E_I:4641 H_I: 1941 R: 2 T:235
+DEBUG: 102:112 corrs: 4738 E_I:4412 H_I: 1867 R: 2 T:230
+DEBUG: 124:134 corrs: 4810 E_I:4293 H_I: 1849 R: 2 T:233
+DEBUG: 125:135 corrs: 4919 E_I:4710 H_I: 1956 R: 2 T:239
+DEBUG: 126:136 corrs: 4884 E_I:4410 H_I: 1849 R: 2 T:237
+DEBUG: 127:137 corrs: 4876 E_I:4488 H_I: 1923 R: 2 T:236
+DEBUG: 128:138 corrs: 4934 E_I:4732 H_I: 1901 R: 2 T:239
+DEBUG: 129:139 corrs: 4942 E_I:4805 H_I: 1878 R: 2 T:241
+DEBUG: 130:140 corrs: 4895 E_I:4650 H_I: 1893 R: 2 T:239
+DEBUG: 131:141 corrs: 4892 E_I:4448 H_I: 1879 R: 2 T:239
+DEBUG: 132:142 corrs: 4906 E_I:4633 H_I: 1874 R: 2 T:240
+DEBUG: 201:211 corrs: 4909 E_I:4709 H_I: 2138 R: 2 T:242
+DEBUG: 202:212 corrs: 4971 E_I:4840 H_I: 2146 R: 2 T:245
+DEBUG: 203:213 corrs: 4937 E_I:4557 H_I: 2148 R: 2 T:243
+DEBUG: 217:227 corrs: 4954 E_I:4853 H_I: 2187 R: 2 T:242
+DEBUG: 218:228 corrs: 4953 E_I:4863 H_I: 2164 R: 2 T:243
+DEBUG: 219:229 corrs: 4986 E_I:4859 H_I: 2167 R: 2 T:244
+DEBUG: 220:230 corrs: 4968 E_I:4774 H_I: 2055 R: 2 T:242
+DEBUG: 287:297 corrs: 4887 E_I:4639 H_I: 1525 R: 3 T:239
+DEBUG: 290:300 corrs: 4898 E_I:4645 H_I: 1597 R: 2 T:238
+DEBUG: 291:301 corrs: 4868 E_I:4058 H_I: 1596 R: 2 T:235
+DEBUG: 292:302 corrs: 4893 E_I:4595 H_I: 1592 R: 2 T:238
+DEBUG: 293:303 corrs: 4883 E_I:4637 H_I: 1599 R: 2 T:236
+DEBUG: 294:304 corrs: 4884 E_I:4531 H_I: 1606 R: 2 T:237
+DEBUG: 201:226 corrs: 4813 E_I:4472 H_I: 2096 R: 2 T:236
+DEBUG: 202:227 corrs: 4782 E_I:4474 H_I: 2074 R: 2 T:234
+DEBUG: 203:228 corrs: 4785 E_I:4342 H_I: 2064 R: 2 T:234
+DEBUG: 204:229 corrs: 4760 E_I:4208 H_I: 2069 R: 2 T:234
+DEBUG: 205:230 corrs: 4813 E_I:4441 H_I: 2041 R: 2 T:236
+DEBUG: 206:231 corrs: 4841 E_I:4533 H_I: 2087 R: 2 T:237
+DEBUG: 207:232 corrs: 4840 E_I:4445 H_I: 2086 R: 2 T:238
+DEBUG: 201:225 corrs: 4840 E_I:4481 H_I: 1980 R: 2 T:237
+DEBUG: 202:226 corrs: 4867 E_I:4540 H_I: 2132 R: 2 T:238
+DEBUG: 203:227 corrs: 4788 E_I:4459 H_I: 2081 R: 2 T:234
+DEBUG: 204:228 corrs: 4754 E_I:4139 H_I: 2053 R: 2 T:232
+DEBUG: 205:229 corrs: 4792 E_I:4255 H_I: 2078 R: 2 T:234
+DEBUG: 206:230 corrs: 4857 E_I:4674 H_I: 2097 R: 2 T:238
+DEBUG: 207:231 corrs: 4835 E_I:4380 H_I: 2072 R: 2 T:237
+DEBUG: 201:224 corrs: 4839 E_I:4491 H_I: 2091 R: 2 T:238
+DEBUG: 203:226 corrs: 4855 E_I:4580 H_I: 2118 R: 2 T:237
+DEBUG: 204:227 corrs: 4790 E_I:4422 H_I: 2065 R: 2 T:234
+DEBUG: 205:228 corrs: 4842 E_I:4586 H_I: 2103 R: 2 T:237
+DEBUG: 206:229 corrs: 4839 E_I:4493 H_I: 2097 R: 2 T:237
+DEBUG: 207:230 corrs: 4854 E_I:4580 H_I: 2090 R: 2 T:238
+DEBUG: 201:223 corrs: 4844 E_I:4604 H_I: 2106 R: 2 T:238
+DEBUG: 205:227 corrs: 4835 E_I:4596 H_I: 2093 R: 2 T:236
+DEBUG: 206:228 corrs: 4858 E_I:4666 H_I: 2098 R: 2 T:238
+DEBUG: 207:229 corrs: 4875 E_I:4607 H_I: 2097 R: 2 T:238
+DEBUG: 206:227 corrs: 4809 E_I:4333 H_I: 2061 R: 2 T:236
+DEBUG: 207:228 corrs: 4884 E_I:4733 H_I: 2097 R: 2 T:239
+DEBUG: 207:227 corrs: 4871 E_I:4625 H_I: 2092 R: 2 T:238
+DEBUG: 287:306 corrs: 4773 E_I:3860 H_I: 1504 R: 2 T:232
+DEBUG: 124:142 corrs: 4624 E_I:3714 H_I: 1726 R: 2 T:224
+DEBUG: 286:304 corrs: 4779 E_I:3809 H_I: 1504 R: 2 T:231
+DEBUG: 287:305 corrs: 4756 E_I:3970 H_I: 1532 R: 2 T:230
+DEBUG: 288:306 corrs: 4779 E_I:3978 H_I: 1483 R: 2 T:231
+DEBUG: 95:112 corrs: 4639 E_I:4265 H_I: 1811 R: 2 T:226
+DEBUG: 124:141 corrs: 4769 E_I:4449 H_I: 1819 R: 2 T:230
+DEBUG: 125:142 corrs: 4789 E_I:4398 H_I: 1718 R: 2 T:232
+DEBUG: 286:303 corrs: 4788 E_I:4081 H_I: 1563 R: 2 T:232
+DEBUG: 287:304 corrs: 4777 E_I:3580 H_I: 1541 R: 2 T:224
+DEBUG: 288:305 corrs: 4774 E_I:3985 H_I: 1486 R: 2 T:230
+DEBUG: 289:306 corrs: 4800 E_I:4109 H_I: 1482 R: 2 T:233
+DEBUG: 290:307 corrs: 4777 E_I:4009 H_I: 1488 R: 2 T:230
+DEBUG: 95:111 corrs: 4627 E_I:4174 H_I: 1867 R: 2 T:225
+DEBUG: 96:112 corrs: 4592 E_I:4061 H_I: 1836 R: 2 T:222
+DEBUG: 124:140 corrs: 4716 E_I:4131 H_I: 1768 R: 2 T:228
+DEBUG: 126:142 corrs: 4741 E_I:4109 H_I: 1805 R: 2 T:231
+DEBUG: 127:143 corrs: 4660 E_I:3960 H_I: 1770 R: 2 T:226
+DEBUG: 286:302 corrs: 4784 E_I:3999 H_I: 1565 R: 2 T:230
+DEBUG: 287:303 corrs: 4809 E_I:4362 H_I: 1567 R: 2 T:232
+DEBUG: 288:304 corrs: 4810 E_I:4256 H_I: 1560 R: 2 T:233
+DEBUG: 289:305 corrs: 4793 E_I:4187 H_I: 1515 R: 2 T:232
+DEBUG: 290:306 corrs: 4827 E_I:4394 H_I: 1500 R: 2 T:234
+DEBUG: 291:307 corrs: 4759 E_I:3617 H_I: 1513 R: 2 T:230
+DEBUG: 95:110 corrs: 4672 E_I:4348 H_I: 1908 R: 2 T:227
+DEBUG: 96:111 corrs: 4746 E_I:4520 H_I: 1917 R: 2 T:231
+DEBUG: 97:112 corrs: 4666 E_I:4220 H_I: 1850 R: 2 T:226
+DEBUG: 124:139 corrs: 4740 E_I:4229 H_I: 1782 R: 2 T:229
+DEBUG: 128:143 corrs: 4759 E_I:4425 H_I: 1803 R: 2 T:230
+DEBUG: 129:144 corrs: 4668 E_I:3982 H_I: 1782 R: 2 T:228
+DEBUG: 285:300 corrs: 4778 E_I:4164 H_I: 1557 R: 2 T:233
+DEBUG: 286:301 corrs: 4807 E_I:4280 H_I: 1573 R: 2 T:232
+DEBUG: 287:302 corrs: 4813 E_I:4302 H_I: 1494 R: 2 T:233
+DEBUG: 288:303 corrs: 4817 E_I:4464 H_I: 1575 R: 2 T:233
+DEBUG: 289:304 corrs: 4818 E_I:4088 H_I: 1551 R: 2 T:232
+DEBUG: 290:305 corrs: 4824 E_I:4413 H_I: 1562 R: 2 T:234
+DEBUG: 291:306 corrs: 4833 E_I:4269 H_I: 1534 R: 2 T:235
+DEBUG: 292:307 corrs: 4801 E_I:4378 H_I: 1498 R: 2 T:233
+DEBUG: 303:318 corrs: 4781 E_I:4395 H_I: 1486 R: 2 T:233
+DEBUG: 304:319 corrs: 4777 E_I:4223 H_I: 1534 R: 2 T:235
+DEBUG: 95:109 corrs: 4708 E_I:4447 H_I: 1856 R: 2 T:229
+DEBUG: 96:110 corrs: 4700 E_I:4266 H_I: 1877 R: 2 T:228
+DEBUG: 97:111 corrs: 4594 E_I:3970 H_I: 1855 R: 2 T:221
+DEBUG: 98:112 corrs: 4770 E_I:4578 H_I: 1914 R: 2 T:232
+DEBUG: 124:138 corrs: 4752 E_I:4272 H_I: 1778 R: 2 T:229
+DEBUG: 129:143 corrs: 4758 E_I:4417 H_I: 1807 R: 2 T:230
+DEBUG: 130:144 corrs: 4702 E_I:4226 H_I: 1772 R: 2 T:229
+DEBUG: 219:233 corrs: 4728 E_I:3997 H_I: 2058 R: 1 T:230
+DEBUG: 285:299 corrs: 4792 E_I:4378 H_I: 1561 R: 2 T:233
+DEBUG: 286:300 corrs: 4827 E_I:4351 H_I: 1568 R: 2 T:234
+Best triangulated result: 706
+Best frames found: 9 and 21
+Triangulation between initial frames done! Founded 777 points with med_cos=5.304360401642784
+0% ## Iteration: 1 ## Frame: 16## Cloud: 937.0 ## Retriangulated: 300 ## Updated: 238 ## PnpTime: 2.3471181392669678 ## TriangTime: 0.5720269680023193
+0% ## Iteration: 2 ## Frame: 21## Cloud: 1040.0 ## Retriangulated: 300 ## Updated: 169 ## PnpTime: 2.5409176349639893 ## TriangTime: 0.44925665855407715
+0% ## Iteration: 3 ## Frame: 17## Cloud: 1091.0 ## Retriangulated: 300 ## Updated: 106 ## PnpTime: 2.587207078933716 ## TriangTime: 0.7518644332885742
+1% ## Iteration: 4 ## Frame: 19## Cloud: 1116.0 ## Retriangulated: 300 ## Updated: 43 ## PnpTime: 2.5846686363220215 ## TriangTime: 0.6376121044158936
+1% ## Iteration: 5 ## Frame: 18## Cloud: 1136.0 ## Retriangulated: 300 ## Updated: 31 ## PnpTime: 2.5265800952911377 ## TriangTime: 0.7001895904541016
+1% ## Iteration: 6 ## Frame: 20## Cloud: 1144.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 2.583374261856079 ## TriangTime: 0.6636521816253662
+2% ## Iteration: 7 ## Frame: 22## Cloud: 1153.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 2.569843053817749 ## TriangTime: 0.6939752101898193
+2% ## Iteration: 8 ## Frame: 23## Cloud: 1163.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 2.5792367458343506 ## TriangTime: 0.8744063377380371
+2% ## Iteration: 9 ## Frame: 15## Cloud: 1182.0 ## Retriangulated: 300 ## Updated: 32 ## PnpTime: 2.695322036743164 ## TriangTime: 0.9395771026611328
+3% ## Iteration: 10 ## Frame: 24## Cloud: 1199.0 ## Retriangulated: 300 ## Updated: 31 ## PnpTime: 2.687919855117798 ## TriangTime: 0.942793607711792
+3% ## Iteration: 11 ## Frame: 25## Cloud: 1211.0 ## Retriangulated: 300 ## Updated: 24 ## PnpTime: 2.6280524730682373 ## TriangTime: 0.9721176624298096
+3% ## Iteration: 12 ## Frame: 14## Cloud: 1231.0 ## Retriangulated: 300 ## Updated: 30 ## PnpTime: 2.5912957191467285 ## TriangTime: 0.7531571388244629
+4% ## Iteration: 13 ## Frame: 26## Cloud: 1250.0 ## Retriangulated: 300 ## Updated: 27 ## PnpTime: 2.6664512157440186 ## TriangTime: 0.9569301605224609
+4% ## Iteration: 14 ## Frame: 13## Cloud: 1268.0 ## Retriangulated: 280 ## Updated: 19 ## PnpTime: 2.6401150226593018 ## TriangTime: 0.2809581756591797
+4% ## Iteration: 15 ## Frame: 27## Cloud: 1280.0 ## Retriangulated: 165 ## Updated: 12 ## PnpTime: 2.645702600479126 ## TriangTime: 0.53475022315979
+4% ## Iteration: 16 ## Frame: 12## Cloud: 1302.0 ## Retriangulated: 185 ## Updated: 22 ## PnpTime: 2.7636332511901855 ## TriangTime: 0.07103753089904785
+5% ## Iteration: 17 ## Frame: 11## Cloud: 1309.0 ## Retriangulated: 203 ## Updated: 7 ## PnpTime: 2.7483694553375244 ## TriangTime: 0.09640145301818848
+5% ## Iteration: 18 ## Frame: 10## Cloud: 1309.0 ## Retriangulated: 243 ## Updated: 0 ## PnpTime: 2.703033924102783 ## TriangTime: 0.16962623596191406
+5% ## Iteration: 19 ## Frame: 28## Cloud: 1309.0 ## Retriangulated: 13 ## Updated: 0 ## PnpTime: 2.7303810119628906 ## TriangTime: 0.003964424133300781
+6% ## Iteration: 20 ## Frame: 9## Cloud: 1309.0 ## Retriangulated: 247 ## Updated: 0 ## PnpTime: 2.8001184463500977 ## TriangTime: 0.029180288314819336
+6% ## Iteration: 21 ## Frame: 29## Cloud: 1309.0 ## Retriangulated: 33 ## Updated: 0 ## PnpTime: 2.6916818618774414 ## TriangTime: 0.008963823318481445
+6% ## Iteration: 22 ## Frame: 30## Cloud: 1309.0 ## Retriangulated: 57 ## Updated: 0 ## PnpTime: 2.661011219024658 ## TriangTime: 0.01398921012878418
+7% ## Iteration: 23 ## Frame: 8## Cloud: 1309.0 ## Retriangulated: 266 ## Updated: 0 ## PnpTime: 2.705000877380371 ## TriangTime: 0.03102898597717285
+7% ## Iteration: 24 ## Frame: 32## Cloud: 1309.0 ## Retriangulated: 238 ## Updated: 0 ## PnpTime: 2.73968505859375 ## TriangTime: 0.061036109924316406
+7% ## Iteration: 25 ## Frame: 31## Cloud: 1309.0 ## Retriangulated: 29 ## Updated: 0 ## PnpTime: 2.793330192565918 ## TriangTime: 0.008167505264282227
+8% ## Iteration: 26 ## Frame: 34## Cloud: 1309.0 ## Retriangulated: 263 ## Updated: 0 ## PnpTime: 2.681732177734375 ## TriangTime: 0.06303024291992188
+8% ## Iteration: 27 ## Frame: 33## Cloud: 1309.0 ## Retriangulated: 38 ## Updated: 0 ## PnpTime: 2.613621950149536 ## TriangTime: 0.010979175567626953
+8% ## Iteration: 28 ## Frame: 7## Cloud: 1309.0 ## Retriangulated: 234 ## Updated: 0 ## PnpTime: 2.585721492767334 ## TriangTime: 0.02800750732421875
+8% ## Iteration: 29 ## Frame: 35## Cloud: 1309.0 ## Retriangulated: 181 ## Updated: 0 ## PnpTime: 2.6658124923706055 ## TriangTime: 0.04636502265930176
+9% ## Iteration: 30 ## Frame: 37## Cloud: 1309.0 ## Retriangulated: 277 ## Updated: 0 ## PnpTime: 2.593776226043701 ## TriangTime: 0.07098865509033203
+9% ## Iteration: 31 ## Frame: 36## Cloud: 1309.0 ## Retriangulated: 42 ## Updated: 0 ## PnpTime: 2.5555264949798584 ## TriangTime: 0.011961698532104492
+9% ## Iteration: 32 ## Frame: 38## Cloud: 1309.0 ## Retriangulated: 154 ## Updated: 0 ## PnpTime: 2.676623821258545 ## TriangTime: 0.043337106704711914
+10% ## Iteration: 33 ## Frame: 43## Cloud: 1309.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 2.65944504737854 ## TriangTime: 0.08896350860595703
+10% ## Iteration: 34 ## Frame: 39## Cloud: 1329.0 ## Retriangulated: 119 ## Updated: 20 ## PnpTime: 2.6177139282226562 ## TriangTime: 0.0886235237121582
+10% ## Iteration: 35 ## Frame: 40## Cloud: 1339.0 ## Retriangulated: 116 ## Updated: 10 ## PnpTime: 2.5214500427246094 ## TriangTime: 0.07900071144104004
+11% ## Iteration: 36 ## Frame: 41## Cloud: 1382.0 ## Retriangulated: 100 ## Updated: 43 ## PnpTime: 2.5243256092071533 ## TriangTime: 0.09249448776245117
+11% ## Iteration: 37 ## Frame: 42## Cloud: 1392.0 ## Retriangulated: 106 ## Updated: 10 ## PnpTime: 2.561943292617798 ## TriangTime: 0.09351086616516113
+11% ## Iteration: 38 ## Frame: 44## Cloud: 1441.0 ## Retriangulated: 211 ## Updated: 49 ## PnpTime: 2.5262575149536133 ## TriangTime: 0.12487030029296875
+12% ## Iteration: 39 ## Frame: 45## Cloud: 1441.0 ## Retriangulated: 122 ## Updated: 0 ## PnpTime: 2.5441906452178955 ## TriangTime: 0.037000417709350586
+12% ## Iteration: 40 ## Frame: 46## Cloud: 1441.0 ## Retriangulated: 122 ## Updated: 0 ## PnpTime: 2.62235426902771 ## TriangTime: 0.038960933685302734
+12% ## Iteration: 41 ## Frame: 6## Cloud: 1441.0 ## Retriangulated: 127 ## Updated: 0 ## PnpTime: 2.632016658782959 ## TriangTime: 0.017025470733642578
+13% ## Iteration: 42 ## Frame: 49## Cloud: 1441.0 ## Retriangulated: 259 ## Updated: 0 ## PnpTime: 2.6493802070617676 ## TriangTime: 0.08072614669799805
+13% ## Iteration: 43 ## Frame: 50## Cloud: 1441.0 ## Retriangulated: 29 ## Updated: 0 ## PnpTime: 2.550480365753174 ## TriangTime: 0.010041236877441406
+13% ## Iteration: 44 ## Frame: 47## Cloud: 1441.0 ## Retriangulated: 12 ## Updated: 0 ## PnpTime: 2.4946417808532715 ## TriangTime: 0.004998207092285156
+13% ## Iteration: 45 ## Frame: 53## Cloud: 1441.0 ## Retriangulated: 50 ## Updated: 0 ## PnpTime: 2.47493577003479 ## TriangTime: 0.01697540283203125
+14% ## Iteration: 46 ## Frame: 48## Cloud: 1441.0 ## Retriangulated: 5 ## Updated: 0 ## PnpTime: 2.457951307296753 ## TriangTime: 0.002998828887939453
+14% ## Iteration: 47 ## Frame: 75## Cloud: 1441.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 2.451233148574829 ## TriangTime: 0.09496927261352539
+14% ## Iteration: 48 ## Frame: 5## Cloud: 1441.0 ## Retriangulated: 67 ## Updated: 0 ## PnpTime: 2.470494270324707 ## TriangTime: 0.009000539779663086
+15% ## Iteration: 49 ## Frame: 106## Cloud: 1443.0 ## Retriangulated: 300 ## Updated: 2 ## PnpTime: 2.5423457622528076 ## TriangTime: 0.11172723770141602
+15% ## Iteration: 50 ## Frame: 66## Cloud: 1445.0 ## Retriangulated: 55 ## Updated: 2 ## PnpTime: 2.536780834197998 ## TriangTime: 0.0260009765625
+15% ## Iteration: 51 ## Frame: 104## Cloud: 1679.0 ## Retriangulated: 300 ## Updated: 234 ## PnpTime: 2.501732587814331 ## TriangTime: 0.474346399307251
+16% ## Iteration: 52 ## Frame: 105## Cloud: 1690.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 2.4843363761901855 ## TriangTime: 1.190190315246582
+16% ## Iteration: 53 ## Frame: 103## Cloud: 1717.0 ## Retriangulated: 300 ## Updated: 49 ## PnpTime: 2.4679973125457764 ## TriangTime: 1.7753498554229736
+16% ## Iteration: 54 ## Frame: 107## Cloud: 1753.0 ## Retriangulated: 300 ## Updated: 70 ## PnpTime: 2.5277042388916016 ## TriangTime: 2.309094190597534
+17% ## Iteration: 55 ## Frame: 102## Cloud: 1806.0 ## Retriangulated: 300 ## Updated: 85 ## PnpTime: 2.4926328659057617 ## TriangTime: 3.144958972930908
+17% ## Iteration: 56 ## Frame: 108## Cloud: 1860.0 ## Retriangulated: 300 ## Updated: 80 ## PnpTime: 2.624030113220215 ## TriangTime: 3.1457977294921875
+17% ## Iteration: 57 ## Frame: 99## Cloud: 1917.0 ## Retriangulated: 300 ## Updated: 83 ## PnpTime: 2.4846346378326416 ## TriangTime: 3.574464797973633
+17% ## Iteration: 58 ## Frame: 101## Cloud: 1991.0 ## Retriangulated: 300 ## Updated: 94 ## PnpTime: 2.4745843410491943 ## TriangTime: 4.153791189193726
+18% ## Iteration: 59 ## Frame: 100## Cloud: 2066.0 ## Retriangulated: 300 ## Updated: 110 ## PnpTime: 2.6305739879608154 ## TriangTime: 4.8714799880981445
+18% ## Iteration: 60 ## Frame: 90## Cloud: 2098.0 ## Retriangulated: 300 ## Updated: 56 ## PnpTime: 2.4993133544921875 ## TriangTime: 3.831983804702759
+18% ## Iteration: 61 ## Frame: 109## Cloud: 2154.0 ## Retriangulated: 300 ## Updated: 76 ## PnpTime: 2.533804178237915 ## TriangTime: 4.022551774978638
+19% ## Iteration: 62 ## Frame: 110## Cloud: 2222.0 ## Retriangulated: 300 ## Updated: 84 ## PnpTime: 2.587709665298462 ## TriangTime: 4.845035552978516
+19% ## Iteration: 63 ## Frame: 98## Cloud: 2281.0 ## Retriangulated: 300 ## Updated: 86 ## PnpTime: 2.5602598190307617 ## TriangTime: 4.691807270050049
+19% ## Iteration: 64 ## Frame: 92## Cloud: 2368.0 ## Retriangulated: 300 ## Updated: 103 ## PnpTime: 2.5216519832611084 ## TriangTime: 3.824361801147461
+20% ## Iteration: 65 ## Frame: 91## Cloud: 2387.0 ## Retriangulated: 116 ## Updated: 26 ## PnpTime: 2.5570948123931885 ## TriangTime: 1.7088894844055176
+20% ## Iteration: 66 ## Frame: 93## Cloud: 2406.0 ## Retriangulated: 103 ## Updated: 21 ## PnpTime: 2.617680072784424 ## TriangTime: 1.5410747528076172
+20% ## Iteration: 67 ## Frame: 89## Cloud: 2407.0 ## Retriangulated: 60 ## Updated: 1 ## PnpTime: 2.6012840270996094 ## TriangTime: 0.19036078453063965
+21% ## Iteration: 68 ## Frame: 96## Cloud: 2407.0 ## Retriangulated: 20 ## Updated: 0 ## PnpTime: 2.5232093334198 ## TriangTime: 0.01503133773803711
+21% ## Iteration: 69 ## Frame: 88## Cloud: 2407.0 ## Retriangulated: 19 ## Updated: 0 ## PnpTime: 2.4747607707977295 ## TriangTime: 0.020999670028686523
+21% ## Iteration: 70 ## Frame: 94## Cloud: 2407.0 ## Retriangulated: 15 ## Updated: 0 ## PnpTime: 2.4416191577911377 ## TriangTime: 0.007120847702026367
+21% ## Iteration: 71 ## Frame: 111## Cloud: 2422.0 ## Retriangulated: 98 ## Updated: 15 ## PnpTime: 2.4492387771606445 ## TriangTime: 0.14920306205749512
+22% ## Iteration: 72 ## Frame: 95## Cloud: 2425.0 ## Retriangulated: 20 ## Updated: 3 ## PnpTime: 2.4265658855438232 ## TriangTime: 0.2369098663330078
+22% ## Iteration: 73 ## Frame: 97## Cloud: 2432.0 ## Retriangulated: 37 ## Updated: 7 ## PnpTime: 2.45866060256958 ## TriangTime: 0.640911340713501
+22% ## Iteration: 74 ## Frame: 112## Cloud: 2432.0 ## Retriangulated: 72 ## Updated: 0 ## PnpTime: 2.485398769378662 ## TriangTime: 0.024997949600219727
+23% ## Iteration: 75 ## Frame: 113## Cloud: 2441.0 ## Retriangulated: 218 ## Updated: 9 ## PnpTime: 2.5106592178344727 ## TriangTime: 1.2667033672332764
+23% ## Iteration: 76 ## Frame: 87## Cloud: 2442.0 ## Retriangulated: 47 ## Updated: 2 ## PnpTime: 2.3383877277374268 ## TriangTime: 0.18450474739074707
+23% ## Iteration: 77 ## Frame: 67## Cloud: 2504.0 ## Retriangulated: 300 ## Updated: 78 ## PnpTime: 2.3364970684051514 ## TriangTime: 4.1220903396606445
+24% ## Iteration: 78 ## Frame: 68## Cloud: 2584.0 ## Retriangulated: 300 ## Updated: 94 ## PnpTime: 2.3371729850769043 ## TriangTime: 4.247584104537964
+24% ## Iteration: 79 ## Frame: 51## Cloud: 2633.0 ## Retriangulated: 199 ## Updated: 63 ## PnpTime: 2.4232723712921143 ## TriangTime: 2.870673179626465
+24% ## Iteration: 80 ## Frame: 55## Cloud: 2650.0 ## Retriangulated: 95 ## Updated: 17 ## PnpTime: 2.3108344078063965 ## TriangTime: 1.1891062259674072
+25% ## Iteration: 81 ## Frame: 52## Cloud: 2682.0 ## Retriangulated: 153 ## Updated: 32 ## PnpTime: 2.292570114135742 ## TriangTime: 2.2425224781036377
+25% ## Iteration: 82 ## Frame: 69## Cloud: 2684.0 ## Retriangulated: 13 ## Updated: 2 ## PnpTime: 2.318382978439331 ## TriangTime: 0.016171693801879883
+25% ## Iteration: 83 ## Frame: 54## Cloud: 2704.0 ## Retriangulated: 84 ## Updated: 20 ## PnpTime: 2.291116237640381 ## TriangTime: 1.2584638595581055
+26% ## Iteration: 84 ## Frame: 65## Cloud: 2753.0 ## Retriangulated: 238 ## Updated: 49 ## PnpTime: 2.3159844875335693 ## TriangTime: 3.1312997341156006
+26% ## Iteration: 85 ## Frame: 60## Cloud: 2755.0 ## Retriangulated: 63 ## Updated: 8 ## PnpTime: 2.3964219093322754 ## TriangTime: 0.6091492176055908
+26% ## Iteration: 86 ## Frame: 58## Cloud: 2758.0 ## Retriangulated: 44 ## Updated: 9 ## PnpTime: 2.2840349674224854 ## TriangTime: 0.5098600387573242
+26% ## Iteration: 87 ## Frame: 59## Cloud: 2758.0 ## Retriangulated: 48 ## Updated: 11 ## PnpTime: 2.263731002807617 ## TriangTime: 0.7575106620788574
+27% ## Iteration: 88 ## Frame: 61## Cloud: 2771.0 ## Retriangulated: 52 ## Updated: 14 ## PnpTime: 2.2791476249694824 ## TriangTime: 0.6724746227264404
+27% ## Iteration: 89 ## Frame: 57## Cloud: 2804.0 ## Retriangulated: 159 ## Updated: 45 ## PnpTime: 2.2117342948913574 ## TriangTime: 2.105902671813965
+27% ## Iteration: 90 ## Frame: 56## Cloud: 2828.0 ## Retriangulated: 94 ## Updated: 24 ## PnpTime: 2.225043535232544 ## TriangTime: 1.2588729858398438
+28% ## Iteration: 91 ## Frame: 64## Cloud: 2852.0 ## Retriangulated: 92 ## Updated: 24 ## PnpTime: 2.317570209503174 ## TriangTime: 1.213435173034668
+28% ## Iteration: 92 ## Frame: 62## Cloud: 2852.0 ## Retriangulated: 10 ## Updated: 0 ## PnpTime: 2.481034517288208 ## TriangTime: 0.010000467300415039
+28% ## Iteration: 93 ## Frame: 71## Cloud: 2906.0 ## Retriangulated: 209 ## Updated: 54 ## PnpTime: 2.355787754058838 ## TriangTime: 2.751962423324585
+29% ## Iteration: 94 ## Frame: 63## Cloud: 2933.0 ## Retriangulated: 56 ## Updated: 27 ## PnpTime: 2.17169189453125 ## TriangTime: 0.6731929779052734
+29% ## Iteration: 95 ## Frame: 76## Cloud: 2935.0 ## Retriangulated: 16 ## Updated: 2 ## PnpTime: 2.191608428955078 ## TriangTime: 0.012083292007446289
+29% ## Iteration: 96 ## Frame: 72## Cloud: 2936.0 ## Retriangulated: 29 ## Updated: 1 ## PnpTime: 2.157824993133545 ## TriangTime: 0.20226311683654785
+30% ## Iteration: 97 ## Frame: 70## Cloud: 2937.0 ## Retriangulated: 7 ## Updated: 1 ## PnpTime: 2.131185293197632 ## TriangTime: 0.03603029251098633
+30% ## Iteration: 98 ## Frame: 73## Cloud: 3028.0 ## Retriangulated: 249 ## Updated: 91 ## PnpTime: 2.1870884895324707 ## TriangTime: 2.0837583541870117
+30% ## Iteration: 99 ## Frame: 74## Cloud: 3036.0 ## Retriangulated: 39 ## Updated: 8 ## PnpTime: 2.0878264904022217 ## TriangTime: 0.20287013053894043
+30% ## Iteration: 100 ## Frame: 77## Cloud: 3041.0 ## Retriangulated: 24 ## Updated: 6 ## PnpTime: 2.069875955581665 ## TriangTime: 0.13225245475769043
+31% ## Iteration: 101 ## Frame: 79## Cloud: 3043.0 ## Retriangulated: 25 ## Updated: 3 ## PnpTime: 2.0563080310821533 ## TriangTime: 0.07742714881896973
+31% ## Iteration: 102 ## Frame: 85## Cloud: 3059.0 ## Retriangulated: 300 ## Updated: 40 ## PnpTime: 2.037062406539917 ## TriangTime: 1.625370740890503
+31% ## Iteration: 103 ## Frame: 86## Cloud: 3098.0 ## Retriangulated: 300 ## Updated: 60 ## PnpTime: 2.0429317951202393 ## TriangTime: 3.3110084533691406
+32% ## Iteration: 104 ## Frame: 81## Cloud: 3116.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 2.0122621059417725 ## TriangTime: 2.9630658626556396
+32% ## Iteration: 105 ## Frame: 84## Cloud: 3154.0 ## Retriangulated: 300 ## Updated: 52 ## PnpTime: 1.9849929809570312 ## TriangTime: 4.22506856918335
+32% ## Iteration: 106 ## Frame: 78## Cloud: 3160.0 ## Retriangulated: 172 ## Updated: 28 ## PnpTime: 2.0111420154571533 ## TriangTime: 5.319585084915161
+33% ## Iteration: 107 ## Frame: 82## Cloud: 3179.0 ## Retriangulated: 300 ## Updated: 37 ## PnpTime: 1.9777264595031738 ## TriangTime: 5.454336881637573
+33% ## Iteration: 108 ## Frame: 83## Cloud: 3212.0 ## Retriangulated: 300 ## Updated: 58 ## PnpTime: 2.06748628616333 ## TriangTime: 6.068740367889404
+33% ## Iteration: 109 ## Frame: 80## Cloud: 3233.0 ## Retriangulated: 265 ## Updated: 46 ## PnpTime: 1.9408941268920898 ## TriangTime: 7.945554733276367
+34% ## Iteration: 110 ## Frame: 114## Cloud: 3264.0 ## Retriangulated: 300 ## Updated: 50 ## PnpTime: 1.917623519897461 ## TriangTime: 3.8431456089019775
+34% ## Iteration: 111 ## Frame: 115## Cloud: 3292.0 ## Retriangulated: 300 ## Updated: 39 ## PnpTime: 1.905277967453003 ## TriangTime: 3.295006275177002
+34% ## Iteration: 112 ## Frame: 116## Cloud: 3319.0 ## Retriangulated: 300 ## Updated: 32 ## PnpTime: 1.948169469833374 ## TriangTime: 2.9139983654022217
+34% ## Iteration: 113 ## Frame: 4## Cloud: 3322.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 1.9245522022247314 ## TriangTime: 1.3620781898498535
+35% ## Iteration: 114 ## Frame: 3## Cloud: 3325.0 ## Retriangulated: 300 ## Updated: 11 ## PnpTime: 1.9123451709747314 ## TriangTime: 1.8943769931793213
+35% ## Iteration: 115 ## Frame: 2## Cloud: 3329.0 ## Retriangulated: 300 ## Updated: 9 ## PnpTime: 1.8958141803741455 ## TriangTime: 2.0306012630462646
+35% ## Iteration: 116 ## Frame: 1## Cloud: 3332.0 ## Retriangulated: 300 ## Updated: 12 ## PnpTime: 1.9549624919891357 ## TriangTime: 1.7924160957336426
+36% ## Iteration: 117 ## Frame: 117## Cloud: 3344.0 ## Retriangulated: 300 ## Updated: 22 ## PnpTime: 1.8897478580474854 ## TriangTime: 3.554584264755249
+36% ## Iteration: 118 ## Frame: 124## Cloud: 3356.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 1.8907606601715088 ## TriangTime: 1.3477749824523926
+36% ## Iteration: 119 ## Frame: 0## Cloud: 3359.0 ## Retriangulated: 204 ## Updated: 11 ## PnpTime: 1.9011306762695312 ## TriangTime: 1.9085748195648193
+37% ## Iteration: 120 ## Frame: 118## Cloud: 3381.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 1.8935694694519043 ## TriangTime: 3.1286821365356445
+37% ## Iteration: 121 ## Frame: 121## Cloud: 3417.0 ## Retriangulated: 300 ## Updated: 39 ## PnpTime: 1.9718782901763916 ## TriangTime: 2.3232650756835938
+37% ## Iteration: 122 ## Frame: 125## Cloud: 3429.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 1.8950161933898926 ## TriangTime: 2.0327742099761963
+38% ## Iteration: 123 ## Frame: 123## Cloud: 3440.0 ## Retriangulated: 300 ## Updated: 13 ## PnpTime: 1.8883082866668701 ## TriangTime: 1.9220926761627197
+38% ## Iteration: 124 ## Frame: 128## Cloud: 3475.0 ## Retriangulated: 300 ## Updated: 36 ## PnpTime: 1.8667194843292236 ## TriangTime: 2.0839531421661377
+38% ## Iteration: 125 ## Frame: 129## Cloud: 3516.0 ## Retriangulated: 300 ## Updated: 45 ## PnpTime: 1.8659768104553223 ## TriangTime: 2.502213716506958
+39% ## Iteration: 126 ## Frame: 130## Cloud: 3551.0 ## Retriangulated: 300 ## Updated: 39 ## PnpTime: 1.903846025466919 ## TriangTime: 3.166003942489624
+39% ## Iteration: 127 ## Frame: 127## Cloud: 3608.0 ## Retriangulated: 300 ## Updated: 58 ## PnpTime: 1.9095826148986816 ## TriangTime: 2.7703354358673096
+39% ## Iteration: 128 ## Frame: 122## Cloud: 3657.0 ## Retriangulated: 300 ## Updated: 51 ## PnpTime: 1.9094934463500977 ## TriangTime: 3.0704054832458496
+39% ## Iteration: 129 ## Frame: 133## Cloud: 3727.0 ## Retriangulated: 300 ## Updated: 74 ## PnpTime: 1.905344009399414 ## TriangTime: 2.8532674312591553
+40% ## Iteration: 130 ## Frame: 131## Cloud: 3807.0 ## Retriangulated: 300 ## Updated: 84 ## PnpTime: 1.907956600189209 ## TriangTime: 3.1170573234558105
+40% ## Iteration: 131 ## Frame: 126## Cloud: 3851.0 ## Retriangulated: 272 ## Updated: 45 ## PnpTime: 1.9939706325531006 ## TriangTime: 3.7905800342559814
+40% ## Iteration: 132 ## Frame: 135## Cloud: 3880.0 ## Retriangulated: 163 ## Updated: 29 ## PnpTime: 1.9665124416351318 ## TriangTime: 2.138612747192383
+41% ## Iteration: 133 ## Frame: 132## Cloud: 3880.0 ## Retriangulated: 32 ## Updated: 0 ## PnpTime: 1.930368423461914 ## TriangTime: 0.0391077995300293
+41% ## Iteration: 134 ## Frame: 134## Cloud: 3882.0 ## Retriangulated: 49 ## Updated: 3 ## PnpTime: 1.9278242588043213 ## TriangTime: 1.1337740421295166
+41% ## Iteration: 135 ## Frame: 140## Cloud: 3889.0 ## Retriangulated: 249 ## Updated: 8 ## PnpTime: 1.9337570667266846 ## TriangTime: 2.19325852394104
+42% ## Iteration: 136 ## Frame: 139## Cloud: 3889.0 ## Retriangulated: 57 ## Updated: 1 ## PnpTime: 1.9169244766235352 ## TriangTime: 0.5770947933197021
+42% ## Iteration: 137 ## Frame: 142## Cloud: 3892.0 ## Retriangulated: 66 ## Updated: 4 ## PnpTime: 1.94521164894104 ## TriangTime: 0.47060394287109375
+42% ## Iteration: 138 ## Frame: 136## Cloud: 3892.0 ## Retriangulated: 42 ## Updated: 2 ## PnpTime: 1.894209861755371 ## TriangTime: 0.6732499599456787
+43% ## Iteration: 139 ## Frame: 137## Cloud: 3892.0 ## Retriangulated: 20 ## Updated: 0 ## PnpTime: 1.9068081378936768 ## TriangTime: 0.3910484313964844
+43% ## Iteration: 140 ## Frame: 141## Cloud: 3894.0 ## Retriangulated: 38 ## Updated: 3 ## PnpTime: 1.8481030464172363 ## TriangTime: 0.9956624507904053
+43% ## Iteration: 141 ## Frame: 138## Cloud: 3894.0 ## Retriangulated: 24 ## Updated: 0 ## PnpTime: 1.8669607639312744 ## TriangTime: 0.5227930545806885
+43% ## Iteration: 142 ## Frame: 145## Cloud: 3894.0 ## Retriangulated: 228 ## Updated: 0 ## PnpTime: 1.8167753219604492 ## TriangTime: 0.5552380084991455
+44% ## Iteration: 143 ## Frame: 146## Cloud: 3894.0 ## Retriangulated: 169 ## Updated: 0 ## PnpTime: 1.795487403869629 ## TriangTime: 0.0540318489074707
+44% ## Iteration: 144 ## Frame: 144## Cloud: 3895.0 ## Retriangulated: 63 ## Updated: 1 ## PnpTime: 1.8409085273742676 ## TriangTime: 1.1277525424957275
+44% ## Iteration: 145 ## Frame: 143## Cloud: 3895.0 ## Retriangulated: 11 ## Updated: 1 ## PnpTime: 1.759279489517212 ## TriangTime: 0.17107677459716797
+45% ## Iteration: 146 ## Frame: 120## Cloud: 3912.0 ## Retriangulated: 300 ## Updated: 17 ## PnpTime: 1.765249252319336 ## TriangTime: 0.8432924747467041
+45% ## Iteration: 147 ## Frame: 149## Cloud: 3912.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 1.7315387725830078 ## TriangTime: 0.12561821937561035
+45% ## Iteration: 148 ## Frame: 150## Cloud: 3912.0 ## Retriangulated: 234 ## Updated: 0 ## PnpTime: 1.7214760780334473 ## TriangTime: 0.15111398696899414
+46% ## Iteration: 149 ## Frame: 119## Cloud: 3922.0 ## Retriangulated: 300 ## Updated: 10 ## PnpTime: 1.782989740371704 ## TriangTime: 0.7942333221435547
+46% ## Iteration: 150 ## Frame: 147## Cloud: 3924.0 ## Retriangulated: 104 ## Updated: 2 ## PnpTime: 1.7167246341705322 ## TriangTime: 0.3929474353790283
+46% ## Iteration: 151 ## Frame: 152## Cloud: 3924.0 ## Retriangulated: 231 ## Updated: 0 ## PnpTime: 1.6637840270996094 ## TriangTime: 0.16963648796081543
+47% ## Iteration: 152 ## Frame: 148## Cloud: 3929.0 ## Retriangulated: 69 ## Updated: 5 ## PnpTime: 1.6489455699920654 ## TriangTime: 0.0925133228302002
+47% ## Iteration: 153 ## Frame: 151## Cloud: 3933.0 ## Retriangulated: 84 ## Updated: 9 ## PnpTime: 1.6148908138275146 ## TriangTime: 1.2513175010681152
+47% ## Iteration: 154 ## Frame: 305## Cloud: 3933.0 ## Retriangulated: 300 ## Updated: 0 ## PnpTime: 1.668874979019165 ## TriangTime: 0.14827895164489746
+47% ## Iteration: 155 ## Frame: 296## Cloud: 4122.0 ## Retriangulated: 300 ## Updated: 189 ## PnpTime: 1.619105339050293 ## TriangTime: 0.6365687847137451
+48% ## Iteration: 156 ## Frame: 306## Cloud: 4193.0 ## Retriangulated: 300 ## Updated: 71 ## PnpTime: 1.530832052230835 ## TriangTime: 1.0273504257202148
+48% ## Iteration: 157 ## Frame: 303## Cloud: 4312.0 ## Retriangulated: 300 ## Updated: 119 ## PnpTime: 1.5551881790161133 ## TriangTime: 1.4956836700439453
+48% ## Iteration: 158 ## Frame: 304## Cloud: 4365.0 ## Retriangulated: 300 ## Updated: 53 ## PnpTime: 1.863504409790039 ## TriangTime: 1.587575912475586
+49% ## Iteration: 159 ## Frame: 302## Cloud: 4428.0 ## Retriangulated: 300 ## Updated: 63 ## PnpTime: 2.0330939292907715 ## TriangTime: 2.046229839324951
+49% ## Iteration: 160 ## Frame: 301## Cloud: 4520.0 ## Retriangulated: 300 ## Updated: 92 ## PnpTime: 1.6412971019744873 ## TriangTime: 1.982417345046997
+49% ## Iteration: 161 ## Frame: 300## Cloud: 4619.0 ## Retriangulated: 300 ## Updated: 99 ## PnpTime: 1.620913028717041 ## TriangTime: 2.0051424503326416
+50% ## Iteration: 162 ## Frame: 299## Cloud: 4708.0 ## Retriangulated: 300 ## Updated: 89 ## PnpTime: 1.703817367553711 ## TriangTime: 2.519637107849121
+50% ## Iteration: 163 ## Frame: 297## Cloud: 4812.0 ## Retriangulated: 300 ## Updated: 104 ## PnpTime: 1.6303212642669678 ## TriangTime: 2.8581435680389404
+50% ## Iteration: 164 ## Frame: 298## Cloud: 4926.0 ## Retriangulated: 300 ## Updated: 114 ## PnpTime: 1.6364314556121826 ## TriangTime: 2.751728057861328
+51% ## Iteration: 165 ## Frame: 307## Cloud: 5032.0 ## Retriangulated: 300 ## Updated: 106 ## PnpTime: 1.6839287281036377 ## TriangTime: 2.7310831546783447
+51% ## Iteration: 166 ## Frame: 308## Cloud: 5140.0 ## Retriangulated: 300 ## Updated: 109 ## PnpTime: 1.6782996654510498 ## TriangTime: 3.314406156539917
+51% ## Iteration: 167 ## Frame: 311## Cloud: 5257.0 ## Retriangulated: 300 ## Updated: 117 ## PnpTime: 1.8409974575042725 ## TriangTime: 4.403530836105347
+52% ## Iteration: 168 ## Frame: 310## Cloud: 5362.0 ## Retriangulated: 300 ## Updated: 107 ## PnpTime: 2.0034940242767334 ## TriangTime: 4.45109748840332
+52% ## Iteration: 169 ## Frame: 309## Cloud: 5384.0 ## Retriangulated: 99 ## Updated: 22 ## PnpTime: 1.9881689548492432 ## TriangTime: 3.3054358959198
+52% ## Iteration: 170 ## Frame: 312## Cloud: 5384.0 ## Retriangulated: 41 ## Updated: 0 ## PnpTime: 2.8200571537017822 ## TriangTime: 0.36702680587768555
+52% ## Iteration: 171 ## Frame: 313## Cloud: 5386.0 ## Retriangulated: 62 ## Updated: 2 ## PnpTime: 2.67201566696167 ## TriangTime: 1.1294810771942139
+53% ## Iteration: 172 ## Frame: 295## Cloud: 5402.0 ## Retriangulated: 236 ## Updated: 19 ## PnpTime: 1.8114964962005615 ## TriangTime: 2.5931007862091064
+53% ## Iteration: 173 ## Frame: 294## Cloud: 5407.0 ## Retriangulated: 98 ## Updated: 6 ## PnpTime: 2.2844772338867188 ## TriangTime: 1.894946575164795
+53% ## Iteration: 174 ## Frame: 293## Cloud: 5409.0 ## Retriangulated: 81 ## Updated: 2 ## PnpTime: 2.1560025215148926 ## TriangTime: 1.8604991436004639
+54% ## Iteration: 175 ## Frame: 314## Cloud: 5415.0 ## Retriangulated: 77 ## Updated: 6 ## PnpTime: 2.602001905441284 ## TriangTime: 1.7419986724853516
+54% ## Iteration: 176 ## Frame: 315## Cloud: 5415.0 ## Retriangulated: 70 ## Updated: 1 ## PnpTime: 2.089029312133789 ## TriangTime: 1.2553269863128662
+54% ## Iteration: 177 ## Frame: 292## Cloud: 5418.0 ## Retriangulated: 96 ## Updated: 5 ## PnpTime: 1.8589849472045898 ## TriangTime: 1.8876535892486572
+55% ## Iteration: 178 ## Frame: 316## Cloud: 5420.0 ## Retriangulated: 61 ## Updated: 2 ## PnpTime: 1.8298165798187256 ## TriangTime: 1.253404140472412
+55% ## Iteration: 179 ## Frame: 317## Cloud: 5423.0 ## Retriangulated: 163 ## Updated: 3 ## PnpTime: 1.982743263244629 ## TriangTime: 1.8056395053863525
+55% ## Iteration: 180 ## Frame: 291## Cloud: 5427.0 ## Retriangulated: 89 ## Updated: 4 ## PnpTime: 2.018850088119507 ## TriangTime: 2.1456334590911865
+56% ## Iteration: 181 ## Frame: 318## Cloud: 5431.0 ## Retriangulated: 53 ## Updated: 5 ## PnpTime: 1.876394510269165 ## TriangTime: 1.1809725761413574
+56% ## Iteration: 182 ## Frame: 319## Cloud: 5433.0 ## Retriangulated: 73 ## Updated: 2 ## PnpTime: 1.8547875881195068 ## TriangTime: 1.6427230834960938
+56% ## Iteration: 183 ## Frame: 289## Cloud: 5434.0 ## Retriangulated: 136 ## Updated: 2 ## PnpTime: 1.806873083114624 ## TriangTime: 1.0643141269683838
+56% ## Iteration: 184 ## Frame: 320## Cloud: 5434.0 ## Retriangulated: 36 ## Updated: 0 ## PnpTime: 1.7829804420471191 ## TriangTime: 0.014998912811279297
+57% ## Iteration: 185 ## Frame: 288## Cloud: 5434.0 ## Retriangulated: 55 ## Updated: 1 ## PnpTime: 1.7904202938079834 ## TriangTime: 0.6792995929718018
+57% ## Iteration: 186 ## Frame: 287## Cloud: 5435.0 ## Retriangulated: 78 ## Updated: 1 ## PnpTime: 1.811624526977539 ## TriangTime: 1.5093166828155518
+57% ## Iteration: 187 ## Frame: 290## Cloud: 5435.0 ## Retriangulated: 13 ## Updated: 0 ## PnpTime: 1.7624297142028809 ## TriangTime: 0.2357335090637207
+58% ## Iteration: 188 ## Frame: 286## Cloud: 5436.0 ## Retriangulated: 30 ## Updated: 1 ## PnpTime: 1.7832605838775635 ## TriangTime: 0.1975419521331787
+58% ## Iteration: 189 ## Frame: 321## Cloud: 5436.0 ## Retriangulated: 84 ## Updated: 1 ## PnpTime: 1.7401232719421387 ## TriangTime: 0.20243215560913086
+58% ## Iteration: 190 ## Frame: 285## Cloud: 5436.0 ## Retriangulated: 50 ## Updated: 0 ## PnpTime: 1.7793939113616943 ## TriangTime: 0.0739583969116211
+59% ## Iteration: 191 ## Frame: 322## Cloud: 5437.0 ## Retriangulated: 123 ## Updated: 1 ## PnpTime: 1.735020637512207 ## TriangTime: 0.4830164909362793
+59% ## Iteration: 192 ## Frame: 284## Cloud: 5437.0 ## Retriangulated: 62 ## Updated: 0 ## PnpTime: 1.6774036884307861 ## TriangTime: 0.28232693672180176
+59% ## Iteration: 193 ## Frame: 283## Cloud: 5443.0 ## Retriangulated: 121 ## Updated: 6 ## PnpTime: 1.682997703552246 ## TriangTime: 0.6733095645904541
+60% ## Iteration: 194 ## Frame: 282## Cloud: 5448.0 ## Retriangulated: 73 ## Updated: 5 ## PnpTime: 1.6647448539733887 ## TriangTime: 0.34096670150756836
+60% ## Iteration: 195 ## Frame: 279## Cloud: 5448.0 ## Retriangulated: 249 ## Updated: 0 ## PnpTime: 1.6525261402130127 ## TriangTime: 0.8103213310241699
+60% ## Iteration: 196 ## Frame: 281## Cloud: 5448.0 ## Retriangulated: 25 ## Updated: 0 ## PnpTime: 1.637308120727539 ## TriangTime: 0.0640709400177002
+60% ## Iteration: 197 ## Frame: 280## Cloud: 5448.0 ## Retriangulated: 39 ## Updated: 0 ## PnpTime: 1.6480607986450195 ## TriangTime: 0.016051769256591797
+61% ## Iteration: 198 ## Frame: 278## Cloud: 5462.0 ## Retriangulated: 91 ## Updated: 14 ## PnpTime: 1.634953260421753 ## TriangTime: 0.6346931457519531
+61% ## Iteration: 199 ## Frame: 276## Cloud: 5469.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 1.6510353088378906 ## TriangTime: 0.4533364772796631
+61% ## Iteration: 200 ## Frame: 277## Cloud: 5471.0 ## Retriangulated: 99 ## Updated: 2 ## PnpTime: 1.5791621208190918 ## TriangTime: 0.3768467903137207
+62% ## Iteration: 201 ## Frame: 275## Cloud: 5484.0 ## Retriangulated: 116 ## Updated: 13 ## PnpTime: 1.6197922229766846 ## TriangTime: 0.2398662567138672
+62% ## Iteration: 202 ## Frame: 272## Cloud: 5495.0 ## Retriangulated: 283 ## Updated: 12 ## PnpTime: 1.5260155200958252 ## TriangTime: 0.7924675941467285
+62% ## Iteration: 203 ## Frame: 274## Cloud: 5495.0 ## Retriangulated: 24 ## Updated: 0 ## PnpTime: 1.5532031059265137 ## TriangTime: 0.06096982955932617
+63% ## Iteration: 204 ## Frame: 273## Cloud: 5495.0 ## Retriangulated: 26 ## Updated: 0 ## PnpTime: 1.5443377494812012 ## TriangTime: 0.32378578186035156
+63% ## Iteration: 205 ## Frame: 270## Cloud: 5572.0 ## Retriangulated: 250 ## Updated: 77 ## PnpTime: 1.5480690002441406 ## TriangTime: 4.364789247512817
+63% ## Iteration: 206 ## Frame: 271## Cloud: 5579.0 ## Retriangulated: 198 ## Updated: 78 ## PnpTime: 1.508829116821289 ## TriangTime: 4.348141431808472
+64% ## Iteration: 207 ## Frame: 269## Cloud: 5628.0 ## Retriangulated: 206 ## Updated: 76 ## PnpTime: 1.515014410018921 ## TriangTime: 4.585951328277588
+64% ## Iteration: 208 ## Frame: 268## Cloud: 5677.0 ## Retriangulated: 212 ## Updated: 88 ## PnpTime: 1.572697639465332 ## TriangTime: 5.091916799545288
+64% ## Iteration: 209 ## Frame: 263## Cloud: 5737.0 ## Retriangulated: 300 ## Updated: 78 ## PnpTime: 1.8685340881347656 ## TriangTime: 4.463034629821777
+65% ## Iteration: 210 ## Frame: 264## Cloud: 5789.0 ## Retriangulated: 209 ## Updated: 78 ## PnpTime: 1.490893840789795 ## TriangTime: 4.760024785995483
+65% ## Iteration: 211 ## Frame: 266## Cloud: 5837.0 ## Retriangulated: 223 ## Updated: 77 ## PnpTime: 1.4999136924743652 ## TriangTime: 5.282770395278931
+65% ## Iteration: 212 ## Frame: 265## Cloud: 5883.0 ## Retriangulated: 184 ## Updated: 84 ## PnpTime: 1.4855854511260986 ## TriangTime: 4.714878797531128
+65% ## Iteration: 213 ## Frame: 267## Cloud: 5923.0 ## Retriangulated: 206 ## Updated: 65 ## PnpTime: 1.4670097827911377 ## TriangTime: 5.508959531784058
+66% ## Iteration: 214 ## Frame: 258## Cloud: 5959.0 ## Retriangulated: 300 ## Updated: 58 ## PnpTime: 1.5266988277435303 ## TriangTime: 5.474289894104004
+66% ## Iteration: 215 ## Frame: 262## Cloud: 5981.0 ## Retriangulated: 220 ## Updated: 46 ## PnpTime: 1.4729375839233398 ## TriangTime: 5.588870048522949
+66% ## Iteration: 216 ## Frame: 261## Cloud: 6017.0 ## Retriangulated: 177 ## Updated: 59 ## PnpTime: 1.4518048763275146 ## TriangTime: 4.881269693374634
+67% ## Iteration: 217 ## Frame: 255## Cloud: 6047.0 ## Retriangulated: 280 ## Updated: 54 ## PnpTime: 1.4398794174194336 ## TriangTime: 5.804327487945557
+67% ## Iteration: 218 ## Frame: 256## Cloud: 6060.0 ## Retriangulated: 163 ## Updated: 35 ## PnpTime: 1.4464168548583984 ## TriangTime: 5.327279806137085
+67% ## Iteration: 219 ## Frame: 260## Cloud: 6081.0 ## Retriangulated: 194 ## Updated: 40 ## PnpTime: 1.420928716659546 ## TriangTime: 6.611968755722046
+68% ## Iteration: 220 ## Frame: 253## Cloud: 6089.0 ## Retriangulated: 105 ## Updated: 11 ## PnpTime: 1.408569574356079 ## TriangTime: 2.6594715118408203
+68% ## Iteration: 221 ## Frame: 259## Cloud: 6089.0 ## Retriangulated: 12 ## Updated: 0 ## PnpTime: 1.4031848907470703 ## TriangTime: 0.37993383407592773
+68% ## Iteration: 222 ## Frame: 257## Cloud: 6089.0 ## Retriangulated: 35 ## Updated: 1 ## PnpTime: 1.3819715976715088 ## TriangTime: 1.6294198036193848
+69% ## Iteration: 223 ## Frame: 252## Cloud: 6109.0 ## Retriangulated: 255 ## Updated: 21 ## PnpTime: 1.3681516647338867 ## TriangTime: 5.453636646270752
+69% ## Iteration: 224 ## Frame: 254## Cloud: 6121.0 ## Retriangulated: 70 ## Updated: 12 ## PnpTime: 1.3461213111877441 ## TriangTime: 2.571105480194092
+69% ## Iteration: 225 ## Frame: 249## Cloud: 6129.0 ## Retriangulated: 300 ## Updated: 8 ## PnpTime: 1.3412501811981201 ## TriangTime: 3.2428793907165527
+69% ## Iteration: 226 ## Frame: 251## Cloud: 6138.0 ## Retriangulated: 258 ## Updated: 12 ## PnpTime: 1.3301770687103271 ## TriangTime: 4.647560119628906
+70% ## Iteration: 227 ## Frame: 250## Cloud: 6147.0 ## Retriangulated: 117 ## Updated: 9 ## PnpTime: 1.3002543449401855 ## TriangTime: 2.1599557399749756
+70% ## Iteration: 228 ## Frame: 248## Cloud: 6166.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 1.283508062362671 ## TriangTime: 5.142762660980225
+70% ## Iteration: 229 ## Frame: 246## Cloud: 6179.0 ## Retriangulated: 300 ## Updated: 16 ## PnpTime: 1.2884268760681152 ## TriangTime: 4.468012809753418
+71% ## Iteration: 230 ## Frame: 247## Cloud: 6200.0 ## Retriangulated: 300 ## Updated: 24 ## PnpTime: 1.279114007949829 ## TriangTime: 6.182960510253906
+71% ## Iteration: 231 ## Frame: 244## Cloud: 6217.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 1.2621185779571533 ## TriangTime: 4.605009317398071
+71% ## Iteration: 232 ## Frame: 245## Cloud: 6235.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 1.2859492301940918 ## TriangTime: 5.039959192276001
+72% ## Iteration: 233 ## Frame: 243## Cloud: 6246.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 1.2540957927703857 ## TriangTime: 5.387652635574341
+72% ## Iteration: 234 ## Frame: 238## Cloud: 6283.0 ## Retriangulated: 300 ## Updated: 43 ## PnpTime: 1.236452341079712 ## TriangTime: 4.299848318099976
+72% ## Iteration: 235 ## Frame: 241## Cloud: 6335.0 ## Retriangulated: 300 ## Updated: 54 ## PnpTime: 1.228306531906128 ## TriangTime: 4.528117895126343
+73% ## Iteration: 236 ## Frame: 240## Cloud: 6353.0 ## Retriangulated: 300 ## Updated: 19 ## PnpTime: 1.225332260131836 ## TriangTime: 4.93807578086853
+73% ## Iteration: 237 ## Frame: 242## Cloud: 6376.0 ## Retriangulated: 300 ## Updated: 28 ## PnpTime: 1.211397409439087 ## TriangTime: 5.421173572540283
+73% ## Iteration: 238 ## Frame: 237## Cloud: 6395.0 ## Retriangulated: 300 ## Updated: 20 ## PnpTime: 1.1966068744659424 ## TriangTime: 5.162273645401001
+73% ## Iteration: 239 ## Frame: 239## Cloud: 6429.0 ## Retriangulated: 300 ## Updated: 36 ## PnpTime: 1.1887931823730469 ## TriangTime: 5.345906972885132
+74% ## Iteration: 240 ## Frame: 236## Cloud: 6433.0 ## Retriangulated: 300 ## Updated: 5 ## PnpTime: 1.1777105331420898 ## TriangTime: 1.098973035812378
+74% ## Iteration: 241 ## Frame: 235## Cloud: 6456.0 ## Retriangulated: 300 ## Updated: 26 ## PnpTime: 1.1606836318969727 ## TriangTime: 1.155689001083374
+74% ## Iteration: 242 ## Frame: 212## Cloud: 6470.0 ## Retriangulated: 300 ## Updated: 16 ## PnpTime: 1.1491830348968506 ## TriangTime: 0.7089402675628662
+75% ## Iteration: 243 ## Frame: 234## Cloud: 6487.0 ## Retriangulated: 300 ## Updated: 18 ## PnpTime: 1.1363866329193115 ## TriangTime: 1.3879008293151855
+75% ## Iteration: 244 ## Frame: 213## Cloud: 6494.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 1.1347064971923828 ## TriangTime: 1.0994813442230225
+75% ## Iteration: 245 ## Frame: 233## Cloud: 6516.0 ## Retriangulated: 300 ## Updated: 27 ## PnpTime: 1.1156597137451172 ## TriangTime: 1.9444177150726318
+76% ## Iteration: 246 ## Frame: 232## Cloud: 6526.0 ## Retriangulated: 173 ## Updated: 11 ## PnpTime: 1.1052496433258057 ## TriangTime: 1.455634593963623
+76% ## Iteration: 247 ## Frame: 230## Cloud: 6526.0 ## Retriangulated: 30 ## Updated: 0 ## PnpTime: 1.226994276046753 ## TriangTime: 0.15834951400756836
+76% ## Iteration: 248 ## Frame: 231## Cloud: 6526.0 ## Retriangulated: 8 ## Updated: 0 ## PnpTime: 1.1564292907714844 ## TriangTime: 0.005001544952392578
+77% ## Iteration: 249 ## Frame: 224## Cloud: 6554.0 ## Retriangulated: 297 ## Updated: 32 ## PnpTime: 1.1169965267181396 ## TriangTime: 1.6170318126678467
+77% ## Iteration: 250 ## Frame: 215## Cloud: 6570.0 ## Retriangulated: 105 ## Updated: 17 ## PnpTime: 1.1528353691101074 ## TriangTime: 0.9008386135101318
+77% ## Iteration: 251 ## Frame: 211## Cloud: 6575.0 ## Retriangulated: 47 ## Updated: 6 ## PnpTime: 2.028153657913208 ## TriangTime: 1.4880034923553467
+78% ## Iteration: 252 ## Frame: 219## Cloud: 6576.0 ## Retriangulated: 210 ## Updated: 1 ## PnpTime: 1.0841028690338135 ## TriangTime: 0.3213846683502197
+78% ## Iteration: 253 ## Frame: 220## Cloud: 6578.0 ## Retriangulated: 79 ## Updated: 3 ## PnpTime: 1.0257537364959717 ## TriangTime: 1.4384384155273438
+78% ## Iteration: 254 ## Frame: 208## Cloud: 6578.0 ## Retriangulated: 25 ## Updated: 0 ## PnpTime: 0.9950315952301025 ## TriangTime: 0.11800169944763184
+78% ## Iteration: 255 ## Frame: 228## Cloud: 6579.0 ## Retriangulated: 34 ## Updated: 1 ## PnpTime: 1.010120153427124 ## TriangTime: 0.5954675674438477
+79% ## Iteration: 256 ## Frame: 214## Cloud: 6585.0 ## Retriangulated: 45 ## Updated: 8 ## PnpTime: 0.9868218898773193 ## TriangTime: 1.9670987129211426
+79% ## Iteration: 257 ## Frame: 221## Cloud: 6585.0 ## Retriangulated: 207 ## Updated: 7 ## PnpTime: 1.0739471912384033 ## TriangTime: 2.730456829071045
+79% ## Iteration: 258 ## Frame: 204## Cloud: 6589.0 ## Retriangulated: 98 ## Updated: 9 ## PnpTime: 0.9892466068267822 ## TriangTime: 2.616572141647339
+80% ## Iteration: 259 ## Frame: 216## Cloud: 6589.0 ## Retriangulated: 77 ## Updated: 2 ## PnpTime: 1.0176618099212646 ## TriangTime: 3.2894792556762695
+80% ## Iteration: 260 ## Frame: 225## Cloud: 6591.0 ## Retriangulated: 90 ## Updated: 5 ## PnpTime: 1.000805139541626 ## TriangTime: 3.125170946121216
+80% ## Iteration: 261 ## Frame: 206## Cloud: 6592.0 ## Retriangulated: 73 ## Updated: 1 ## PnpTime: 0.9872841835021973 ## TriangTime: 3.2392189502716064
+81% ## Iteration: 262 ## Frame: 223## Cloud: 6597.0 ## Retriangulated: 91 ## Updated: 9 ## PnpTime: 1.0009794235229492 ## TriangTime: 4.656086683273315
+81% ## Iteration: 263 ## Frame: 210## Cloud: 6601.0 ## Retriangulated: 68 ## Updated: 6 ## PnpTime: 0.9914979934692383 ## TriangTime: 2.9970948696136475
+81% ## Iteration: 264 ## Frame: 227## Cloud: 6606.0 ## Retriangulated: 105 ## Updated: 9 ## PnpTime: 1.0529916286468506 ## TriangTime: 5.819531202316284
+82% ## Iteration: 265 ## Frame: 205## Cloud: 6611.0 ## Retriangulated: 105 ## Updated: 6 ## PnpTime: 0.8089923858642578 ## TriangTime: 4.800701856613159
+82% ## Iteration: 266 ## Frame: 217## Cloud: 6613.0 ## Retriangulated: 139 ## Updated: 2 ## PnpTime: 0.7997944355010986 ## TriangTime: 3.6806564331054688
+82% ## Iteration: 267 ## Frame: 209## Cloud: 6614.0 ## Retriangulated: 67 ## Updated: 7 ## PnpTime: 0.7883789539337158 ## TriangTime: 3.635472536087036
+82% ## Iteration: 268 ## Frame: 207## Cloud: 6615.0 ## Retriangulated: 122 ## Updated: 5 ## PnpTime: 0.7745862007141113 ## TriangTime: 5.459914922714233
+83% ## Iteration: 269 ## Frame: 229## Cloud: 6617.0 ## Retriangulated: 116 ## Updated: 10 ## PnpTime: 0.7580499649047852 ## TriangTime: 5.745293855667114
+83% ## Iteration: 270 ## Frame: 226## Cloud: 6619.0 ## Retriangulated: 119 ## Updated: 5 ## PnpTime: 0.7298257350921631 ## TriangTime: 6.394156217575073
+83% ## Iteration: 271 ## Frame: 154## Cloud: 6700.0 ## Retriangulated: 300 ## Updated: 104 ## PnpTime: 0.7226047515869141 ## TriangTime: 5.374089956283569
+84% ## Iteration: 272 ## Frame: 153## Cloud: 6773.0 ## Retriangulated: 300 ## Updated: 88 ## PnpTime: 0.7159121036529541 ## TriangTime: 5.965330123901367
+84% ## Iteration: 273 ## Frame: 155## Cloud: 6855.0 ## Retriangulated: 300 ## Updated: 100 ## PnpTime: 0.7064809799194336 ## TriangTime: 6.170573472976685
+84% ## Iteration: 274 ## Frame: 156## Cloud: 6917.0 ## Retriangulated: 300 ## Updated: 80 ## PnpTime: 0.6811623573303223 ## TriangTime: 6.344027996063232
+85% ## Iteration: 275 ## Frame: 157## Cloud: 6977.0 ## Retriangulated: 300 ## Updated: 82 ## PnpTime: 0.672914981842041 ## TriangTime: 7.566470146179199
+85% ## Iteration: 276 ## Frame: 218## Cloud: 6979.0 ## Retriangulated: 300 ## Updated: 7 ## PnpTime: 0.668677568435669 ## TriangTime: 13.568689584732056
+85% ## Iteration: 277 ## Frame: 222## Cloud: 6985.0 ## Retriangulated: 157 ## Updated: 6 ## PnpTime: 0.6538212299346924 ## TriangTime: 7.952646732330322
+86% ## Iteration: 278 ## Frame: 158## Cloud: 7043.0 ## Retriangulated: 300 ## Updated: 70 ## PnpTime: 0.6428012847900391 ## TriangTime: 4.610647201538086
+86% ## Iteration: 279 ## Frame: 201## Cloud: 7050.0 ## Retriangulated: 210 ## Updated: 8 ## PnpTime: 0.631066083908081 ## TriangTime: 9.126457214355469
+86% ## Iteration: 280 ## Frame: 203## Cloud: 7057.0 ## Retriangulated: 176 ## Updated: 10 ## PnpTime: 0.6175844669342041 ## TriangTime: 7.47435188293457
+86% ## Iteration: 281 ## Frame: 183## Cloud: 7060.0 ## Retriangulated: 300 ## Updated: 4 ## PnpTime: 0.5966658592224121 ## TriangTime: 3.8775594234466553
+87% ## Iteration: 282 ## Frame: 202## Cloud: 7073.0 ## Retriangulated: 296 ## Updated: 18 ## PnpTime: 0.5946359634399414 ## TriangTime: 13.41969108581543
+87% ## Iteration: 283 ## Frame: 200## Cloud: 7077.0 ## Retriangulated: 238 ## Updated: 6 ## PnpTime: 0.564760684967041 ## TriangTime: 7.804263353347778
+87% ## Iteration: 284 ## Frame: 189## Cloud: 7167.0 ## Retriangulated: 300 ## Updated: 91 ## PnpTime: 0.549748420715332 ## TriangTime: 4.83315110206604
+88% ## Iteration: 285 ## Frame: 184## Cloud: 7185.0 ## Retriangulated: 300 ## Updated: 21 ## PnpTime: 0.7079946994781494 ## TriangTime: 8.9367356300354
+88% ## Iteration: 286 ## Frame: 182## Cloud: 7212.0 ## Retriangulated: 300 ## Updated: 33 ## PnpTime: 0.5825493335723877 ## TriangTime: 10.912146806716919
+88% ## Iteration: 287 ## Frame: 190## Cloud: 7223.0 ## Retriangulated: 300 ## Updated: 15 ## PnpTime: 0.5627567768096924 ## TriangTime: 9.004922151565552
+89% ## Iteration: 288 ## Frame: 186## Cloud: 7235.0 ## Retriangulated: 279 ## Updated: 14 ## PnpTime: 0.5646324157714844 ## TriangTime: 11.2709219455719
+89% ## Iteration: 289 ## Frame: 188## Cloud: 7244.0 ## Retriangulated: 164 ## Updated: 12 ## PnpTime: 0.495664119720459 ## TriangTime: 8.2056245803833
+89% ## Iteration: 290 ## Frame: 180## Cloud: 7247.0 ## Retriangulated: 223 ## Updated: 4 ## PnpTime: 0.5361764430999756 ## TriangTime: 7.5246968269348145
+90% ## Iteration: 291 ## Frame: 191## Cloud: 7258.0 ## Retriangulated: 130 ## Updated: 11 ## PnpTime: 0.4825294017791748 ## TriangTime: 2.671049118041992
+90% ## Iteration: 292 ## Frame: 185## Cloud: 7272.0 ## Retriangulated: 165 ## Updated: 15 ## PnpTime: 0.4550337791442871 ## TriangTime: 3.826496124267578
+90% ## Iteration: 293 ## Frame: 195## Cloud: 7291.0 ## Retriangulated: 230 ## Updated: 21 ## PnpTime: 0.4789466857910156 ## TriangTime: 3.499454975128174
+91% ## Iteration: 294 ## Frame: 181## Cloud: 7300.0 ## Retriangulated: 153 ## Updated: 11 ## PnpTime: 0.4815850257873535 ## TriangTime: 4.548893928527832
+91% ## Iteration: 295 ## Frame: 187## Cloud: 7330.0 ## Retriangulated: 167 ## Updated: 30 ## PnpTime: 0.6065142154693604 ## TriangTime: 6.741203546524048
+91% ## Iteration: 296 ## Frame: 193## Cloud: 7347.0 ## Retriangulated: 140 ## Updated: 18 ## PnpTime: 0.6740007400512695 ## TriangTime: 4.796428680419922
+91% ## Iteration: 297 ## Frame: 192## Cloud: 7354.0 ## Retriangulated: 46 ## Updated: 8 ## PnpTime: 0.4799323081970215 ## TriangTime: 2.3860182762145996
+92% ## Iteration: 298 ## Frame: 194## Cloud: 7354.0 ## Retriangulated: 14 ## Updated: 0 ## PnpTime: 0.5444090366363525 ## TriangTime: 0.19499921798706055
+92% ## Iteration: 299 ## Frame: 196## Cloud: 7355.0 ## Retriangulated: 38 ## Updated: 1 ## PnpTime: 0.42033886909484863 ## TriangTime: 0.29700517654418945
+92% ## Iteration: 300 ## Frame: 179## Cloud: 7359.0 ## Retriangulated: 155 ## Updated: 4 ## PnpTime: 0.4006195068359375 ## TriangTime: 2.172437906265259
+93% ## Iteration: 301 ## Frame: 177## Cloud: 7360.0 ## Retriangulated: 300 ## Updated: 1 ## PnpTime: 0.3247957229614258 ## TriangTime: 1.1813642978668213
+93% ## Iteration: 302 ## Frame: 159## Cloud: 7371.0 ## Retriangulated: 223 ## Updated: 16 ## PnpTime: 0.3104515075683594 ## TriangTime: 1.9346904754638672
+93% ## Iteration: 303 ## Frame: 197## Cloud: 7373.0 ## Retriangulated: 69 ## Updated: 2 ## PnpTime: 0.3506815433502197 ## TriangTime: 0.8790161609649658
+94% ## Iteration: 304 ## Frame: 178## Cloud: 7375.0 ## Retriangulated: 83 ## Updated: 2 ## PnpTime: 0.2946462631225586 ## TriangTime: 3.3644750118255615
+94% ## Iteration: 305 ## Frame: 173## Cloud: 7375.0 ## Retriangulated: 155 ## Updated: 0 ## PnpTime: 0.30758213996887207 ## TriangTime: 0.2078104019165039
+94% ## Iteration: 306 ## Frame: 174## Cloud: 7375.0 ## Retriangulated: 67 ## Updated: 2 ## PnpTime: 0.2938375473022461 ## TriangTime: 0.6102676391601562
+95% ## Iteration: 307 ## Frame: 175## Cloud: 7375.0 ## Retriangulated: 69 ## Updated: 1 ## PnpTime: 0.25615525245666504 ## TriangTime: 1.0269925594329834
+95% ## Iteration: 308 ## Frame: 163## Cloud: 7375.0 ## Retriangulated: 147 ## Updated: 2 ## PnpTime: 0.2262744903564453 ## TriangTime: 1.088681697845459
+95% ## Iteration: 309 ## Frame: 167## Cloud: 7375.0 ## Retriangulated: 56 ## Updated: 1 ## PnpTime: 0.21968817710876465 ## TriangTime: 1.3453445434570312
+95% ## Iteration: 310 ## Frame: 199## Cloud: 7393.0 ## Retriangulated: 300 ## Updated: 23 ## PnpTime: 0.2059330940246582 ## TriangTime: 7.798225402832031
+96% ## Iteration: 311 ## Frame: 160## Cloud: 7393.0 ## Retriangulated: 120 ## Updated: 1 ## PnpTime: 0.18349957466125488 ## TriangTime: 1.6655712127685547
+96% ## Iteration: 312 ## Frame: 166## Cloud: 7393.0 ## Retriangulated: 30 ## Updated: 1 ## PnpTime: 0.16901683807373047 ## TriangTime: 1.7332470417022705
+96% ## Iteration: 313 ## Frame: 171## Cloud: 7394.0 ## Retriangulated: 84 ## Updated: 2 ## PnpTime: 0.1701056957244873 ## TriangTime: 2.522531509399414
+97% ## Iteration: 314 ## Frame: 176## Cloud: 7395.0 ## Retriangulated: 72 ## Updated: 2 ## PnpTime: 0.143294095993042 ## TriangTime: 2.9856932163238525
+97% ## Iteration: 315 ## Frame: 169## Cloud: 7397.0 ## Retriangulated: 37 ## Updated: 2 ## PnpTime: 0.13198089599609375 ## TriangTime: 2.895885944366455
+97% ## Iteration: 316 ## Frame: 161## Cloud: 7398.0 ## Retriangulated: 102 ## Updated: 3 ## PnpTime: 0.11420464515686035 ## TriangTime: 4.060385465621948
+98% ## Iteration: 317 ## Frame: 198## Cloud: 7407.0 ## Retriangulated: 300 ## Updated: 14 ## PnpTime: 0.10396289825439453 ## TriangTime: 12.755261659622192
+98% ## Iteration: 318 ## Frame: 165## Cloud: 7408.0 ## Retriangulated: 39 ## Updated: 5 ## PnpTime: 0.10231542587280273 ## TriangTime: 3.060741901397705
+98% ## Iteration: 319 ## Frame: 172## Cloud: 7408.0 ## Retriangulated: 95 ## Updated: 1 ## PnpTime: 0.09289145469665527 ## TriangTime: 5.5579674243927
+99% ## Iteration: 320 ## Frame: 168## Cloud: 7409.0 ## Retriangulated: 59 ## Updated: 6 ## PnpTime: 0.05930042266845703 ## TriangTime: 4.916921854019165
+99% ## Iteration: 321 ## Frame: 162## Cloud: 7410.0 ## Retriangulated: 73 ## Updated: 3 ## PnpTime: 0.04803872108459473 ## TriangTime: 6.172126531600952
+99% ## Iteration: 322 ## Frame: 170## Cloud: 7411.0 ## Retriangulated: 60 ## Updated: 1 ## PnpTime: 0.03197526931762695 ## TriangTime: 1.4939148426055908
+100% ## Iteration: 323 ## Frame: 164## Cloud: 7419.0 ## Retriangulated: 78 ## Updated: 12 ## PnpTime: 0.018149137496948242 ## TriangTime: 2.6888840198516846
+Done!
+Processed: 100.0
