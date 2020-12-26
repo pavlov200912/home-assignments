@@ -138,7 +138,9 @@ def _remove_correspondences_with_ids(correspondences: Correspondences,
         -> Correspondences:
     ids = correspondences.ids.flatten()
     ids_to_remove = ids_to_remove.flatten()
-    _, (indices_1, _) = snp.intersect(ids, ids_to_remove, indices=True)
+    #print(ids.dtype, ids_to_remove.dtype)
+    
+    _, (indices_1, _) = snp.intersect(ids.astype(np.int64), ids_to_remove.astype(np.int64), indices=True)
     mask = np.full(ids.shape, True)
     mask[indices_1] = False
     return Correspondences(
